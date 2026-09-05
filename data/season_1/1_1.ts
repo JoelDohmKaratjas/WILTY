@@ -1,24 +1,24 @@
-import { Episode, EpisodeCast, Round } from "../episodeTypes";
+import { type Episode, type EpisodeCast, type Round } from '../episodeTypes'
 
 const cast = {
 	david: [
 		{
 			name: 'Duncan Bannatyne',
-			wiki: 'Duncan_Bannatyne'
+			wiki: 'https://en.wikipedia.org/wiki/Duncan_Bannatyne'
 		},
 		{
 			name: 'Frankie Boyle',
-			wiki: 'Frankie_Boyle'
+			wiki: 'https://en.wikipedia.org/wiki/Frankie_Boyle'
 		}
 	],
 	lee: [
 		{
 			name: 'Natalie Cassidy',
-			wiki: 'Natalie_Cassidy'
+			wiki: 'https://en.wikipedia.org/wiki/Natalie_Cassidy'
 		},
 		{
 			name: 'Dom Joly',
-			wiki: 'Dom_Joly'
+			wiki: 'https://en.wikipedia.org/wiki/Dom_Joly'
 		}
 	]
 } as const satisfies EpisodeCast
@@ -29,9 +29,9 @@ const rounds = [
 		guessingTeam: 'David Mitchell',
 		person: 'Dom Joly',
 		personGuesses: {
-			"David Mitchell": 'lie',
-			"Duncan Bannatyne": 'truth',
-			"Frankie Boyle": 'truth'
+			'David Mitchell': 'lie',
+			'Duncan Bannatyne': 'truth',
+			'Frankie Boyle': 'truth'
 		},
 		teamGuess: 'lie',
 		truth: 'truth'
@@ -41,9 +41,9 @@ const rounds = [
 		guessingTeam: 'Lee Mack',
 		person: 'Duncan Bannatyne',
 		personGuesses: {
-			"Dom Joly": 'truth',
-			"Lee Mack": 'truth',
-			"Natalie Cassidy": 'truth'
+			'Dom Joly': 'truth',
+			'Lee Mack': 'truth',
+			'Natalie Cassidy': 'truth'
 		},
 		teamGuess: 'truth',
 		truth: 'truth'
@@ -53,31 +53,31 @@ const rounds = [
 		guessingTeam: 'David Mitchell',
 		person: 'Natalie Cassidy',
 		personGuesses: {
-			"David Mitchell": 'lie',
-			"Duncan Bannatyne": 'lie',
-			"Frankie Boyle": 'lie'
+			'David Mitchell': 'lie',
+			'Duncan Bannatyne': 'lie',
+			'Frankie Boyle': 'lie'
 		},
 		teamGuess: 'lie',
 		truth: 'lie'
 	},
 	{
-		type: 'ring_of_truth',
+		type: 'ring_of_truth_single',
 		guessingTeam: 'Lee Mack',
 		personGuesses: {
-			"Dom Joly": 'truth',
-			"Lee Mack": 'truth',
-			"Natalie Cassidy": 'truth'
+			'Dom Joly': 'truth',
+			'Lee Mack': 'truth',
+			'Natalie Cassidy': 'truth'
 		},
 		teamGuess: 'truth',
 		truth: 'truth'
 	},
 	{
-		type: 'ring_of_truth',
+		type: 'ring_of_truth_single',
 		guessingTeam: 'David Mitchell',
 		personGuesses: {
-			"David Mitchell": 'lie',
-			"Duncan Bannatyne": 'truth',
-			"Frankie Boyle": 'lie'
+			'David Mitchell': 'lie',
+			'Duncan Bannatyne': 'truth',
+			'Frankie Boyle': 'lie'
 		},
 		teamGuess: 'lie',
 		truth: 'lie'
@@ -85,11 +85,12 @@ const rounds = [
 	{
 		type: 'this_is_my',
 		guessingTeam: 'David Mitchell',
-		teamGuess: {
-			"David Mitchell": 'Natalie Cassidy',
-			"Duncan Bannatyne": 'Natalie Cassidy',
-			"Frankie Boyle": 'Natalie Cassidy'
+		personGuess: {
+			'David Mitchell': 'Natalie Cassidy',
+			'Duncan Bannatyne': 'Natalie Cassidy',
+			'Frankie Boyle': 'Natalie Cassidy'
 		},
+		teamGuess: 'Natalie Cassidy',
 		truth: 'Natalie Cassidy'
 	},
 	{
@@ -97,9 +98,9 @@ const rounds = [
 		guessingTeam: 'Lee Mack',
 		statementOwner: 'Frankie Boyle',
 		personGuesses: {
-			"Dom Joly": 'lie',
-			"Lee Mack": 'lie',
-			"Natalie Cassidy": 'truth'
+			'Dom Joly': 'lie',
+			'Lee Mack': 'lie',
+			'Natalie Cassidy': 'truth'
 		},
 		teamGuess: 'lie',
 		truth: 'lie'
@@ -109,9 +110,9 @@ const rounds = [
 		guessingTeam: 'David Mitchell',
 		person: 'Lee Mack',
 		personGuesses: {
-			"David Mitchell": 'lie',
-			"Duncan Bannatyne": 'lie',
-			"Frankie Boyle": 'truth'
+			'David Mitchell': 'lie',
+			'Duncan Bannatyne': 'lie',
+			'Frankie Boyle': 'truth'
 		},
 		teamGuess: 'lie',
 		truth: 'lie'
@@ -121,9 +122,9 @@ const rounds = [
 		guessingTeam: 'Lee Mack',
 		person: 'David Mitchell',
 		personGuesses: {
-			"Dom Joly": 'truth',
-			"Lee Mack": 'truth',
-			"Natalie Cassidy": 'truth'
+			'Dom Joly': 'truth',
+			'Lee Mack': 'truth',
+			'Natalie Cassidy': 'truth'
 		},
 		teamGuess: 'truth',
 		truth: 'truth'
@@ -133,9 +134,9 @@ const rounds = [
 		guessingTeam: 'David Mitchell',
 		person: 'Dom Joly',
 		personGuesses: {
-			"David Mitchell": 'lie',
-			"Duncan Bannatyne": 'lie',
-			"Frankie Boyle": 'truth'
+			'David Mitchell': 'lie',
+			'Duncan Bannatyne': 'lie',
+			'Frankie Boyle': 'truth'
 		},
 		teamGuess: 'lie',
 		truth: 'lie'
@@ -145,9 +146,9 @@ const rounds = [
 		guessingTeam: 'Lee Mack',
 		person: 'Frankie Boyle',
 		personGuesses: {
-			"Dom Joly": 'truth',
-			"Lee Mack": 'lie',
-			"Natalie Cassidy": 'lie'
+			'Dom Joly': 'truth',
+			'Lee Mack': 'lie',
+			'Natalie Cassidy': 'lie'
 		},
 		teamGuess: 'lie',
 		truth: 'truth'
@@ -157,9 +158,9 @@ const rounds = [
 		guessingTeam: 'Lee Mack',
 		person: 'David Mitchell',
 		personGuesses: {
-			"Dom Joly": 'lie',
-			"Lee Mack": 'lie',
-			"Natalie Cassidy": 'lie'
+			'Dom Joly': 'lie',
+			'Lee Mack': 'lie',
+			'Natalie Cassidy': 'lie'
 		},
 		teamGuess: 'lie',
 		truth: 'lie'
@@ -171,8 +172,5 @@ export default {
 	season: 1,
 	episode: 1,
 	rounds: rounds,
-	score: {
-		david: 11,
-		lee: 11
-	}
+	score: [11, 11]
 } as const satisfies Episode

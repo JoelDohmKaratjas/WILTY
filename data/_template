@@ -1,0 +1,22 @@
+import { Episode, EpisodeCast, Round } from "../episodeTypes";
+
+const cast = {
+	david: [
+
+	],
+	lee: [
+
+	]
+} as const satisfies EpisodeCast
+
+const rounds = [
+
+] as const satisfies Round<typeof cast>[]
+
+export default {
+	cast: cast,
+	season: ,
+	episode: ,
+	rounds: rounds,
+	score: []
+} as const satisfies Episode

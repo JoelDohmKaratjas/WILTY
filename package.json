@@ -6,10 +6,12 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
-    "lint": "oxlint",
+    "lint": "oxlint --type-aware --type-check --fix",
     "preview": "vite preview"
   },
   "dependencies": {
+    "@stylistic/eslint-plugin": "^5.10.0",
+    "oxlint-tsgolint": "^7.0.2001",
     "react": "^19.2.8",
     "react-dom": "^19.2.8"
   },
