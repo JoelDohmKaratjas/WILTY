@@ -19,7 +19,7 @@ type NonAnswer = 'unknown' | 'undecided'
 type Guess = Answer | NonAnswer
 
 type Standard<T extends EpisodeCast> = {
-	type: 'home_truths' | 'possession' | 'quick_fire'
+	type: 'home_truths' | 'possession' | 'quick_fire' | 'quick_fire_possession'
 	teamGuess: Answer
 	truth: Answer
 } & ({
