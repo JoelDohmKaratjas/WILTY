@@ -4,8 +4,8 @@ type Guest = {
 }
 
 export type EpisodeCast = {
-	david: [Guest, Guest]
-	lee: [Guest, Guest]
+	david: readonly [Guest, Guest]
+	lee: readonly [Guest, Guest]
 }
 
 type David = 'David Mitchell'
@@ -17,11 +17,12 @@ type LeeTeam<T extends EpisodeCast> = T['lee'][number]['name'] | Lee
 type Answer = 'truth' | 'lie'
 type NonAnswer = 'unknown' | 'undecided'
 type Guess = Answer | NonAnswer
+type CompilationGuess = Answer | 'unknown'
 
-type Standard<T extends EpisodeCast> = {
+type Standard<T extends EpisodeCast, R extends CompilationGuess = Answer> = {
 	type: 'home_truths' | 'possession' | 'quick_fire' | 'quick_fire_possession'
-	teamGuess: Answer
-	truth: Answer
+	teamGuess: R
+	truth: R
 } & ({
 	guessingTeam: David
 	person: LeeTeam<T>
@@ -46,10 +47,10 @@ type ThisIsMy<T extends EpisodeCast> = {
 	truth: DavidTeam<T>
 })
 
-type RingOfTruthSingle<T extends EpisodeCast> = {
+type RingOfTruthSingle<T extends EpisodeCast, R extends CompilationGuess = Answer> = {
 	type: 'ring_of_truth_single'
-	teamGuess: Answer
-	truth: Answer
+	teamGuess: R
+	truth: R
 } & ({
 	guessingTeam: David
 	personGuesses: Record<DavidTeam<T>, Guess>
@@ -58,23 +59,23 @@ type RingOfTruthSingle<T extends EpisodeCast> = {
 	personGuesses: Record<LeeTeam<T>, Guess>
 })
 
-type RingOfTruthDual<T extends EpisodeCast> = {
+type RingOfTruthDual<T extends EpisodeCast, R extends CompilationGuess = Answer> = {
 	type: 'ring_of_truth_dual'
 	personGuesses: {
 		david: Record<DavidTeam<T>, Guess>
 		lee: Record<LeeTeam<T>, Guess>
 	}
 	teamGuess: {
-		david: Answer
-		lee: Answer
+		david: R
+		lee: R
 	}
-	truth: Answer
+	truth: R
 }
 
-type TellyTales<T extends EpisodeCast> = {
+type TellyTales<T extends EpisodeCast, R extends CompilationGuess = Answer> = {
 	type: 'telly_tales'
-	teamGuess: Answer
-	truth: Answer
+	teamGuess: R
+	truth: R
 } & ({
 	guessingTeam: David
 	statementOwner: LeeTeam<T>
@@ -85,31 +86,48 @@ type TellyTales<T extends EpisodeCast> = {
 	personGuesses: Record<LeeTeam<T>, Guess>
 })
 
-type Host<T extends EpisodeCast> = {
+type Host<T extends EpisodeCast, R extends CompilationGuess = Answer> = {
 	type: 'host'
 	personGuesses: {
 		david: Record<DavidTeam<T>, Guess>
 		lee: Record<LeeTeam<T>, Guess>
 	}
 	teamGuess: {
-		david: Answer
-		lee: Answer
+		david: R
+		lee: R
 	}
-	truth: Answer
+	truth: R
 }
 
-export type Round<T extends EpisodeCast> =
-	| Standard<T>
+export type Round<T extends EpisodeCast, R extends CompilationGuess = Answer> =
+	| Standard<T, R>
 	| ThisIsMy<T>
-	| RingOfTruthSingle<T>
-	| RingOfTruthDual<T>
-	| TellyTales<T>
-	| Host<T>
+	| RingOfTruthSingle<T, R>
+	| RingOfTruthDual<T, R>
+	| TellyTales<T, R>
+	| Host<T, R>
 
-export type Episode = {
+export type StandardEpisode = {
+	type: 'standard'
 	cast: EpisodeCast
 	season: number
 	episode: number
 	rounds: Round<EpisodeCast>[]
 	score: [david: number, lee: number]
+}
+
+export type CompilationCast = Readonly<Record<number, EpisodeCast>>
+
+export type CompilationRound<C extends CompilationCast> = {
+	[E in keyof C & number]: C[E] extends EpisodeCast
+		? Round<C[E], CompilationGuess> & { episode: E }
+		: never
+}[keyof C & number]
+
+export type CompilationEpisode<C extends CompilationCast> = {
+	type: 'compilation'
+	cast: CompilationCast
+	season: number
+	episode: number
+	rounds: CompilationRound<C>[]
 }

@@ -1,4 +1,4 @@
-import { type Episode, type EpisodeCast, type Round } from '../episodeTypes'
+import { type StandardEpisode, type EpisodeCast, type Round } from '../episodeTypes'
 
 const cast = {
 	david: [
@@ -132,9 +132,10 @@ const rounds = [
 ] as const satisfies Round<typeof cast>[]
 
 export default {
+	type: 'standard',
 	cast: cast,
 	season: 2,
 	episode: 2,
 	rounds: rounds,
 	score: [7, 5]
-} as const satisfies Episode
+} as const satisfies StandardEpisode
