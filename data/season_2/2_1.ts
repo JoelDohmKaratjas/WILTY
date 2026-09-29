@@ -149,5 +149,6 @@ export default {
 	season: 2,
 	episode: 1,
 	rounds: rounds,
-	score: [7, 6]
-} as const satisfies StandardEpisode
+	score: [7, 6],
+	liarOfTheWeek: null
+} as const satisfies StandardEpisode<typeof cast>

@@ -118,7 +118,7 @@ const rounds = [
 		truth: 'lie'
 	},
 	{
-		type: 'quick_fire',
+		type: 'quick_fire_possession',
 		guessingTeam: 'David Mitchell',
 		person: 'Lee Mack',
 		personGuesses: {
@@ -137,5 +137,6 @@ export default {
 	season: 2,
 	episode: 2,
 	rounds: rounds,
-	score: [7, 5]
-} as const satisfies StandardEpisode
+	score: [7, 5],
+	liarOfTheWeek: null
+} as const satisfies StandardEpisode<typeof cast>

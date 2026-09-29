@@ -13,6 +13,7 @@ type Lee = 'Lee Mack'
 
 type DavidTeam<T extends EpisodeCast> = T['david'][number]['name'] | David
 type LeeTeam<T extends EpisodeCast> = T['lee'][number]['name'] | Lee
+type CastName<T extends EpisodeCast> = T['david'][number]['name'] | T['lee'][number]['name']
 
 type Answer = 'truth' | 'lie'
 type NonAnswer = 'unknown' | 'undecided'
@@ -20,7 +21,7 @@ type Guess = Answer | NonAnswer
 type CompilationGuess = Answer | 'unknown'
 
 type Standard<T extends EpisodeCast, R extends CompilationGuess = Answer> = {
-	type: 'home_truths' | 'possession' | 'quick_fire' | 'quick_fire_possession'
+	type: 'home_truths' | 'home_truths_possession' | 'quick_fire' | 'quick_fire_possession'
 	teamGuess: R
 	truth: R
 } & ({
@@ -107,20 +108,21 @@ export type Round<T extends EpisodeCast, R extends CompilationGuess = Answer> =
 	| TellyTales<T, R>
 	| Host<T, R>
 
-export type StandardEpisode = {
+export type StandardEpisode<T extends EpisodeCast> = {
 	type: 'standard'
-	cast: EpisodeCast
+	cast: T
 	season: number
 	episode: number
-	rounds: Round<EpisodeCast>[]
+	rounds: Round<T>[]
 	score: [david: number, lee: number]
+	liarOfTheWeek: CastName<T> | null
 }
 
 export type CompilationCast = Readonly<Record<number, EpisodeCast>>
 
 export type CompilationRound<C extends CompilationCast> = {
 	[E in keyof C & number]: C[E] extends EpisodeCast
-		? Round<C[E], CompilationGuess> & { episode: E }
+		? Round<C[E], CompilationGuess> & { episode: E, repeat?: true }
 		: never
 }[keyof C & number]
 

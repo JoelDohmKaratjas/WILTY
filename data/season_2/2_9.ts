@@ -48,6 +48,7 @@ const rounds = [
 	},
 	{
 		episode: 3,
+		repeat: true,
 		type: 'home_truths',
 		guessingTeam: 'David Mitchell',
 		person: 'Jimmy Carr',
@@ -98,10 +99,11 @@ const rounds = [
 	},
 	{
 		episode: 2,
+		repeat: true,
 		type: 'this_is_my',
 		guessingTeam: 'Lee Mack',
 		personGuess: {
-			'Ben Shephard': 'undecided', // doesn't know between Rich and David
+			'Ben Shephard': 'David Mitchell',
 			'Frankie Boyle': 'Rich Hall',
 			'Lee Mack': 'Trisha Goddard'
 		},
@@ -123,7 +125,7 @@ const rounds = [
 	},
 	{
 		episode: 4,
-		type: 'quick_fire',
+		type: 'quick_fire_possession',
 		guessingTeam: 'David Mitchell',
 		person: 'Davina McCall',
 		personGuesses: {
@@ -136,6 +138,7 @@ const rounds = [
 	},
 	{
 		episode: 2,
+		repeat: true,
 		type: 'quick_fire_possession',
 		guessingTeam: 'David Mitchell',
 		person: 'Lee Mack',
@@ -162,13 +165,14 @@ const rounds = [
 	},
 	{
 		episode: 8,
-		type: 'quick_fire',
+		repeat: true,
+		type: 'home_truths',
 		guessingTeam: 'Lee Mack',
 		person: 'Michael McIntyre',
 		personGuesses: {
-			'Graeme Garden': 'unknown',
-			'Lauren Laverne': 'unknown',
-			'Lee Mack': 'unknown'
+			'Graeme Garden': 'lie',
+			'Lauren Laverne': 'lie',
+			'Lee Mack': 'lie'
 		},
 		teamGuess: 'lie',
 		truth: 'truth'
