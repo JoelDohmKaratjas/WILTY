@@ -1,22 +1,22 @@
 import { type CompilationCast, type CompilationEpisode } from '../episodeTypes'
-import s2_e1 from './2_1'
-import s2_e2 from './2_2'
-import s2_e3 from './2_3'
-import s2_e4 from './2_4'
-import s2_e5 from './2_5'
-import s2_e6 from './2_6'
-import s2_e7 from './2_7'
-import s2_e8 from './2_8'
+import e1 from './2_1'
+import e2 from './2_2'
+import e3 from './2_3'
+import e4 from './2_4'
+import e5 from './2_5'
+import e6 from './2_6'
+import e7 from './2_7'
+import e8 from './2_8'
 
 const compilationCast = {
-	1: s2_e1.cast,
-	2: s2_e2.cast,
-	3: s2_e3.cast,
-	4: s2_e4.cast,
-	5: s2_e5.cast,
-	6: s2_e6.cast,
-	7: s2_e7.cast,
-	8: s2_e8.cast
+	1: e1.cast,
+	2: e2.cast,
+	3: e3.cast,
+	4: e4.cast,
+	5: e5.cast,
+	6: e6.cast,
+	7: e7.cast,
+	8: e8.cast
 } as const satisfies CompilationCast
 
 const rounds = [

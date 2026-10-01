@@ -1,0 +1,32 @@
+import { type CompilationCast, type CompilationEpisode } from '../episodeTypes'
+import e1 from './_1'
+import e2 from './_2'
+import e3 from './_3'
+import e4 from './_4'
+import e5 from './_5'
+import e6 from './_6'
+import e7 from './_7'
+import e8 from './_8'
+
+const compilationCast = {
+	1: e1.cast,
+	2: e2.cast,
+	3: e3.cast,
+	4: e4.cast,
+	5: e5.cast,
+	6: e6.cast,
+	7: e7.cast,
+	8: e8.cast
+} as const satisfies CompilationCast
+
+const rounds = [
+
+] as const satisfies CompilationEpisode<typeof compilationCast>['rounds']
+
+export default {
+	type: 'compilation',
+	cast: compilationCast,
+	season: ,
+	episode: ,
+	rounds: rounds
+} as const satisfies CompilationEpisode<typeof compilationCast>

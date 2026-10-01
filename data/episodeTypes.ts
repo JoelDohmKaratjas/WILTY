@@ -60,8 +60,8 @@ type RingOfTruthSingle<T extends EpisodeCast, R extends CompilationGuess = Answe
 	personGuesses: Record<LeeTeam<T>, Guess>
 })
 
-type RingOfTruthDual<T extends EpisodeCast, R extends CompilationGuess = Answer> = {
-	type: 'ring_of_truth_dual'
+type DualQuestion<T extends EpisodeCast, R extends CompilationGuess = Answer> = {
+	type: 'ring_of_truth_dual' | 'host' | 'host_possession'
 	personGuesses: {
 		david: Record<DavidTeam<T>, Guess>
 		lee: Record<LeeTeam<T>, Guess>
@@ -87,26 +87,12 @@ type TellyTales<T extends EpisodeCast, R extends CompilationGuess = Answer> = {
 	personGuesses: Record<LeeTeam<T>, Guess>
 })
 
-type Host<T extends EpisodeCast, R extends CompilationGuess = Answer> = {
-	type: 'host'
-	personGuesses: {
-		david: Record<DavidTeam<T>, Guess>
-		lee: Record<LeeTeam<T>, Guess>
-	}
-	teamGuess: {
-		david: R
-		lee: R
-	}
-	truth: R
-}
-
 export type Round<T extends EpisodeCast, R extends CompilationGuess = Answer> =
 	| Standard<T, R>
 	| ThisIsMy<T>
 	| RingOfTruthSingle<T, R>
-	| RingOfTruthDual<T, R>
+	| DualQuestion<T, R>
 	| TellyTales<T, R>
-	| Host<T, R>
 
 export type StandardEpisode<T extends EpisodeCast> = {
 	type: 'standard'
