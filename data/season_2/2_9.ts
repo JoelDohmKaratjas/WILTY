@@ -125,7 +125,8 @@ const rounds = [
 	},
 	{
 		episode: 4,
-		type: 'quick_fire_possession',
+		type: 'quick_fire',
+		possession: true,
 		guessingTeam: 'David Mitchell',
 		person: 'Davina McCall',
 		personGuesses: {
@@ -139,7 +140,8 @@ const rounds = [
 	{
 		episode: 2,
 		repeat: true,
-		type: 'quick_fire_possession',
+		type: 'quick_fire',
+		possession: true,
 		guessingTeam: 'David Mitchell',
 		person: 'Lee Mack',
 		personGuesses: {

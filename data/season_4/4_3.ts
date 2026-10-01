@@ -84,7 +84,8 @@ const rounds = [
 		truth: 'truth'
 	},
 	{
-		type: 'quick_fire_possession',
+		type: 'quick_fire',
+		possession: true,
 		guessingTeam: 'David Mitchell',
 		person: 'Lee Mack',
 		personGuesses: {

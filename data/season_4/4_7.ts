@@ -96,7 +96,8 @@ const rounds = [
 		truth: 'truth'
 	},
 	{
-		type: 'host_possession',
+		type: 'host',
+		possession: true,
 		personGuesses: {
 			david: {
 				'Bernard Cribbins': 'lie',

@@ -21,7 +21,8 @@ type Guess = Answer | NonAnswer
 type CompilationGuess = Answer | 'unknown'
 
 type Standard<T extends EpisodeCast, R extends CompilationGuess = Answer> = {
-	type: 'home_truths' | 'home_truths_possession' | 'quick_fire' | 'quick_fire_possession'
+	type: 'home_truths' | 'quick_fire'
+	possession?: true
 	teamGuess: R
 	truth: R
 } & ({
@@ -61,7 +62,8 @@ type RingOfTruthSingle<T extends EpisodeCast, R extends CompilationGuess = Answe
 })
 
 type DualQuestion<T extends EpisodeCast, R extends CompilationGuess = Answer> = {
-	type: 'ring_of_truth_dual' | 'host' | 'host_possession'
+	type: 'ring_of_truth_dual' | 'host'
+	possession?: true
 	personGuesses: {
 		david: Record<DavidTeam<T>, Guess>
 		lee: Record<LeeTeam<T>, Guess>

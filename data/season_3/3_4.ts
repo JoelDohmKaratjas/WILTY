@@ -107,7 +107,8 @@ const rounds = [
 		truth: 'truth'
 	},
 	{
-		type: 'quick_fire_possession',
+		type: 'quick_fire',
+		possession: true,
 		guessingTeam: 'Lee Mack',
 		person: 'Claudia Winkleman',
 		personGuesses: {

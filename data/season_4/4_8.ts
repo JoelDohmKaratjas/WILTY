@@ -72,7 +72,8 @@ const rounds = [
 		truth: 'Patsy Palmer'
 	},
 	{
-		type: 'quick_fire_possession',
+		type: 'quick_fire',
+		possession: true,
 		guessingTeam: 'Lee Mack',
 		person: 'David Mitchell',
 		personGuesses: {

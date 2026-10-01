@@ -103,7 +103,8 @@ const rounds = [
 	},
 	{
 		episode: 2,
-		type: 'quick_fire_possession',
+		type: 'quick_fire',
+		possession: true,
 		guessingTeam: 'David Mitchell',
 		person: 'Jack Dee',
 		personGuesses: {
