@@ -30,6 +30,7 @@ const cast = {
 const rounds = [
 	{
 		type: 'home_truths',
+		statement: '',
 		guessingTeam: 'David Mitchell',
 		person: 'Jimmy Carr',
 		personGuesses: {
@@ -42,6 +43,7 @@ const rounds = [
 	},
 	{
 		type: 'home_truths',
+		statement: '',
 		guessingTeam: 'Lee Mack',
 		person: 'Jamellia',
 		personGuesses: {
@@ -54,6 +56,7 @@ const rounds = [
 	},
 	{
 		type: 'home_truths',
+		statement: '',
 		guessingTeam: 'Lee Mack',
 		person: 'Marcus Brigsocke',
 		personGuesses: {
@@ -66,6 +69,7 @@ const rounds = [
 	},
 	{
 		type: 'ring_of_truth_single',
+		statement: '',
 		guessingTeam: 'Lee Mack',
 		personGuesses: {
 			'Jimmy Carr': 'lie',
@@ -78,6 +82,12 @@ const rounds = [
 	{
 		type: 'this_is_my',
 		guessingTeam: 'David Mitchell',
+		guest: '',
+		connections: {
+			'Jimmy Carr': '',
+			'Terry Christian': '',
+			'Lee Mack': ''
+		},
 		personGuess: {
 			'David Mitchell': 'Jimmy Carr',
 			'Marcus Brigsocke': 'Lee Mack',
@@ -88,6 +98,7 @@ const rounds = [
 	},
 	{
 		type: 'quick_fire',
+		statement: '',
 		guessingTeam: 'Lee Mack',
 		person: 'David Mitchell',
 		personGuesses: {
@@ -100,6 +111,7 @@ const rounds = [
 	},
 	{
 		type: 'quick_fire',
+		statement: '',
 		possession: true,
 		guessingTeam: 'David Mitchell',
 		person: 'Terry Christian',

@@ -30,6 +30,7 @@ const cast = {
 const rounds = [
 	{
 		type: 'home_truths',
+		statement: '',
 		guessingTeam: 'Lee Mack',
 		person: 'Sir Chris Hoy',
 		personGuesses: {
@@ -42,6 +43,7 @@ const rounds = [
 	},
 	{
 		type: 'home_truths',
+		statement: '',
 		guessingTeam: 'David Mitchell',
 		person: 'Gabby Logan',
 		personGuesses: {
@@ -54,6 +56,7 @@ const rounds = [
 	},
 	{
 		type: 'home_truths',
+		statement: '',
 		guessingTeam: 'David Mitchell',
 		person: 'Danny Wallace',
 		personGuesses: {
@@ -66,6 +69,7 @@ const rounds = [
 	},
 	{
 		type: 'ring_of_truth_single',
+		statement: '',
 		guessingTeam: 'David Mitchell',
 		personGuesses: {
 			'David Mitchell': 'truth',
@@ -77,6 +81,7 @@ const rounds = [
 	},
 	{
 		type: 'ring_of_truth_single',
+		statement: '',
 		guessingTeam: 'Lee Mack',
 		personGuesses: {
 			'Danny Wallace': 'lie',
@@ -89,6 +94,12 @@ const rounds = [
 	{
 		type: 'this_is_my',
 		guessingTeam: 'Lee Mack',
+		guest: '',
+		connections: {
+			'Ronni Ancona': '',
+			'Sir Chris Hoy': '',
+			'David Mitchell': ''
+		},
 		personGuess: {
 			'Danny Wallace': 'Sir Chris Hoy',
 			'Gabby Logan': 'Sir Chris Hoy',
@@ -99,6 +110,7 @@ const rounds = [
 	},
 	{
 		type: 'quick_fire',
+		statement: '',
 		guessingTeam: 'David Mitchell',
 		person: 'Lee Mack',
 		personGuesses: {
@@ -111,6 +123,7 @@ const rounds = [
 	},
 	{
 		type: 'quick_fire',
+		statement: '',
 		guessingTeam: 'Lee Mack',
 		person: 'David Mitchell',
 		personGuesses: {
@@ -123,6 +136,7 @@ const rounds = [
 	},
 	{
 		type: 'quick_fire',
+		statement: '',
 		possession: true,
 		guessingTeam: 'David Mitchell',
 		person: 'Gabby Logan',

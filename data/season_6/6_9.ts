@@ -23,6 +23,7 @@ const rounds = [
 	{
 		episode: 2,
 		type: 'home_truths',
+		statement: '',
 		guessingTeam: 'Lee Mack',
 		person: 'Richard Madeley',
 		personGuesses: {
@@ -36,6 +37,7 @@ const rounds = [
 	{
 		episode: 6,
 		type: 'home_truths',
+		statement: '',
 		guessingTeam: 'David Mitchell',
 		person: 'Bob Mortimer',
 		personGuesses: {
@@ -49,6 +51,7 @@ const rounds = [
 	{
 		episode: 5,
 		type: 'home_truths',
+		statement: '',
 		guessingTeam: 'David Mitchell',
 		person: 'Dr. Christian Jessen',
 		personGuesses: {
@@ -62,6 +65,7 @@ const rounds = [
 	{
 		episode: 1,
 		type: 'home_truths',
+		statement: '',
 		guessingTeam: 'David Mitchell',
 		person: 'Alexander Armstrong',
 		personGuesses: {
@@ -75,6 +79,7 @@ const rounds = [
 	{
 		episode: 5,
 		type: 'home_truths',
+		statement: '',
 		guessingTeam: 'Lee Mack',
 		person: 'David Mitchell',
 		personGuesses: {
@@ -88,6 +93,7 @@ const rounds = [
 	{
 		episode: 8,
 		type: 'home_truths',
+		statement: '',
 		guessingTeam: 'David Mitchell',
 		person: 'Jim Carter',
 		personGuesses: {
@@ -101,6 +107,7 @@ const rounds = [
 	{
 		episode: 6,
 		type: 'home_truths',
+		statement: '',
 		guessingTeam: 'David Mitchell',
 		person: 'Lee Mack',
 		personGuesses: {
@@ -114,6 +121,7 @@ const rounds = [
 	{
 		episode: 3,
 		type: 'home_truths',
+		statement: '',
 		guessingTeam: 'David Mitchell',
 		person: 'Clare Baldain',
 		personGuesses: {
@@ -127,6 +135,7 @@ const rounds = [
 	{
 		episode: 5,
 		type: 'host',
+		statement: '',
 		personGuesses: {
 			david: {
 				'Andy Hamilton': 'truth',

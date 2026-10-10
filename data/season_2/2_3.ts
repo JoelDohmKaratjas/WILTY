@@ -30,6 +30,7 @@ const cast = {
 const rounds = [
 	{
 		type: 'home_truths',
+		statement: '',
 		guessingTeam: 'Lee Mack',
 		person: 'Maureen Lipman',
 		personGuesses: {
@@ -42,6 +43,7 @@ const rounds = [
 	},
 	{
 		type: 'home_truths',
+		statement: '',
 		guessingTeam: 'David Mitchell',
 		person: 'Jimmy Carr',
 		personGuesses: {
@@ -54,6 +56,7 @@ const rounds = [
 	},
 	{
 		type: 'home_truths',
+		statement: '',
 		guessingTeam: 'Lee Mack',
 		person: 'David Baddiel',
 		personGuesses: {
@@ -66,6 +69,7 @@ const rounds = [
 	},
 	{
 		type: 'ring_of_truth_single',
+		statement: '',
 		guessingTeam: 'Lee Mack',
 		personGuesses: {
 			'Jimmy Carr': 'truth',
@@ -78,6 +82,12 @@ const rounds = [
 	{
 		type: 'this_is_my',
 		guessingTeam: 'David Mitchell',
+		guest: '',
+		connections: {
+			'Jimmy Carr': '',
+			'Richard Wilson': '',
+			'Lee Mack': ''
+		},
 		personGuess: {
 			'David Baddiel': 'Lee Mack',
 			'David Mitchell': 'Jimmy Carr',
@@ -88,6 +98,7 @@ const rounds = [
 	},
 	{
 		type: 'quick_fire',
+		statement: '',
 		guessingTeam: 'Lee Mack',
 		person: 'David Mitchell',
 		personGuesses: {
@@ -100,6 +111,7 @@ const rounds = [
 	},
 	{
 		type: 'quick_fire',
+		statement: '',
 		guessingTeam: 'David Mitchell',
 		person: 'Lee Mack',
 		personGuesses: {
@@ -112,6 +124,7 @@ const rounds = [
 	},
 	{
 		type: 'quick_fire',
+		statement: '',
 		possession: true,
 		guessingTeam: 'Lee Mack',
 		person: 'David Baddiel',

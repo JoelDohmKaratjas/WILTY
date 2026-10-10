@@ -30,6 +30,7 @@ const cast = {
 const rounds = [
 	{
 		type: 'home_truths',
+		statement: '',
 		guessingTeam: 'Lee Mack',
 		person: 'Gabby Logan',
 		personGuesses: {
@@ -42,6 +43,7 @@ const rounds = [
 	},
 	{
 		type: 'home_truths',
+		statement: '',
 		guessingTeam: 'Lee Mack',
 		person: 'Andy Hamilton',
 		personGuesses: {
@@ -54,6 +56,7 @@ const rounds = [
 	},
 	{
 		type: 'home_truths',
+		statement: '',
 		guessingTeam: 'David Mitchell',
 		person: 'Diane Parish',
 		personGuesses: {
@@ -67,6 +70,12 @@ const rounds = [
 	{
 		type: 'this_is_my',
 		guessingTeam: 'David Mitchell',
+		guest: '',
+		connections: {
+			'Dr. Christian Jessen': '',
+			'Diane Parish': '',
+			'Lee Mack': ''
+		},
 		personGuess: {
 			'Andy Hamilton': 'undecided',
 			'David Mitchell': 'undecided',
@@ -77,6 +86,7 @@ const rounds = [
 	},
 	{
 		type: 'quick_fire',
+		statement: '',
 		guessingTeam: 'David Mitchell',
 		person: 'Lee Mack',
 		personGuesses: {
@@ -89,6 +99,7 @@ const rounds = [
 	},
 	{
 		type: 'quick_fire',
+		statement: '',
 		possession: true,
 		guessingTeam: 'David Mitchell',
 		person: 'Dr. Christian Jessen',

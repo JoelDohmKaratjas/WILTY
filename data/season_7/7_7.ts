@@ -30,6 +30,7 @@ const cast = {
 const rounds = [
 	{
 		type: 'home_truths',
+		statement: '',
 		guessingTeam: 'Lee Mack',
 		person: 'Kirsty Young',
 		personGuesses: {
@@ -42,6 +43,7 @@ const rounds = [
 	},
 	{
 		type: 'home_truths',
+		statement: '',
 		guessingTeam: 'David Mitchell',
 		person: 'Henning Wehn',
 		personGuesses: {
@@ -55,6 +57,12 @@ const rounds = [
 	{
 		type: 'this_is_my',
 		guessingTeam: 'Lee Mack',
+		guest: '',
+		connections: {
+			'Greg Rutherford': '',
+			'Kirsty Young': '',
+			'David Mitchell': ''
+		},
 		personGuess: {
 			'Henning Wehn': 'Greg Rutherford',
 			'Joanna Scanlan': 'Greg Rutherford',
@@ -65,6 +73,7 @@ const rounds = [
 	},
 	{
 		type: 'quick_fire',
+		statement: '',
 		guessingTeam: 'David Mitchell',
 		person: 'Lee Mack',
 		personGuesses: {
@@ -77,6 +86,7 @@ const rounds = [
 	},
 	{
 		type: 'host',
+		statement: '',
 		personGuesses: {
 			david: {
 				'David Mitchell': 'lie',

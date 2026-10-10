@@ -30,6 +30,7 @@ const cast = {
 const rounds = [
 	{
 		type: 'home_truths',
+		statement: 'I was at school with Osama bin Laden.',
 		guessingTeam: 'David Mitchell',
 		person: 'Dom Joly',
 		personGuesses: {
@@ -42,6 +43,7 @@ const rounds = [
 	},
 	{
 		type: 'home_truths',
+		statement: 'When I ran my last public company, I banned all my staff from buying paper clips.',
 		guessingTeam: 'Lee Mack',
 		person: 'Duncan Bannatyne',
 		personGuesses: {
@@ -54,6 +56,7 @@ const rounds = [
 	},
 	{
 		type: 'home_truths',
+		statement: 'I have passed toilet roll under a cubical wall to Madonna.',
 		guessingTeam: 'David Mitchell',
 		person: 'Natalie Cassidy',
 		personGuesses: {
@@ -66,6 +69,7 @@ const rounds = [
 	},
 	{
 		type: 'ring_of_truth_single',
+		statement: 'Jeffrey Archer writes all of his stories with a felt-tip pen.',
 		guessingTeam: 'Lee Mack',
 		personGuesses: {
 			'Dom Joly': 'truth',
@@ -77,6 +81,7 @@ const rounds = [
 	},
 	{
 		type: 'ring_of_truth_single',
+		statement: 'Jodie Marsh won nearly £6 on a Weakest Link quiz machine.',
 		guessingTeam: 'David Mitchell',
 		personGuesses: {
 			'David Mitchell': 'lie',
@@ -89,6 +94,12 @@ const rounds = [
 	{
 		type: 'this_is_my',
 		guessingTeam: 'David Mitchell',
+		guest: 'Ina',
+		connections: {
+			'Dom Joly': 'His Greek aunt who was a Greek voiceover for Helen Mirren in her last four films that has been translated into Greek.',
+			'Lee Mack': 'His local newsagent who sold him a scratch card that won him £2000.',
+			'Natalie Cassidy': 'Worked on EastEnders for 21 years as an extra, running the lampshade store.'
+		},
 		personGuess: {
 			'David Mitchell': 'Natalie Cassidy',
 			'Duncan Bannatyne': 'Natalie Cassidy',
@@ -99,6 +110,7 @@ const rounds = [
 	},
 	{
 		type: 'telly_tales',
+		statement: 'To avoid confusion on the set of Doctor Who when they\'re filming it, the medical doctor on set is called the magician.',
 		guessingTeam: 'Lee Mack',
 		statementOwner: 'Frankie Boyle',
 		personGuesses: {
@@ -111,6 +123,7 @@ const rounds = [
 	},
 	{
 		type: 'quick_fire',
+		statement: 'I have been on a camping trip with Derren Brown.',
 		guessingTeam: 'David Mitchell',
 		person: 'Lee Mack',
 		personGuesses: {
@@ -123,6 +136,7 @@ const rounds = [
 	},
 	{
 		type: 'quick_fire',
+		statement: 'Aged 5, I wrote to Play School to suggest how the BBC should resolve their union conflict.',
 		guessingTeam: 'Lee Mack',
 		person: 'David Mitchell',
 		personGuesses: {
@@ -135,6 +149,7 @@ const rounds = [
 	},
 	{
 		type: 'quick_fire',
+		statement: 'For six months I worked as Trevor McDonald\'s driver.',
 		guessingTeam: 'David Mitchell',
 		person: 'Dom Joly',
 		personGuesses: {
@@ -147,6 +162,7 @@ const rounds = [
 	},
 	{
 		type: 'quick_fire',
+		statement: 'I am allergic to coins.',
 		guessingTeam: 'Lee Mack',
 		person: 'Frankie Boyle',
 		personGuesses: {
@@ -159,6 +175,7 @@ const rounds = [
 	},
 	{
 		type: 'quick_fire',
+		statement: 'I fainted in the cinema during Kill Bill.',
 		guessingTeam: 'Lee Mack',
 		person: 'David Mitchell',
 		personGuesses: {

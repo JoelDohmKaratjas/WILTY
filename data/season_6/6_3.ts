@@ -30,6 +30,7 @@ const cast = {
 const rounds = [
 	{
 		type: 'home_truths',
+		statement: '',
 		guessingTeam: 'Lee Mack',
 		person: 'Dale Winton',
 		personGuesses: {
@@ -42,6 +43,7 @@ const rounds = [
 	},
 	{
 		type: 'home_truths',
+		statement: '',
 		guessingTeam: 'Lee Mack',
 		person: 'Richard Bacon',
 		personGuesses: {
@@ -55,6 +57,12 @@ const rounds = [
 	{
 		type: 'this_is_my',
 		guessingTeam: 'David Mitchell',
+		guest: '',
+		connections: {
+			'Clare Baldain': '',
+			'Miranda Hart': '',
+			'Lee Mack': ''
+		},
 		personGuess: {
 			'Dale Winton': 'Lee Mack',
 			'David Mitchell': 'Clare Baldain',
@@ -65,6 +73,7 @@ const rounds = [
 	},
 	{
 		type: 'quick_fire',
+		statement: '',
 		possession: true,
 		guessingTeam: 'David Mitchell',
 		person: 'Lee Mack',
@@ -78,6 +87,7 @@ const rounds = [
 	},
 	{
 		type: 'quick_fire',
+		statement: '',
 		guessingTeam: 'David Mitchell',
 		person: 'Miranda Hart',
 		personGuesses: {
@@ -90,6 +100,7 @@ const rounds = [
 	},
 	{
 		type: 'host',
+		statement: '',
 		personGuesses: {
 			david: {
 				'Dale Winton': 'truth',

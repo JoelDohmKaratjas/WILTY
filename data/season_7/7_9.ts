@@ -23,6 +23,7 @@ const rounds = [
 	{
 		episode: 2,
 		type: 'home_truths',
+		statement: '',
 		guessingTeam: 'David Mitchell',
 		person: 'Charles Dance',
 		personGuesses: {
@@ -36,6 +37,7 @@ const rounds = [
 	{
 		episode: 3,
 		type: 'home_truths',
+		statement: '',
 		guessingTeam: 'Lee Mack',
 		person: 'Joan Bakewell',
 		personGuesses: {
@@ -49,6 +51,7 @@ const rounds = [
 	{
 		episode: 4,
 		type: 'home_truths',
+		statement: '',
 		guessingTeam: 'Lee Mack',
 		person: 'Dermot O\'Leary',
 		personGuesses: {
@@ -62,6 +65,7 @@ const rounds = [
 	{
 		episode: 5,
 		type: 'home_truths',
+		statement: '',
 		guessingTeam: 'David Mitchell',
 		person: 'David O\'Doherty',
 		personGuesses: {
@@ -75,6 +79,7 @@ const rounds = [
 	{
 		episode: 6,
 		type: 'home_truths',
+		statement: '',
 		guessingTeam: 'Lee Mack',
 		person: 'David Mitchell',
 		personGuesses: {
@@ -88,6 +93,7 @@ const rounds = [
 	{
 		episode: 7,
 		type: 'home_truths',
+		statement: '',
 		guessingTeam: 'David Mitchell',
 		person: 'Joanna Scanlan',
 		personGuesses: {
@@ -101,6 +107,7 @@ const rounds = [
 	{
 		episode: 2,
 		type: 'home_truths',
+		statement: '',
 		guessingTeam: 'David Mitchell',
 		person: 'Gok Wan',
 		personGuesses: {
@@ -114,6 +121,7 @@ const rounds = [
 	{
 		episode: 5,
 		type: 'home_truths',
+		statement: '',
 		guessingTeam: 'Lee Mack',
 		person: 'Richard Osman',
 		personGuesses: {
@@ -127,6 +135,7 @@ const rounds = [
 	{
 		episode: 6,
 		type: 'home_truths',
+		statement: '',
 		guessingTeam: 'Lee Mack',
 		person: 'Jon Richardson',
 		personGuesses: {

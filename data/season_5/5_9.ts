@@ -23,6 +23,7 @@ const rounds = [
 	{
 		episode: 7,
 		type: 'home_truths',
+		statement: '',
 		guessingTeam: 'Lee Mack',
 		person: 'Mackenzie Crook',
 		personGuesses: {
@@ -36,6 +37,7 @@ const rounds = [
 	{
 		episode: 1,
 		type: 'home_truths',
+		statement: '',
 		guessingTeam: 'David Mitchell',
 		person: 'Miranda Hart',
 		personGuesses: {
@@ -49,6 +51,7 @@ const rounds = [
 	{
 		episode: 3,
 		type: 'home_truths',
+		statement: '',
 		guessingTeam: 'David Mitchell',
 		person: 'Bill Turnbull',
 		personGuesses: {
@@ -62,6 +65,7 @@ const rounds = [
 	{
 		episode: 1,
 		type: 'home_truths',
+		statement: '',
 		guessingTeam: 'Lee Mack',
 		person: 'Rebecca Front',
 		personGuesses: {
@@ -75,6 +79,7 @@ const rounds = [
 	{
 		episode: 6,
 		type: 'home_truths',
+		statement: '',
 		guessingTeam: 'David Mitchell',
 		person: 'Sarah Millican',
 		personGuesses: {
@@ -88,6 +93,7 @@ const rounds = [
 	{
 		episode: 1,
 		type: 'home_truths',
+		statement: '',
 		possession: true,
 		guessingTeam: 'David Mitchell',
 		person: 'Nick Hewer',
@@ -102,6 +108,7 @@ const rounds = [
 	{
 		episode: 3,
 		type: 'home_truths',
+		statement: '',
 		guessingTeam: 'Lee Mack',
 		person: 'Katherine Parkinson',
 		personGuesses: {
@@ -115,6 +122,7 @@ const rounds = [
 	{
 		episode: 3,
 		type: 'home_truths',
+		statement: '',
 		possession: true,
 		guessingTeam: 'David Mitchell',
 		person: 'Bill Turnbull',
@@ -129,6 +137,7 @@ const rounds = [
 	{
 		episode: 8,
 		type: 'host',
+		statement: '',
 		personGuesses: {
 			david: {
 				'Dara Ó Briain': 'lie',

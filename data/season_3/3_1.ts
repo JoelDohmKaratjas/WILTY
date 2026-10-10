@@ -30,6 +30,7 @@ const cast = {
 const rounds = [
 	{
 		type: 'home_truths',
+		statement: '',
 		guessingTeam: 'David Mitchell',
 		person: 'Carol Vorderman',
 		personGuesses: {
@@ -42,6 +43,7 @@ const rounds = [
 	},
 	{
 		type: 'home_truths',
+		statement: '',
 		guessingTeam: 'Lee Mack',
 		person: 'Larry Lamb',
 		personGuesses: {
@@ -54,6 +56,7 @@ const rounds = [
 	},
 	{
 		type: 'home_truths',
+		statement: '',
 		guessingTeam: 'David Mitchell',
 		person: 'Russell Howard',
 		personGuesses: {
@@ -66,6 +69,7 @@ const rounds = [
 	},
 	{
 		type: 'ring_of_truth_single',
+		statement: '',
 		guessingTeam: 'Lee Mack',
 		personGuesses: {
 			'Carol Vorderman': 'truth',
@@ -78,6 +82,12 @@ const rounds = [
 	{
 		type: 'this_is_my',
 		guessingTeam: 'Lee Mack',
+		guest: '',
+		connections: {
+			'Jo Brand': '',
+			'Larry Lamb': '',
+			'David Mitchell': ''
+		},
 		personGuess: {
 			'Carol Vorderman': 'Larry Lamb',
 			'Lee Mack': 'Larry Lamb',
@@ -88,6 +98,7 @@ const rounds = [
 	},
 	{
 		type: 'quick_fire',
+		statement: '',
 		possession: true,
 		guessingTeam: 'Lee Mack',
 		person: 'David Mitchell',
@@ -101,6 +112,7 @@ const rounds = [
 	},
 	{
 		type: 'quick_fire',
+		statement: '',
 		guessingTeam: 'David Mitchell',
 		person: 'Lee Mack',
 		personGuesses: {

@@ -30,6 +30,7 @@ const cast = {
 const rounds = [
 	{
 		type: 'home_truths',
+		statement: '',
 		guessingTeam: 'Lee Mack',
 		person: 'Jimmy Carr',
 		personGuesses: {
@@ -42,6 +43,7 @@ const rounds = [
 	},
 	{
 		type: 'home_truths',
+		statement: '',
 		guessingTeam: 'David Mitchell',
 		person: 'Dave Myers',
 		personGuesses: {
@@ -55,6 +57,12 @@ const rounds = [
 	{
 		type: 'this_is_my',
 		guessingTeam: 'David Mitchell',
+		guest: '',
+		connections: {
+			'Dave Myers': '',
+			'Susanna Reid': '',
+			'Lee Mack': ''
+		},
 		personGuess: {
 			'David Mitchell': 'Dave Myers',
 			'Griff Rhys Jones': 'Dave Myers',
@@ -65,6 +73,7 @@ const rounds = [
 	},
 	{
 		type: 'quick_fire',
+		statement: '',
 		guessingTeam: 'David Mitchell',
 		person: 'Susanna Reid',
 		personGuesses: {
@@ -77,6 +86,7 @@ const rounds = [
 	},
 	{
 		type: 'quick_fire',
+		statement: '',
 		guessingTeam: 'Lee Mack',
 		person: 'Griff Rhys Jones',
 		personGuesses: {
@@ -89,6 +99,7 @@ const rounds = [
 	},
 	{
 		type: 'quick_fire',
+		statement: '',
 		guessingTeam: 'David Mitchell',
 		person: 'Lee Mack',
 		personGuesses: {

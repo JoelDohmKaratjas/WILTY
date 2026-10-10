@@ -30,6 +30,7 @@ const cast = {
 const rounds = [
 	{
 		type: 'home_truths',
+		statement: 'I was caught short in Prince Charles\' garden',
 		guessingTeam: 'David Mitchell',
 		person: 'John Barrowman',
 		personGuesses: {
@@ -42,6 +43,7 @@ const rounds = [
 	},
 	{
 		type: 'home_truths',
+		statement: 'I\'ve snogged Paris Hilton',
 		guessingTeam: 'Lee Mack',
 		person: 'Patrick McGuinness',
 		personGuesses: {
@@ -54,6 +56,7 @@ const rounds = [
 	},
 	{
 		type: 'home_truths',
+		statement: 'My nickname at school was Ear Sniffer',
 		guessingTeam: 'David Mitchell',
 		person: 'Dominic Wood',
 		personGuesses: {
@@ -66,6 +69,7 @@ const rounds = [
 	},
 	{
 		type: 'ring_of_truth_single',
+		statement: 'Madonna has her toilet seat removed from every venue she performs at so that no one sells it on eBay.',
 		guessingTeam: 'David Mitchell',
 		personGuesses: {
 			'David Mitchell': 'lie',
@@ -77,6 +81,7 @@ const rounds = [
 	},
 	{
 		type: 'ring_of_truth_single',
+		statement: 'Tony Blair proposed to Cherie in a bumper car.',
 		guessingTeam: 'Lee Mack',
 		personGuesses: {
 			'Dominic Wood': 'lie',
@@ -89,6 +94,12 @@ const rounds = [
 	{
 		type: 'this_is_my',
 		guessingTeam: 'David Mitchell',
+		guest: 'Mark',
+		connections: {
+			'John Barrowman': 'Cut the ribbon at the opening of Mark\'s karaoke superstore.',
+			'Dominic Wood': 'Him and Mark were in a magical double act called "Mysterio and Mark".',
+			'Lee Mack': 'Employs Mark to manage his iPod.'
+		},
 		personGuess: {
 			'David Mitchell': 'Dominic Wood',
 			'Fay Ripley': 'Dominic Wood',
@@ -99,6 +110,7 @@ const rounds = [
 	},
 	{
 		type: 'telly_tales',
+		statement: 'Pam St. Clement is a member of the British Abseiling Association and has abseiled down Mount Rushmore.',
 		guessingTeam: 'Lee Mack',
 		statementOwner: 'Patrick McGuinness',
 		personGuesses: {
@@ -111,6 +123,7 @@ const rounds = [
 	},
 	{
 		type: 'quick_fire',
+		statement: 'When we were first dating, I collected my husband\'s belly button fluff',
 		guessingTeam: 'Lee Mack',
 		person: 'Fay Ripley',
 		personGuesses: {
@@ -123,6 +136,7 @@ const rounds = [
 	},
 	{
 		type: 'quick_fire',
+		statement: 'In a restaurant in China, I unwittingly ordered and ate dog',
 		guessingTeam: 'David Mitchell',
 		person: 'Lee Mack',
 		personGuesses: {
@@ -135,6 +149,7 @@ const rounds = [
 	},
 	{
 		type: 'quick_fire',
+		statement: 'I have wrestled Andy McNab for money',
 		guessingTeam: 'Lee Mack',
 		person: 'Patrick McGuinness',
 		personGuesses: {

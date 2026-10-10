@@ -30,6 +30,7 @@ const cast = {
 const rounds = [
 	{
 		type: 'home_truths',
+		statement: '',
 		guessingTeam: 'Lee Mack',
 		person: 'Dara Ó Briain',
 		personGuesses: {
@@ -42,6 +43,7 @@ const rounds = [
 	},
 	{
 		type: 'home_truths',
+		statement: '',
 		guessingTeam: 'David Mitchell',
 		person: 'Denise van Outen',
 		personGuesses: {
@@ -55,6 +57,12 @@ const rounds = [
 	{
 		type: 'this_is_my',
 		guessingTeam: 'Lee Mack',
+		guest: '',
+		connections: {
+			'Vernon Kay': '',
+			'Dara Ó Briain': '',
+			'David Mitchell': ''
+		},
 		personGuess: {
 			'Denise van Outen': 'Dara Ó Briain',
 			'Lee Mack': 'Dara Ó Briain',
@@ -65,6 +73,7 @@ const rounds = [
 	},
 	{
 		type: 'quick_fire',
+		statement: '',
 		guessingTeam: 'Lee Mack',
 		person: 'David Mitchell',
 		personGuesses: {
@@ -77,6 +86,7 @@ const rounds = [
 	},
 	{
 		type: 'quick_fire',
+		statement: '',
 		guessingTeam: 'David Mitchell',
 		person: 'Rhod Gilbert',
 		personGuesses: {

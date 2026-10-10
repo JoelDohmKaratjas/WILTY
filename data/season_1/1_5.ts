@@ -30,6 +30,7 @@ const cast = {
 const rounds = [
 	{
 		type: 'home_truths',
+		statement: 'I Immac my armpits.',
 		guessingTeam: 'David Mitchell',
 		person: 'Len Goodman',
 		personGuesses: {
@@ -42,6 +43,7 @@ const rounds = [
 	},
 	{
 		type: 'home_truths',
+		statement: 'I used to proofread dictionaries for a living.',
 		guessingTeam: 'Lee Mack',
 		person: 'David Mitchell',
 		personGuesses: {
@@ -54,6 +56,7 @@ const rounds = [
 	},
 	{
 		type: 'home_truths',
+		statement: 'I was a contestant on Junior MasterChef.',
 		guessingTeam: 'Lee Mack',
 		person: 'Russell Howard',
 		personGuesses: {
@@ -66,6 +69,7 @@ const rounds = [
 	},
 	{
 		type: 'home_truths',
+		statement: 'I once fixed Dame Judi Dench\'s push-bike.',
 		guessingTeam: 'David Mitchell',
 		person: 'Vic Reeves',
 		personGuesses: {
@@ -79,6 +83,12 @@ const rounds = [
 	{
 		type: 'this_is_my',
 		guessingTeam: 'Lee Mack',
+		guest: 'Maurice',
+		connections: {
+			'Russell Howard': 'His landlord who is the 16th Earl of Westmorland.',
+			'Wendy Richard': 'Her hairdresser and also cuts Tony Blair\'s hair.',
+			'David Mitchell': 'Teaches him the art of ventriloquism.'
+		},
 		personGuess: {
 			'Lee Mack': 'David Mitchell',
 			'Len Goodman': 'Russell Howard',
@@ -89,6 +99,7 @@ const rounds = [
 	},
 	{
 		type: 'telly_tales',
+		statement: 'The Swedish entry in the 1980 Eurovision Song Contest had a real live Orangutan as a dancer.',
 		guessingTeam: 'David Mitchell',
 		statementOwner: 'Lee Mack',
 		personGuesses: {
@@ -101,6 +112,7 @@ const rounds = [
 	},
 	{
 		type: 'telly_tales',
+		statement: 'On the 27th July in Finland they celebrate Sleepy Head Day where the last family member to wake up is thrown into the sea.',
 		guessingTeam: 'David Mitchell',
 		statementOwner: 'Len Goodman',
 		personGuesses: {
@@ -113,6 +125,7 @@ const rounds = [
 	},
 	{
 		type: 'quick_fire',
+		statement: 'I have no idea how to use a launderette washing machine.',
 		guessingTeam: 'Lee Mack',
 		person: 'Wendy Richard',
 		personGuesses: {
@@ -125,6 +138,7 @@ const rounds = [
 	},
 	{
 		type: 'quick_fire',
+		statement: 'My parents told me my dog was dead when it was actually in Scunthorpe.',
 		guessingTeam: 'David Mitchell',
 		person: 'Lee Mack',
 		personGuesses: {
@@ -137,6 +151,7 @@ const rounds = [
 	},
 	{
 		type: 'quick_fire',
+		statement: 'As a teenager I had a poster of Margaret Thatcher on my bedroom wall.',
 		guessingTeam: 'Lee Mack',
 		person: 'David Mitchell',
 		personGuesses: {
@@ -149,6 +164,7 @@ const rounds = [
 	},
 	{
 		type: 'quick_fire',
+		statement: 'I killed a falcon while playing golf.',
 		guessingTeam: 'David Mitchell',
 		person: 'Len Goodman',
 		personGuesses: {
@@ -161,6 +177,7 @@ const rounds = [
 	},
 	{
 		type: 'quick_fire',
+		statement: 'I once helped TV\'s Doctor Raj Persaud fix his computer. It just needed a reboot.',
 		guessingTeam: 'David Mitchell',
 		person: 'Vic Reeves',
 		personGuesses: {

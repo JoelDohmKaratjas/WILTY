@@ -30,6 +30,7 @@ const cast = {
 const rounds = [
 	{
 		type: 'home_truths',
+		statement: '',
 		guessingTeam: 'David Mitchell',
 		person: 'Nick Hewer',
 		personGuesses: {
@@ -42,6 +43,7 @@ const rounds = [
 	},
 	{
 		type: 'home_truths',
+		statement: '',
 		guessingTeam: 'Lee Mack',
 		person: 'Jack Whitehall',
 		personGuesses: {
@@ -55,6 +57,12 @@ const rounds = [
 	{
 		type: 'this_is_my',
 		guessingTeam: 'David Mitchell',
+		guest: '',
+		connections: {
+			'Miranda Hart': '',
+			'Nick Hewer': '',
+			'Lee Mack': ''
+		},
 		personGuess: {
 			'David Mitchell': 'Lee Mack',
 			'Jack Whitehall': 'Nick Hewer',
@@ -65,6 +73,7 @@ const rounds = [
 	},
 	{
 		type: 'quick_fire',
+		statement: '',
 		guessingTeam: 'Lee Mack',
 		person: 'David Mitchell',
 		personGuesses: {
@@ -77,6 +86,7 @@ const rounds = [
 	},
 	{
 		type: 'host',
+		statement: '',
 		personGuesses: {
 			david: {
 				'David Mitchell': 'truth',

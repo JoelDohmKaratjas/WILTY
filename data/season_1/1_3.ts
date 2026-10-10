@@ -30,6 +30,7 @@ const cast = {
 const rounds = [
 	{
 		type: 'home_truths',
+		statement: 'I hosted the British Sausage Awards.',
 		guessingTeam: 'David Mitchell',
 		person: 'Ulrika Jonsson',
 		personGuesses: {
@@ -42,6 +43,7 @@ const rounds = [
 	},
 	{
 		type: 'home_truths',
+		statement: 'When I was 23, I had to talk my way out of a fight with a paper boy.',
 		guessingTeam: 'Lee Mack',
 		person: 'David Mitchell',
 		personGuesses: {
@@ -54,6 +56,7 @@ const rounds = [
 	},
 	{
 		type: 'home_truths',
+		statement: 'I starred in a Japanese commercial for snuff.',
 		guessingTeam: 'David Mitchell',
 		person: 'Jimmy Carr',
 		personGuesses: {
@@ -66,6 +69,7 @@ const rounds = [
 	},
 	{
 		type: 'ring_of_truth_dual',
+		statement: 'To coincide with the US version of The Weakest Link, Ben and Jerry released a limited edition Anne Robinson flavoured ice cream.',
 		personGuesses: {
 			david: {
 				'Dara Ó Briain': 'lie',
@@ -86,6 +90,7 @@ const rounds = [
 	},
 	{
 		type: 'telly_tales',
+		statement: 'Petra, the first Blue Peter dog, died the day after her first show so producers secretly replaced her with a look-alike.',
 		guessingTeam: 'David Mitchell',
 		statementOwner: 'Ulrika Jonsson',
 		personGuesses: {
@@ -98,6 +103,7 @@ const rounds = [
 	},
 	{
 		type: 'telly_tales',
+		statement: 'Simon Groom and Peter Duncan once had a fight in the Blue Peter garden after a row over a BBC parking space.',
 		guessingTeam: 'David Mitchell',
 		statementOwner: 'Jimmy Carr',
 		personGuesses: {
@@ -111,6 +117,12 @@ const rounds = [
 	{
 		type: 'this_is_my',
 		guessingTeam: 'Lee Mack',
+		guest: 'Alan',
+		connections: {
+			'Eamonn Holmes': 'A friend who is the announcer at the Manchester United stadium.',
+			'Dara Ó Briain': 'Best man at Alan\'s wedding and at the time Alan weighed 27 stone.',
+			'David Mitchell': 'Alan is his driving instructor for over 70 lessons, and David still hasn\'t passed.'
+		},
 		personGuess: {
 			'Jimmy Carr': 'David Mitchell',
 			'Lee Mack': 'David Mitchell',
@@ -121,6 +133,7 @@ const rounds = [
 	},
 	{
 		type: 'quick_fire',
+		statement: 'I once saw Carol Vorderman broken down at the side of the road but didn\'t stop to help her as I was running a bit late.',
 		guessingTeam: 'Lee Mack',
 		person: 'Eamonn Holmes',
 		personGuesses: {
@@ -133,6 +146,7 @@ const rounds = [
 	},
 	{
 		type: 'quick_fire',
+		statement: 'I lost my virginity at 26.',
 		guessingTeam: 'David Mitchell',
 		person: 'Jimmy Carr',
 		personGuesses: {
@@ -145,6 +159,7 @@ const rounds = [
 	},
 	{
 		type: 'quick_fire',
+		statement: 'I have received a text message from Bono.',
 		guessingTeam: 'Lee Mack',
 		person: 'Dara Ó Briain',
 		personGuesses: {
@@ -157,6 +172,7 @@ const rounds = [
 	},
 	{
 		type: 'quick_fire',
+		statement: 'I have seven cats called Monday, Tuesday, Wednesday, Thursday, Friday, Saturday and Pickle.',
 		guessingTeam: 'Lee Mack',
 		person: 'Eamonn Holmes',
 		personGuesses: {

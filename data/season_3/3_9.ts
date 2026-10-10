@@ -24,6 +24,7 @@ const rounds = [
 		episode: 1,
 		repeat: true,
 		type: 'home_truths',
+		statement: '',
 		guessingTeam: 'David Mitchell',
 		person: 'Carol Vorderman',
 		personGuesses: {
@@ -38,6 +39,7 @@ const rounds = [
 		episode: 2,
 		repeat: true,
 		type: 'home_truths',
+		statement: '',
 		guessingTeam: 'David Mitchell',
 		person: 'Reginald D. Hunter',
 		personGuesses: {
@@ -51,6 +53,7 @@ const rounds = [
 	{
 		episode: 3,
 		type: 'home_truths',
+		statement: '',
 		guessingTeam: 'David Mitchell',
 		person: 'Terry Christian',
 		personGuesses: {
@@ -64,6 +67,7 @@ const rounds = [
 	{
 		episode: 1,
 		type: 'ring_of_truth_single',
+		statement: '',
 		guessingTeam: 'David Mitchell',
 		personGuesses: {
 			'David Mitchell': 'lie',
@@ -77,6 +81,7 @@ const rounds = [
 		episode: 5,
 		repeat: true,
 		type: 'ring_of_truth_single',
+		statement: '',
 		guessingTeam: 'David Mitchell',
 		personGuesses: {
 			'David Mitchell': 'truth',
@@ -91,6 +96,12 @@ const rounds = [
 		repeat: true,
 		type: 'this_is_my',
 		guessingTeam: 'David Mitchell',
+		guest: '',
+		connections: {
+			'Omid Djalili': '',
+			'Jane Street-Porter': '',
+			'Lee Mack': ''
+		},
 		personGuess: {
 			'Dave Gorman': 'Jane Street-Porter',
 			'David Mitchell': 'Jane Street-Porter',
@@ -103,6 +114,7 @@ const rounds = [
 		episode: 2,
 		repeat: true,
 		type: 'quick_fire',
+		statement: '',
 		guessingTeam: 'Lee Mack',
 		person: 'David Mitchell',
 		personGuesses: {
@@ -117,6 +129,7 @@ const rounds = [
 		episode: 5,
 		repeat: true,
 		type: 'quick_fire',
+		statement: '',
 		guessingTeam: 'David Mitchell',
 		person: 'Lee Mack',
 		personGuesses: {
@@ -130,6 +143,7 @@ const rounds = [
 	{
 		episode: 1,
 		type: 'quick_fire',
+		statement: '',
 		guessingTeam: 'Lee Mack',
 		person: 'Jo Brand',
 		personGuesses: {
@@ -144,6 +158,7 @@ const rounds = [
 		episode: 4,
 		repeat: true,
 		type: 'quick_fire',
+		statement: '',
 		possession: true,
 		guessingTeam: 'Lee Mack',
 		person: 'Claudia Winkleman',
@@ -158,6 +173,7 @@ const rounds = [
 	{
 		episode: 2,
 		type: 'quick_fire',
+		statement: '',
 		guessingTeam: 'Lee Mack',
 		person: 'Fern Britton',
 		personGuesses: {

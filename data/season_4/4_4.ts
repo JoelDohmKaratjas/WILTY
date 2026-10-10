@@ -30,6 +30,7 @@ const cast = {
 const rounds = [
 	{
 		type: 'home_truths',
+		statement: '',
 		guessingTeam: 'David Mitchell',
 		person: 'Hugh Dennis',
 		personGuesses: {
@@ -42,6 +43,7 @@ const rounds = [
 	},
 	{
 		type: 'home_truths',
+		statement: '',
 		guessingTeam: 'Lee Mack',
 		person: 'Ben Fogle',
 		personGuesses: {
@@ -54,6 +56,7 @@ const rounds = [
 	},
 	{
 		type: 'home_truths',
+		statement: '',
 		guessingTeam: 'David Mitchell',
 		person: 'Kate Silverton',
 		personGuesses: {
@@ -66,6 +69,7 @@ const rounds = [
 	},
 	{
 		type: 'ring_of_truth_dual',
+		statement: '',
 		personGuesses: {
 			david: {
 				'Ben Fogle': 'lie',
@@ -87,6 +91,12 @@ const rounds = [
 	{
 		type: 'this_is_my',
 		guessingTeam: 'Lee Mack',
+		guest: '',
+		connections: {
+			'Ben Fogle': '',
+			'Craig Revel Horwood': '',
+			'David Mitchell': ''
+		},
 		personGuess: {
 			'Hugh Dennis': 'Ben Fogle',
 			'Kate Silverton': 'undecided',
@@ -97,6 +107,7 @@ const rounds = [
 	},
 	{
 		type: 'quick_fire',
+		statement: '',
 		guessingTeam: 'David Mitchell',
 		person: 'Lee Mack',
 		personGuesses: {
@@ -109,6 +120,7 @@ const rounds = [
 	},
 	{
 		type: 'quick_fire',
+		statement: '',
 		guessingTeam: 'Lee Mack',
 		person: 'David Mitchell',
 		personGuesses: {
@@ -121,6 +133,7 @@ const rounds = [
 	},
 	{
 		type: 'host',
+		statement: '',
 		personGuesses: {
 			david: {
 				'Ben Fogle': 'truth',

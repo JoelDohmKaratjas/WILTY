@@ -23,6 +23,7 @@ const rounds = [
 	{
 		episode: 1,
 		type: 'home_truths',
+		statement: '',
 		guessingTeam: 'Lee Mack',
 		person: 'Rob Brydon',
 		personGuesses: {
@@ -36,6 +37,7 @@ const rounds = [
 	{
 		episode: 1,
 		type: 'home_truths',
+		statement: '',
 		guessingTeam: 'David Mitchell',
 		person: 'Robert Webb',
 		personGuesses: {
@@ -50,6 +52,7 @@ const rounds = [
 		episode: 3,
 		repeat: true,
 		type: 'home_truths',
+		statement: '',
 		guessingTeam: 'David Mitchell',
 		person: 'Jimmy Carr',
 		personGuesses: {
@@ -63,6 +66,7 @@ const rounds = [
 	{
 		episode: 8,
 		type: 'home_truths',
+		statement: '',
 		guessingTeam: 'Lee Mack',
 		person: 'Michael McIntyre',
 		personGuesses: {
@@ -76,6 +80,7 @@ const rounds = [
 	{
 		episode: 1,
 		type: 'ring_of_truth_single',
+		statement: '',
 		guessingTeam: 'Lee Mack',
 		personGuesses: {
 			'Gabby Logan': 'lie',
@@ -88,6 +93,7 @@ const rounds = [
 	{
 		episode: 6,
 		type: 'ring_of_truth_single',
+		statement: '',
 		guessingTeam: 'David Mitchell',
 		personGuesses: {
 			'Anton Du Beke': 'unknown',
@@ -102,6 +108,12 @@ const rounds = [
 		repeat: true,
 		type: 'this_is_my',
 		guessingTeam: 'Lee Mack',
+		guest: '',
+		connections: {
+			'Trisha Goddard': '',
+			'Rich Hall': '',
+			'David Mitchell': ''
+		},
 		personGuess: {
 			'Ben Shephard': 'David Mitchell',
 			'Frankie Boyle': 'Rich Hall',
@@ -113,6 +125,7 @@ const rounds = [
 	{
 		episode: 6,
 		type: 'quick_fire',
+		statement: '',
 		guessingTeam: 'David Mitchell',
 		person: 'Russell Howard',
 		personGuesses: {
@@ -126,6 +139,7 @@ const rounds = [
 	{
 		episode: 4,
 		type: 'quick_fire',
+		statement: '',
 		possession: true,
 		guessingTeam: 'David Mitchell',
 		person: 'Davina McCall',
@@ -141,6 +155,7 @@ const rounds = [
 		episode: 2,
 		repeat: true,
 		type: 'quick_fire',
+		statement: '',
 		possession: true,
 		guessingTeam: 'David Mitchell',
 		person: 'Lee Mack',
@@ -155,6 +170,7 @@ const rounds = [
 	{
 		episode: 4,
 		type: 'quick_fire',
+		statement: '',
 		guessingTeam: 'Lee Mack',
 		person: 'Michael Aspel',
 		personGuesses: {
@@ -169,6 +185,7 @@ const rounds = [
 		episode: 8,
 		repeat: true,
 		type: 'home_truths',
+		statement: '',
 		guessingTeam: 'Lee Mack',
 		person: 'Michael McIntyre',
 		personGuesses: {

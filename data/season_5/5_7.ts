@@ -30,6 +30,7 @@ const cast = {
 const rounds = [
 	{
 		type: 'home_truths',
+		statement: '',
 		guessingTeam: 'David Mitchell',
 		person: 'Rhod Gilbert',
 		personGuesses: {
@@ -42,6 +43,7 @@ const rounds = [
 	},
 	{
 		type: 'home_truths',
+		statement: '',
 		possession: true,
 		guessingTeam: 'Lee Mack',
 		person: 'Mackenzie Crook',
@@ -56,6 +58,12 @@ const rounds = [
 	{
 		type: 'this_is_my',
 		guessingTeam: 'Lee Mack',
+		guest: '',
+		connections: {
+			'Mackenzie Crook': '',
+			'Chris Packham': '',
+			'David Mitchell': ''
+		},
 		personGuess: {
 			'Lee Mack': 'Mackenzie Crook',
 			'Rhod Gilbert': 'Mackenzie Crook',
@@ -66,6 +74,7 @@ const rounds = [
 	},
 	{
 		type: 'quick_fire',
+		statement: '',
 		guessingTeam: 'David Mitchell',
 		person: 'Lee Mack',
 		personGuesses: {
@@ -78,6 +87,7 @@ const rounds = [
 	},
 	{
 		type: 'quick_fire',
+		statement: '',
 		guessingTeam: 'David Mitchell',
 		person: 'Victoria Coren',
 		personGuesses: {
@@ -90,6 +100,7 @@ const rounds = [
 	},
 	{
 		type: 'quick_fire',
+		statement: '',
 		guessingTeam: 'David Mitchell',
 		person: 'Rhod Gilbert',
 		personGuesses: {

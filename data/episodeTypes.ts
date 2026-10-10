@@ -23,6 +23,7 @@ type CompilationGuess = Answer | 'unknown'
 
 type Standard<T extends EpisodeCast, R extends CompilationGuess = Answer> = {
 	type: 'home_truths' | 'quick_fire'
+	statement: string
 	possession?: true
 	teamGuess: R
 	truth: R
@@ -38,13 +39,16 @@ type Standard<T extends EpisodeCast, R extends CompilationGuess = Answer> = {
 
 type ThisIsMy<T extends EpisodeCast> = {
 	type: 'this_is_my'
+	guest: string
 } & ({
 	guessingTeam: David
+	connections: Record<LeeTeam<T>, string>
 	personGuess: Record<DavidTeam<T>, LeeTeam<T> | NonAnswer>
 	teamGuess: LeeTeam<T>
 	truth: LeeTeam<T>
 } | {
 	guessingTeam: Lee
+	connections: Record<DavidTeam<T>, string>
 	personGuess: Record<LeeTeam<T>, DavidTeam<T> | NonAnswer>
 	teamGuess: DavidTeam<T>
 	truth: DavidTeam<T>
@@ -52,6 +56,7 @@ type ThisIsMy<T extends EpisodeCast> = {
 
 type RingOfTruthSingle<T extends EpisodeCast, R extends CompilationGuess = Answer> = {
 	type: 'ring_of_truth_single'
+	statement: string
 	teamGuess: R
 	truth: R
 } & ({
@@ -64,6 +69,7 @@ type RingOfTruthSingle<T extends EpisodeCast, R extends CompilationGuess = Answe
 
 type DualQuestion<T extends EpisodeCast, R extends CompilationGuess = Answer> = {
 	type: 'ring_of_truth_dual' | 'host'
+	statement: string
 	possession?: true
 	personGuesses: {
 		david: Record<DavidTeam<T>, Guess>
@@ -78,6 +84,7 @@ type DualQuestion<T extends EpisodeCast, R extends CompilationGuess = Answer> = 
 
 type TellyTales<T extends EpisodeCast, R extends CompilationGuess = Answer> = {
 	type: 'telly_tales'
+	statement: string
 	teamGuess: R
 	truth: R
 } & ({

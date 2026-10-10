@@ -30,6 +30,7 @@ const cast = {
 const rounds = [
 	{
 		type: 'home_truths',
+		statement: '',
 		possession: true,
 		guessingTeam: 'David Mitchell',
 		person: 'Josh Widdicombe',
@@ -43,6 +44,7 @@ const rounds = [
 	},
 	{
 		type: 'home_truths',
+		statement: '',
 		guessingTeam: 'Lee Mack',
 		person: 'Mel Giedroyc',
 		personGuesses: {
@@ -56,6 +58,12 @@ const rounds = [
 	{
 		type: 'this_is_my',
 		guessingTeam: 'Lee Mack',
+		guest: '',
+		connections: {
+			'Mel Giedroyc': '',
+			'Dermot O\'Leary': '',
+			'David Mitchell': ''
+		},
 		personGuess: {
 			'Josh Widdicombe': 'Mel Giedroyc',
 			'Lee Mack': 'Mel Giedroyc',
@@ -66,6 +74,7 @@ const rounds = [
 	},
 	{
 		type: 'quick_fire',
+		statement: '',
 		guessingTeam: 'David Mitchell',
 		person: 'Lee Mack',
 		personGuesses: {

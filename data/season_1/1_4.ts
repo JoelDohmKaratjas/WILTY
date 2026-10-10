@@ -30,6 +30,7 @@ const cast = {
 const rounds = [
 	{
 		type: 'home_truths',
+		statement: 'I recently had an extension built by a builder called Bob.',
 		guessingTeam: 'David Mitchell',
 		person: 'Neil Morrissey',
 		personGuesses: {
@@ -42,6 +43,7 @@ const rounds = [
 	},
 	{
 		type: 'home_truths',
+		statement: 'I have beaten Gary Barlow at crazy golf.',
 		guessingTeam: 'Lee Mack',
 		person: 'Jason Manford',
 		personGuesses: {
@@ -54,6 +56,7 @@ const rounds = [
 	},
 	{
 		type: 'home_truths',
+		statement: 'I was Red Rum\'s stableboy.',
 		guessingTeam: 'David Mitchell',
 		person: 'Lee Mack',
 		personGuesses: {
@@ -66,6 +69,7 @@ const rounds = [
 	},
 	{
 		type: 'ring_of_truth_dual',
+		statement: 'Gwyneth Paltrow said she would rather die than let her child eat Cup-a-Soup.',
 		personGuesses: {
 			david: {
 				'David Mitchell': 'lie',
@@ -87,6 +91,12 @@ const rounds = [
 	{
 		type: 'this_is_my',
 		guessingTeam: 'Lee Mack',
+		guest: 'Jill',
+		connections: {
+			'Myleene Klass': 'A friend who has fitted Camilla Parker Bowles\' underwear.',
+			'Jason Manford': 'An air hostess who saved his life when he choked on a peanut.',
+			'David Mitchell': 'A hypnotherapist who cured him of his fear of balloons.'
+		},
 		personGuess: {
 			'Lee Mack': 'David Mitchell',
 			'Leslie Ash': 'David Mitchell',
@@ -97,6 +107,7 @@ const rounds = [
 	},
 	{
 		type: 'telly_tales',
+		statement: 'Mike Read often does a musical turn at the Tory party conference, and last year (2006) it was a ten minute political rap.',
 		guessingTeam: 'David Mitchell',
 		statementOwner: 'Lee Mack',
 		personGuesses: {
@@ -109,6 +120,7 @@ const rounds = [
 	},
 	{
 		type: 'quick_fire',
+		statement: 'I have been banned from Streatham ice rink.',
 		guessingTeam: 'David Mitchell',
 		person: 'Leslie Ash',
 		personGuesses: {
@@ -121,6 +133,7 @@ const rounds = [
 	},
 	{
 		type: 'quick_fire',
+		statement: 'I have formulated a five point plan for surviving if I were in prison.',
 		guessingTeam: 'Lee Mack',
 		person: 'David Mitchell',
 		personGuesses: {
@@ -133,6 +146,7 @@ const rounds = [
 	},
 	{
 		type: 'quick_fire',
+		statement: 'I have never eaten an apple, not even taken a bite.',
 		guessingTeam: 'David Mitchell',
 		person: 'Leslie Ash',
 		personGuesses: {

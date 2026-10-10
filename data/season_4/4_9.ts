@@ -23,6 +23,7 @@ const rounds = [
 	{
 		episode: 3,
 		type: 'home_truths',
+		statement: '',
 		guessingTeam: 'David Mitchell',
 		person: 'Prof. Brain Cox',
 		personGuesses: {
@@ -36,6 +37,7 @@ const rounds = [
 	{
 		episode: 1,
 		type: 'home_truths',
+		statement: '',
 		guessingTeam: 'David Mitchell',
 		person: 'Martin Clunes',
 		personGuesses: {
@@ -49,6 +51,7 @@ const rounds = [
 	{
 		episode: 5,
 		type: 'ring_of_truth_dual',
+		statement: '',
 		personGuesses: {
 			david: {
 				'David Mitchell': 'lie',
@@ -70,6 +73,7 @@ const rounds = [
 	{
 		episode: 8,
 		type: 'quick_fire',
+		statement: '',
 		guessingTeam: 'Lee Mack',
 		person: 'John Bishop',
 		personGuesses: {
@@ -83,6 +87,7 @@ const rounds = [
 	{
 		episode: 3,
 		type: 'host',
+		statement: '',
 		personGuesses: {
 			david: {
 				'David Mitchell': 'truth',
@@ -104,6 +109,7 @@ const rounds = [
 	{
 		episode: 2,
 		type: 'quick_fire',
+		statement: '',
 		possession: true,
 		guessingTeam: 'David Mitchell',
 		person: 'Jack Dee',
@@ -118,6 +124,7 @@ const rounds = [
 	{
 		episode: 7,
 		type: 'quick_fire',
+		statement: '',
 		guessingTeam: 'David Mitchell',
 		person: 'Lee Mack',
 		personGuesses: {
