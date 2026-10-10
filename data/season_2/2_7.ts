@@ -4,21 +4,25 @@ const cast = {
 	david: [
 		{
 			name: 'Vic Reeves',
-			wiki: 'https://en.wikipedia.org/wiki/Jim_Moir'
+			wiki: 'https://en.wikipedia.org/wiki/Jim_Moir',
+			gender: 'male'
 		},
 		{
 			name: 'Shane Richie',
-			wiki: 'https://en.wikipedia.org/wiki/Shane_Richie'
+			wiki: 'https://en.wikipedia.org/wiki/Shane_Richie',
+			gender: 'male'
 		}
 	],
 	lee: [
 		{
 			name: 'Tara Palmer-Tomkinson',
-			wiki: 'https://en.wikipedia.org/wiki/Tara_Palmer-Tomkinson'
+			wiki: 'https://en.wikipedia.org/wiki/Tara_Palmer-Tomkinson',
+			gender: 'female'
 		},
 		{
 			name: 'Rhys Thomas',
-			wiki: 'https://en.wikipedia.org/wiki/Rhys_Thomas_(comedian)'
+			wiki: 'https://en.wikipedia.org/wiki/Rhys_Thomas_(comedian)',
+			gender: 'male'
 		}
 	]
 } as const satisfies EpisodeCast

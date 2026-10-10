@@ -4,21 +4,25 @@ const cast = {
 	david: [
 		{
 			name: 'Joan Bakewell',
-			wiki: 'https://en.wikipedia.org/wiki/Joan_Bakewell'
+			wiki: 'https://en.wikipedia.org/wiki/Joan_Bakewell',
+			gender: 'female'
 		},
 		{
 			name: 'Jason Manford',
-			wiki: 'https://en.wikipedia.org/wiki/Jason_Manford'
+			wiki: 'https://en.wikipedia.org/wiki/Jason_Manford',
+			gender: 'male'
 		}
 	],
 	lee: [
 		{
 			name: 'Warwick Davis',
-			wiki: 'https://en.wikipedia.org/wiki/Warwick_Davis'
+			wiki: 'https://en.wikipedia.org/wiki/Warwick_Davis',
+			gender: 'male'
 		},
 		{
 			name: 'Paul Hollywood',
-			wiki: 'https://en.wikipedia.org/wiki/Paul_Hollywood'
+			wiki: 'https://en.wikipedia.org/wiki/Paul_Hollywood',
+			gender: 'male'
 		}
 	]
 } as const satisfies EpisodeCast

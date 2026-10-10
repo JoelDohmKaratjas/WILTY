@@ -4,21 +4,25 @@ const cast = {
 	david: [
 		{
 			name: 'Danny Baker',
-			wiki: 'https://en.wikipedia.org/wiki/Danny_Baker'
+			wiki: 'https://en.wikipedia.org/wiki/Danny_Baker',
+			gender: 'male'
 		},
 		{
 			name: 'Anton Du Beke',
-			wiki: 'https://en.wikipedia.org/wiki/Anton_Du_Beke'
+			wiki: 'https://en.wikipedia.org/wiki/Anton_Du_Beke',
+			gender: 'male'
 		}
 	],
 	lee: [
 		{
 			name: 'Michael Buerk',
-			wiki: 'https://en.wikipedia.org/wiki/Michael_Buerk'
+			wiki: 'https://en.wikipedia.org/wiki/Michael_Buerk',
+			gender: 'male'
 		},
 		{
 			name: 'Russell Howard',
-			wiki: 'https://en.wikipedia.org/wiki/Russell_Howard'
+			wiki: 'https://en.wikipedia.org/wiki/Russell_Howard',
+			gender: 'male'
 		}
 	]
 } as const satisfies EpisodeCast

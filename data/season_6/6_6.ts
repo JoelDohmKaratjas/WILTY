@@ -4,21 +4,25 @@ const cast = {
 	david: [
 		{
 			name: 'Greg Davies',
-			wiki: 'https://en.wikipedia.org/wiki/Greg_Davies'
+			wiki: 'https://en.wikipedia.org/wiki/Greg_Davies',
+			gender: 'male'
 		},
 		{
 			name: 'Richard Osman',
-			wiki: 'https://en.wikipedia.org/wiki/Richard_Osman'
+			wiki: 'https://en.wikipedia.org/wiki/Richard_Osman',
+			gender: 'male'
 		}
 	],
 	lee: [
 		{
 			name: 'Patsy Kensit',
-			wiki: 'https://en.wikipedia.org/wiki/Patsy_Kensit'
+			wiki: 'https://en.wikipedia.org/wiki/Patsy_Kensit',
+			gender: 'female'
 		},
 		{
 			name: 'Bob Mortimer',
-			wiki: 'https://en.wikipedia.org/wiki/Bob_Mortimer'
+			wiki: 'https://en.wikipedia.org/wiki/Bob_Mortimer',
+			gender: 'male'
 		}
 	]
 } as const satisfies EpisodeCast

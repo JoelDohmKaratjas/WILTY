@@ -4,21 +4,25 @@ const cast = {
 	david: [
 		{
 			name: 'Huw Edwards',
-			wiki: 'https://en.wikipedia.org/wiki/Huw_Edwards'
+			wiki: 'https://en.wikipedia.org/wiki/Huw_Edwards',
+			gender: 'male'
 		},
 		{
 			name: 'Sarah Millican',
-			wiki: 'https://en.wikipedia.org/wiki/Sarah_Millican'
+			wiki: 'https://en.wikipedia.org/wiki/Sarah_Millican',
+			gender: 'female'
 		}
 	],
 	lee: [
 		{
 			name: 'Josie Lawrence',
-			wiki: 'https://en.wikipedia.org/wiki/Josie_Lawrence'
+			wiki: 'https://en.wikipedia.org/wiki/Josie_Lawrence',
+			gender: 'female'
 		},
 		{
 			name: 'Bradley Walsh',
-			wiki: 'https://en.wikipedia.org/wiki/Bradley_Walsh'
+			wiki: 'https://en.wikipedia.org/wiki/Bradley_Walsh',
+			gender: 'male'
 		}
 	]
 } as const satisfies EpisodeCast

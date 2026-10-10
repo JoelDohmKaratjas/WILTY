@@ -4,21 +4,25 @@ const cast = {
 	david: [
 		{
 			name: 'Fern Britton',
-			wiki: 'https://en.wikipedia.org/wiki/Fern_Britton'
+			wiki: 'https://en.wikipedia.org/wiki/Fern_Britton',
+			gender: 'female'
 		},
 		{
 			name: 'Stephen Mangan',
-			wiki: 'https://en.wikipedia.org/wiki/Stephen_Mangan'
+			wiki: 'https://en.wikipedia.org/wiki/Stephen_Mangan',
+			gender: 'male'
 		}
 	],
 	lee: [
 		{
 			name: 'Reginald D. Hunter',
-			wiki: 'https://en.wikipedia.org/wiki/Reginald_D._Hunter'
+			wiki: 'https://en.wikipedia.org/wiki/Reginald_D._Hunter',
+			gender: 'male'
 		},
 		{
 			name: 'Ken Livingstone',
-			wiki: 'https://en.wikipedia.org/wiki/Ken_Livingstone'
+			wiki: 'https://en.wikipedia.org/wiki/Ken_Livingstone',
+			gender: 'male'
 		}
 	]
 } as const satisfies EpisodeCast

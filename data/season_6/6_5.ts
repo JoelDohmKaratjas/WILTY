@@ -4,21 +4,25 @@ const cast = {
 	david: [
 		{
 			name: 'Andy Hamilton',
-			wiki: 'https://en.wikipedia.org/wiki/Andy_Hamilton'
+			wiki: 'https://en.wikipedia.org/wiki/Andy_Hamilton',
+			gender: 'male'
 		},
 		{
 			name: 'Gabby Logan',
-			wiki: 'https://en.wikipedia.org/wiki/Gabby_Logan'
+			wiki: 'https://en.wikipedia.org/wiki/Gabby_Logan',
+			gender: 'female'
 		}
 	],
 	lee: [
 		{
 			name: 'Dr. Christian Jessen',
-			wiki: 'https://en.wikipedia.org/wiki/Christian_Jessen'
+			wiki: 'https://en.wikipedia.org/wiki/Christian_Jessen',
+			gender: 'male'
 		},
 		{
 			name: 'Diane Parish',
-			wiki: 'https://en.wikipedia.org/wiki/Diane_Parish'
+			wiki: 'https://en.wikipedia.org/wiki/Diane_Parish',
+			gender: 'female'
 		}
 	]
 } as const satisfies EpisodeCast

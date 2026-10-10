@@ -4,21 +4,25 @@ const cast = {
 	david: [
 		{
 			name: 'Ronni Ancona',
-			wiki: 'https://en.wikipedia.org/wiki/Ronni_Ancona'
+			wiki: 'https://en.wikipedia.org/wiki/Ronni_Ancona',
+			gender: 'female'
 		},
 		{
 			name: 'Sir Chris Hoy',
-			wiki: 'https://en.wikipedia.org/wiki/Chris_Hoy'
+			wiki: 'https://en.wikipedia.org/wiki/Chris_Hoy',
+			gender: 'male'
 		}
 	],
 	lee: [
 		{
 			name: 'Gabby Logan',
-			wiki: 'https://en.wikipedia.org/wiki/Gabby_Logan'
+			wiki: 'https://en.wikipedia.org/wiki/Gabby_Logan',
+			gender: 'female'
 		},
 		{
 			name: 'Danny Wallace',
-			wiki: 'https://en.wikipedia.org/wiki/Danny_Wallace_(humorist)'
+			wiki: 'https://en.wikipedia.org/wiki/Danny_Wallace_(humorist)',
+			gender: 'male'
 		}
 	]
 } as const satisfies EpisodeCast

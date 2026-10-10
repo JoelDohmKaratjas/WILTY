@@ -4,21 +4,25 @@ const cast = {
 	david: [
 		{
 			name: 'Ben Fogle',
-			wiki: 'https://en.wikipedia.org/wiki/Ben_Fogle'
+			wiki: 'https://en.wikipedia.org/wiki/Ben_Fogle',
+			gender: 'male'
 		},
 		{
 			name: 'Craig Revel Horwood',
-			wiki: 'https://en.wikipedia.org/wiki/Craig_Revel_Horwood'
+			wiki: 'https://en.wikipedia.org/wiki/Craig_Revel_Horwood',
+			gender: 'male'
 		}
 	],
 	lee: [
 		{
 			name: 'Hugh Dennis',
-			wiki: 'https://en.wikipedia.org/wiki/Hugh_Dennis'
+			wiki: 'https://en.wikipedia.org/wiki/Hugh_Dennis',
+			gender: 'male'
 		},
 		{
 			name: 'Kate Silverton',
-			wiki: 'https://en.wikipedia.org/wiki/Kate_Silverton'
+			wiki: 'https://en.wikipedia.org/wiki/Kate_Silverton',
+			gender: 'female'
 		}
 	]
 } as const satisfies EpisodeCast

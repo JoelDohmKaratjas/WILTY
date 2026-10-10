@@ -4,21 +4,25 @@ const cast = {
 	david: [
 		{
 			name: 'Ruth Jones',
-			wiki: 'https://en.wikipedia.org/wiki/Ruth_Jones'
+			wiki: 'https://en.wikipedia.org/wiki/Ruth_Jones',
+			gender: 'female'
 		},
 		{
 			name: 'Jason Manford',
-			wiki: 'https://en.wikipedia.org/wiki/Jason_Manford'
+			wiki: 'https://en.wikipedia.org/wiki/Jason_Manford',
+			gender: 'male'
 		}
 	],
 	lee: [
 		{
 			name: 'Jack Dee',
-			wiki: 'https://en.wikipedia.org/wiki/Jack_Dee'
+			wiki: 'https://en.wikipedia.org/wiki/Jack_Dee',
+			gender: 'male'
 		},
 		{
 			name: 'Peter Serafinowicz',
-			wiki: 'https://en.wikipedia.org/wiki/Peter_Serafinowicz'
+			wiki: 'https://en.wikipedia.org/wiki/Peter_Serafinowicz',
+			gender: 'male'
 		}
 	]
 } as const satisfies EpisodeCast

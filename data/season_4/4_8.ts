@@ -4,21 +4,25 @@ const cast = {
 	david: [
 		{
 			name: 'John Bishop',
-			wiki: 'https://en.wikipedia.org/wiki/John_Bishop'
+			wiki: 'https://en.wikipedia.org/wiki/John_Bishop',
+			gender: 'male'
 		},
 		{
 			name: 'Joanna Page',
-			wiki: 'https://en.wikipedia.org/wiki/Joanna_Page'
+			wiki: 'https://en.wikipedia.org/wiki/Joanna_Page',
+			gender: 'female'
 		}
 	],
 	lee: [
 		{
 			name: 'Chris Addison',
-			wiki: 'https://en.wikipedia.org/wiki/Chris_Addison'
+			wiki: 'https://en.wikipedia.org/wiki/Chris_Addison',
+			gender: 'male'
 		},
 		{
 			name: 'Patsy Palmer',
-			wiki: 'https://en.wikipedia.org/wiki/Patsy_Palmer'
+			wiki: 'https://en.wikipedia.org/wiki/Patsy_Palmer',
+			gender: 'female'
 		}
 	]
 } as const satisfies EpisodeCast

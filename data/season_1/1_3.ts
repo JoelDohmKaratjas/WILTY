@@ -4,21 +4,25 @@ const cast = {
 	david: [
 		{
 			name: 'Eamonn Holmes',
-			wiki: 'https://en.wikipedia.org/wiki/Eamonn_Holmes'
+			wiki: 'https://en.wikipedia.org/wiki/Eamonn_Holmes',
+			gender: 'male'
 		},
 		{
 			name: 'Dara Ó Briain',
-			wiki: 'https://en.wikipedia.org/wiki/Dara_%C3%93_Briain'
+			wiki: 'https://en.wikipedia.org/wiki/Dara_%C3%93_Briain',
+			gender: 'male'
 		}
 	],
 	lee: [
 		{
 			name: 'Jimmy Carr',
-			wiki: 'https://en.wikipedia.org/wiki/Jimmy_Carr'
+			wiki: 'https://en.wikipedia.org/wiki/Jimmy_Carr',
+			gender: 'male'
 		},
 		{
 			name: 'Ulrika Jonsson',
-			wiki: 'https://en.wikipedia.org/wiki/Ulrika_Jonsson'
+			wiki: 'https://en.wikipedia.org/wiki/Ulrika_Jonsson',
+			gender: 'female'
 		}
 	]
 } as const satisfies EpisodeCast

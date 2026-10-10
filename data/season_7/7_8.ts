@@ -4,21 +4,25 @@ const cast = {
 	david: [
 		{
 			name: 'Jimmy Carr',
-			wiki: 'https://en.wikipedia.org/wiki/Jimmy_Carr'
+			wiki: 'https://en.wikipedia.org/wiki/Jimmy_Carr',
+			gender: 'male'
 		},
 		{
 			name: 'Griff Rhys Jones',
-			wiki: 'https://en.wikipedia.org/wiki/Griff_Rhys_Jones'
+			wiki: 'https://en.wikipedia.org/wiki/Griff_Rhys_Jones',
+			gender: 'male'
 		}
 	],
 	lee: [
 		{
 			name: 'Dave Myers',
-			wiki: 'https://en.wikipedia.org/wiki/Dave_Myers_(presenter)'
+			wiki: 'https://en.wikipedia.org/wiki/Dave_Myers_(presenter)',
+			gender: 'male'
 		},
 		{
 			name: 'Susanna Reid',
-			wiki: 'https://en.wikipedia.org/wiki/Susanna_Reid'
+			wiki: 'https://en.wikipedia.org/wiki/Susanna_Reid',
+			gender: 'female'
 		}
 	]
 } as const satisfies EpisodeCast

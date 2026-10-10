@@ -4,21 +4,25 @@ const cast = {
 	david: [
 		{
 			name: 'Stephen Mangan',
-			wiki: 'https://en.wikipedia.org/wiki/Stephen_Mangan'
+			wiki: 'https://en.wikipedia.org/wiki/Stephen_Mangan',
+			gender: 'male'
 		},
 		{
 			name: 'Isy Suttie',
-			wiki: 'https://en.wikipedia.org/wiki/Isy_Suttie'
+			wiki: 'https://en.wikipedia.org/wiki/Isy_Suttie',
+			gender: 'female'
 		}
 	],
 	lee: [
 		{
 			name: 'Charles Dance',
-			wiki: 'https://en.wikipedia.org/wiki/Charles_Dance'
+			wiki: 'https://en.wikipedia.org/wiki/Charles_Dance',
+			gender: 'male'
 		},
 		{
 			name: 'Gok Wan',
-			wiki: 'https://en.wikipedia.org/wiki/Gok_Wan'
+			wiki: 'https://en.wikipedia.org/wiki/Gok_Wan',
+			gender: 'male'
 		}
 	]
 } as const satisfies EpisodeCast

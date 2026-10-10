@@ -4,21 +4,25 @@ const cast = {
 	david: [
 		{
 			name: 'Sarah Millican',
-			wiki: 'https://en.wikipedia.org/wiki/Sarah_Millican'
+			wiki: 'https://en.wikipedia.org/wiki/Sarah_Millican',
+			gender: 'female'
 		},
 		{
 			name: 'Jon Richardson',
-			wiki: 'https://en.wikipedia.org/wiki/Jon_Richardson'
+			wiki: 'https://en.wikipedia.org/wiki/Jon_Richardson',
+			gender: 'male'
 		}
 	],
 	lee: [
 		{
 			name: 'David Harewood',
-			wiki: 'https://en.wikipedia.org/wiki/David_Harewood'
+			wiki: 'https://en.wikipedia.org/wiki/David_Harewood',
+			gender: 'male'
 		},
 		{
 			name: 'Bob Mortimer',
-			wiki: 'https://en.wikipedia.org/wiki/Bob_Mortimer'
+			wiki: 'https://en.wikipedia.org/wiki/Bob_Mortimer',
+			gender: 'male'
 		}
 	]
 } as const satisfies EpisodeCast

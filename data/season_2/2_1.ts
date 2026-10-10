@@ -4,21 +4,25 @@ const cast = {
 	david: [
 		{
 			name: 'Rob Brydon',
-			wiki: 'https://en.wikipedia.org/wiki/Rob_Brydon'
+			wiki: 'https://en.wikipedia.org/wiki/Rob_Brydon',
+			gender: 'male'
 		},
 		{
 			name: 'Krishnan Guru-Murthy',
-			wiki: 'https://en.wikipedia.org/wiki/Krishnan_Guru-Murthy'
+			wiki: 'https://en.wikipedia.org/wiki/Krishnan_Guru-Murthy',
+			gender: 'male'
 		}
 	],
 	lee: [
 		{
 			name: 'Gabby Logan',
-			wiki: 'https://en.wikipedia.org/wiki/Gabby_Logan'
+			wiki: 'https://en.wikipedia.org/wiki/Gabby_Logan',
+			gender: 'female'
 		},
 		{
 			name: 'Robert Webb',
-			wiki: 'https://en.wikipedia.org/wiki/Robert_Webb'
+			wiki: 'https://en.wikipedia.org/wiki/Robert_Webb',
+			gender: 'male'
 		}
 	]
 } as const satisfies EpisodeCast

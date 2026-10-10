@@ -4,21 +4,25 @@ const cast = {
 	david: [
 		{
 			name: 'Russell Howard',
-			wiki: 'https://en.wikipedia.org/wiki/Russell_Howard'
+			wiki: 'https://en.wikipedia.org/wiki/Russell_Howard',
+			gender: 'male'
 		},
 		{
 			name: 'Wendy Richard',
-			wiki: 'https://en.wikipedia.org/wiki/Wendy_Richard'
+			wiki: 'https://en.wikipedia.org/wiki/Wendy_Richard',
+			gender: 'female'
 		}
 	],
 	lee: [
 		{
 			name: 'Len Goodman',
-			wiki: 'https://en.wikipedia.org/wiki/Len_Goodman'
+			wiki: 'https://en.wikipedia.org/wiki/Len_Goodman',
+			gender: 'male'
 		},
 		{
 			name: 'Vic Reeves',
-			wiki: 'https://en.wikipedia.org/wiki/Jim_Moir'
+			wiki: 'https://en.wikipedia.org/wiki/Jim_Moir',
+			gender: 'male'
 		}
 	]
 } as const satisfies EpisodeCast

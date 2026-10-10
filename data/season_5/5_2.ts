@@ -4,21 +4,25 @@ const cast = {
 	david: [
 		{
 			name: 'Robert Webb',
-			wiki: 'https://en.wikipedia.org/wiki/Robert_Webb'
+			wiki: 'https://en.wikipedia.org/wiki/Robert_Webb',
+			gender: 'male'
 		},
 		{
 			name: 'Sir Terry Wogan',
-			wiki: 'https://en.wikipedia.org/wiki/Terry_Wogan'
+			wiki: 'https://en.wikipedia.org/wiki/Terry_Wogan',
+			gender: 'male'
 		}
 	],
 	lee: [
 		{
 			name: 'Kevin Bridges',
-			wiki: 'https://en.wikipedia.org/wiki/Kevin_Bridges'
+			wiki: 'https://en.wikipedia.org/wiki/Kevin_Bridges',
+			gender: 'male'
 		},
 		{
 			name: 'Katy Wix',
-			wiki: 'https://en.wikipedia.org/wiki/Katy_Wix'
+			wiki: 'https://en.wikipedia.org/wiki/Katy_Wix',
+			gender: 'female'
 		}
 	]
 } as const satisfies EpisodeCast

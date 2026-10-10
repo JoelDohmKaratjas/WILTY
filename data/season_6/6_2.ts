@@ -4,21 +4,25 @@ const cast = {
 	david: [
 		{
 			name: 'Sanjeev Bhaskar',
-			wiki: 'https://en.wikipedia.org/wiki/Sanjeev_Bhaskar'
+			wiki: 'https://en.wikipedia.org/wiki/Sanjeev_Bhaskar',
+			gender: 'male'
 		},
 		{
 			name: 'Richard Madeley',
-			wiki: 'https://en.wikipedia.org/wiki/Richard_Madeley'
+			wiki: 'https://en.wikipedia.org/wiki/Richard_Madeley',
+			gender: 'male'
 		}
 	],
 	lee: [
 		{
 			name: 'Kate Humble',
-			wiki: 'https://en.wikipedia.org/wiki/Kate_Humble'
+			wiki: 'https://en.wikipedia.org/wiki/Kate_Humble',
+			gender: 'female'
 		},
 		{
 			name: 'Miles Jupp',
-			wiki: 'https://en.wikipedia.org/wiki/Miles_Jupp'
+			wiki: 'https://en.wikipedia.org/wiki/Miles_Jupp',
+			gender: 'male'
 		}
 	]
 } as const satisfies EpisodeCast

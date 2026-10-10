@@ -4,21 +4,25 @@ const cast = {
 	david: [
 		{
 			name: 'Ronnie Corbett',
-			wiki: 'https://en.wikipedia.org/wiki/Ronnie_Corbett'
+			wiki: 'https://en.wikipedia.org/wiki/Ronnie_Corbett',
+			gender: 'male'
 		},
 		{
 			name: 'Sarah Millican',
-			wiki: 'https://en.wikipedia.org/wiki/Sarah_Millican'
+			wiki: 'https://en.wikipedia.org/wiki/Sarah_Millican',
+			gender: 'female'
 		}
 	],
 	lee: [
 		{
 			name: 'Julian Clary',
-			wiki: 'https://en.wikipedia.org/wiki/Julian_Clary'
+			wiki: 'https://en.wikipedia.org/wiki/Julian_Clary',
+			gender: 'male'
 		},
 		{
 			name: 'Holly Walsh',
-			wiki: 'https://en.wikipedia.org/wiki/Holly_Walsh'
+			wiki: 'https://en.wikipedia.org/wiki/Holly_Walsh',
+			gender: 'female'
 		}
 	]
 } as const satisfies EpisodeCast

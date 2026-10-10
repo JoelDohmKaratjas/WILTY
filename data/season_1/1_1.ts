@@ -4,21 +4,25 @@ const cast = {
 	david: [
 		{
 			name: 'Duncan Bannatyne',
-			wiki: 'https://en.wikipedia.org/wiki/Duncan_Bannatyne'
+			wiki: 'https://en.wikipedia.org/wiki/Duncan_Bannatyne',
+			gender: 'male'
 		},
 		{
 			name: 'Frankie Boyle',
-			wiki: 'https://en.wikipedia.org/wiki/Frankie_Boyle'
+			wiki: 'https://en.wikipedia.org/wiki/Frankie_Boyle',
+			gender: 'male'
 		}
 	],
 	lee: [
 		{
 			name: 'Natalie Cassidy',
-			wiki: 'https://en.wikipedia.org/wiki/Natalie_Cassidy'
+			wiki: 'https://en.wikipedia.org/wiki/Natalie_Cassidy',
+			gender: 'female'
 		},
 		{
 			name: 'Dom Joly',
-			wiki: 'https://en.wikipedia.org/wiki/Dom_Joly'
+			wiki: 'https://en.wikipedia.org/wiki/Dom_Joly',
+			gender: 'male'
 		}
 	]
 } as const satisfies EpisodeCast

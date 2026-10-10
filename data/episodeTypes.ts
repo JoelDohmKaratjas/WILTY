@@ -1,6 +1,7 @@
 type Guest = {
 	name: string
 	wiki: string
+	gender: 'male' | 'female' | 'non-binary'
 }
 
 export type EpisodeCast = {

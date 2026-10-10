@@ -4,21 +4,25 @@ const cast = {
 	david: [
 		{
 			name: 'Susan Calman',
-			wiki: 'https://en.wikipedia.org/wiki/Susan_Calman'
+			wiki: 'https://en.wikipedia.org/wiki/Susan_Calman',
+			gender: 'female'
 		},
 		{
 			name: 'Richard Osman',
-			wiki: 'https://en.wikipedia.org/wiki/Richard_Osman'
+			wiki: 'https://en.wikipedia.org/wiki/Richard_Osman',
+			gender: 'male'
 		}
 	],
 	lee: [
 		{
 			name: 'Carol Kirkwood',
-			wiki: 'https://en.wikipedia.org/wiki/Carol_Kirkwood'
+			wiki: 'https://en.wikipedia.org/wiki/Carol_Kirkwood',
+			gender: 'female'
 		},
 		{
 			name: 'David O\'Doherty',
-			wiki: 'https://en.wikipedia.org/wiki/David_O\'Doherty'
+			wiki: 'https://en.wikipedia.org/wiki/David_O\'Doherty',
+			gender: 'male'
 		}
 	]
 } as const satisfies EpisodeCast

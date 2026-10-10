@@ -4,21 +4,25 @@ const cast = {
 	david: [
 		{
 			name: 'Patrick McGuinness',
-			wiki: 'https://en.wikipedia.org/wiki/Paddy_McGuinness'
+			wiki: 'https://en.wikipedia.org/wiki/Paddy_McGuinness',
+			gender: 'male'
 		},
 		{
 			name: 'Fay Ripley',
-			wiki: 'https://en.wikipedia.org/wiki/Fay_Ripley'
+			wiki: 'https://en.wikipedia.org/wiki/Fay_Ripley',
+			gender: 'female'
 		}
 	],
 	lee: [
 		{
 			name: 'John Barrowman',
-			wiki: 'https://en.wikipedia.org/wiki/John_Barrowman'
+			wiki: 'https://en.wikipedia.org/wiki/John_Barrowman',
+			gender: 'male'
 		},
 		{
 			name: 'Dominic Wood',
-			wiki: 'https://en.wikipedia.org/wiki/Dominic_Wood'
+			wiki: 'https://en.wikipedia.org/wiki/Dominic_Wood',
+			gender: 'male'
 		}
 	]
 } as const satisfies EpisodeCast

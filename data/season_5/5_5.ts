@@ -4,21 +4,25 @@ const cast = {
 	david: [
 		{
 			name: 'Greg Davies',
-			wiki: 'https://en.wikipedia.org/wiki/Greg_Davies'
+			wiki: 'https://en.wikipedia.org/wiki/Greg_Davies',
+			gender: 'male'
 		},
 		{
 			name: 'Konnie Huq',
-			wiki: 'https://en.wikipedia.org/wiki/Konnie_Huq'
+			wiki: 'https://en.wikipedia.org/wiki/Konnie_Huq',
+			gender: 'female'
 		}
 	],
 	lee: [
 		{
 			name: 'Marcus Brigstocke',
-			wiki: 'https://en.wikipedia.org/wiki/Marcus_Brigstocke'
+			wiki: 'https://en.wikipedia.org/wiki/Marcus_Brigstocke',
+			gender: 'male'
 		},
 		{
 			name: 'Phil Tufnell',
-			wiki: 'https://en.wikipedia.org/wiki/Phil_Tufnell'
+			wiki: 'https://en.wikipedia.org/wiki/Phil_Tufnell',
+			gender: 'male'
 		}
 	]
 } as const satisfies EpisodeCast

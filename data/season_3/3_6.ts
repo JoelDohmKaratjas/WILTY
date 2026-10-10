@@ -4,21 +4,25 @@ const cast = {
 	david: [
 		{
 			name: 'Dave Gorman',
-			wiki: 'https://en.wikipedia.org/wiki/Dave_Gorman'
+			wiki: 'https://en.wikipedia.org/wiki/Dave_Gorman',
+			gender: 'male'
 		},
 		{
 			name: 'Davina McCall',
-			wiki: 'https://en.wikipedia.org/wiki/Davina_McCall'
+			wiki: 'https://en.wikipedia.org/wiki/Davina_McCall',
+			gender: 'female'
 		}
 	],
 	lee: [
 		{
 			name: 'Omid Djalili',
-			wiki: 'https://en.wikipedia.org/wiki/Omid_Djalili'
+			wiki: 'https://en.wikipedia.org/wiki/Omid_Djalili',
+			gender: 'male'
 		},
 		{
 			name: 'Jane Street-Porter',
-			wiki: 'https://en.wikipedia.org/wiki/Janet_Street-Porter'
+			wiki: 'https://en.wikipedia.org/wiki/Janet_Street-Porter',
+			gender: 'female'
 		}
 	]
 } as const satisfies EpisodeCast

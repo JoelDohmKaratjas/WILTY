@@ -4,21 +4,25 @@ const cast = {
 	david: [
 		{
 			name: 'Nigel Havers',
-			wiki: 'https://en.wikipedia.org/wiki/Nigel_Havers'
+			wiki: 'https://en.wikipedia.org/wiki/Nigel_Havers',
+			gender: 'male'
 		},
 		{
 			name: 'Gregg Wallace',
-			wiki: 'https://en.wikipedia.org/wiki/Gregg_Wallace'
+			wiki: 'https://en.wikipedia.org/wiki/Gregg_Wallace',
+			gender: 'male'
 		}
 	],
 	lee: [
 		{
 			name: 'Charlie Brooker',
-			wiki: 'https://en.wikipedia.org/wiki/Charlie_Brooker'
+			wiki: 'https://en.wikipedia.org/wiki/Charlie_Brooker',
+			gender: 'male'
 		},
 		{
 			name: 'Nina Wadia',
-			wiki: 'https://en.wikipedia.org/wiki/Nina_Wadia'
+			wiki: 'https://en.wikipedia.org/wiki/Nina_Wadia',
+			gender: 'female'
 		}
 	]
 } as const satisfies EpisodeCast

@@ -4,21 +4,25 @@ const cast = {
 	david: [
 		{
 			name: 'Jo Brand',
-			wiki: 'https://en.wikipedia.org/wiki/Jo_Brand'
+			wiki: 'https://en.wikipedia.org/wiki/Jo_Brand',
+			gender: 'female'
 		},
 		{
 			name: 'Larry Lamb',
-			wiki: 'https://en.wikipedia.org/wiki/Larry_Lamb'
+			wiki: 'https://en.wikipedia.org/wiki/Larry_Lamb',
+			gender: 'male'
 		}
 	],
 	lee: [
 		{
 			name: 'Russell Howard',
-			wiki: 'https://en.wikipedia.org/wiki/Russell_Howard'
+			wiki: 'https://en.wikipedia.org/wiki/Russell_Howard',
+			gender: 'male'
 		},
 		{
 			name: 'Carol Vorderman',
-			wiki: 'https://en.wikipedia.org/wiki/Carol_Vorderman'
+			wiki: 'https://en.wikipedia.org/wiki/Carol_Vorderman',
+			gender: 'female'
 		}
 	]
 } as const satisfies EpisodeCast

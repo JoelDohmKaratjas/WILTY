@@ -4,21 +4,25 @@ const cast = {
 	david: [
 		{
 			name: 'Rhod Gilbert',
-			wiki: 'https://en.wikipedia.org/wiki/Rhod_Gilbert'
+			wiki: 'https://en.wikipedia.org/wiki/Rhod_Gilbert',
+			gender: 'male'
 		},
 		{
 			name: 'Sally Philips',
-			wiki: 'https://en.wikipedia.org/wiki/Sally_Phillips'
+			wiki: 'https://en.wikipedia.org/wiki/Sally_Phillips',
+			gender: 'female'
 		}
 	],
 	lee: [
 		{
 			name: 'Tess Daly',
-			wiki: 'https://en.wikipedia.org/wiki/Tess_Daly'
+			wiki: 'https://en.wikipedia.org/wiki/Tess_Daly',
+			gender: 'female'
 		},
 		{
 			name: 'Des O\'Connor',
-			wiki: 'https://en.wikipedia.org/wiki/Des_O\'Connor'
+			wiki: 'https://en.wikipedia.org/wiki/Des_O\'Connor',
+			gender: 'male'
 		}
 	]
 } as const satisfies EpisodeCast

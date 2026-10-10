@@ -4,21 +4,25 @@ const cast = {
 	david: [
 		{
 			name: 'Marcus Brigsocke',
-			wiki: 'https://en.wikipedia.org/wiki/Marcus_Brigstocke'
+			wiki: 'https://en.wikipedia.org/wiki/Marcus_Brigstocke',
+			gender: 'male'
 		},
 		{
 			name: 'Jamellia',
-			wiki: 'https://en.wikipedia.org/wiki/Jamelia'
+			wiki: 'https://en.wikipedia.org/wiki/Jamelia',
+			gender: 'female'
 		}
 	],
 	lee: [
 		{
 			name: 'Jimmy Carr',
-			wiki: 'https://en.wikipedia.org/wiki/Jimmy_Carr'
+			wiki: 'https://en.wikipedia.org/wiki/Jimmy_Carr',
+			gender: 'male'
 		},
 		{
 			name: 'Terry Christian',
-			wiki: 'https://en.wikipedia.org/wiki/Terry_Christian'
+			wiki: 'https://en.wikipedia.org/wiki/Terry_Christian',
+			gender: 'male'
 		}
 	]
 } as const satisfies EpisodeCast

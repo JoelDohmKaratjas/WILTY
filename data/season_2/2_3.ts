@@ -4,21 +4,25 @@ const cast = {
 	david: [
 		{
 			name: 'David Baddiel',
-			wiki: 'https://en.wikipedia.org/wiki/David_Baddiel'
+			wiki: 'https://en.wikipedia.org/wiki/David_Baddiel',
+			gender: 'male'
 		},
 		{
 			name: 'Maureen Lipman',
-			wiki: 'https://en.wikipedia.org/wiki/Maureen_Lipman'
+			wiki: 'https://en.wikipedia.org/wiki/Maureen_Lipman',
+			gender: 'female'
 		}
 	],
 	lee: [
 		{
 			name: 'Jimmy Carr',
-			wiki: 'https://en.wikipedia.org/wiki/Jimmy_Carr'
+			wiki: 'https://en.wikipedia.org/wiki/Jimmy_Carr',
+			gender: 'male'
 		},
 		{
 			name: 'Richard Wilson',
-			wiki: 'https://en.wikipedia.org/wiki/Richard_Wilson_(Scottish_actor)'
+			wiki: 'https://en.wikipedia.org/wiki/Richard_Wilson_(Scottish_actor)',
+			gender: 'male'
 		}
 	]
 } as const satisfies EpisodeCast

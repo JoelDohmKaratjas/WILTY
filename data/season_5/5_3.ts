@@ -4,21 +4,25 @@ const cast = {
 	david: [
 		{
 			name: 'David O\'Doherty',
-			wiki: 'https://en.wikipedia.org/wiki/David_O\'Doherty'
+			wiki: 'https://en.wikipedia.org/wiki/David_O\'Doherty',
+			gender: 'male'
 		},
 		{
 			name: 'Katherine Parkinson',
-			wiki: 'https://en.wikipedia.org/wiki/Katherine_Parkinson'
+			wiki: 'https://en.wikipedia.org/wiki/Katherine_Parkinson',
+			gender: 'female'
 		}
 	],
 	lee: [
 		{
 			name: 'Louie Spence',
-			wiki: 'https://en.wikipedia.org/wiki/Louie_Spence'
+			wiki: 'https://en.wikipedia.org/wiki/Louie_Spence',
+			gender: 'male'
 		},
 		{
 			name: 'Bill Turnbull',
-			wiki: 'https://en.wikipedia.org/wiki/Bill_Turnbull'
+			wiki: 'https://en.wikipedia.org/wiki/Bill_Turnbull',
+			gender: 'male'
 		}
 	]
 } as const satisfies EpisodeCast

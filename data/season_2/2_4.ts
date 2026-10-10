@@ -4,21 +4,25 @@ const cast = {
 	david: [
 		{
 			name: 'Michael Aspel',
-			wiki: 'https://en.wikipedia.org/wiki/Michael_Aspel'
+			wiki: 'https://en.wikipedia.org/wiki/Michael_Aspel',
+			gender: 'male'
 		},
 		{
 			name: 'Dara Ó Briain',
-			wiki: 'https://en.wikipedia.org/wiki/Dara_%C3%93_Briain'
+			wiki: 'https://en.wikipedia.org/wiki/Dara_%C3%93_Briain',
+			gender: 'male'
 		}
 	],
 	lee: [
 		{
 			name: 'Jason Manford',
-			wiki: 'https://en.wikipedia.org/wiki/Jason_Manford'
+			wiki: 'https://en.wikipedia.org/wiki/Jason_Manford',
+			gender: 'male'
 		},
 		{
 			name: 'Davina McCall',
-			wiki: 'https://en.wikipedia.org/wiki/Davina_McCall'
+			wiki: 'https://en.wikipedia.org/wiki/Davina_McCall',
+			gender: 'female'
 		}
 	]
 } as const satisfies EpisodeCast

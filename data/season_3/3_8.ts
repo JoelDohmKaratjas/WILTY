@@ -4,21 +4,25 @@ const cast = {
 	david: [
 		{
 			name: 'Reece Shearsmith',
-			wiki: 'https://en.wikipedia.org/wiki/Reece_Shearsmith'
+			wiki: 'https://en.wikipedia.org/wiki/Reece_Shearsmith',
+			gender: 'male'
 		},
 		{
 			name: 'Trinny Woodall',
-			wiki: 'https://en.wikipedia.org/wiki/Trinny_Woodall'
+			wiki: 'https://en.wikipedia.org/wiki/Trinny_Woodall',
+			gender: 'female'
 		}
 	],
 	lee: [
 		{
 			name: 'Michael Ball',
-			wiki: 'https://en.wikipedia.org/wiki/Michael_Ball'
+			wiki: 'https://en.wikipedia.org/wiki/Michael_Ball',
+			gender: 'male'
 		},
 		{
 			name: 'Charlie Brooker',
-			wiki: 'https://en.wikipedia.org/wiki/Charlie_Brooker'
+			wiki: 'https://en.wikipedia.org/wiki/Charlie_Brooker',
+			gender: 'male'
 		}
 	]
 } as const satisfies EpisodeCast

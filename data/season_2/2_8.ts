@@ -4,21 +4,25 @@ const cast = {
 	david: [
 		{
 			name: 'Phil Daniels',
-			wiki: 'https://en.wikipedia.org/wiki/Phil_Daniels'
+			wiki: 'https://en.wikipedia.org/wiki/Phil_Daniels',
+			gender: 'male'
 		},
 		{
 			name: 'Michael McIntyre',
-			wiki: 'https://en.wikipedia.org/wiki/Michael_McIntyre'
+			wiki: 'https://en.wikipedia.org/wiki/Michael_McIntyre',
+			gender: 'male'
 		}
 	],
 	lee: [
 		{
 			name: 'Graeme Garden',
-			wiki: 'https://en.wikipedia.org/wiki/Graeme_Garden'
+			wiki: 'https://en.wikipedia.org/wiki/Graeme_Garden',
+			gender: 'male'
 		},
 		{
 			name: 'Lauren Laverne',
-			wiki: 'https://en.wikipedia.org/wiki/Lauren_Laverne'
+			wiki: 'https://en.wikipedia.org/wiki/Lauren_Laverne',
+			gender: 'female'
 		}
 	]
 } as const satisfies EpisodeCast

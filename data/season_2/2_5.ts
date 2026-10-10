@@ -4,21 +4,25 @@ const cast = {
 	david: [
 		{
 			name: 'Olivia Colman',
-			wiki: 'https://en.wikipedia.org/wiki/Olivia_Colman'
+			wiki: 'https://en.wikipedia.org/wiki/Olivia_Colman',
+			gender: 'female'
 		},
 		{
 			name: 'Peter Serafinowicz',
-			wiki: 'https://en.wikipedia.org/wiki/Peter_Serafinowicz'
+			wiki: 'https://en.wikipedia.org/wiki/Peter_Serafinowicz',
+			gender: 'male'
 		}
 	],
 	lee: [
 		{
 			name: 'Hugh Dennis',
-			wiki: 'https://en.wikipedia.org/wiki/Hugh_Dennis'
+			wiki: 'https://en.wikipedia.org/wiki/Hugh_Dennis',
+			gender: 'male'
 		},
 		{
 			name: 'Eamonn Holmes',
-			wiki: 'https://en.wikipedia.org/wiki/Eamonn_Holmes'
+			wiki: 'https://en.wikipedia.org/wiki/Eamonn_Holmes',
+			gender: 'male'
 		}
 	]
 } as const satisfies EpisodeCast

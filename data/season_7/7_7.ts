@@ -4,21 +4,25 @@ const cast = {
 	david: [
 		{
 			name: 'Greg Rutherford',
-			wiki: 'https://en.wikipedia.org/wiki/Greg_Rutherford'
+			wiki: 'https://en.wikipedia.org/wiki/Greg_Rutherford',
+			gender: 'male'
 		},
 		{
 			name: 'Kirsty Young',
-			wiki: 'https://en.wikipedia.org/wiki/Kirsty_Young'
+			wiki: 'https://en.wikipedia.org/wiki/Kirsty_Young',
+			gender: 'female'
 		}
 	],
 	lee: [
 		{
 			name: 'Joanna Scanlan',
-			wiki: 'https://en.wikipedia.org/wiki/Joanna_Scanlan'
+			wiki: 'https://en.wikipedia.org/wiki/Joanna_Scanlan',
+			gender: 'female'
 		},
 		{
 			name: 'Henning Wehn',
-			wiki: 'https://en.wikipedia.org/wiki/Henning_Wehn'
+			wiki: 'https://en.wikipedia.org/wiki/Henning_Wehn',
+			gender: 'male'
 		}
 	]
 } as const satisfies EpisodeCast

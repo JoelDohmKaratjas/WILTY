@@ -4,21 +4,25 @@ const cast = {
 	david: [
 		{
 			name: 'Fern Britton',
-			wiki: 'https://en.wikipedia.org/wiki/Fern_Britton'
+			wiki: 'https://en.wikipedia.org/wiki/Fern_Britton',
+			gender: 'female'
 		},
 		{
 			name: 'Richard E. Grant',
-			wiki: 'https://en.wikipedia.org/wiki/Richard_E._Grant'
+			wiki: 'https://en.wikipedia.org/wiki/Richard_E._Grant',
+			gender: 'male'
 		}
 	],
 	lee: [
 		{
 			name: 'Sanjeev Bhaskar',
-			wiki: 'https://en.wikipedia.org/wiki/Sanjeev_Bhaskar'
+			wiki: 'https://en.wikipedia.org/wiki/Sanjeev_Bhaskar',
+			gender: 'male'
 		},
 		{
 			name: 'Martin Clunes',
-			wiki: 'https://en.wikipedia.org/wiki/Martin_Clunes'
+			wiki: 'https://en.wikipedia.org/wiki/Martin_Clunes',
+			gender: 'male'
 		}
 	]
 } as const satisfies EpisodeCast

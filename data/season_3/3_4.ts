@@ -4,21 +4,25 @@ const cast = {
 	david: [
 		{
 			name: 'Jason Manford',
-			wiki: 'https://en.wikipedia.org/wiki/Jason_Manford'
+			wiki: 'https://en.wikipedia.org/wiki/Jason_Manford',
+			gender: 'male'
 		},
 		{
 			name: 'Claudia Winkleman',
-			wiki: 'https://en.wikipedia.org/wiki/Claudia_Winkleman'
+			wiki: 'https://en.wikipedia.org/wiki/Claudia_Winkleman',
+			gender: 'female'
 		}
 	],
 	lee: [
 		{
 			name: 'Clive Anderson',
-			wiki: 'https://en.wikipedia.org/wiki/Clive_Anderson'
+			wiki: 'https://en.wikipedia.org/wiki/Clive_Anderson',
+			gender: 'male'
 		},
 		{
 			name: 'Miranda Hart',
-			wiki: 'https://en.wikipedia.org/wiki/Miranda_Hart'
+			wiki: 'https://en.wikipedia.org/wiki/Miranda_Hart',
+			gender: 'female'
 		}
 	]
 } as const satisfies EpisodeCast

@@ -4,21 +4,25 @@ const cast = {
 	david: [
 		{
 			name: 'Lorraine Kelly',
-			wiki: 'https://en.wikipedia.org/wiki/Lorraine_Kelly'
+			wiki: 'https://en.wikipedia.org/wiki/Lorraine_Kelly',
+			gender: 'female'
 		},
 		{
 			name: 'Dara Ó Briain',
-			wiki: 'https://en.wikipedia.org/wiki/Dara_%C3%93_Briain'
+			wiki: 'https://en.wikipedia.org/wiki/Dara_%C3%93_Briain',
+			gender: 'male'
 		}
 	],
 	lee: [
 		{
 			name: 'Barry Cryer',
-			wiki: 'https://en.wikipedia.org/wiki/Barry_Cryer'
+			wiki: 'https://en.wikipedia.org/wiki/Barry_Cryer',
+			gender: 'male'
 		},
 		{
 			name: 'Sue Perkins',
-			wiki: 'https://en.wikipedia.org/wiki/Sue_Perkins'
+			wiki: 'https://en.wikipedia.org/wiki/Sue_Perkins',
+			gender: 'female'
 		}
 	]
 } as const satisfies EpisodeCast

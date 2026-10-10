@@ -4,21 +4,25 @@ const cast = {
 	david: [
 		{
 			name: 'Vernon Kay',
-			wiki: 'https://en.wikipedia.org/wiki/Vernon_Kay'
+			wiki: 'https://en.wikipedia.org/wiki/Vernon_Kay',
+			gender: 'male'
 		},
 		{
 			name: 'Dara Ó Briain',
-			wiki: 'https://en.wikipedia.org/wiki/Dara_%C3%93_Briain'
+			wiki: 'https://en.wikipedia.org/wiki/Dara_%C3%93_Briain',
+			gender: 'male'
 		}
 	],
 	lee: [
 		{
 			name: 'Rhod Gilbert',
-			wiki: 'https://en.wikipedia.org/wiki/Rhod_Gilbert'
+			wiki: 'https://en.wikipedia.org/wiki/Rhod_Gilbert',
+			gender: 'male'
 		},
 		{
 			name: 'Denise van Outen',
-			wiki: 'https://en.wikipedia.org/wiki/Denise_van_Outen'
+			wiki: 'https://en.wikipedia.org/wiki/Denise_van_Outen',
+			gender: 'female'
 		}
 	]
 } as const satisfies EpisodeCast

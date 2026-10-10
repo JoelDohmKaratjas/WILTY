@@ -4,21 +4,25 @@ const cast = {
 	david: [
 		{
 			name: 'Rhod Gilbert',
-			wiki: 'https://en.wikipedia.org/wiki/Rhod_Gilbert'
+			wiki: 'https://en.wikipedia.org/wiki/Rhod_Gilbert',
+			gender: 'male'
 		},
 		{
 			name: 'Miranda Hart',
-			wiki: 'https://en.wikipedia.org/wiki/Miranda_Hart'
+			wiki: 'https://en.wikipedia.org/wiki/Miranda_Hart',
+			gender: 'female'
 		}
 	],
 	lee: [
 		{
 			name: 'Hugh Fearnley-Whittingstall',
-			wiki: 'https://en.wikipedia.org/wiki/Hugh_Fearnley-Whittingstall'
+			wiki: 'https://en.wikipedia.org/wiki/Hugh_Fearnley-Whittingstall',
+			gender: 'male'
 		},
 		{
 			name: 'Rufus Hound',
-			wiki: 'https://en.wikipedia.org/wiki/Rufus_Hound'
+			wiki: 'https://en.wikipedia.org/wiki/Rufus_Hound',
+			gender: 'male'
 		}
 	]
 } as const satisfies EpisodeCast

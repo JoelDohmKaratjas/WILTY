@@ -4,21 +4,25 @@ const cast = {
 	david: [
 		{
 			name: 'Mackenzie Crook',
-			wiki: 'https://en.wikipedia.org/wiki/Mackenzie_Crook'
+			wiki: 'https://en.wikipedia.org/wiki/Mackenzie_Crook',
+			gender: 'male'
 		},
 		{
 			name: 'Chris Packham',
-			wiki: 'https://en.wikipedia.org/wiki/Chris_Packham'
+			wiki: 'https://en.wikipedia.org/wiki/Chris_Packham',
+			gender: 'male'
 		}
 	],
 	lee: [
 		{
 			name: 'Victoria Coren',
-			wiki: 'https://en.wikipedia.org/wiki/Victoria_Coren_Mitchell'
+			wiki: 'https://en.wikipedia.org/wiki/Victoria_Coren_Mitchell',
+			gender: 'female'
 		},
 		{
 			name: 'Rhod Gilbert',
-			wiki: 'https://en.wikipedia.org/wiki/Rhod_Gilbert'
+			wiki: 'https://en.wikipedia.org/wiki/Rhod_Gilbert',
+			gender: 'male'
 		}
 	]
 } as const satisfies EpisodeCast

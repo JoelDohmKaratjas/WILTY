@@ -4,21 +4,25 @@ const cast = {
 	david: [
 		{
 			name: 'Mel Giedroyc',
-			wiki: 'https://en.wikipedia.org/wiki/Mel_Giedroyc'
+			wiki: 'https://en.wikipedia.org/wiki/Mel_Giedroyc',
+			gender: 'female'
 		},
 		{
 			name: 'Chris Tarrant',
-			wiki: 'https://en.wikipedia.org/wiki/Chris_Tarrant'
+			wiki: 'https://en.wikipedia.org/wiki/Chris_Tarrant',
+			gender: 'male'
 		}
 	],
 	lee: [
 		{
 			name: 'Alexander Armstrong',
-			wiki: 'https://en.wikipedia.org/wiki/Alexander_Armstrong'
+			wiki: 'https://en.wikipedia.org/wiki/Alexander_Armstrong',
+			gender: 'male'
 		},
 		{
 			name: 'Alex Jones',
-			wiki: 'https://en.wikipedia.org/wiki/Alex_Jones_(Welsh_presenter)'
+			wiki: 'https://en.wikipedia.org/wiki/Alex_Jones_(Welsh_presenter)',
+			gender: 'female'
 		}
 	]
 } as const satisfies EpisodeCast

@@ -4,21 +4,25 @@ const cast = {
 	david: [
 		{
 			name: 'Bill Oddie',
-			wiki: 'https://en.wikipedia.org/wiki/Bill_Oddie'
+			wiki: 'https://en.wikipedia.org/wiki/Bill_Oddie',
+			gender: 'male'
 		},
 		{
 			name: 'Frank Skinner',
-			wiki: 'https://en.wikipedia.org/wiki/Frank_Skinner'
+			wiki: 'https://en.wikipedia.org/wiki/Frank_Skinner',
+			gender: 'male'
 		}
 	],
 	lee: [
 		{
 			name: 'Sarah Millican',
-			wiki: 'https://en.wikipedia.org/wiki/Sarah_Millican'
+			wiki: 'https://en.wikipedia.org/wiki/Sarah_Millican',
+			gender: 'female'
 		},
 		{
 			name: 'Jon Richardson',
-			wiki: 'https://en.wikipedia.org/wiki/Jon_Richardson'
+			wiki: 'https://en.wikipedia.org/wiki/Jon_Richardson',
+			gender: 'male'
 		}
 	]
 } as const satisfies EpisodeCast

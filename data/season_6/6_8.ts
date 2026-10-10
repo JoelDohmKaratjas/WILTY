@@ -4,21 +4,25 @@ const cast = {
 	david: [
 		{
 			name: 'Emily Maitlis',
-			wiki: 'https://en.wikipedia.org/wiki/Emily_Maitlis'
+			wiki: 'https://en.wikipedia.org/wiki/Emily_Maitlis',
+			gender: 'female'
 		},
 		{
 			name: 'Jack Whitehall',
-			wiki: 'https://en.wikipedia.org/wiki/Jack_Whitehall'
+			wiki: 'https://en.wikipedia.org/wiki/Jack_Whitehall',
+			gender: 'male'
 		}
 	],
 	lee: [
 		{
 			name: 'Jim Carter',
-			wiki: 'https://en.wikipedia.org/wiki/Jim_Carter_(actor)'
+			wiki: 'https://en.wikipedia.org/wiki/Jim_Carter_(actor)',
+			gender: 'male'
 		},
 		{
 			name: 'Armando Iannucci',
-			wiki: 'https://en.wikipedia.org/wiki/Armando_Iannucci'
+			wiki: 'https://en.wikipedia.org/wiki/Armando_Iannucci',
+			gender: 'male'
 		}
 	]
 } as const satisfies EpisodeCast

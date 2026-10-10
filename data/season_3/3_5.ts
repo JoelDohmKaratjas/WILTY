@@ -4,21 +4,25 @@ const cast = {
 	david: [
 		{
 			name: 'Kelvin MacKenzie',
-			wiki: 'https://en.wikipedia.org/wiki/Kelvin_MacKenzie'
+			wiki: 'https://en.wikipedia.org/wiki/Kelvin_MacKenzie',
+			gender: 'male'
 		},
 		{
 			name: 'Jack Whitehall',
-			wiki: 'https://en.wikipedia.org/wiki/Jack_Whitehall'
+			wiki: 'https://en.wikipedia.org/wiki/Jack_Whitehall',
+			gender: 'male'
 		}
 	],
 	lee: [
 		{
 			name: 'Christine Bleakley',
-			wiki: 'https://en.wikipedia.org/wiki/Christine_Lampard'
+			wiki: 'https://en.wikipedia.org/wiki/Christine_Lampard',
+			gender: 'female'
 		},
 		{
 			name: 'Frankie Boyle',
-			wiki: 'https://en.wikipedia.org/wiki/Frankie_Boyle'
+			wiki: 'https://en.wikipedia.org/wiki/Frankie_Boyle',
+			gender: 'male'
 		}
 	]
 } as const satisfies EpisodeCast

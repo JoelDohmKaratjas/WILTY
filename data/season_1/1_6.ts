@@ -4,21 +4,25 @@ const cast = {
 	david: [
 		{
 			name: 'Harry Enfield',
-			wiki: 'https://en.wikipedia.org/wiki/Harry_Enfield'
+			wiki: 'https://en.wikipedia.org/wiki/Harry_Enfield',
+			gender: 'male'
 		},
 		{
 			name: 'Claudia Winkleman',
-			wiki: 'https://en.wikipedia.org/wiki/Claudia_Winkleman'
+			wiki: 'https://en.wikipedia.org/wiki/Claudia_Winkleman',
+			gender: 'female'
 		}
 	],
 	lee: [
 		{
 			name: 'Tara Palmer-Tomkinson',
-			wiki: 'https://en.wikipedia.org/wiki/Tara_Palmer-Tomkinson'
+			wiki: 'https://en.wikipedia.org/wiki/Tara_Palmer-Tomkinson',
+			gender: 'female'
 		},
 		{
 			name: 'Dave Spikey',
-			wiki: 'https://en.wikipedia.org/wiki/Dave_Spikey'
+			wiki: 'https://en.wikipedia.org/wiki/Dave_Spikey',
+			gender: 'male'
 		}
 	]
 } as const satisfies EpisodeCast

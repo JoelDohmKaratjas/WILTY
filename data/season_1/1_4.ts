@@ -4,21 +4,25 @@ const cast = {
 	david: [
 		{
 			name: 'Myleene Klass',
-			wiki: 'https://en.wikipedia.org/wiki/Myleene_Klass'
+			wiki: 'https://en.wikipedia.org/wiki/Myleene_Klass',
+			gender: 'female'
 		},
 		{
 			name: 'Jason Manford',
-			wiki: 'https://en.wikipedia.org/wiki/Jason_Manford'
+			wiki: 'https://en.wikipedia.org/wiki/Jason_Manford',
+			gender: 'male'
 		}
 	],
 	lee: [
 		{
 			name: 'Leslie Ash',
-			wiki: 'https://en.wikipedia.org/wiki/Leslie_Ash'
+			wiki: 'https://en.wikipedia.org/wiki/Leslie_Ash',
+			gender: 'female'
 		},
 		{
 			name: 'Neil Morrissey',
-			wiki: 'https://en.wikipedia.org/wiki/Neil_Morrissey'
+			wiki: 'https://en.wikipedia.org/wiki/Neil_Morrissey',
+			gender: 'male'
 		}
 	]
 } as const satisfies EpisodeCast

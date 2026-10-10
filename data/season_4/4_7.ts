@@ -4,21 +4,25 @@ const cast = {
 	david: [
 		{
 			name: 'Bernard Cribbins',
-			wiki: 'https://en.wikipedia.org/wiki/Bernard_Cribbins'
+			wiki: 'https://en.wikipedia.org/wiki/Bernard_Cribbins',
+			gender: 'male'
 		},
 		{
 			name: 'Patrick Kielty',
-			wiki: 'https://en.wikipedia.org/wiki/Patrick_Kielty'
+			wiki: 'https://en.wikipedia.org/wiki/Patrick_Kielty',
+			gender: 'male'
 		}
 	],
 	lee: [
 		{
 			name: 'Deborah Meaden',
-			wiki: 'https://en.wikipedia.org/wiki/Deborah_Meaden'
+			wiki: 'https://en.wikipedia.org/wiki/Deborah_Meaden',
+			gender: 'female'
 		},
 		{
 			name: 'Mark Watson',
-			wiki: 'https://en.wikipedia.org/wiki/Mark_Watson'
+			wiki: 'https://en.wikipedia.org/wiki/Mark_Watson',
+			gender: 'male'
 		}
 	]
 } as const satisfies EpisodeCast

@@ -4,21 +4,25 @@ const cast = {
 	david: [
 		{
 			name: 'Richard Bacon',
-			wiki: 'https://en.wikipedia.org/wiki/Richard_Bacon_(broadcaster)'
+			wiki: 'https://en.wikipedia.org/wiki/Richard_Bacon_(broadcaster)',
+			gender: 'male'
 		},
 		{
 			name: 'Dale Winton',
-			wiki: 'https://en.wikipedia.org/wiki/Dale_Winton'
+			wiki: 'https://en.wikipedia.org/wiki/Dale_Winton',
+			gender: 'male'
 		}
 	],
 	lee: [
 		{
 			name: 'Clare Baldain',
-			wiki: 'https://en.wikipedia.org/wiki/Clare_Balding'
+			wiki: 'https://en.wikipedia.org/wiki/Clare_Balding',
+			gender: 'female'
 		},
 		{
 			name: 'Miranda Hart',
-			wiki: 'https://en.wikipedia.org/wiki/Miranda_Hart'
+			wiki: 'https://en.wikipedia.org/wiki/Miranda_Hart',
+			gender: 'female'
 		}
 	]
 } as const satisfies EpisodeCast

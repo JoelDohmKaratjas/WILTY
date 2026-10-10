@@ -4,21 +4,25 @@ const cast = {
 	david: [
 		{
 			name: 'Trisha Goddard',
-			wiki: 'https://en.wikipedia.org/wiki/Trisha_Goddard'
+			wiki: 'https://en.wikipedia.org/wiki/Trisha_Goddard',
+			gender: 'female'
 		},
 		{
 			name: 'Rich Hall',
-			wiki: 'https://en.wikipedia.org/wiki/Rich_Hall'
+			wiki: 'https://en.wikipedia.org/wiki/Rich_Hall',
+			gender: 'male'
 		}
 	],
 	lee: [
 		{
 			name: 'Frankie Boyle',
-			wiki: 'https://en.wikipedia.org/wiki/Frankie_Boyle'
+			wiki: 'https://en.wikipedia.org/wiki/Frankie_Boyle',
+			gender: 'male'
 		},
 		{
 			name: 'Ben Shephard',
-			wiki: 'https://en.wikipedia.org/wiki/Ben_Shephard'
+			wiki: 'https://en.wikipedia.org/wiki/Ben_Shephard',
+			gender: 'male'
 		}
 	]
 } as const satisfies EpisodeCast

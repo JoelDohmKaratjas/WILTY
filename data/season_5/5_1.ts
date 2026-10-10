@@ -4,21 +4,25 @@ const cast = {
 	david: [
 		{
 			name: 'Rebecca Front',
-			wiki: 'https://en.wikipedia.org/wiki/Rebecca_Front'
+			wiki: 'https://en.wikipedia.org/wiki/Rebecca_Front',
+			gender: 'female'
 		},
 		{
 			name: 'Jack Whitehall',
-			wiki: 'https://en.wikipedia.org/wiki/Jack_Whitehall'
+			wiki: 'https://en.wikipedia.org/wiki/Jack_Whitehall',
+			gender: 'male'
 		}
 	],
 	lee: [
 		{
 			name: 'Miranda Hart',
-			wiki: 'https://en.wikipedia.org/wiki/Miranda_Hart'
+			wiki: 'https://en.wikipedia.org/wiki/Miranda_Hart',
+			gender: 'female'
 		},
 		{
 			name: 'Nick Hewer',
-			wiki: 'https://en.wikipedia.org/wiki/Nick_Hewer'
+			wiki: 'https://en.wikipedia.org/wiki/Nick_Hewer',
+			gender: 'male'
 		}
 	]
 } as const satisfies EpisodeCast

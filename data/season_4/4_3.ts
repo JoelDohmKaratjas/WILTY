@@ -4,21 +4,25 @@ const cast = {
 	david: [
 		{
 			name: 'Keeley Hawes',
-			wiki: 'https://en.wikipedia.org/wiki/Keeley_Hawes'
+			wiki: 'https://en.wikipedia.org/wiki/Keeley_Hawes',
+			gender: 'female'
 		},
 		{
 			name: 'Stephen Mangan',
-			wiki: 'https://en.wikipedia.org/wiki/Stephen_Mangan'
+			wiki: 'https://en.wikipedia.org/wiki/Stephen_Mangan',
+			gender: 'male'
 		}
 	],
 	lee: [
 		{
 			name: 'Kevin Bridges',
-			wiki: 'https://en.wikipedia.org/wiki/Kevin_Bridges'
+			wiki: 'https://en.wikipedia.org/wiki/Kevin_Bridges',
+			gender: 'male'
 		},
 		{
 			name: 'Prof. Brain Cox',
-			wiki: 'https://en.wikipedia.org/wiki/Brian_Cox_(physicist)'
+			wiki: 'https://en.wikipedia.org/wiki/Brian_Cox_(physicist)',
+			gender: 'male'
 		}
 	]
 } as const satisfies EpisodeCast
