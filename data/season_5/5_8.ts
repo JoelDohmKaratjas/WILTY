@@ -30,7 +30,7 @@ const cast = {
 const rounds = [
 	{
 		type: 'home_truths',
-		statement: '',
+		statement: 'On doctor\'s advice, I have to sleep in a cycle helmet due to the violent nature of my dreams.',
 		guessingTeam: 'Lee Mack',
 		person: 'Dara Ó Briain',
 		personGuesses: {
@@ -43,7 +43,7 @@ const rounds = [
 	},
 	{
 		type: 'home_truths',
-		statement: '',
+		statement: 'I once presented an episode of TV-am whilst drunk.',
 		guessingTeam: 'Lee Mack',
 		person: 'Lorraine Kelly',
 		personGuesses: {
@@ -56,7 +56,7 @@ const rounds = [
 	},
 	{
 		type: 'home_truths',
-		statement: '',
+		statement: 'I have written and have published a trilogy of romantic novels under a female pen name.',
 		guessingTeam: 'David Mitchell',
 		person: 'Barry Cryer',
 		personGuesses: {
@@ -70,11 +70,11 @@ const rounds = [
 	{
 		type: 'this_is_my',
 		guessingTeam: 'David Mitchell',
-		guest: '',
+		guest: 'Rhod',
 		connections: {
-			'Barry Cryer': '',
-			'Sue Perkins': '',
-			'Lee Mack': ''
+			'Barry Cryer': 'Rhod drives his favourite bus and whenever he sees the bus, he shouts "Hello, darling".',
+			'Lee Mack': 'Accidentally took each other\'s baggage and Lee had to wear his clothes for 3 days.',
+			'Sue Perkins': 'Her local butcher celebrated her winning of Maestro by putting an image of her face on a pig\'s face and a little conducting baton in its trotters.'
 		},
 		personGuess: {
 			'Dara Ó Briain': 'Sue Perkins',
@@ -86,7 +86,7 @@ const rounds = [
 	},
 	{
 		type: 'quick_fire',
-		statement: '',
+		statement: 'This is my bear, Tablecloth, customs officers once cut his head off and searched him for smuggled goods.',
 		possession: true,
 		guessingTeam: 'Lee Mack',
 		person: 'David Mitchell',
@@ -100,7 +100,7 @@ const rounds = [
 	},
 	{
 		type: 'quick_fire',
-		statement: '',
+		statement: 'I spent an entire year in a plastic work class at school and this is the only thing I managed to make.',
 		possession: true,
 		guessingTeam: 'David Mitchell',
 		person: 'Lee Mack',

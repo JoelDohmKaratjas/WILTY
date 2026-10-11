@@ -23,7 +23,7 @@ const rounds = [
 	{
 		episode: 7,
 		type: 'home_truths',
-		statement: '',
+		statement: 'When I won the Pirates of the Caribbean Sandcastle Competition, Keith Richards was so angry he stamped on my drawbridge and threw Johnny Depp\'s bucket in the sea.',
 		guessingTeam: 'Lee Mack',
 		person: 'Mackenzie Crook',
 		personGuesses: {
@@ -37,7 +37,7 @@ const rounds = [
 	{
 		episode: 1,
 		type: 'home_truths',
-		statement: '',
+		statement: 'Last year whilst house-sitting for friends, I had to shout for help for two hours when I got stuck in their children\'s Wendy house.',
 		guessingTeam: 'David Mitchell',
 		person: 'Miranda Hart',
 		personGuesses: {
@@ -51,7 +51,7 @@ const rounds = [
 	{
 		episode: 3,
 		type: 'home_truths',
-		statement: '',
+		statement: 'I have drunk rum from a human skull.',
 		guessingTeam: 'David Mitchell',
 		person: 'Bill Turnbull',
 		personGuesses: {
@@ -65,7 +65,7 @@ const rounds = [
 	{
 		episode: 1,
 		type: 'home_truths',
-		statement: '',
+		statement: 'I have vomited in Cliff Richard\'s hedge.',
 		guessingTeam: 'Lee Mack',
 		person: 'Rebecca Front',
 		personGuesses: {
@@ -79,7 +79,7 @@ const rounds = [
 	{
 		episode: 6,
 		type: 'home_truths',
-		statement: '',
+		statement: 'I once ruined a christening party when I was overheard calling the baby ugly on a baby monitor.',
 		guessingTeam: 'David Mitchell',
 		person: 'Sarah Millican',
 		personGuesses: {
@@ -93,7 +93,7 @@ const rounds = [
 	{
 		episode: 1,
 		type: 'home_truths',
-		statement: '',
+		statement: 'This is a hat from my hat collection. I wear one whenever I throw a dinner party.',
 		possession: true,
 		guessingTeam: 'David Mitchell',
 		person: 'Nick Hewer',
@@ -108,7 +108,7 @@ const rounds = [
 	{
 		episode: 3,
 		type: 'home_truths',
-		statement: '',
+		statement: 'Me and my husband have a fake laugh that we do at parties to signal when it\'s time to leave.',
 		guessingTeam: 'Lee Mack',
 		person: 'Katherine Parkinson',
 		personGuesses: {
@@ -122,7 +122,7 @@ const rounds = [
 	{
 		episode: 3,
 		type: 'home_truths',
-		statement: '',
+		statement: 'This is my conversation book. In it I\'ve written a list of topics that I refer to should I ever run out of things to talk about.',
 		possession: true,
 		guessingTeam: 'David Mitchell',
 		person: 'Bill Turnbull',
@@ -137,7 +137,7 @@ const rounds = [
 	{
 		episode: 8,
 		type: 'host',
-		statement: '',
+		statement: 'For one week I appeared in a Dear Deidre photo casebook in The Sun newspaper.',
 		personGuesses: {
 			david: {
 				'Dara Ó Briain': 'lie',

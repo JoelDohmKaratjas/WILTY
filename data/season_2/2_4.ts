@@ -30,7 +30,7 @@ const cast = {
 const rounds = [
 	{
 		type: 'home_truths',
-		statement: '',
+		statement: 'Before any TV appearance I shadow box in my dressing room.',
 		guessingTeam: 'Lee Mack',
 		person: 'Michael Aspel',
 		personGuesses: {
@@ -43,7 +43,7 @@ const rounds = [
 	},
 	{
 		type: 'home_truths',
-		statement: '',
+		statement: 'At my wedding I walked down the aisle to the Big Brother theme tune.',
 		guessingTeam: 'David Mitchell',
 		person: 'Davina McCall',
 		personGuesses: {
@@ -56,7 +56,7 @@ const rounds = [
 	},
 	{
 		type: 'home_truths',
-		statement: '',
+		statement: 'I co-own a racehorse with Sir Alex Ferguson.',
 		guessingTeam: 'Lee Mack',
 		person: 'Dara Ó Briain',
 		personGuesses: {
@@ -69,7 +69,7 @@ const rounds = [
 	},
 	{
 		type: 'ring_of_truth_single',
-		statement: '',
+		statement: 'David Furnish has an \'Elton tracker\' sat nav so he can see exactly where Elton John is at any time.',
 		guessingTeam: 'David Mitchell',
 		personGuesses: {
 			'Dara Ó Briain': 'lie',
@@ -82,11 +82,11 @@ const rounds = [
 	{
 		type: 'this_is_my',
 		guessingTeam: 'Lee Mack',
-		guest: '',
+		guest: 'Lee',
 		connections: {
-			'Michael Aspel': '',
-			'Dara Ó Briain': '',
-			'David Mitchell': ''
+			'Dara Ó Briain': 'Lee is his gardener who was introduced to him by Andrew Lloyd Webber.',
+			'David Mitchell': 'Lee has been teaching him how to improve his memory for six months.',
+			'Michael Aspel': 'Lee is his driver and has also appeared in Minder.'
 		},
 		personGuess: {
 			'Davina McCall': 'Michael Aspel',
@@ -98,7 +98,7 @@ const rounds = [
 	},
 	{
 		type: 'quick_fire',
-		statement: '',
+		statement: 'My first word was hoover',
 		guessingTeam: 'Lee Mack',
 		person: 'David Mitchell',
 		personGuesses: {
@@ -111,7 +111,7 @@ const rounds = [
 	},
 	{
 		type: 'quick_fire',
-		statement: '',
+		statement: 'These [pictured right] are the wig and glasses I wear if I want to pop to the shops unnoticed',
 		possession: true,
 		guessingTeam: 'David Mitchell',
 		person: 'Davina McCall',
@@ -125,7 +125,7 @@ const rounds = [
 	},
 	{
 		type: 'quick_fire',
-		statement: '',
+		statement: 'I applied for Mastermind with the specialist subject Columbo',
 		guessingTeam: 'David Mitchell',
 		person: 'Jason Manford',
 		personGuesses: {

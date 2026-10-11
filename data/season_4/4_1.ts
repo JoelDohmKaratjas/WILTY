@@ -30,7 +30,7 @@ const cast = {
 const rounds = [
 	{
 		type: 'home_truths',
-		statement: '',
+		statement: 'I once had to ask Michael Winner to calm down after I crashed into his car.',
 		guessingTeam: 'David Mitchell',
 		person: 'Sanjeev Bhaskar',
 		personGuesses: {
@@ -43,7 +43,7 @@ const rounds = [
 	},
 	{
 		type: 'home_truths',
-		statement: '',
+		statement: 'I had a job as a postman but left after a week because I couldn\'t ride the bike.',
 		guessingTeam: 'Lee Mack',
 		person: 'Fern Britton',
 		personGuesses: {
@@ -56,7 +56,7 @@ const rounds = [
 	},
 	{
 		type: 'home_truths',
-		statement: '',
+		statement: 'I have actually been fired by Alan Sugar.',
 		guessingTeam: 'David Mitchell',
 		person: 'Martin Clunes',
 		personGuesses: {
@@ -70,11 +70,11 @@ const rounds = [
 	{
 		type: 'this_is_my',
 		guessingTeam: 'Lee Mack',
-		guest: '',
+		guest: 'Ken',
 		connections: {
-			'Fern Britton': '',
-			'Richard E. Grant': '',
-			'David Mitchell': ''
+			'David Mitchell': 'Ken allowed David to ride in the cab of his steam engine.',
+			'Fern Britton': 'Both are part of the same Morris dancing troupe.',
+			'Richard E. Grant': 'Ken produced his record (a dance version of a Shakespearean soliloquy).'
 		},
 		personGuess: {
 			'Lee Mack': 'undecided', // doesn't think it's Fern
@@ -86,7 +86,7 @@ const rounds = [
 	},
 	{
 		type: 'quick_fire',
-		statement: '',
+		statement: 'There was a saying in my old school: If Lee Mack can pass his geography O-level then anyone can.',
 		guessingTeam: 'David Mitchell',
 		person: 'Lee Mack',
 		personGuesses: {
@@ -99,7 +99,7 @@ const rounds = [
 	},
 	{
 		type: 'quick_fire',
-		statement: '',
+		statement: 'For six months, I wrote horoscopes for a women\'s magazine.',
 		guessingTeam: 'Lee Mack',
 		person: 'David Mitchell',
 		personGuesses: {

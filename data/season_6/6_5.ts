@@ -30,7 +30,7 @@ const cast = {
 const rounds = [
 	{
 		type: 'home_truths',
-		statement: '',
+		statement: 'When I want to remember something late at night, instead of writing it down, I just grab an object from my bedside table and throw it across the room.',
 		guessingTeam: 'Lee Mack',
 		person: 'Gabby Logan',
 		personGuesses: {
@@ -43,7 +43,7 @@ const rounds = [
 	},
 	{
 		type: 'home_truths',
-		statement: '',
+		statement: 'I used to write and hand in homework for an imaginary class-mate.',
 		guessingTeam: 'Lee Mack',
 		person: 'Andy Hamilton',
 		personGuesses: {
@@ -56,7 +56,7 @@ const rounds = [
 	},
 	{
 		type: 'home_truths',
-		statement: '',
+		statement: 'When I travel by Tube I like to see how many strangers I can make yawn by yawning myself. My record is nine in one carriage.',
 		guessingTeam: 'David Mitchell',
 		person: 'Diane Parish',
 		personGuesses: {
@@ -70,11 +70,11 @@ const rounds = [
 	{
 		type: 'this_is_my',
 		guessingTeam: 'David Mitchell',
-		guest: '',
+		guest: 'Kevin',
 		connections: {
-			'Dr. Christian Jessen': '',
-			'Diane Parish': '',
-			'Lee Mack': ''
+			'Diane Parish': 'He is an EastEnders fan who changed his name to Albert Square.',
+			'Dr. Christian Jessen': 'He is a surgeon who performed an operation after Christian swallowed one of the pieces from the board game Operation.',
+			'Lee Mack': 'His butt double in Not Going Out.'
 		},
 		personGuess: {
 			'Andy Hamilton': 'undecided',
@@ -86,7 +86,7 @@ const rounds = [
 	},
 	{
 		type: 'quick_fire',
-		statement: '',
+		statement: 'I shaved off a beard I had been growing for weeks because I didn\'t want David to think I was copying him.',
 		guessingTeam: 'David Mitchell',
 		person: 'Lee Mack',
 		personGuesses: {
@@ -99,7 +99,7 @@ const rounds = [
 	},
 	{
 		type: 'quick_fire',
-		statement: '',
+		statement: 'This is my monkey, Elsie. She watches over me while I sleep.',
 		possession: true,
 		guessingTeam: 'David Mitchell',
 		person: 'Dr. Christian Jessen',

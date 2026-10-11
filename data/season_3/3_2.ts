@@ -30,7 +30,7 @@ const cast = {
 const rounds = [
 	{
 		type: 'home_truths',
-		statement: '',
+		statement: 'The D in my name stands for Delicious.',
 		guessingTeam: 'David Mitchell',
 		person: 'Reginald D. Hunter',
 		personGuesses: {
@@ -43,7 +43,7 @@ const rounds = [
 	},
 	{
 		type: 'home_truths',
-		statement: '',
+		statement: 'I once guessed the exact number of sweets in a Mini Cooper and was awarded a prize by Britain\'s tallest man.',
 		guessingTeam: 'Lee Mack',
 		person: 'Stephen Mangan',
 		personGuesses: {
@@ -56,7 +56,7 @@ const rounds = [
 	},
 	{
 		type: 'home_truths',
-		statement: '',
+		statement: 'I was the first person in the world to breed the Congolese frog Hymenochirus Curtipes in captivity.',
 		guessingTeam: 'David Mitchell',
 		person: 'Ken Livingstone',
 		personGuesses: {
@@ -69,7 +69,7 @@ const rounds = [
 	},
 	{
 		type: 'ring_of_truth_single',
-		statement: '',
+		statement: 'The Archbishop of Canterbury once endorsed a Cockney version of the Bible.',
 		guessingTeam: 'David Mitchell',
 		personGuesses: {
 			'David Mitchell': 'lie',
@@ -82,11 +82,11 @@ const rounds = [
 	{
 		type: 'this_is_my',
 		guessingTeam: 'Lee Mack',
-		guest: '',
+		guest: 'Gordon',
 		connections: {
-			'Fern Britton': '',
-			'Stephen Mangan': '',
-			'David Mitchell': ''
+			'David Mitchell': 'He recently sold me a hamster that died the very next day.',
+			'Fern Britton': 'He\'s the subject of my life drawing class and I have painted him naked 3 times.',
+			'Stephen Mangan': 'We were in a prog rock band called Aragorn and recorded an album called the Wizard\'s Dream.'
 		},
 		personGuess: {
 			'Ken Livingstone': 'Stephen Mangan',
@@ -98,7 +98,7 @@ const rounds = [
 	},
 	{
 		type: 'quick_fire',
-		statement: '',
+		statement: 'Last year I was ordered to leave Blackpool Tower after I threw a sausage roll off the top.',
 		guessingTeam: 'David Mitchell',
 		person: 'Lee Mack',
 		personGuesses: {
@@ -111,7 +111,7 @@ const rounds = [
 	},
 	{
 		type: 'quick_fire',
-		statement: '',
+		statement: 'As a child at my grandparents\' house I had a little bell I would ring if I wanted anything.',
 		guessingTeam: 'Lee Mack',
 		person: 'David Mitchell',
 		personGuesses: {
@@ -124,7 +124,7 @@ const rounds = [
 	},
 	{
 		type: 'quick_fire',
-		statement: '',
+		statement: 'This is my tea cozy. I take it absolutely everywhere with me because I can\'t stand a cold teapot.',
 		possession: true,
 		guessingTeam: 'Lee Mack',
 		person: 'Fern Britton',

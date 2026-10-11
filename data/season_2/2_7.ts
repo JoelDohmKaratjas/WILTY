@@ -30,7 +30,7 @@ const cast = {
 const rounds = [
 	{
 		type: 'home_truths',
-		statement: '',
+		statement: 'I missed a visit from George Michael because I was eating at a harvester.',
 		guessingTeam: 'Lee Mack',
 		person: 'Shane Richie',
 		personGuesses: {
@@ -43,7 +43,7 @@ const rounds = [
 	},
 	{
 		type: 'home_truths',
-		statement: '',
+		statement: 'My bed used to belong to John Nettles [from Bergerac and Midsomer Murders].',
 		guessingTeam: 'David Mitchell',
 		person: 'Rhys Thomas',
 		personGuesses: {
@@ -56,7 +56,7 @@ const rounds = [
 	},
 	{
 		type: 'home_truths',
-		statement: '',
+		statement: 'I have patented a device that stops cats jumping on your lap.',
 		guessingTeam: 'Lee Mack',
 		person: 'Vic Reeves',
 		personGuesses: {
@@ -69,7 +69,7 @@ const rounds = [
 	},
 	{
 		type: 'ring_of_truth_single',
-		statement: '',
+		statement: 'Sting has recorded an album, using only vegetables for instruments. It\'s called \'The Sound of the Ground\'.',
 		guessingTeam: 'Lee Mack',
 		personGuesses: {
 			'Lee Mack': 'truth',
@@ -81,7 +81,7 @@ const rounds = [
 	},
 	{
 		type: 'ring_of_truth_single',
-		statement: '',
+		statement: 'Al Gore can hypnotise chickens.',
 		guessingTeam: 'David Mitchell',
 		personGuesses: {
 			'David Mitchell': 'truth',
@@ -94,11 +94,11 @@ const rounds = [
 	{
 		type: 'this_is_my',
 		guessingTeam: 'Lee Mack',
-		guest: '',
+		guest: 'Richard',
 		connections: {
-			'Vic Reeves': '',
-			'Shane Richie': '',
-			'David Mitchell': ''
+			'David Mitchell': 'Richard is illustrating his upcoming book The Lonely Lighthouse.',
+			'Shane Richie': 'Richard is his cousin and this is the first time he has been out of Cornwell.',
+			'Vic Reeves': 'Richard is his butcher and Vic is his official sausage taster.'
 		},
 		personGuess: {
 			'Lee Mack': 'David Mitchell',
@@ -110,7 +110,7 @@ const rounds = [
 	},
 	{
 		type: 'quick_fire',
-		statement: '',
+		statement: 'This [pictured right]...is the only gift I\'ve ever been sent by a fan.',
 		guessingTeam: 'Lee Mack',
 		person: 'David Mitchell',
 		personGuesses: {
@@ -123,7 +123,7 @@ const rounds = [
 	},
 	{
 		type: 'quick_fire',
-		statement: '',
+		statement: 'I have been shopping in Sainsbury\'s wearing nothing but a trench coat.',
 		guessingTeam: 'David Mitchell',
 		person: 'Tara Palmer-Tomkinson',
 		personGuesses: {
@@ -136,7 +136,7 @@ const rounds = [
 	},
 	{
 		type: 'quick_fire',
-		statement: '',
+		statement: 'I once had a full body search at Miami Airport after making a joke about Ronald Reagan.',
 		guessingTeam: 'David Mitchell',
 		person: 'Lee Mack',
 		personGuesses: {
@@ -149,7 +149,7 @@ const rounds = [
 	},
 	{
 		type: 'quick_fire',
-		statement: '',
+		statement: 'Female admirers used to send me timetables showing when their husbands would be out.',
 		guessingTeam: 'Lee Mack',
 		person: 'Shane Richie',
 		personGuesses: {

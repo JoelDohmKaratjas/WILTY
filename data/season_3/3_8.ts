@@ -30,7 +30,7 @@ const cast = {
 const rounds = [
 	{
 		type: 'home_truths',
-		statement: '',
+		statement: 'I have a three-part ritual I have to adhere to before I go on stage.',
 		guessingTeam: 'David Mitchell',
 		person: 'Michael Ball',
 		personGuesses: {
@@ -43,7 +43,7 @@ const rounds = [
 	},
 	{
 		type: 'home_truths',
-		statement: '',
+		statement: 'Marks & Spencer\'s mannequins are based on my body.',
 		guessingTeam: 'Lee Mack',
 		person: 'Trinny Woodall',
 		personGuesses: {
@@ -56,7 +56,7 @@ const rounds = [
 	},
 	{
 		type: 'home_truths',
-		statement: '',
+		statement: 'For a summer, I worked at a funeral director\'s that offered themed funerals.',
 		guessingTeam: 'Lee Mack',
 		person: 'Reece Shearsmith',
 		personGuesses: {
@@ -69,7 +69,7 @@ const rounds = [
 	},
 	{
 		type: 'home_truths',
-		statement: '',
+		statement: 'For six years, I pretended to a girlfriend that I was partially deaf.',
 		guessingTeam: 'David Mitchell',
 		person: 'Charlie Brooker',
 		personGuesses: {
@@ -82,7 +82,7 @@ const rounds = [
 	},
 	{
 		type: 'ring_of_truth_single',
-		statement: '',
+		statement: 'Christina Aguilera once followed a strict diet where every meal had 4 food items: 1 crunchy, 1 soft, 1 hot, 1 cold.',
 		guessingTeam: 'Lee Mack',
 		personGuesses: {
 			'Charlie Brooker': 'truth',
@@ -95,11 +95,11 @@ const rounds = [
 	{
 		type: 'this_is_my',
 		guessingTeam: 'David Mitchell',
-		guest: '',
+		guest: 'Donna',
 		connections: {
-			'Michael Ball': '',
-			'Charlie Brooker': '',
-			'Lee Mack': ''
+			'Charlie Brooker': 'This is Donna who\'s teaching me basic home maintenance.',
+			'Lee Mack': 'This is Donna and she saved my life when she threw me a lifebelt after I fell off my boat.',
+			'Michael Ball': 'This is Donna; she has been my no. 1 super fan since she was 17 - she even has a toilet seat cover with my face on it.'
 		},
 		personGuess: {
 			'David Mitchell': 'Lee Mack',
@@ -111,7 +111,7 @@ const rounds = [
 	},
 	{
 		type: 'quick_fire',
-		statement: '',
+		statement: 'Three members of the Cabinet subscribe to my Twitter feed.',
 		guessingTeam: 'Lee Mack',
 		person: 'David Mitchell',
 		personGuesses: {
@@ -124,7 +124,7 @@ const rounds = [
 	},
 	{
 		type: 'quick_fire',
-		statement: '',
+		statement: 'I kept my car running for two months by cracking my egg into it every day.',
 		guessingTeam: 'David Mitchell',
 		person: 'Lee Mack',
 		personGuesses: {

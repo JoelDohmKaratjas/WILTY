@@ -30,7 +30,7 @@ const cast = {
 const rounds = [
 	{
 		type: 'home_truths',
-		statement: '',
+		statement: 'I have a 40% stake in a prize-winning racing pigeon.',
 		guessingTeam: 'Lee Mack',
 		person: 'Richard Osman',
 		personGuesses: {
@@ -43,7 +43,7 @@ const rounds = [
 	},
 	{
 		type: 'home_truths',
-		statement: '',
+		statement: 'I was rumbled at a dinner party after serving up a shop-bought pie and pretending I\'d made it myself.',
 		guessingTeam: 'David Mitchell',
 		person: 'Carol Kirkwood',
 		personGuesses: {
@@ -56,7 +56,7 @@ const rounds = [
 	},
 	{
 		type: 'home_truths',
-		statement: '',
+		statement: 'The day before I need to make a journey, I often make the journey, so when it comes to making the actual journey, I\'ll know what the journey involves.',
 		guessingTeam: 'Lee Mack',
 		person: 'Susan Calman',
 		personGuesses: {
@@ -70,11 +70,11 @@ const rounds = [
 	{
 		type: 'this_is_my',
 		guessingTeam: 'David Mitchell',
-		guest: '',
+		guest: 'Ian',
 		connections: {
-			'Carol Kirkwood': '',
-			'David O\'Doherty': '',
-			'Lee Mack': ''
+			'Carol Kirkwood': 'They hid a ram inside a classroom cupboard to scare a teacher.',
+			'David O\'Doherty': 'Skydiver who got blown off-course and almost knocked David off his bike.',
+			'Lee Mack': 'Supermarket delivery driver who accidentally trapped Lee in the back of his van.'
 		},
 		personGuess: {
 			'David Mitchell': 'David O\'Doherty',
@@ -86,7 +86,7 @@ const rounds = [
 	},
 	{
 		type: 'quick_fire',
-		statement: '',
+		statement: 'I once sent out 30 professional photographs of myself to try and get an agent. I got just one reply, advising me to destroy all copies of the photograph.',
 		guessingTeam: 'Lee Mack',
 		person: 'David Mitchell',
 		personGuesses: {
@@ -99,7 +99,7 @@ const rounds = [
 	},
 	{
 		type: 'quick_fire',
-		statement: '',
+		statement: 'This is one of the pairs of leg-warmers for birds that I have made. I would have brought more, but birds are using them.',
 		possession: true,
 		guessingTeam: 'David Mitchell',
 		person: 'David O\'Doherty',

@@ -24,7 +24,7 @@ const rounds = [
 		episode: 1,
 		repeat: true,
 		type: 'home_truths',
-		statement: '',
+		statement: 'On Countdown if I worked out the number puzzle before the time was up I used to play a little game.',
 		guessingTeam: 'David Mitchell',
 		person: 'Carol Vorderman',
 		personGuesses: {
@@ -39,7 +39,7 @@ const rounds = [
 		episode: 2,
 		repeat: true,
 		type: 'home_truths',
-		statement: '',
+		statement: 'The D in my name stands for Delicious.',
 		guessingTeam: 'David Mitchell',
 		person: 'Reginald D. Hunter',
 		personGuesses: {
@@ -53,7 +53,7 @@ const rounds = [
 	{
 		episode: 3,
 		type: 'home_truths',
-		statement: '',
+		statement: 'I won a junior One Man and His Dog Event when I was fourteen.',
 		guessingTeam: 'David Mitchell',
 		person: 'Terry Christian',
 		personGuesses: {
@@ -67,7 +67,7 @@ const rounds = [
 	{
 		episode: 1,
 		type: 'ring_of_truth_single',
-		statement: '',
+		statement: 'When interviewing office staff, Simon Cowell asks every candidate to give him 10 uses for a kettle.',
 		guessingTeam: 'David Mitchell',
 		personGuesses: {
 			'David Mitchell': 'lie',
@@ -81,7 +81,7 @@ const rounds = [
 		episode: 5,
 		repeat: true,
 		type: 'ring_of_truth_single',
-		statement: '',
+		statement: 'Mick Jagger has been asked by a company if they can sell his ashes in collectible egg timers when he dies.',
 		guessingTeam: 'David Mitchell',
 		personGuesses: {
 			'David Mitchell': 'truth',
@@ -96,11 +96,11 @@ const rounds = [
 		repeat: true,
 		type: 'this_is_my',
 		guessingTeam: 'David Mitchell',
-		guest: '',
+		guest: 'Sadie',
 		connections: {
-			'Omid Djalili': '',
-			'Jane Street-Porter': '',
-			'Lee Mack': ''
+			'Jane Street-Porter': 'Sadie came to my sixtieth birthday party, and pretended to be a waitress so she could lick Daniel Craig\'s plate.',
+			'Lee Mack': 'This is Sadie; she\'s my children\'s nanny, and the first time I met her I ran over her foot.',
+			'Omid Djalili': 'This is Sadie. I employ her to massage my dog.'
 		},
 		personGuess: {
 			'Dave Gorman': 'Jane Street-Porter',
@@ -114,7 +114,7 @@ const rounds = [
 		episode: 2,
 		repeat: true,
 		type: 'quick_fire',
-		statement: '',
+		statement: 'As a child at my grandparents\' house I had a little bell I would ring if I wanted anything.',
 		guessingTeam: 'Lee Mack',
 		person: 'David Mitchell',
 		personGuesses: {
@@ -129,7 +129,7 @@ const rounds = [
 		episode: 5,
 		repeat: true,
 		type: 'quick_fire',
-		statement: '',
+		statement: 'If you give me any date before the year 2000 I can instantly tell you what day of the week it was.',
 		guessingTeam: 'David Mitchell',
 		person: 'Lee Mack',
 		personGuesses: {
@@ -143,7 +143,7 @@ const rounds = [
 	{
 		episode: 1,
 		type: 'quick_fire',
-		statement: '',
+		statement: 'I have told my children that every time they lie, a puppy dies somewhere.',
 		guessingTeam: 'Lee Mack',
 		person: 'Jo Brand',
 		personGuesses: {
@@ -158,7 +158,7 @@ const rounds = [
 		episode: 4,
 		repeat: true,
 		type: 'quick_fire',
-		statement: '',
+		statement: 'In here is my pet cat from when I was little and my dad had her stuffed for me when she died.',
 		possession: true,
 		guessingTeam: 'Lee Mack',
 		person: 'Claudia Winkleman',
@@ -173,7 +173,7 @@ const rounds = [
 	{
 		episode: 2,
 		type: 'quick_fire',
-		statement: '',
+		statement: 'I have made a CD of the sound of my kettle boiling and I use it when trying to get to sleep.',
 		guessingTeam: 'Lee Mack',
 		person: 'Fern Britton',
 		personGuesses: {

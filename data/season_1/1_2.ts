@@ -96,8 +96,8 @@ const rounds = [
 		guessingTeam: 'David Mitchell',
 		guest: 'Mark',
 		connections: {
-			'John Barrowman': 'Cut the ribbon at the opening of Mark\'s karaoke superstore.',
 			'Dominic Wood': 'Him and Mark were in a magical double act called "Mysterio and Mark".',
+			'John Barrowman': 'Cut the ribbon at the opening of Mark\'s karaoke superstore.',
 			'Lee Mack': 'Employs Mark to manage his iPod.'
 		},
 		personGuess: {

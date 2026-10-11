@@ -30,7 +30,7 @@ const cast = {
 const rounds = [
 	{
 		type: 'home_truths',
-		statement: '',
+		statement: 'I once punched Muhammad Ali in the face.',
 		guessingTeam: 'Lee Mack',
 		person: 'Patrick Kielty',
 		personGuesses: {
@@ -43,7 +43,7 @@ const rounds = [
 	},
 	{
 		type: 'home_truths',
-		statement: '',
+		statement: 'I recently had my house exorcised after several weird occurrences spooked me.',
 		guessingTeam: 'David Mitchell',
 		person: 'Deborah Meaden',
 		personGuesses: {
@@ -56,7 +56,7 @@ const rounds = [
 	},
 	{
 		type: 'home_truths',
-		statement: '',
+		statement: 'When I was 6 years old, I wrote a will after losing a game of Connect Four to my Dad.',
 		guessingTeam: 'David Mitchell',
 		person: 'Mark Watson',
 		personGuesses: {
@@ -69,7 +69,7 @@ const rounds = [
 	},
 	{
 		type: 'home_truths',
-		statement: '',
+		statement: 'I once sold my wife\'s car, but told her it was stolen.',
 		guessingTeam: 'Lee Mack',
 		person: 'Bernard Cribbins',
 		personGuesses: {
@@ -83,11 +83,11 @@ const rounds = [
 	{
 		type: 'this_is_my',
 		guessingTeam: 'David Mitchell',
-		guest: '',
+		guest: 'Molly',
 		connections: {
-			'Deborah Meaden': '',
-			'Mark Watson': '',
-			'Lee Mack': ''
+			'Deborah Meaden': 'Dragons Den contestant who was too nervous to say anything and left after 20 minutes.',
+			'Lee Mack': 'Ice skating teacher, teaching him for a wedding on ice where he\'s the best man.',
+			'Mark Watson': 'Cast her in a school play he wrote and directed about a murder.'
 		},
 		personGuess: {
 			'Bernard Cribbins': 'Deborah Meaden',
@@ -99,7 +99,7 @@ const rounds = [
 	},
 	{
 		type: 'quick_fire',
-		statement: '',
+		statement: 'As a child I had a special way (two ways) of communicating with Captain Kirk during Star Trek episodes.',
 		guessingTeam: 'Lee Mack',
 		person: 'David Mitchell',
 		personGuesses: {
@@ -112,7 +112,7 @@ const rounds = [
 	},
 	{
 		type: 'host',
-		statement: '',
+		statement: 'This is a prototype invention of mine that I\'m hoping to release one day.',
 		possession: true,
 		personGuesses: {
 			david: {

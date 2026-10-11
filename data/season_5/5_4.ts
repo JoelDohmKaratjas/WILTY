@@ -30,7 +30,7 @@ const cast = {
 const rounds = [
 	{
 		type: 'home_truths',
-		statement: '',
+		statement: 'I always make toast by ironing the bread, it tastes much better that way.',
 		guessingTeam: 'Lee Mack',
 		person: 'Gregg Wallace',
 		personGuesses: {
@@ -43,7 +43,7 @@ const rounds = [
 	},
 	{
 		type: 'home_truths',
-		statement: '',
+		statement: 'I once refused to pick up my girlfriend from the station because I couldn\'t bear to step over a spider that was between me and my front door.',
 		guessingTeam: 'David Mitchell',
 		person: 'Charlie Brooker',
 		personGuesses: {
@@ -56,7 +56,7 @@ const rounds = [
 	},
 	{
 		type: 'home_truths',
-		statement: '',
+		statement: 'I once went on a date with a flamenco dancer who turned out to be a man.',
 		guessingTeam: 'Lee Mack',
 		person: 'Nigel Havers',
 		personGuesses: {
@@ -70,11 +70,11 @@ const rounds = [
 	{
 		type: 'this_is_my',
 		guessingTeam: 'David Mitchell',
-		guest: '',
+		guest: 'John',
 		connections: {
-			'Charlie Brooker': '',
-			'Nina Wadia': '',
-			'Lee Mack': ''
+			'Charlie Brooker': 'When he was 17, he presented John with a dustbin on Valentine\'s Day for John\'s daughter.',
+			'Lee Mack': 'Previous owner of Lee\'s house, who still comes around with his deck chair to sit in his garden on sunny days.',
+			'Nina Wadia': 'First person to have a drink at the Vic, and the first person ever to have a curry at the Argee Bhajee.'
 		},
 		personGuess: {
 			'David Mitchell': 'Nina Wadia',
@@ -86,7 +86,7 @@ const rounds = [
 	},
 	{
 		type: 'quick_fire',
-		statement: '',
+		statement: 'Every Sunday, I treat myself to a relaxing bath with 3 squirts of Fairy Liquid in it.',
 		guessingTeam: 'David Mitchell',
 		person: 'Lee Mack',
 		personGuesses: {
@@ -99,7 +99,7 @@ const rounds = [
 	},
 	{
 		type: 'quick_fire',
-		statement: '',
+		statement: 'My parents recently forced me to have a new kitchen fitted because my flat embarrassed them.',
 		guessingTeam: 'Lee Mack',
 		person: 'David Mitchell',
 		personGuesses: {
@@ -112,7 +112,7 @@ const rounds = [
 	},
 	{
 		type: 'quick_fire',
-		statement: '',
+		statement: 'This is one of my history books. I read them in the sauna to make them look old.',
 		possession: true,
 		guessingTeam: 'Lee Mack',
 		person: 'Gregg Wallace',

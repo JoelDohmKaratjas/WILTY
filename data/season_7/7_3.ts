@@ -30,7 +30,7 @@ const cast = {
 const rounds = [
 	{
 		type: 'home_truths',
-		statement: '',
+		statement: 'When I got my first car, a friend and I would pretend to be cops; park up, eat burgers, and tail cars we\'d picked out of the traffic.',
 		guessingTeam: 'David Mitchell',
 		person: 'Warwick Davis',
 		personGuesses: {
@@ -43,7 +43,7 @@ const rounds = [
 	},
 	{
 		type: 'home_truths',
-		statement: '',
+		statement: 'I was gutted when I first saw Rob Brydon\'s small-man-in-a-box routine, as for years I\'d been entertaining my pals with my own man-trapped-in-my-mouth.',
 		guessingTeam: 'Lee Mack',
 		person: 'Jason Manford',
 		personGuesses: {
@@ -57,11 +57,11 @@ const rounds = [
 	{
 		type: 'this_is_my',
 		guessingTeam: 'David Mitchell',
-		guest: '',
+		guest: 'Neil',
 		connections: {
-			'Warwick Davis': '',
-			'Paul Hollywood': '',
-			'Lee Mack': ''
+			'Lee Mack': 'To prove his manhood, he destroyed his womble in front of Neil.',
+			'Paul Hollywood': 'Looks after Neil\'s parrot when Neil\'s on holiday and walks the parrot.',
+			'Warwick Davis': 'Paid by Neil to propose to Neil\'s girlfriend while dressed as an Ewok.'
 		},
 		personGuess: {
 			'David Mitchell': 'Warwick Davis',
@@ -73,7 +73,7 @@ const rounds = [
 	},
 	{
 		type: 'quick_fire',
-		statement: '',
+		statement: 'For the last 30 years my breakfast regime has never altered. I have one bowl of porridge, one large banana, and half a pint of lager.',
 		guessingTeam: 'Lee Mack',
 		person: 'Joan Bakewell',
 		personGuesses: {
@@ -86,7 +86,7 @@ const rounds = [
 	},
 	{
 		type: 'quick_fire',
-		statement: '',
+		statement: 'I can smell if there\'s a dead fly in the room.',
 		guessingTeam: 'David Mitchell',
 		person: 'Lee Mack',
 		personGuesses: {

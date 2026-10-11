@@ -30,7 +30,7 @@ const cast = {
 const rounds = [
 	{
 		type: 'home_truths',
-		statement: '',
+		statement: 'I deliberately set fire to my colleague\'s script, whilst they were live on air.',
 		guessingTeam: 'Lee Mack',
 		person: 'Sir Terry Wogan',
 		personGuesses: {
@@ -43,7 +43,7 @@ const rounds = [
 	},
 	{
 		type: 'home_truths',
-		statement: '',
+		statement: 'I once found a suitcase and took it to the police station, when they opened it, it contained 34 bunches of bananas.',
 		guessingTeam: 'David Mitchell',
 		person: 'Kevin Bridges',
 		personGuesses: {
@@ -56,7 +56,7 @@ const rounds = [
 	},
 	{
 		type: 'home_truths',
-		statement: '',
+		statement: 'As a child, I had so many imaginary friends, we formed an imaginary gang.',
 		guessingTeam: 'Lee Mack',
 		person: 'Robert Webb',
 		personGuesses: {
@@ -70,11 +70,11 @@ const rounds = [
 	{
 		type: 'this_is_my',
 		guessingTeam: 'David Mitchell',
-		guest: '',
+		guest: 'Tony',
 		connections: {
-			'Kevin Bridges': '',
-			'Katy Wix': '',
-			'Lee Mack': ''
+			'Katy Wix': 'He freed her from a vending machine because she got her foot stuck in the opening compartment.',
+			'Kevin Bridges': 'They were questioned by the police, for stealing a life sized cardboard cutout of Hugh Grant.',
+			'Lee Mack': 'He is a stand-in for the person who was supposed to turn up. His connection was Graham, self-defense instructor, who couldn\'t come.'
 		},
 		personGuess: {
 			'David Mitchell': 'undecided',
@@ -86,7 +86,7 @@ const rounds = [
 	},
 	{
 		type: 'quick_fire',
-		statement: '',
+		statement: 'When I was 12, I saved up all my pocket money and bought a rowing boat that I never used.',
 		guessingTeam: 'Lee Mack',
 		person: 'David Mitchell',
 		personGuesses: {
@@ -99,7 +99,7 @@ const rounds = [
 	},
 	{
 		type: 'quick_fire',
-		statement: '',
+		statement: 'After an incident with a permanent marker, I had to go to my son\'s Parents\' Evening, with a moustache and glasses drawn on me.',
 		guessingTeam: 'David Mitchell',
 		person: 'Lee Mack',
 		personGuesses: {
@@ -112,7 +112,7 @@ const rounds = [
 	},
 	{
 		type: 'quick_fire',
-		statement: '',
+		statement: 'Every year, I signal the start of Christmas dinner, by taking my seat opposite Mrs. Wogan, and firing a pistol loaded with a blank or blanks.',
 		guessingTeam: 'Lee Mack',
 		person: 'Sir Terry Wogan',
 		personGuesses: {

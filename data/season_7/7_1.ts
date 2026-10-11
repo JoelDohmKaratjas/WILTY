@@ -30,7 +30,7 @@ const cast = {
 const rounds = [
 	{
 		type: 'home_truths',
-		statement: '',
+		statement: 'In nightclubs, in order to impress the ladies, I used to break into my special catwalk move.',
 		guessingTeam: 'Lee Mack',
 		person: 'Dara Ó Briain',
 		personGuesses: {
@@ -43,7 +43,7 @@ const rounds = [
 	},
 	{
 		type: 'home_truths',
-		statement: '',
+		statement: 'I once got a tattoo because I was told that it would disappear after three years.',
 		guessingTeam: 'David Mitchell',
 		person: 'Denise van Outen',
 		personGuesses: {
@@ -57,11 +57,11 @@ const rounds = [
 	{
 		type: 'this_is_my',
 		guessingTeam: 'Lee Mack',
-		guest: '',
+		guest: 'Mel',
 		connections: {
-			'Vernon Kay': '',
-			'Dara Ó Briain': '',
-			'David Mitchell': ''
+			'Dara Ó Briain': 'They were stargazing, when they were quizzed by the police, who thought they were \'Peeping Toms\'.',
+			'David Mitchell': 'Postman who retrieved his phone from postbox.',
+			'Vernon Kay': 'Was rescued from almost blowing up a Banana factory.'
 		},
 		personGuess: {
 			'Denise van Outen': 'Dara Ó Briain',
@@ -73,7 +73,7 @@ const rounds = [
 	},
 	{
 		type: 'quick_fire',
-		statement: '',
+		statement: 'One of the codes I live my life by is that my appearance should be in no way noteworthy. But then again, not so unnoteworthy as to be, in itself, noteworthy.',
 		guessingTeam: 'Lee Mack',
 		person: 'David Mitchell',
 		personGuesses: {
@@ -86,7 +86,7 @@ const rounds = [
 	},
 	{
 		type: 'quick_fire',
-		statement: '',
+		statement: 'I once dug up my dead hamster and gave it a wash.',
 		guessingTeam: 'David Mitchell',
 		person: 'Rhod Gilbert',
 		personGuesses: {

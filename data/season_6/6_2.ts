@@ -30,7 +30,7 @@ const cast = {
 const rounds = [
 	{
 		type: 'home_truths',
-		statement: '',
+		statement: 'One Christmas morning I woke up stark naked in our shoe cupboard clutching nothing but two cans of fake snow.',
 		guessingTeam: 'Lee Mack',
 		person: 'Richard Madeley',
 		personGuesses: {
@@ -43,7 +43,7 @@ const rounds = [
 	},
 	{
 		type: 'home_truths',
-		statement: '',
+		statement: 'Every time I shower I must adhere to my strict system for drying myself.',
 		guessingTeam: 'David Mitchell',
 		person: 'Miles Jupp',
 		personGuesses: {
@@ -56,7 +56,7 @@ const rounds = [
 	},
 	{
 		type: 'home_truths',
-		statement: '',
+		statement: 'Every time I have a haircut I ask to keep the hair which I then take to London and scatter for the pigeons to make nests with.',
 		guessingTeam: 'David Mitchell',
 		person: 'Kate Humble',
 		personGuesses: {
@@ -70,11 +70,11 @@ const rounds = [
 	{
 		type: 'this_is_my',
 		guessingTeam: 'David Mitchell',
-		guest: '',
+		guest: 'John',
 		connections: {
-			'Kate Humble': '',
-			'Miles Jupp': '',
-			'Lee Mack': ''
+			'Kate Humble': 'In Africa they dressed up in a pantomime giraffe costume to get close-up shots of giraffes in the wild.',
+			'Lee Mack': 'They were once forced to share a bed when they were double booked into the same hotel room.',
+			'Miles Jupp': 'They were paid to fight together in a supermarket, dressed as gladiators.'
 		},
 		personGuess: {
 			'David Mitchell': 'Lee Mack',
@@ -86,7 +86,7 @@ const rounds = [
 	},
 	{
 		type: 'quick_fire',
-		statement: '',
+		statement: 'I like pens. And I like to know where my pens are. For this reason, I have a three point pen policy.',
 		guessingTeam: 'Lee Mack',
 		person: 'David Mitchell',
 		personGuesses: {

@@ -30,7 +30,7 @@ const cast = {
 const rounds = [
 	{
 		type: 'home_truths',
-		statement: '',
+		statement: 'As a method actor, on the set of Downton Abbey I like to remain in character all day and even help serve lunch to the cast and the crew as Carson.',
 		guessingTeam: 'David Mitchell',
 		person: 'Jim Carter',
 		personGuesses: {
@@ -43,7 +43,7 @@ const rounds = [
 	},
 	{
 		type: 'home_truths',
-		statement: '',
+		statement: 'I once hid a girl in my bed, whilst my entire family came into the bedroom to have a conversation with me.',
 		guessingTeam: 'Lee Mack',
 		person: 'Jack Whitehall',
 		personGuesses: {
@@ -57,11 +57,11 @@ const rounds = [
 	{
 		type: 'this_is_my',
 		guessingTeam: 'Lee Mack',
-		guest: '',
+		guest: 'Benjie',
 		connections: {
-			'Emily Maitlis': '',
-			'Jack Whitehall': '',
-			'David Mitchell': ''
+			'David Mitchell': 'He owns an ice cream van and gives David two flakes on his 99 ice cream, he then decided to name him \'David-Two-Flakes\'.',
+			'Emily Maitlis': 'He\'s helping me to fulfil my recurring dream, which is to do the splits.',
+			'Jack Whitehall': 'He hypnotised him and his friend to make them believe they had never watched Harry Potter so they could watch it again.'
 		},
 		personGuess: {
 			'Armando Iannucci': 'Jack Whitehall',
@@ -73,7 +73,7 @@ const rounds = [
 	},
 	{
 		type: 'quick_fire',
-		statement: '',
+		statement: 'Last year I was forced to abandon the purchase of a new armchair mid-transaction, because the shop assistant used the terms \'well jel\' and \'amazeballs\'.',
 		guessingTeam: 'Lee Mack',
 		person: 'David Mitchell',
 		personGuesses: {
@@ -86,7 +86,7 @@ const rounds = [
 	},
 	{
 		type: 'quick_fire',
-		statement: '',
+		statement: 'I once had to abandon my car in a safari park after a baboon climbed through the sunroof, lay down on the back seat and fell asleep.',
 		guessingTeam: 'David Mitchell',
 		person: 'Armando Iannucci',
 		personGuesses: {

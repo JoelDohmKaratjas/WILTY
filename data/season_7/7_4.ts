@@ -30,7 +30,7 @@ const cast = {
 const rounds = [
 	{
 		type: 'home_truths',
-		statement: '',
+		statement: 'These are my favourite boxer shorts. Despite the fact they\'ve seen better days, we have such a strong bond I still wear them.',
 		possession: true,
 		guessingTeam: 'David Mitchell',
 		person: 'Josh Widdicombe',
@@ -44,7 +44,7 @@ const rounds = [
 	},
 	{
 		type: 'home_truths',
-		statement: '',
+		statement: 'I once had a snog with one of the people here on Would I Lie to You tonight.',
 		guessingTeam: 'Lee Mack',
 		person: 'Mel Giedroyc',
 		personGuesses: {
@@ -58,11 +58,11 @@ const rounds = [
 	{
 		type: 'this_is_my',
 		guessingTeam: 'Lee Mack',
-		guest: '',
+		guest: 'Shaylene',
 		connections: {
-			'Mel Giedroyc': '',
-			'Dermot O\'Leary': '',
-			'David Mitchell': ''
+			'David Mitchell': 'Lifeguard who talked him into letting go of the diving board.',
+			'Dermot O\'Leary': 'Asked her out 156 times.',
+			'Mel Giedroyc': 'Cut Shaylene\'s hair to put in the stuffing of her teddy bear.'
 		},
 		personGuess: {
 			'Josh Widdicombe': 'Mel Giedroyc',
@@ -74,7 +74,7 @@ const rounds = [
 	},
 	{
 		type: 'quick_fire',
-		statement: '',
+		statement: 'At school, I was given the nickname "The Charmer", because I was the only one who could console the school snake whenever it got agitated.',
 		guessingTeam: 'David Mitchell',
 		person: 'Lee Mack',
 		personGuesses: {

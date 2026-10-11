@@ -30,7 +30,7 @@ const cast = {
 const rounds = [
 	{
 		type: 'home_truths',
-		statement: '',
+		statement: 'For superstitious reasons, I have to touch the tip of my nose every time I say the word France.',
 		guessingTeam: 'David Mitchell',
 		person: 'Hugh Dennis',
 		personGuesses: {
@@ -43,7 +43,7 @@ const rounds = [
 	},
 	{
 		type: 'home_truths',
-		statement: '',
+		statement: 'I was interrogated for six hours on suspicion of being a spy.',
 		guessingTeam: 'Lee Mack',
 		person: 'Ben Fogle',
 		personGuesses: {
@@ -56,7 +56,7 @@ const rounds = [
 	},
 	{
 		type: 'home_truths',
-		statement: '',
+		statement: 'I once read an entire news bulletin with one foot in a bucket of iced water.',
 		guessingTeam: 'David Mitchell',
 		person: 'Kate Silverton',
 		personGuesses: {
@@ -69,7 +69,7 @@ const rounds = [
 	},
 	{
 		type: 'ring_of_truth_dual',
-		statement: '',
+		statement: 'Andy Murray recently released a rap single that sold just 200 copies and failed to chart.',
 		personGuesses: {
 			david: {
 				'Ben Fogle': 'lie',
@@ -91,11 +91,11 @@ const rounds = [
 	{
 		type: 'this_is_my',
 		guessingTeam: 'Lee Mack',
-		guest: '',
+		guest: 'Mike',
 		connections: {
-			'Ben Fogle': '',
-			'Craig Revel Horwood': '',
-			'David Mitchell': ''
+			'Ben Fogle': 'Mike gave him a tattoo after he got drunk at a pub.',
+			'Craig Revel Horwood': 'Mike beat him in a Moustache Wearer of the Year competition.',
+			'David Mitchell': 'They started a detective agency together in his garden shed.'
 		},
 		personGuess: {
 			'Hugh Dennis': 'Ben Fogle',
@@ -107,7 +107,7 @@ const rounds = [
 	},
 	{
 		type: 'quick_fire',
-		statement: '',
+		statement: 'When I was six, I was thrown out of ballroom dancing lessons.',
 		guessingTeam: 'David Mitchell',
 		person: 'Lee Mack',
 		personGuesses: {
@@ -120,7 +120,7 @@ const rounds = [
 	},
 	{
 		type: 'quick_fire',
-		statement: '',
+		statement: 'I have such a terrible singing voice, that one year my teacher told me to mime during our school carol concert.',
 		guessingTeam: 'Lee Mack',
 		person: 'David Mitchell',
 		personGuesses: {
@@ -133,7 +133,7 @@ const rounds = [
 	},
 	{
 		type: 'host',
-		statement: '',
+		statement: 'I always throw the first and last biscuit away without eating it.',
 		personGuesses: {
 			david: {
 				'Ben Fogle': 'truth',

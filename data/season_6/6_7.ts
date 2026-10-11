@@ -30,7 +30,7 @@ const cast = {
 const rounds = [
 	{
 		type: 'home_truths',
-		statement: '',
+		statement: 'When I\'m feeling tired I photograph myself to see how tired I look. I then compare this photograph with other photographs I\'ve taken of myself when I felt tired to see how tired I really am.',
 		guessingTeam: 'Lee Mack',
 		person: 'Sarah Millican',
 		personGuesses: {
@@ -43,7 +43,7 @@ const rounds = [
 	},
 	{
 		type: 'home_truths',
-		statement: '',
+		statement: 'I have an evil eye that I use on my colleagues during broadcasts when I want them to move on.',
 		guessingTeam: 'Lee Mack',
 		person: 'Huw Edwards',
 		personGuesses: {
@@ -56,7 +56,7 @@ const rounds = [
 	},
 	{
 		type: 'home_truths',
-		statement: '',
+		statement: 'Whilst fulfilling a lifelong dream of swimming with dolphins, I had to punch one of them on the nose because I firmly believed it was trying to remove my trunks.',
 		guessingTeam: 'David Mitchell',
 		person: 'Bradley Walsh',
 		personGuesses: {
@@ -70,11 +70,11 @@ const rounds = [
 	{
 		type: 'this_is_my',
 		guessingTeam: 'David Mitchell',
-		guest: '',
+		guest: 'Paul',
 		connections: {
-			'Josie Lawrence': '',
-			'Bradley Walsh': '',
-			'Lee Mack': ''
+			'Bradley Walsh': 'His friend who liked mashed potatoes so much, Bradley decided to steal some from the teachers plates for him.',
+			'Josie Lawrence': 'He taught her how to give up smoking through a carrot technique.',
+			'Lee Mack': 'His milkman, who left 88 pints of milk on his doorstep.'
 		},
 		personGuess: {
 			'David Mitchell': 'Bradley Walsh',
@@ -86,7 +86,7 @@ const rounds = [
 	},
 	{
 		type: 'quick_fire',
-		statement: '',
+		statement: 'I can tell if someone drinks mainly tea or coffee just by listening to (the rumble in) their stomach.',
 		guessingTeam: 'David Mitchell',
 		person: 'Lee Mack',
 		personGuesses: {

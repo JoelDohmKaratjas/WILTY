@@ -30,7 +30,7 @@ const cast = {
 const rounds = [
 	{
 		type: 'home_truths',
-		statement: '',
+		statement: 'Whenever I eat beans-on-toast, I always imagine I\'m a rescue helicopter and with every forkful I\'m airlifting tiny bald men on a raft to safety.',
 		guessingTeam: 'Lee Mack',
 		person: 'Stephen Mangan',
 		personGuesses: {
@@ -43,7 +43,7 @@ const rounds = [
 	},
 	{
 		type: 'home_truths',
-		statement: '',
+		statement: 'A little chimpanzee once came to my house for tea.',
 		guessingTeam: 'David Mitchell',
 		person: 'Charles Dance',
 		personGuesses: {
@@ -56,7 +56,7 @@ const rounds = [
 	},
 	{
 		type: 'home_truths',
-		statement: '',
+		statement: 'Every Sunday I spend four hours planning the 20 outfits I\'ll wear the coming week.',
 		guessingTeam: 'David Mitchell',
 		person: 'Gok Wan',
 		personGuesses: {
@@ -69,7 +69,7 @@ const rounds = [
 	},
 	{
 		type: 'home_truths',
-		statement: '',
+		statement: 'Because my mum deemed Scooby-Doo too scary to watch, I was only ever allowed to listen to it.',
 		guessingTeam: 'Lee Mack',
 		person: 'Isy Suttie',
 		personGuesses: {
@@ -83,11 +83,11 @@ const rounds = [
 	{
 		type: 'this_is_my',
 		guessingTeam: 'Lee Mack',
-		guest: '',
+		guest: 'Hannah',
 		connections: {
-			'Stephen Mangan': '',
-			'Isy Suttie': '',
-			'David Mitchell': ''
+			'David Mitchell': 'Pub owner who named her pub "Mitchell and Glove," and he allowed her to use his face on the pub sign.',
+			'Isy Suttie': 'They competed to eat the most ants to impress a boy.',
+			'Stephen Mangan': 'Together, pranked their neighbour by added an item of clothing to his washing line after he put his laundry out.'
 		},
 		personGuess: {
 			'Charles Dance': 'Stephen Mangan',
@@ -99,7 +99,7 @@ const rounds = [
 	},
 	{
 		type: 'quick_fire',
-		statement: '',
+		statement: 'When I was seven, I had to be a bridesmaid at my auntie\'s wedding, as one of the girls who was supposed to do it was ill and the dress was a perfect fit.',
 		guessingTeam: 'David Mitchell',
 		person: 'Lee Mack',
 		personGuesses: {

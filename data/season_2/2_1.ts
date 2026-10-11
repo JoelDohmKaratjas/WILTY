@@ -30,7 +30,7 @@ const cast = {
 const rounds = [
 	{
 		type: 'home_truths',
-		statement: '',
+		statement: 'I have stolen sweets from Madonna\'s dressing room.',
 		guessingTeam: 'David Mitchell',
 		person: 'Gabby Logan',
 		personGuesses: {
@@ -43,7 +43,7 @@ const rounds = [
 	},
 	{
 		type: 'home_truths',
-		statement: '',
+		statement: 'I once simultaneously worked as both the DJ and the newsreader on local radio using a different accent for each job.',
 		guessingTeam: 'Lee Mack',
 		person: 'Rob Brydon',
 		personGuesses: {
@@ -56,7 +56,7 @@ const rounds = [
 	},
 	{
 		type: 'home_truths',
-		statement: '',
+		statement: 'My nickname at school was Mr. Custard.',
 		guessingTeam: 'David Mitchell',
 		person: 'Robert Webb',
 		personGuesses: {
@@ -69,7 +69,7 @@ const rounds = [
 	},
 	{
 		type: 'ring_of_truth_single',
-		statement: '',
+		statement: 'José Mourinho is about to release his own range of air fresheners.',
 		guessingTeam: 'Lee Mack',
 		personGuesses: {
 			'Gabby Logan': 'truth',
@@ -81,7 +81,7 @@ const rounds = [
 	},
 	{
 		type: 'ring_of_truth_single',
-		statement: '',
+		statement: 'Ann Widdecombe relaxes by listening to an LP of lion and tiger noises from the jungle.',
 		guessingTeam: 'David Mitchell',
 		personGuesses: {
 			'David Mitchell': 'truth',
@@ -94,11 +94,11 @@ const rounds = [
 	{
 		type: 'this_is_my',
 		guessingTeam: 'David Mitchell',
-		guest: '',
+		guest: 'Viva',
 		connections: {
-			'Gabby Logan': '',
-			'Robert Webb': '',
-			'Lee Mack': ''
+			'Gabby Logan': 'Her archrival in rhythmic gymnastics.',
+			'Lee Mack': 'His swimming teacher who taught him when he was 30 but it didn\'t work.',
+			'Robert Webb': 'His ex-girlfriend who dumped him when he brought her a torch for Christmas.'
 		},
 		personGuess: {
 			'David Mitchell': 'Robert Webb',
@@ -110,7 +110,7 @@ const rounds = [
 	},
 	{
 		type: 'quick_fire',
-		statement: '',
+		statement: 'I believe disaster will occur if I don\'t adhere to my special alarm clock system.',
 		guessingTeam: 'Lee Mack',
 		person: 'David Mitchell',
 		personGuesses: {
@@ -123,7 +123,7 @@ const rounds = [
 	},
 	{
 		type: 'quick_fire',
-		statement: '',
+		statement: 'I check for monsters before I go to bed because I\'m afraid of the dark.',
 		guessingTeam: 'Lee Mack',
 		person: 'Krishnan Guru-Murthy',
 		personGuesses: {
@@ -136,7 +136,7 @@ const rounds = [
 	},
 	{
 		type: 'quick_fire',
-		statement: '',
+		statement: 'I was voted the 47th sexiest man in Wales.',
 		guessingTeam: 'Lee Mack',
 		person: 'Rob Brydon',
 		personGuesses: {
@@ -149,7 +149,7 @@ const rounds = [
 	},
 	{
 		type: 'quick_fire',
-		statement: '',
+		statement: 'I was voted the 88th sexiest man in the world.',
 		guessingTeam: 'David Mitchell',
 		person: 'Robert Webb',
 		personGuesses: {

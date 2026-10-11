@@ -30,7 +30,7 @@ const cast = {
 const rounds = [
 	{
 		type: 'home_truths',
-		statement: '',
+		statement: 'I have five chickens all named after my favourite newsreaders.',
 		guessingTeam: 'Lee Mack',
 		person: 'Kirsty Young',
 		personGuesses: {
@@ -43,7 +43,7 @@ const rounds = [
 	},
 	{
 		type: 'home_truths',
-		statement: '',
+		statement: 'For three weeks, I was listed as a missing person by Interpol.',
 		guessingTeam: 'David Mitchell',
 		person: 'Henning Wehn',
 		personGuesses: {
@@ -57,11 +57,11 @@ const rounds = [
 	{
 		type: 'this_is_my',
 		guessingTeam: 'Lee Mack',
-		guest: '',
+		guest: 'Andy',
 		connections: {
-			'Greg Rutherford': '',
-			'Kirsty Young': '',
-			'David Mitchell': ''
+			'David Mitchell': 'Gave David a surfing lesson and said he\'d never seen a novice display such natural ability.',
+			'Greg Rutherford': 'Greg beat him in a speed-eating competition where Greg ate more than a kilo of ribs..',
+			'Kirsty Young': 'Played a handbag snatcher in a Crimewatch reconstruction, only got nine calls and all said Andy was the snatcher.'
 		},
 		personGuess: {
 			'Henning Wehn': 'Greg Rutherford',
@@ -73,7 +73,7 @@ const rounds = [
 	},
 	{
 		type: 'quick_fire',
-		statement: '',
+		statement: 'I\'ve had to stop listening to a classic 1980\'s pop song, because every time I play it, it makes my baby daughter cry.',
 		guessingTeam: 'David Mitchell',
 		person: 'Lee Mack',
 		personGuesses: {
@@ -86,7 +86,7 @@ const rounds = [
 	},
 	{
 		type: 'host',
-		statement: '',
+		statement: 'I was recently bounced off a bouncy castle whilst trying to prevent a bouncident.',
 		personGuesses: {
 			david: {
 				'David Mitchell': 'lie',

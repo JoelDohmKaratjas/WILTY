@@ -30,7 +30,7 @@ const cast = {
 const rounds = [
 	{
 		type: 'home_truths',
-		statement: '',
+		statement: 'On Countdown if I worked out the number puzzle before the time was up I used to play a little game.',
 		guessingTeam: 'David Mitchell',
 		person: 'Carol Vorderman',
 		personGuesses: {
@@ -43,7 +43,7 @@ const rounds = [
 	},
 	{
 		type: 'home_truths',
-		statement: '',
+		statement: 'I used to run a market stall that only sold hats for dogs.',
 		guessingTeam: 'Lee Mack',
 		person: 'Larry Lamb',
 		personGuesses: {
@@ -56,7 +56,7 @@ const rounds = [
 	},
 	{
 		type: 'home_truths',
-		statement: '',
+		statement: 'I used to put my underpants on my head to cure my acne.',
 		guessingTeam: 'David Mitchell',
 		person: 'Russell Howard',
 		personGuesses: {
@@ -69,7 +69,7 @@ const rounds = [
 	},
 	{
 		type: 'ring_of_truth_single',
-		statement: '',
+		statement: 'Liam Gallagher once ordered a trampoline from hotel room service, claiming "I like to bounce."',
 		guessingTeam: 'Lee Mack',
 		personGuesses: {
 			'Carol Vorderman': 'truth',
@@ -82,11 +82,11 @@ const rounds = [
 	{
 		type: 'this_is_my',
 		guessingTeam: 'Lee Mack',
-		guest: '',
+		guest: 'Liz',
 		connections: {
-			'Jo Brand': '',
-			'Larry Lamb': '',
-			'David Mitchell': ''
+			'David Mitchell': 'Liz and David are writing a guide to the castles of Britain.',
+			'Jo Brand': 'Liz was accidentally dropped in a pond by Jo when Liz was a baby.',
+			'Larry Lamb': 'Liz taught Larry basic bar skills before he went to work at the \'The Queen Vic\'.'
 		},
 		personGuess: {
 			'Carol Vorderman': 'Larry Lamb',
@@ -98,7 +98,7 @@ const rounds = [
 	},
 	{
 		type: 'quick_fire',
-		statement: '',
+		statement: 'This is a letter rejecting me from a job at McDonald\'s.',
 		possession: true,
 		guessingTeam: 'Lee Mack',
 		person: 'David Mitchell',
@@ -112,7 +112,7 @@ const rounds = [
 	},
 	{
 		type: 'quick_fire',
-		statement: '',
+		statement: 'I once picked up a hitchhiker and scared him so much he cried.',
 		guessingTeam: 'David Mitchell',
 		person: 'Lee Mack',
 		personGuesses: {

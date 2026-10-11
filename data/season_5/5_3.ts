@@ -30,7 +30,7 @@ const cast = {
 const rounds = [
 	{
 		type: 'home_truths',
-		statement: '',
+		statement: 'I was so sure that Wombles were real, I used one in an example of a mammal in a GCSE Biology exam.',
 		guessingTeam: 'Lee Mack',
 		person: 'Katherine Parkinson',
 		personGuesses: {
@@ -43,7 +43,7 @@ const rounds = [
 	},
 	{
 		type: 'home_truths',
-		statement: '',
+		statement: 'I am currently seeing a hypnotist to cure me of my compulsion to visit hypnotists.',
 		guessingTeam: 'Lee Mack',
 		person: 'David O\'Doherty',
 		personGuesses: {
@@ -57,11 +57,11 @@ const rounds = [
 	{
 		type: 'this_is_my',
 		guessingTeam: 'Lee Mack',
-		guest: '',
+		guest: 'Mark',
 		connections: {
-			'David O\'Doherty': '',
-			'Katherine Parkinson': '',
-			'David Mitchell': ''
+			'David Mitchell': 'He saved David from choking in Argos, after David swallowed one of Argos\' little pens.',
+			'David O\'Doherty': 'They started a lost animals detective agency.',
+			'Katherine Parkinson': 'Recycling man who put a note through her door telling her he thought she was eating too many takeaways.'
 		},
 		personGuess: {
 			'Bill Turnbull': 'David O\'Doherty',
@@ -73,7 +73,7 @@ const rounds = [
 	},
 	{
 		type: 'quick_fire',
-		statement: '',
+		statement: 'I make myself cry before every big dance performance to get rid of any excess water weight.',
 		guessingTeam: 'David Mitchell',
 		person: 'Louie Spence',
 		personGuesses: {
@@ -86,7 +86,7 @@ const rounds = [
 	},
 	{
 		type: 'quick_fire',
-		statement: '',
+		statement: 'I can tell the circumference of someone\'s head just by looking at them.',
 		guessingTeam: 'David Mitchell',
 		person: 'Lee Mack',
 		personGuesses: {

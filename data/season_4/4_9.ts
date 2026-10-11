@@ -23,7 +23,7 @@ const rounds = [
 	{
 		episode: 3,
 		type: 'home_truths',
-		statement: '',
+		statement: 'I once caused the Hadron Collider to be shut down, after I spilled yoghurt in it.',
 		guessingTeam: 'David Mitchell',
 		person: 'Prof. Brain Cox',
 		personGuesses: {
@@ -37,7 +37,7 @@ const rounds = [
 	{
 		episode: 1,
 		type: 'home_truths',
-		statement: '',
+		statement: 'Sometimes, I change the order I put my shoes and socks on to spice up my daily routine.',
 		guessingTeam: 'David Mitchell',
 		person: 'Martin Clunes',
 		personGuesses: {
@@ -51,7 +51,7 @@ const rounds = [
 	{
 		episode: 5,
 		type: 'ring_of_truth_dual',
-		statement: '',
+		statement: 'Noel Edmonds employs a pet chef once a week, to cook a three-course dinner for his cat.',
 		personGuesses: {
 			david: {
 				'David Mitchell': 'lie',
@@ -73,7 +73,7 @@ const rounds = [
 	{
 		episode: 8,
 		type: 'quick_fire',
-		statement: '',
+		statement: 'I was asked to leave the cinema for crying too loud.',
 		guessingTeam: 'Lee Mack',
 		person: 'John Bishop',
 		personGuesses: {
@@ -87,7 +87,7 @@ const rounds = [
 	{
 		episode: 3,
 		type: 'host',
-		statement: '',
+		statement: 'I used to put on a different voice on the telephone, and pretend to be my own agent.',
 		personGuesses: {
 			david: {
 				'David Mitchell': 'truth',
@@ -109,7 +109,7 @@ const rounds = [
 	{
 		episode: 2,
 		type: 'quick_fire',
-		statement: '',
+		statement: 'This is the fez that I put on, to propose to my wife.',
 		possession: true,
 		guessingTeam: 'David Mitchell',
 		person: 'Jack Dee',
@@ -124,7 +124,7 @@ const rounds = [
 	{
 		episode: 7,
 		type: 'quick_fire',
-		statement: '',
+		statement: 'Every year, I mark the anniversary of the death of my goldfish by pouring a shot of brandy into my pond.',
 		guessingTeam: 'David Mitchell',
 		person: 'Lee Mack',
 		personGuesses: {

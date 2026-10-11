@@ -30,7 +30,7 @@ const cast = {
 const rounds = [
 	{
 		type: 'home_truths',
-		statement: '',
+		statement: 'I have been approached by NASA to be the first man to cycle on the moon.',
 		guessingTeam: 'Lee Mack',
 		person: 'Sir Chris Hoy',
 		personGuesses: {
@@ -43,7 +43,7 @@ const rounds = [
 	},
 	{
 		type: 'home_truths',
-		statement: '',
+		statement: 'When I present a show for the first time, I like to wear red underwear.',
 		guessingTeam: 'David Mitchell',
 		person: 'Gabby Logan',
 		personGuesses: {
@@ -56,7 +56,7 @@ const rounds = [
 	},
 	{
 		type: 'home_truths',
-		statement: '',
+		statement: 'Whenever someone recognises me, but can\'t place me, I tell them I\'m part of the Olympic Cycling Team.',
 		guessingTeam: 'David Mitchell',
 		person: 'Danny Wallace',
 		personGuesses: {
@@ -69,7 +69,7 @@ const rounds = [
 	},
 	{
 		type: 'ring_of_truth_single',
-		statement: '',
+		statement: 'Prince Charles became a member of the magic circle when he auditioned using his cup and balls trick.',
 		guessingTeam: 'David Mitchell',
 		personGuesses: {
 			'David Mitchell': 'truth',
@@ -81,7 +81,7 @@ const rounds = [
 	},
 	{
 		type: 'ring_of_truth_single',
-		statement: '',
+		statement: 'Gary Barlow has a microphone installed in his downstairs bathroom to record new song ideas, as it\'s where he feels the most creative.',
 		guessingTeam: 'Lee Mack',
 		personGuesses: {
 			'Danny Wallace': 'lie',
@@ -94,11 +94,11 @@ const rounds = [
 	{
 		type: 'this_is_my',
 		guessingTeam: 'Lee Mack',
-		guest: '',
+		guest: 'Silvan',
 		connections: {
-			'Ronni Ancona': '',
-			'Sir Chris Hoy': '',
-			'David Mitchell': ''
+			'David Mitchell': 'This is Silvan, and he\'s my next-door neighbour, and I promised I\'d get him on tv, after he complained about an all-night party in my flat.',
+			'Ronni Ancona': 'This is Silvan, and he designed a household robot that speaks with my voice.',
+			'Sir Chris Hoy': 'This is Silvan, and he is my masseur, and he was also the guitarist in Simply Red.'
 		},
 		personGuess: {
 			'Danny Wallace': 'Sir Chris Hoy',
@@ -110,7 +110,7 @@ const rounds = [
 	},
 	{
 		type: 'quick_fire',
-		statement: '',
+		statement: 'I can\'t eat custard creams because they remind me of Spencer Whitfield who bullied me at school.',
 		guessingTeam: 'David Mitchell',
 		person: 'Lee Mack',
 		personGuesses: {
@@ -123,7 +123,7 @@ const rounds = [
 	},
 	{
 		type: 'quick_fire',
-		statement: '',
+		statement: 'The only concert I have ever been to was by Shirley Bassey.',
 		guessingTeam: 'Lee Mack',
 		person: 'David Mitchell',
 		personGuesses: {
@@ -136,7 +136,7 @@ const rounds = [
 	},
 	{
 		type: 'quick_fire',
-		statement: '',
+		statement: 'These are some of the birthday cards that I\'ve posted to my pets.',
 		possession: true,
 		guessingTeam: 'David Mitchell',
 		person: 'Gabby Logan',

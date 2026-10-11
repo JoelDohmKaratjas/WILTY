@@ -30,7 +30,7 @@ const cast = {
 const rounds = [
 	{
 		type: 'home_truths',
-		statement: '',
+		statement: 'I once wet myself in a car and then blamed it on my friend\'s dog.',
 		guessingTeam: 'David Mitchell',
 		person: 'Sarah Millican',
 		personGuesses: {
@@ -43,7 +43,7 @@ const rounds = [
 	},
 	{
 		type: 'home_truths',
-		statement: '',
+		statement: 'I was once driven to A&E in an ice cream van. In place of a siren, the driver turned on the musical chimes.',
 		guessingTeam: 'Lee Mack',
 		person: 'Frank Skinner',
 		personGuesses: {
@@ -56,7 +56,7 @@ const rounds = [
 	},
 	{
 		type: 'home_truths',
-		statement: '',
+		statement: 'I was saved from drowning by a character from the children\'s show Rainbow.',
 		guessingTeam: 'Lee Mack',
 		person: 'Bill Oddie',
 		personGuesses: {
@@ -70,11 +70,11 @@ const rounds = [
 	{
 		type: 'this_is_my',
 		guessingTeam: 'David Mitchell',
-		guest: '',
+		guest: 'Kathy',
 		connections: {
-			'Sarah Millican': '',
-			'Jon Richardson': '',
-			'Lee Mack': ''
+			'Jon Richardson': 'They crashed into each other while they were both doing their driving tests.',
+			'Lee Mack': 'Hotel receptionist that he had to phone when he found a peacock in his room.',
+			'Sarah Millican': 'They tricked the newspapers into reporting that she had been left under a spell from a hypnotist.'
 		},
 		personGuess: {
 			'Bill Oddie': 'Lee Mack',
@@ -86,7 +86,7 @@ const rounds = [
 	},
 	{
 		type: 'quick_fire',
-		statement: '',
+		statement: 'When I\'m at home, I amuse myself by shaving only half my face and doing that thing where you have a conversation between two people.',
 		guessingTeam: 'David Mitchell',
 		person: 'Lee Mack',
 		personGuesses: {
@@ -99,7 +99,7 @@ const rounds = [
 	},
 	{
 		type: 'quick_fire',
-		statement: '',
+		statement: 'This is the emergency kit that I keep in my car at all times.',
 		possession: true,
 		guessingTeam: 'David Mitchell',
 		person: 'Jon Richardson',

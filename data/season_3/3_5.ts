@@ -30,7 +30,7 @@ const cast = {
 const rounds = [
 	{
 		type: 'home_truths',
-		statement: '',
+		statement: 'Anton du Beke and I danced our way out of a parking ticket.',
 		guessingTeam: 'David Mitchell',
 		person: 'Christine Bleakley',
 		personGuesses: {
@@ -43,7 +43,7 @@ const rounds = [
 	},
 	{
 		type: 'home_truths',
-		statement: '',
+		statement: 'Every Christmas, my dad makes the whole family stand up to watch the Queen\'s speech.',
 		guessingTeam: 'Lee Mack',
 		person: 'Jack Whitehall',
 		personGuesses: {
@@ -56,7 +56,7 @@ const rounds = [
 	},
 	{
 		type: 'home_truths',
-		statement: '',
+		statement: 'When I was a child, I was scared that my entire life was a book, being read by a bear, and one day the bear would close the book, and my life would end.',
 		guessingTeam: 'David Mitchell',
 		person: 'Frankie Boyle',
 		personGuesses: {
@@ -69,7 +69,7 @@ const rounds = [
 	},
 	{
 		type: 'ring_of_truth_single',
-		statement: '',
+		statement: 'Mick Jagger has been asked by a company if they can sell his ashes in collectible egg timers when he dies.',
 		guessingTeam: 'David Mitchell',
 		personGuesses: {
 			'David Mitchell': 'truth',
@@ -82,11 +82,11 @@ const rounds = [
 	{
 		type: 'this_is_my',
 		guessingTeam: 'Lee Mack',
-		guest: '',
+		guest: 'Terry',
 		connections: {
-			'Kelvin MacKenzie': '',
-			'Jack Whitehall': '',
-			'David Mitchell': ''
+			'David Mitchell': 'This is Terry and he\'s the policeman who was called out when I was caught trying to break into the window of my own flat.',
+			'Jack Whitehall': 'This is Terry \'The Mean Machine\' Frazier and he is teaching me to wrestle.',
+			'Kelvin MacKenzie': 'This is Terry and he built the nuclear bunker in my garden.'
 		},
 		personGuess: {
 			'Christine Bleakley': 'Kelvin MacKenzie',
@@ -98,7 +98,7 @@ const rounds = [
 	},
 	{
 		type: 'quick_fire',
-		statement: '',
+		statement: 'If you give me any date before the year 2000 I can instantly tell you what day of the week it was.',
 		guessingTeam: 'David Mitchell',
 		person: 'Lee Mack',
 		personGuesses: {
@@ -111,7 +111,7 @@ const rounds = [
 	},
 	{
 		type: 'quick_fire',
-		statement: '',
+		statement: 'A Coronation Street star once made me remove all the red M&Ms from a bowl for him.',
 		guessingTeam: 'David Mitchell',
 		person: 'Christine Bleakley',
 		personGuesses: {

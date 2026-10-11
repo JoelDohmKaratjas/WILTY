@@ -93,9 +93,9 @@ const rounds = [
 		guessingTeam: 'Lee Mack',
 		guest: 'Jill',
 		connections: {
-			'Myleene Klass': 'A friend who has fitted Camilla Parker Bowles\' underwear.',
+			'David Mitchell': 'A hypnotherapist who cured him of his fear of balloons.',
 			'Jason Manford': 'An air hostess who saved his life when he choked on a peanut.',
-			'David Mitchell': 'A hypnotherapist who cured him of his fear of balloons.'
+			'Myleene Klass': 'A friend who has fitted Camilla Parker Bowles\' underwear.'
 		},
 		personGuess: {
 			'Lee Mack': 'David Mitchell',

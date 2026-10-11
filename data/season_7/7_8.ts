@@ -30,7 +30,7 @@ const cast = {
 const rounds = [
 	{
 		type: 'home_truths',
-		statement: '',
+		statement: 'As a baby, I was regularly fed coffee in my bottle.',
 		guessingTeam: 'Lee Mack',
 		person: 'Jimmy Carr',
 		personGuesses: {
@@ -43,7 +43,7 @@ const rounds = [
 	},
 	{
 		type: 'home_truths',
-		statement: '',
+		statement: 'I once spent an entire Christmas locked in a bank.',
 		guessingTeam: 'David Mitchell',
 		person: 'Dave Myers',
 		personGuesses: {
@@ -57,11 +57,11 @@ const rounds = [
 	{
 		type: 'this_is_my',
 		guessingTeam: 'David Mitchell',
-		guest: '',
+		guest: 'Ray',
 		connections: {
-			'Dave Myers': '',
-			'Susanna Reid': '',
-			'Lee Mack': ''
+			'Dave Myers': 'As teenagers, they spent two weeks building a 35-foot long airship in Ray\'s back garden only for Ray\'s cat to pop it.',
+			'Lee Mack': 'Taught Lee how to drive in a hearse.',
+			'Susanna Reid': 'Stole Ray\'s title for downing a pint faster than anyone else on the BBC Breakfast team.'
 		},
 		personGuess: {
 			'David Mitchell': 'Dave Myers',
@@ -73,7 +73,7 @@ const rounds = [
 	},
 	{
 		type: 'quick_fire',
-		statement: '',
+		statement: 'My dad used to keep a coconut in the car, because holding it was the only thing that would cure my travel sickness.',
 		guessingTeam: 'David Mitchell',
 		person: 'Susanna Reid',
 		personGuesses: {
@@ -86,7 +86,7 @@ const rounds = [
 	},
 	{
 		type: 'quick_fire',
-		statement: '',
+		statement: 'I pretended to Princess Margaret that I was deaf.',
 		guessingTeam: 'Lee Mack',
 		person: 'Griff Rhys Jones',
 		personGuesses: {
@@ -99,7 +99,7 @@ const rounds = [
 	},
 	{
 		type: 'quick_fire',
-		statement: '',
+		statement: 'I have hidden in a cupboard to escape Anthea Turner.',
 		guessingTeam: 'David Mitchell',
 		person: 'Lee Mack',
 		personGuesses: {

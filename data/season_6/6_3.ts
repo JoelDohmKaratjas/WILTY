@@ -30,7 +30,7 @@ const cast = {
 const rounds = [
 	{
 		type: 'home_truths',
-		statement: '',
+		statement: 'As a child, rather than sleeping with a comfort blanket or teddy bear, I slept with a potato.',
 		guessingTeam: 'Lee Mack',
 		person: 'Dale Winton',
 		personGuesses: {
@@ -43,7 +43,7 @@ const rounds = [
 	},
 	{
 		type: 'home_truths',
-		statement: '',
+		statement: 'When I worked in McDonald\'s, my long-term girlfriend joined the queue to my till and when she got to the counter, she dumped me.',
 		guessingTeam: 'Lee Mack',
 		person: 'Richard Bacon',
 		personGuesses: {
@@ -57,11 +57,11 @@ const rounds = [
 	{
 		type: 'this_is_my',
 		guessingTeam: 'David Mitchell',
-		guest: '',
+		guest: 'Robert and Will',
 		connections: {
-			'Clare Baldain': '',
-			'Miranda Hart': '',
-			'Lee Mack': ''
+			'Clare Baldain': 'They work on her garden and to avoid embarrassment of her ever getting them mixed up, she calls them both Barry.',
+			'Lee Mack': 'He used them to convince an audience he could teleport people.',
+			'Miranda Hart': 'She judged them at the Identical Twins Of The Year award and they came third, but they were disqualified because they were two of triplets.'
 		},
 		personGuess: {
 			'Dale Winton': 'Lee Mack',
@@ -73,7 +73,7 @@ const rounds = [
 	},
 	{
 		type: 'quick_fire',
-		statement: '',
+		statement: 'This is my dibber. I donated it to the British Lawnmower Museum where it is now a permanent exhibit.',
 		possession: true,
 		guessingTeam: 'David Mitchell',
 		person: 'Lee Mack',
@@ -87,7 +87,7 @@ const rounds = [
 	},
 	{
 		type: 'quick_fire',
-		statement: '',
+		statement: 'I once embarrassed myself in front of the local vicar at Christmas.',
 		guessingTeam: 'David Mitchell',
 		person: 'Miranda Hart',
 		personGuesses: {
@@ -100,7 +100,7 @@ const rounds = [
 	},
 	{
 		type: 'host',
-		statement: '',
+		statement: 'When I\'m in a play, as part of my nightly vocal warm-up I perform sets of scales in the voice of a chimpanzee.',
 		personGuesses: {
 			david: {
 				'Dale Winton': 'truth',

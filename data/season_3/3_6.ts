@@ -30,7 +30,7 @@ const cast = {
 const rounds = [
 	{
 		type: 'home_truths',
-		statement: '',
+		statement: 'I wrote my will on a bit of cardboard when I thought the plane I was in was about to crash.',
 		guessingTeam: 'David Mitchell',
 		person: 'Jane Street-Porter',
 		personGuesses: {
@@ -43,7 +43,7 @@ const rounds = [
 	},
 	{
 		type: 'home_truths',
-		statement: '',
+		statement: 'I have two chillies tattooed on my back, but I\'m having them covered up because they look like carrots.',
 		guessingTeam: 'Lee Mack',
 		person: 'Davina McCall',
 		personGuesses: {
@@ -56,7 +56,7 @@ const rounds = [
 	},
 	{
 		type: 'home_truths',
-		statement: '',
+		statement: 'I am launching my own range of condiments, including Omid Djalili Piccalili.',
 		guessingTeam: 'David Mitchell',
 		person: 'Omid Djalili',
 		personGuesses: {
@@ -69,7 +69,7 @@ const rounds = [
 	},
 	{
 		type: 'ring_of_truth_single',
-		statement: '',
+		statement: 'Mike Tyson once rented a hotel suite for his eight favourite pigeons.',
 		guessingTeam: 'Lee Mack',
 		personGuesses: {
 			'Jane Street-Porter': 'truth',
@@ -82,11 +82,11 @@ const rounds = [
 	{
 		type: 'this_is_my',
 		guessingTeam: 'David Mitchell',
-		guest: '',
+		guest: 'Sadie',
 		connections: {
-			'Omid Djalili': '',
-			'Jane Street-Porter': '',
-			'Lee Mack': ''
+			'Jane Street-Porter': 'Sadie came to my sixtieth birthday party, and pretended to be a waitress so she could lick Daniel Craig\'s plate.',
+			'Lee Mack': 'This is Sadie; she\'s my children\'s nanny, and the first time I met her I ran over her foot.',
+			'Omid Djalili': 'This is Sadie. I employ her to massage my dog.'
 		},
 		personGuess: {
 			'Dave Gorman': 'Jane Street-Porter',
@@ -98,7 +98,7 @@ const rounds = [
 	},
 	{
 		type: 'quick_fire',
-		statement: '',
+		statement: 'The screensaver on my phone is a photo of my living room carpet.',
 		guessingTeam: 'Lee Mack',
 		person: 'David Mitchell',
 		personGuesses: {
@@ -111,7 +111,7 @@ const rounds = [
 	},
 	{
 		type: 'quick_fire',
-		statement: '',
+		statement: 'This is my wall map of the UK. I have marked every service station that I have ever visited on it.',
 		possession: true,
 		guessingTeam: 'David Mitchell',
 		person: 'Lee Mack',

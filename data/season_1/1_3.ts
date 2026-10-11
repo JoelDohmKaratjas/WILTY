@@ -119,9 +119,9 @@ const rounds = [
 		guessingTeam: 'Lee Mack',
 		guest: 'Alan',
 		connections: {
-			'Eamonn Holmes': 'A friend who is the announcer at the Manchester United stadium.',
 			'Dara Ó Briain': 'Best man at Alan\'s wedding and at the time Alan weighed 27 stone.',
-			'David Mitchell': 'Alan is his driving instructor for over 70 lessons, and David still hasn\'t passed.'
+			'David Mitchell': 'Alan is his driving instructor for over 70 lessons, and David still hasn\'t passed.',
+			'Eamonn Holmes': 'A friend who is the announcer at the Manchester United stadium.'
 		},
 		personGuess: {
 			'Jimmy Carr': 'David Mitchell',

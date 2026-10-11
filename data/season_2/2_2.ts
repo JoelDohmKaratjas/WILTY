@@ -30,7 +30,7 @@ const cast = {
 const rounds = [
 	{
 		type: 'home_truths',
-		statement: '',
+		statement: 'I am currently beating Jeremy Kyle 5 to 3 at internet scrabble.',
 		guessingTeam: 'Lee Mack',
 		person: 'Trisha Goddard',
 		personGuesses: {
@@ -43,7 +43,7 @@ const rounds = [
 	},
 	{
 		type: 'home_truths',
-		statement: '',
+		statement: 'I\'ve been offered £2000 by OK! magazine for pictures of my dog\'s birthday.',
 		guessingTeam: 'David Mitchell',
 		person: 'Ben Shephard',
 		personGuesses: {
@@ -56,7 +56,7 @@ const rounds = [
 	},
 	{
 		type: 'home_truths',
-		statement: '',
+		statement: 'I have rated 98% on a psychopath test.',
 		guessingTeam: 'David Mitchell',
 		person: 'Frankie Boyle',
 		personGuesses: {
@@ -69,7 +69,7 @@ const rounds = [
 	},
 	{
 		type: 'ring_of_truth_single',
-		statement: '',
+		statement: 'David Beckham recites the alphabet backwards before every match.',
 		guessingTeam: 'Lee Mack',
 		personGuesses: {
 			'Ben Shephard': 'truth', // "going for a lie but think it's true"?
@@ -81,7 +81,7 @@ const rounds = [
 	},
 	{
 		type: 'ring_of_truth_single',
-		statement: '',
+		statement: 'While filming Me, Myself & Irene Jim Carrey missed his dog so much he bought him a three bedroom house near the set.',
 		guessingTeam: 'David Mitchell',
 		personGuesses: {
 			'David Mitchell': 'truth',
@@ -94,11 +94,11 @@ const rounds = [
 	{
 		type: 'this_is_my',
 		guessingTeam: 'Lee Mack',
-		guest: '',
+		guest: 'Gareth',
 		connections: {
-			'Trisha Goddard': '',
-			'Rich Hall': '',
-			'David Mitchell': ''
+			'David Mitchell': 'Gareth rescued him from a rollercoaster when his car was stuck.',
+			'Rich Hall': 'Gareth turned his car into the ultimate fishingmobile.',
+			'Trisha Goddard': 'Came on her show to cure his fear of scotch eggs.'
 		},
 		personGuess: {
 			'Ben Shephard': 'David Mitchell',
@@ -110,7 +110,7 @@ const rounds = [
 	},
 	{
 		type: 'quick_fire',
-		statement: '',
+		statement: 'This [pictured right] is the lock of Steve Davis\' hair which I brought on eBay.',
 		possession: true,
 		guessingTeam: 'Lee Mack',
 		person: 'David Mitchell',
@@ -124,7 +124,7 @@ const rounds = [
 	},
 	{
 		type: 'quick_fire',
-		statement: '',
+		statement: 'I have written and published a book of love poems.',
 		guessingTeam: 'David Mitchell',
 		person: 'Frankie Boyle',
 		personGuesses: {
@@ -137,7 +137,7 @@ const rounds = [
 	},
 	{
 		type: 'quick_fire',
-		statement: '',
+		statement: 'This [pictured right] is the coconut that nearly killed me.',
 		possession: true,
 		guessingTeam: 'David Mitchell',
 		person: 'Lee Mack',

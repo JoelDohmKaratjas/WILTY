@@ -30,7 +30,7 @@ const cast = {
 const rounds = [
 	{
 		type: 'home_truths',
-		statement: '',
+		statement: 'I once put nail polish remover in my fishtank to give my goldfish more energy.',
 		guessingTeam: 'Lee Mack',
 		person: 'Claudia Winkleman',
 		personGuesses: {
@@ -43,7 +43,7 @@ const rounds = [
 	},
 	{
 		type: 'home_truths',
-		statement: '',
+		statement: 'I once had my wallet stolen by a walrus.',
 		guessingTeam: 'David Mitchell',
 		person: 'Clive Anderson',
 		personGuesses: {
@@ -56,7 +56,7 @@ const rounds = [
 	},
 	{
 		type: 'home_truths',
-		statement: '',
+		statement: 'One of my best friends at school was a little man I\'d made from a slice of toast that I always kept in my bag.',
 		guessingTeam: 'David Mitchell',
 		person: 'Miranda Hart',
 		personGuesses: {
@@ -69,7 +69,7 @@ const rounds = [
 	},
 	{
 		type: 'ring_of_truth_single',
-		statement: '',
+		statement: 'David Beckham gave a copy of his own autobiography to Nelson Mandela as a Christmas present',
 		guessingTeam: 'Lee Mack',
 		personGuesses: {
 			'Clive Anderson': 'lie',
@@ -82,11 +82,11 @@ const rounds = [
 	{
 		type: 'this_is_my',
 		guessingTeam: 'David Mitchell',
-		guest: '',
+		guest: 'Owen',
 		connections: {
-			'Clive Anderson': '',
-			'Miranda Hart': '',
-			'Lee Mack': ''
+			'Clive Anderson': 'He\'s my builder and once fell through my roof while I was watching television.',
+			'Lee Mack': 'He\'s a professional juggler and is teaching me to juggle.',
+			'Miranda Hart': 'He stopped me attending his yoga classes because I couldn\'t stop laughing.'
 		},
 		personGuess: {
 			'Claudia Winkleman': 'Clive Anderson',
@@ -98,7 +98,7 @@ const rounds = [
 	},
 	{
 		type: 'quick_fire',
-		statement: '',
+		statement: 'I was thrown out of a nightclub for refusing to stop dancing on a table.',
 		guessingTeam: 'Lee Mack',
 		person: 'David Mitchell',
 		personGuesses: {
@@ -111,7 +111,7 @@ const rounds = [
 	},
 	{
 		type: 'quick_fire',
-		statement: '',
+		statement: 'I once put out a fire using my neighbour\'s milk.',
 		guessingTeam: 'Lee Mack',
 		person: 'Jason Manford',
 		personGuesses: {
@@ -124,7 +124,7 @@ const rounds = [
 	},
 	{
 		type: 'quick_fire',
-		statement: '',
+		statement: 'In here is my pet cat from when I was little and my dad had her stuffed for me when she died.',
 		possession: true,
 		guessingTeam: 'Lee Mack',
 		person: 'Claudia Winkleman',

@@ -30,7 +30,7 @@ const cast = {
 const rounds = [
 	{
 		type: 'home_truths',
-		statement: '',
+		statement: 'At school, I invented a game called Snorkel Parka Music Practice Room.',
 		guessingTeam: 'Lee Mack',
 		person: 'Greg Davies',
 		personGuesses: {
@@ -43,7 +43,7 @@ const rounds = [
 	},
 	{
 		type: 'home_truths',
-		statement: '',
+		statement: 'I once buried a badger with The Banker from Deal Or No Deal.',
 		guessingTeam: 'Lee Mack',
 		person: 'Richard Osman',
 		personGuesses: {
@@ -56,7 +56,7 @@ const rounds = [
 	},
 	{
 		type: 'home_truths',
-		statement: '',
+		statement: 'When I was younger I was regularly paid to babysit Marvin, my neighbour\'s pet dog, who had died and been stuffed.',
 		guessingTeam: 'David Mitchell',
 		person: 'Patsy Kensit',
 		personGuesses: {
@@ -70,11 +70,11 @@ const rounds = [
 	{
 		type: 'this_is_my',
 		guessingTeam: 'Lee Mack',
-		guest: '',
+		guest: 'Pauline',
 		connections: {
-			'Greg Davies': '',
-			'Richard Osman': '',
-			'David Mitchell': ''
+			'David Mitchell': 'When he was a cub, she was the Akela and she had David taken out of the scout hut once for asking too many questions while being given a talk by the police',
+			'Greg Davies': 'She is his Mum, who passed Greg fighting another person and got out of her car to cheer him on.',
+			'Richard Osman': 'They met at a Snoop Dogg gig and bonded over being the two oldest fans in the room.'
 		},
 		personGuess: {
 			'Bob Mortimer': 'Richard Osman',
@@ -86,7 +86,7 @@ const rounds = [
 	},
 	{
 		type: 'quick_fire',
-		statement: '',
+		statement: 'I can break an apple in half with my bare hands.',
 		guessingTeam: 'David Mitchell',
 		person: 'Bob Mortimer',
 		personGuesses: {

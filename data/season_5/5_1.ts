@@ -30,7 +30,7 @@ const cast = {
 const rounds = [
 	{
 		type: 'home_truths',
-		statement: '',
+		statement: 'When filming is over for the day, Lord Sugar and I sometimes wind down, by playing ping-pong on the boardroom table.',
 		guessingTeam: 'David Mitchell',
 		person: 'Nick Hewer',
 		personGuesses: {
@@ -43,7 +43,7 @@ const rounds = [
 	},
 	{
 		type: 'home_truths',
-		statement: '',
+		statement: 'I was once commissioned to paint a portrait of Gyles Brandreth\'s cat.',
 		guessingTeam: 'Lee Mack',
 		person: 'Jack Whitehall',
 		personGuesses: {
@@ -57,11 +57,11 @@ const rounds = [
 	{
 		type: 'this_is_my',
 		guessingTeam: 'David Mitchell',
-		guest: '',
+		guest: 'Zazzy',
 		connections: {
-			'Miranda Hart': '',
-			'Nick Hewer': '',
-			'Lee Mack': ''
+			'Lee Mack': 'Cut off her pony tail on the school bus thinking she was his friend, Paul.',
+			'Miranda Hart': 'Had a trial with her for a professional ladies football team.',
+			'Nick Hewer': 'Neighbours daughter, who offered to mend his computer and inadvertently emailed everyone in his contacts a picture of his big toe.'
 		},
 		personGuess: {
 			'David Mitchell': 'Lee Mack',
@@ -73,7 +73,7 @@ const rounds = [
 	},
 	{
 		type: 'quick_fire',
-		statement: '',
+		statement: 'I killed a rat with my BAFTA',
 		guessingTeam: 'Lee Mack',
 		person: 'David Mitchell',
 		personGuesses: {
@@ -86,7 +86,7 @@ const rounds = [
 	},
 	{
 		type: 'host',
-		statement: '',
+		statement: 'This is the sweatshirt that my wife and I put on together when we are cosying up on a chilly evening, we call it "The Cuddle Jumper".',
 		personGuesses: {
 			david: {
 				'David Mitchell': 'truth',

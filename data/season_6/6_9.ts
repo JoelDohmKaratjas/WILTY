@@ -23,7 +23,7 @@ const rounds = [
 	{
 		episode: 2,
 		type: 'home_truths',
-		statement: '',
+		statement: 'My family don\'t have a swear jar, we have a bore jar. Whenever a Madeley says something boring, they have to put a quid in it.',
 		guessingTeam: 'Lee Mack',
 		person: 'Richard Madeley',
 		personGuesses: {
@@ -37,7 +37,7 @@ const rounds = [
 	{
 		episode: 6,
 		type: 'home_truths',
-		statement: '',
+		statement: 'I have a digeridoo suspended from a tree in my back garden so when the wind blows in a certain direction, it parps soothing sounds of the outback through my bedroom window.',
 		guessingTeam: 'David Mitchell',
 		person: 'Bob Mortimer',
 		personGuesses: {
@@ -51,7 +51,7 @@ const rounds = [
 	{
 		episode: 5,
 		type: 'home_truths',
-		statement: '',
+		statement: 'For a prank, I once put a friend\'s legs in plaster cast while he slept.',
 		guessingTeam: 'David Mitchell',
 		person: 'Dr. Christian Jessen',
 		personGuesses: {
@@ -65,7 +65,7 @@ const rounds = [
 	{
 		episode: 1,
 		type: 'home_truths',
-		statement: '',
+		statement: 'Last year, I was amused to discover that in one weekend, I\'d had a curry with Andy Murray, been bowling with JK Rowling, and attended an odd party with Todd Carty.',
 		guessingTeam: 'David Mitchell',
 		person: 'Alexander Armstrong',
 		personGuesses: {
@@ -79,7 +79,7 @@ const rounds = [
 	{
 		episode: 5,
 		type: 'home_truths',
-		statement: '',
+		statement: 'Once a week, I love to eat a full English breakfast, but can only do so if I am entirely stripped to the waist.',
 		guessingTeam: 'Lee Mack',
 		person: 'David Mitchell',
 		personGuesses: {
@@ -93,7 +93,7 @@ const rounds = [
 	{
 		episode: 8,
 		type: 'home_truths',
-		statement: '',
+		statement: 'After being knocked unconscious by a frisbee, for three days I could only speak with a thick Scottish accent.',
 		guessingTeam: 'David Mitchell',
 		person: 'Jim Carter',
 		personGuesses: {
@@ -107,7 +107,7 @@ const rounds = [
 	{
 		episode: 6,
 		type: 'home_truths',
-		statement: '',
+		statement: 'I got stuck for half an hour in a men\'s toilet because I couldn\'t find the door.',
 		guessingTeam: 'David Mitchell',
 		person: 'Lee Mack',
 		personGuesses: {
@@ -121,7 +121,7 @@ const rounds = [
 	{
 		episode: 3,
 		type: 'home_truths',
-		statement: '',
+		statement: 'To win a bet, I presented a piece to camera from Royal Ascot in a full-length ballgown with Willie Carson hidden underneath.',
 		guessingTeam: 'David Mitchell',
 		person: 'Clare Baldain',
 		personGuesses: {
@@ -135,7 +135,7 @@ const rounds = [
 	{
 		episode: 5,
 		type: 'host',
-		statement: '',
+		statement: 'I recently had to be rescued by supermarket staff after I fell into the chest freezer trying to reach the last packet of Yorkshire puddings.',
 		personGuesses: {
 			david: {
 				'Andy Hamilton': 'truth',

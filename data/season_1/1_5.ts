@@ -85,9 +85,9 @@ const rounds = [
 		guessingTeam: 'Lee Mack',
 		guest: 'Maurice',
 		connections: {
+			'David Mitchell': 'Teaches him the art of ventriloquism.',
 			'Russell Howard': 'His landlord who is the 16th Earl of Westmorland.',
-			'Wendy Richard': 'Her hairdresser and also cuts Tony Blair\'s hair.',
-			'David Mitchell': 'Teaches him the art of ventriloquism.'
+			'Wendy Richard': 'Her hairdresser and also cuts Tony Blair\'s hair.'
 		},
 		personGuess: {
 			'Lee Mack': 'David Mitchell',

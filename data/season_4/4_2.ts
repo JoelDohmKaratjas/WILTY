@@ -30,7 +30,7 @@ const cast = {
 const rounds = [
 	{
 		type: 'home_truths',
-		statement: '',
+		statement: 'I once secretly swapped sandwiches with Rob because a dog licked it.',
 		guessingTeam: 'Lee Mack',
 		person: 'Ruth Jones',
 		personGuesses: {
@@ -43,7 +43,7 @@ const rounds = [
 	},
 	{
 		type: 'home_truths',
-		statement: '',
+		statement: 'I developed a word-association system to help remember people\'s names, but gave it up when it backfired on me.',
 		guessingTeam: 'David Mitchell',
 		person: 'Jack Dee',
 		personGuesses: {
@@ -56,7 +56,7 @@ const rounds = [
 	},
 	{
 		type: 'home_truths',
-		statement: '',
+		statement: 'For ten years, I refused to go into any branch of McDonald\'s after a girl dumped me in one.',
 		guessingTeam: 'Lee Mack',
 		person: 'Jason Manford',
 		personGuesses: {
@@ -70,11 +70,11 @@ const rounds = [
 	{
 		type: 'this_is_my',
 		guessingTeam: 'Lee Mack',
-		guest: '',
+		guest: 'Ian',
 		connections: {
-			'Ruth Jones': '',
-			'Jason Manford': '',
-			'David Mitchell': ''
+			'David Mitchell': 'Ian accidentally sent a hundred packs of double A batteries to David when he ordered ten packs.',
+			'Jason Manford': 'Both were attacked by schoolkids when they were dressed as a sausage and chop while promoting a local butcher.',
+			'Ruth Jones': 'Ian saved her tortoise when he was about to be crushed at a recycling plant.'
 		},
 		personGuess: {
 			'Jack Dee': 'David Mitchell',
@@ -86,7 +86,7 @@ const rounds = [
 	},
 	{
 		type: 'quick_fire',
-		statement: '',
+		statement: 'I\'ve placed a 500 pound bet at the bookie that I\'ll live until I\'m 100.',
 		guessingTeam: 'David Mitchell',
 		person: 'Lee Mack',
 		personGuesses: {
@@ -99,7 +99,7 @@ const rounds = [
 	},
 	{
 		type: 'quick_fire',
-		statement: '',
+		statement: 'My first drink of the morning is always a mixture of tea and coffee. I call it \'coff-tea\'.',
 		guessingTeam: 'David Mitchell',
 		person: 'Peter Serafinowicz',
 		personGuesses: {
@@ -112,7 +112,7 @@ const rounds = [
 	},
 	{
 		type: 'host',
-		statement: '',
+		statement: 'I once stole Catherine Zeta-Jones\' dinner money.',
 		personGuesses: {
 			david: {
 				'David Mitchell': 'truth',

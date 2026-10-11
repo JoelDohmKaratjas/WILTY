@@ -30,7 +30,7 @@ const cast = {
 const rounds = [
 	{
 		type: 'home_truths',
-		statement: '',
+		statement: 'I once set fire to my house with a box of fireworks.',
 		guessingTeam: 'David Mitchell',
 		person: 'Bob Mortimer',
 		personGuesses: {
@@ -43,7 +43,7 @@ const rounds = [
 	},
 	{
 		type: 'home_truths',
-		statement: '',
+		statement: 'When I\'m stressed I take a water-free bath.',
 		guessingTeam: 'Lee Mack',
 		person: 'Jon Richardson',
 		personGuesses: {
@@ -57,11 +57,11 @@ const rounds = [
 	{
 		type: 'this_is_my',
 		guessingTeam: 'David Mitchell',
-		guest: '',
+		guest: 'Keith',
 		connections: {
-			'David Harewood': '',
-			'Bob Mortimer': '',
-			'Lee Mack': ''
+			'Bob Mortimer': 'When we were at school together we hid a dictaphone in the ceiling to confuse the teacher.',
+			'David Harewood': 'He is my old teacher. We met in a café and I had to pretend to not be me as I was preparing a character.',
+			'Lee Mack': 'His hawk was supposed to land on my arm, and instead stole the wig off the man next to me.'
 		},
 		personGuess: {
 			'David Mitchell': 'David Harewood',
@@ -73,7 +73,7 @@ const rounds = [
 	},
 	{
 		type: 'quick_fire',
-		statement: '',
+		statement: 'This is my cat cam. I put it around my cat\'s neck for a week because I believed he was turning the kitchen tap on.',
 		possession: true,
 		guessingTeam: 'Lee Mack',
 		person: 'Sarah Millican',
@@ -87,7 +87,7 @@ const rounds = [
 	},
 	{
 		type: 'quick_fire',
-		statement: '',
+		statement: 'I can balance a banknote on my nose.',
 		guessingTeam: 'David Mitchell',
 		person: 'David Harewood',
 		personGuesses: {

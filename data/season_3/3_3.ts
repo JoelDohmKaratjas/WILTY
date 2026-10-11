@@ -30,7 +30,7 @@ const cast = {
 const rounds = [
 	{
 		type: 'home_truths',
-		statement: '',
+		statement: 'Prince Philip told me I was a funny-looking fellow when I was a ball boy at Wimbledon.',
 		guessingTeam: 'David Mitchell',
 		person: 'Jimmy Carr',
 		personGuesses: {
@@ -43,7 +43,7 @@ const rounds = [
 	},
 	{
 		type: 'home_truths',
-		statement: '',
+		statement: 'I once stole some toilet paper from George Michael\'s house.',
 		guessingTeam: 'Lee Mack',
 		person: 'Jamellia',
 		personGuesses: {
@@ -56,7 +56,7 @@ const rounds = [
 	},
 	{
 		type: 'home_truths',
-		statement: '',
+		statement: 'I worked as a podium dancer at the Ministry of Sound.',
 		guessingTeam: 'Lee Mack',
 		person: 'Marcus Brigsocke',
 		personGuesses: {
@@ -69,7 +69,7 @@ const rounds = [
 	},
 	{
 		type: 'ring_of_truth_single',
-		statement: '',
+		statement: 'Jodie Marsh has a degree in \'Golf Course Management\' from the University of Birmingham.',
 		guessingTeam: 'Lee Mack',
 		personGuesses: {
 			'Jimmy Carr': 'lie',
@@ -82,11 +82,11 @@ const rounds = [
 	{
 		type: 'this_is_my',
 		guessingTeam: 'David Mitchell',
-		guest: '',
+		guest: 'Steve',
 		connections: {
-			'Jimmy Carr': '',
-			'Terry Christian': '',
-			'Lee Mack': ''
+			'Jimmy Carr': 'Steve and Jimmy were at primary school together and didn\'t see each other for 20 years until Steve brought room service to Jimmy in a hotel.',
+			'Lee Mack': 'Steve and Lee own a greyhound that has come last in all of its races.',
+			'Terry Christian': 'Steve and Terry were questioned by police who mistook them for jewel thieves.'
 		},
 		personGuess: {
 			'David Mitchell': 'Jimmy Carr',
@@ -98,7 +98,7 @@ const rounds = [
 	},
 	{
 		type: 'quick_fire',
-		statement: '',
+		statement: 'I read Nineteen Eighty-Four from cover to cover in W H Smith, so I didn\'t have to buy a copy.',
 		guessingTeam: 'Lee Mack',
 		person: 'David Mitchell',
 		personGuesses: {
@@ -111,7 +111,7 @@ const rounds = [
 	},
 	{
 		type: 'quick_fire',
-		statement: '',
+		statement: 'This is some of my hair collection that I\'ve gathered from guests who appeared on The Word.',
 		possession: true,
 		guessingTeam: 'David Mitchell',
 		person: 'Terry Christian',

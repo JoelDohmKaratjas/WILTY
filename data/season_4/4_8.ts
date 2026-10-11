@@ -30,7 +30,7 @@ const cast = {
 const rounds = [
 	{
 		type: 'home_truths',
-		statement: '',
+		statement: 'I got Wellard, the dog, drunk on the set of EastEnders.',
 		guessingTeam: 'David Mitchell',
 		person: 'Patsy Palmer',
 		personGuesses: {
@@ -43,7 +43,7 @@ const rounds = [
 	},
 	{
 		type: 'home_truths',
-		statement: '',
+		statement: 'I recite my times tables every night before bed.',
 		guessingTeam: 'Lee Mack',
 		person: 'Joanna Page',
 		personGuesses: {
@@ -56,7 +56,7 @@ const rounds = [
 	},
 	{
 		type: 'home_truths',
-		statement: '',
+		statement: 'I had a job where we started each day with a motivational song.',
 		guessingTeam: 'Lee Mack',
 		person: 'John Bishop',
 		personGuesses: {
@@ -70,11 +70,11 @@ const rounds = [
 	{
 		type: 'this_is_my',
 		guessingTeam: 'David Mitchell',
-		guest: '',
+		guest: 'Mark',
 		connections: {
-			'Chris Addison': '',
-			'Patsy Palmer': '',
-			'Lee Mack': ''
+			'Chris Addison': 'Next door neighbor who lost a bet of £200 on whether In the Loop would win an Oscar, Chris gave him a wheelbarrow.',
+			'Lee Mack': 'He started the pub\'s dart team that Lee plays in, but Lee asked him to leave because he was so bad.',
+			'Patsy Palmer': 'Swim teacher, teaching her to overcome her fear of water.'
 		},
 		personGuess: {
 			'David Mitchell': 'Patsy Palmer',
@@ -86,7 +86,7 @@ const rounds = [
 	},
 	{
 		type: 'quick_fire',
-		statement: '',
+		statement: 'This is my special travel dressing gown. It\'s the one item I always pack when I go on holiday.',
 		possession: true,
 		guessingTeam: 'Lee Mack',
 		person: 'David Mitchell',
@@ -100,7 +100,7 @@ const rounds = [
 	},
 	{
 		type: 'quick_fire',
-		statement: '',
+		statement: 'I once lost a game of swingball to a chimpanzee.',
 		guessingTeam: 'David Mitchell',
 		person: 'Lee Mack',
 		personGuesses: {

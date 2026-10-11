@@ -30,7 +30,7 @@ const cast = {
 const rounds = [
 	{
 		type: 'home_truths',
-		statement: '',
+		statement: 'In my garden, I have a life-size statue of myself astride a unicorn.',
 		guessingTeam: 'David Mitchell',
 		person: 'Julian Clary',
 		personGuesses: {
@@ -43,7 +43,7 @@ const rounds = [
 	},
 	{
 		type: 'home_truths',
-		statement: '',
+		statement: 'I once undertook a self-help course entitled How To Become Taller.',
 		guessingTeam: 'Lee Mack',
 		person: 'Ronnie Corbett',
 		personGuesses: {
@@ -56,7 +56,7 @@ const rounds = [
 	},
 	{
 		type: 'home_truths',
-		statement: '',
+		statement: 'I once spent an entire day on the Asda shuttle bus just to have a day out.',
 		guessingTeam: 'Lee Mack',
 		person: 'Sarah Millican',
 		personGuesses: {
@@ -70,11 +70,11 @@ const rounds = [
 	{
 		type: 'this_is_my',
 		guessingTeam: 'Lee Mack',
-		guest: '',
+		guest: 'Paul',
 		connections: {
-			'Ronnie Corbett': '',
-			'Sarah Millican': '',
-			'David Mitchell': ''
+			'David Mitchell': 'His driver who cannot drink pints as his hands are small.',
+			'Ronnie Corbett': 'Found Paul bound and gagged in one of the bunkers in the golf course next to his house.',
+			'Sarah Millican': 'Her newsagent who asked her to watch his shop for 10 minutes but she accidently broke a window and a child got his head stuck in a crisps box.'
 		},
 		personGuess: {
 			'Holly Walsh': 'David Mitchell',
@@ -86,7 +86,7 @@ const rounds = [
 	},
 	{
 		type: 'quick_fire',
-		statement: '',
+		statement: 'As a child I used to play board games against a bucket with a face painted on it, I called this bucket Stephen Tatlock.',
 		guessingTeam: 'Lee Mack',
 		person: 'David Mitchell',
 		personGuesses: {
@@ -99,7 +99,7 @@ const rounds = [
 	},
 	{
 		type: 'quick_fire',
-		statement: '',
+		statement: 'Last week I actually had to go into a shop and buy four candles.',
 		guessingTeam: 'Lee Mack',
 		person: 'Ronnie Corbett',
 		personGuesses: {

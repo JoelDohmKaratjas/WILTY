@@ -30,7 +30,7 @@ const cast = {
 const rounds = [
 	{
 		type: 'home_truths',
-		statement: '',
+		statement: 'I once worked as part of a circus double act which was called Franko and Tootie.',
 		guessingTeam: 'Lee Mack',
 		person: 'Maureen Lipman',
 		personGuesses: {
@@ -43,7 +43,7 @@ const rounds = [
 	},
 	{
 		type: 'home_truths',
-		statement: '',
+		statement: 'I had an interview at MI5 to be a spy.',
 		guessingTeam: 'David Mitchell',
 		person: 'Jimmy Carr',
 		personGuesses: {
@@ -56,7 +56,7 @@ const rounds = [
 	},
 	{
 		type: 'home_truths',
-		statement: '',
+		statement: 'I have snogged two of the Spice Girls [Melanie Brown and Melanie Chisholm].',
 		guessingTeam: 'Lee Mack',
 		person: 'David Baddiel',
 		personGuesses: {
@@ -69,7 +69,7 @@ const rounds = [
 	},
 	{
 		type: 'ring_of_truth_single',
-		statement: '',
+		statement: 'After a visit to Scotland, Paris Hilton demanded her PA only ever speak to her with a Scottish accent. Her PA resigned.',
 		guessingTeam: 'Lee Mack',
 		personGuesses: {
 			'Jimmy Carr': 'truth',
@@ -82,11 +82,11 @@ const rounds = [
 	{
 		type: 'this_is_my',
 		guessingTeam: 'David Mitchell',
-		guest: '',
+		guest: 'Della',
 		connections: {
-			'Jimmy Carr': '',
-			'Richard Wilson': '',
-			'Lee Mack': ''
+			'Jimmy Carr': 'His chiropodist.',
+			'Lee Mack': 'An estate agent who accidentally locked him inside a house after a viewing.',
+			'Richard Wilson': 'Danced with Della on his dancersize fitness video.'
 		},
 		personGuess: {
 			'David Baddiel': 'Lee Mack',
@@ -98,7 +98,7 @@ const rounds = [
 	},
 	{
 		type: 'quick_fire',
-		statement: '',
+		statement: 'I used to buy my gran a chocolate orange every Christmas until I found seven of them in a drawer at her house.',
 		guessingTeam: 'Lee Mack',
 		person: 'David Mitchell',
 		personGuesses: {
@@ -111,7 +111,7 @@ const rounds = [
 	},
 	{
 		type: 'quick_fire',
-		statement: '',
+		statement: 'I have been attacked by a snake charmer and his snake.',
 		guessingTeam: 'David Mitchell',
 		person: 'Lee Mack',
 		personGuesses: {
@@ -124,7 +124,7 @@ const rounds = [
 	},
 	{
 		type: 'quick_fire',
-		statement: '',
+		statement: 'This [pictured right] is the neck brace I wore once just to get an upgrade on a flight.',
 		possession: true,
 		guessingTeam: 'Lee Mack',
 		person: 'David Baddiel',

@@ -30,7 +30,7 @@ const cast = {
 const rounds = [
 	{
 		type: 'home_truths',
-		statement: '',
+		statement: 'I was sacked from my job at a zoo, when my boss found I\'d been taking photos of the animals wearing hats.',
 		guessingTeam: 'David Mitchell',
 		person: 'Rhod Gilbert',
 		personGuesses: {
@@ -43,7 +43,7 @@ const rounds = [
 	},
 	{
 		type: 'home_truths',
-		statement: '',
+		statement: 'This is my Orchidometer, it was a present from my sister.',
 		possession: true,
 		guessingTeam: 'Lee Mack',
 		person: 'Mackenzie Crook',
@@ -58,11 +58,11 @@ const rounds = [
 	{
 		type: 'this_is_my',
 		guessingTeam: 'Lee Mack',
-		guest: '',
+		guest: 'Simon',
 		connections: {
-			'Mackenzie Crook': '',
-			'Chris Packham': '',
-			'David Mitchell': ''
+			'Chris Packham': 'In a virtual world, they are married.',
+			'David Mitchell': 'He has a tattoo of David\'s face on his knee.',
+			'Mackenzie Crook': 'Mackenzie hoaxed his school by burying some "treasure", Simon found it and the police were called.'
 		},
 		personGuess: {
 			'Lee Mack': 'Mackenzie Crook',
@@ -74,7 +74,7 @@ const rounds = [
 	},
 	{
 		type: 'quick_fire',
-		statement: '',
+		statement: 'I once helped my Mum and Dad look for something they\'d lost, using a Oujia Board.',
 		guessingTeam: 'David Mitchell',
 		person: 'Lee Mack',
 		personGuesses: {
@@ -87,7 +87,7 @@ const rounds = [
 	},
 	{
 		type: 'quick_fire',
-		statement: '',
+		statement: 'If I ever get stuck on a crossword clue I phone Tim Henman for help, he hasn\'t let me down yet.',
 		guessingTeam: 'David Mitchell',
 		person: 'Victoria Coren',
 		personGuesses: {
@@ -100,7 +100,7 @@ const rounds = [
 	},
 	{
 		type: 'quick_fire',
-		statement: '',
+		statement: 'I once paid for some Tapas with a Nissan Micra.',
 		guessingTeam: 'David Mitchell',
 		person: 'Rhod Gilbert',
 		personGuesses: {

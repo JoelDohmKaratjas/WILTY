@@ -30,7 +30,7 @@ const cast = {
 const rounds = [
 	{
 		type: 'home_truths',
-		statement: '',
+		statement: 'I once lost Julian Lloyd Webber\'s cello because I was chatting up a parking attendant.',
 		guessingTeam: 'David Mitchell',
 		person: 'Alex Jones',
 		personGuesses: {
@@ -43,7 +43,7 @@ const rounds = [
 	},
 	{
 		type: 'home_truths',
-		statement: '',
+		statement: 'I once prevented a burglar from breaking into my house by hiding behind the door and barking like two different dogs.',
 		guessingTeam: 'David Mitchell',
 		person: 'Alexander Armstrong',
 		personGuesses: {
@@ -57,11 +57,11 @@ const rounds = [
 	{
 		type: 'this_is_my',
 		guessingTeam: 'Lee Mack',
-		guest: '',
+		guest: 'Syd',
 		connections: {
-			'Mel Giedroyc': '',
-			'Chris Tarrant': '',
-			'David Mitchell': ''
+			'Chris Tarrant': 'His dentist that he had to drive to A&E after he bit her finger during his check up.',
+			'David Mitchell': 'Last year she rescued him when a seaside donkey went haywire with him on its back.',
+			'Mel Giedroyc': 'They posed as members of an orchestra so they could get backstage to meet their idol.'
 		},
 		personGuess: {
 			'Alex Jones': 'Chris Tarrant',
@@ -73,7 +73,7 @@ const rounds = [
 	},
 	{
 		type: 'quick_fire',
-		statement: '',
+		statement: 'I can always remember all my ex-girlfriends\' names and the order in which I went out with them, because their initials happen to make the acronym B.E.R.M.U.D.A.',
 		guessingTeam: 'David Mitchell',
 		person: 'Lee Mack',
 		personGuesses: {
@@ -86,7 +86,7 @@ const rounds = [
 	},
 	{
 		type: 'quick_fire',
-		statement: '',
+		statement: 'I can tell if someone is a good dancer just by the way they smile.',
 		guessingTeam: 'David Mitchell',
 		person: 'Alex Jones',
 		personGuesses: {

@@ -23,7 +23,7 @@ const rounds = [
 	{
 		episode: 2,
 		type: 'home_truths',
-		statement: '',
+		statement: 'Whenever I answer the house phone, and it\'s someone I don\'t wish to speak to, I take a message and pretend I am my fictional handyman Sean.',
 		guessingTeam: 'David Mitchell',
 		person: 'Charles Dance',
 		personGuesses: {
@@ -37,7 +37,7 @@ const rounds = [
 	{
 		episode: 3,
 		type: 'home_truths',
-		statement: '',
+		statement: 'Once, when I spotted an ex-boyfriend in a department store, I pretended to be a shop mannequin to avoid having to speak to him.',
 		guessingTeam: 'Lee Mack',
 		person: 'Joan Bakewell',
 		personGuesses: {
@@ -51,7 +51,7 @@ const rounds = [
 	{
 		episode: 4,
 		type: 'home_truths',
-		statement: '',
+		statement: 'I sometimes move bowls and plates from the bottom to the top of the pile, so they don\'t get left out.',
 		guessingTeam: 'Lee Mack',
 		person: 'Dermot O\'Leary',
 		personGuesses: {
@@ -65,7 +65,7 @@ const rounds = [
 	{
 		episode: 5,
 		type: 'home_truths',
-		statement: '',
+		statement: 'I looked after a neighbour\'s pet for five days before I realised it was dead.',
 		guessingTeam: 'David Mitchell',
 		person: 'David O\'Doherty',
 		personGuesses: {
@@ -79,7 +79,7 @@ const rounds = [
 	{
 		episode: 6,
 		type: 'home_truths',
-		statement: '',
+		statement: 'I once got stuck in a cave for an hour after getting the hood of my cagoule caught on the stalactite in a way I couldn\'t untwizzle.',
 		guessingTeam: 'Lee Mack',
 		person: 'David Mitchell',
 		personGuesses: {
@@ -93,7 +93,7 @@ const rounds = [
 	{
 		episode: 7,
 		type: 'home_truths',
-		statement: '',
+		statement: 'I used to vet potential boyfriends by getting them to play me at darts. I could tell more about them in one game than I could on ten dates.',
 		guessingTeam: 'David Mitchell',
 		person: 'Joanna Scanlan',
 		personGuesses: {
@@ -107,7 +107,7 @@ const rounds = [
 	{
 		episode: 2,
 		type: 'home_truths',
-		statement: '',
+		statement: 'I always use two toothbrushes to brush my teeth - one for the top set and one for the bottom.',
 		guessingTeam: 'David Mitchell',
 		person: 'Gok Wan',
 		personGuesses: {
@@ -121,7 +121,7 @@ const rounds = [
 	{
 		episode: 5,
 		type: 'home_truths',
-		statement: '',
+		statement: 'When I was a child, I created a superhero called Snooker Table Man. He had three key skills and one mortal enemy.',
 		guessingTeam: 'Lee Mack',
 		person: 'Richard Osman',
 		personGuesses: {
@@ -135,7 +135,7 @@ const rounds = [
 	{
 		episode: 6,
 		type: 'home_truths',
-		statement: '',
+		statement: 'When I was a child, I was told to stop stalking a clown.',
 		guessingTeam: 'Lee Mack',
 		person: 'Jon Richardson',
 		personGuesses: {

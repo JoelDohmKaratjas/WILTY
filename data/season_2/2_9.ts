@@ -23,7 +23,7 @@ const rounds = [
 	{
 		episode: 1,
 		type: 'home_truths',
-		statement: '',
+		statement: 'I was voted the 47th sexiest man in Wales.',
 		guessingTeam: 'Lee Mack',
 		person: 'Rob Brydon',
 		personGuesses: {
@@ -37,7 +37,7 @@ const rounds = [
 	{
 		episode: 1,
 		type: 'home_truths',
-		statement: '',
+		statement: 'I was voted the 88th sexiest man in the world.',
 		guessingTeam: 'David Mitchell',
 		person: 'Robert Webb',
 		personGuesses: {
@@ -52,7 +52,7 @@ const rounds = [
 		episode: 3,
 		repeat: true,
 		type: 'home_truths',
-		statement: '',
+		statement: 'I had an interview at MI5 to be a spy.',
 		guessingTeam: 'David Mitchell',
 		person: 'Jimmy Carr',
 		personGuesses: {
@@ -66,7 +66,7 @@ const rounds = [
 	{
 		episode: 8,
 		type: 'home_truths',
-		statement: '',
+		statement: 'I have been wearing bronzing powder since the age of 12.',
 		guessingTeam: 'Lee Mack',
 		person: 'Michael McIntyre',
 		personGuesses: {
@@ -80,7 +80,7 @@ const rounds = [
 	{
 		episode: 1,
 		type: 'ring_of_truth_single',
-		statement: '',
+		statement: 'Rod Hull was buried along with his fake arm and the very first Emu.',
 		guessingTeam: 'Lee Mack',
 		personGuesses: {
 			'Gabby Logan': 'lie',
@@ -93,7 +93,7 @@ const rounds = [
 	{
 		episode: 6,
 		type: 'ring_of_truth_single',
-		statement: '',
+		statement: 'Alan Titchmarsh\'s waxwork at Madame Tussaud\'s gets kissed so often that it has to have lipstick washed from its face twice a week.',
 		guessingTeam: 'David Mitchell',
 		personGuesses: {
 			'Anton Du Beke': 'unknown',
@@ -108,11 +108,11 @@ const rounds = [
 		repeat: true,
 		type: 'this_is_my',
 		guessingTeam: 'Lee Mack',
-		guest: '',
+		guest: 'Gareth',
 		connections: {
-			'Trisha Goddard': '',
-			'Rich Hall': '',
-			'David Mitchell': ''
+			'David Mitchell': 'Gareth rescued him from a rollercoaster when his car was stuck.',
+			'Rich Hall': 'Gareth turned his car into the ultimate fishingmobile.',
+			'Trisha Goddard': 'Came on her show to cure his fear of scotch eggs.'
 		},
 		personGuess: {
 			'Ben Shephard': 'David Mitchell',
@@ -125,7 +125,7 @@ const rounds = [
 	{
 		episode: 6,
 		type: 'quick_fire',
-		statement: '',
+		statement: 'I got picked on at school because my mother was the dancer in the titles of Tales of the Unexpected',
 		guessingTeam: 'David Mitchell',
 		person: 'Russell Howard',
 		personGuesses: {
@@ -139,7 +139,7 @@ const rounds = [
 	{
 		episode: 4,
 		type: 'quick_fire',
-		statement: '',
+		statement: 'These [pictured right] are the wig and glasses I wear if I want to pop to the shops unnoticed',
 		possession: true,
 		guessingTeam: 'David Mitchell',
 		person: 'Davina McCall',
@@ -155,7 +155,7 @@ const rounds = [
 		episode: 2,
 		repeat: true,
 		type: 'quick_fire',
-		statement: '',
+		statement: 'This [pictured right] is the coconut that nearly killed me.',
 		possession: true,
 		guessingTeam: 'David Mitchell',
 		person: 'Lee Mack',
@@ -170,7 +170,7 @@ const rounds = [
 	{
 		episode: 4,
 		type: 'quick_fire',
-		statement: '',
+		statement: 'I have received fan mail from Angus Deayton',
 		guessingTeam: 'Lee Mack',
 		person: 'Michael Aspel',
 		personGuesses: {
@@ -185,7 +185,7 @@ const rounds = [
 		episode: 8,
 		repeat: true,
 		type: 'home_truths',
-		statement: '',
+		statement: 'For two weeks I drove a car that could only turn left.',
 		guessingTeam: 'Lee Mack',
 		person: 'Michael McIntyre',
 		personGuesses: {

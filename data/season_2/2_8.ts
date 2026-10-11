@@ -30,7 +30,7 @@ const cast = {
 const rounds = [
 	{
 		type: 'home_truths',
-		statement: '',
+		statement: 'In real life, my next door neighbour is called Ian Beale.',
 		guessingTeam: 'Lee Mack',
 		person: 'Phil Daniels',
 		personGuesses: {
@@ -43,7 +43,7 @@ const rounds = [
 	},
 	{
 		type: 'home_truths',
-		statement: '',
+		statement: 'I have five pigs, all named after my favourite newsreaders.',
 		guessingTeam: 'David Mitchell',
 		person: 'Graeme Garden',
 		personGuesses: {
@@ -56,7 +56,7 @@ const rounds = [
 	},
 	{
 		type: 'home_truths',
-		statement: '',
+		statement: 'For two weeks I drove a car that could only turn left.',
 		guessingTeam: 'Lee Mack',
 		person: 'Michael McIntyre',
 		personGuesses: {
@@ -69,7 +69,7 @@ const rounds = [
 	},
 	{
 		type: 'ring_of_truth_single',
-		statement: '',
+		statement: 'Bono once paid British Airways $1,700 to have his favourite trilby flown first class to a concert in Italy.',
 		guessingTeam: 'David Mitchell',
 		personGuesses: {
 			'David Mitchell': 'lie',
@@ -81,7 +81,7 @@ const rounds = [
 	},
 	{
 		type: 'ring_of_truth_single',
-		statement: '',
+		statement: 'Mick Hucknall wears trousers called \'bum boosters\', which have a metal lining to add definition to his rear.',
 		guessingTeam: 'Lee Mack',
 		personGuesses: {
 			'Graeme Garden': 'truth',
@@ -94,11 +94,11 @@ const rounds = [
 	{
 		type: 'this_is_my',
 		guessingTeam: 'David Mitchell',
-		guest: '',
+		guest: 'Roger',
 		connections: {
-			'Graeme Garden': '',
-			'Lauren Laverne': '',
-			'Lee Mack': ''
+			'Graeme Garden': 'Roger was presented with a prize by Graeme in a giant vegetable competition.',
+			'Lauren Laverne': 'Roger removed her tattoo of Fonzie (from Happy Days).',
+			'Lee Mack': 'Roger rings the bells at the local church with Lee.'
 		},
 		personGuess: {
 			'David Mitchell': 'Graeme Garden',
@@ -110,7 +110,7 @@ const rounds = [
 	},
 	{
 		type: 'quick_fire',
-		statement: '',
+		statement: 'For six months, I cleaned the windows of the Empire State Building.',
 		guessingTeam: 'David Mitchell',
 		person: 'Lee Mack',
 		personGuesses: {
@@ -123,7 +123,7 @@ const rounds = [
 	},
 	{
 		type: 'quick_fire',
-		statement: '',
+		statement: 'When I was little, I used to dress myself as an 18th century nobleman.',
 		guessingTeam: 'Lee Mack',
 		person: 'David Mitchell',
 		personGuesses: {
@@ -136,7 +136,7 @@ const rounds = [
 	},
 	{
 		type: 'quick_fire',
-		statement: '',
+		statement: 'I got my head stuck in railings three times in the same week.',
 		guessingTeam: 'David Mitchell',
 		person: 'Lauren Laverne',
 		personGuesses: {
@@ -149,7 +149,8 @@ const rounds = [
 	},
 	{
 		type: 'quick_fire',
-		statement: '',
+		statement: 'These [pictured right] are the slippers Sting sent me for my last birthday.',
+		possession: true, // not officially a possession
 		guessingTeam: 'Lee Mack',
 		person: 'Phil Daniels',
 		personGuesses: {

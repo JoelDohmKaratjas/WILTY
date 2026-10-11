@@ -30,7 +30,7 @@ const cast = {
 const rounds = [
 	{
 		type: 'home_truths',
-		statement: '',
+		statement: 'For my first term at university, I rented a bathroom in a student house and slept in the bathtub every night.',
 		guessingTeam: 'Lee Mack',
 		person: 'Greg Davies',
 		personGuesses: { // Greg said "this is true" which made them agree with Lee but i'm not sure it counts
@@ -43,7 +43,7 @@ const rounds = [
 	},
 	{
 		type: 'home_truths',
-		statement: '',
+		statement: 'I am haunted by a recurring dream in which I\'m a potato.',
 		guessingTeam: 'David Mitchell',
 		person: 'Phil Tufnell',
 		personGuesses: {
@@ -52,16 +52,16 @@ const rounds = [
 			'Konnie Huq': 'unknown'
 		},
 		teamGuess: 'lie',
-		truth: 'lie'
+		truth: 'truth'
 	},
 	{
 		type: 'this_is_my',
 		guessingTeam: 'Lee Mack',
-		guest: '',
+		guest: 'Ian',
 		connections: {
-			'Greg Davies': '',
-			'Konnie Huq': '',
-			'David Mitchell': ''
+			'David Mitchell': 'Had to hold Ian\'s hand on a plane throughout takeoff and landing because Ian was very scared of flying.',
+			'Greg Davies': 'After a drunken night he woke up to Ian telling him he had been wrongly arrested on suspicion of murder.',
+			'Konnie Huq': 'He brought lizards to Blue Peter and lost one which she later found in her handbag.'
 		},
 		personGuess: {
 			'Lee Mack': 'Greg Davies',
@@ -73,7 +73,7 @@ const rounds = [
 	},
 	{
 		type: 'quick_fire',
-		statement: '',
+		statement: 'I once had to show my boss an intimate area of my body to prove why I was late for work.',
 		guessingTeam: 'David Mitchell',
 		person: 'Lee Mack',
 		personGuesses: {
@@ -86,7 +86,7 @@ const rounds = [
 	},
 	{
 		type: 'quick_fire',
-		statement: '',
+		statement: 'I recently bought a cat, but took it back a day later because our personalities clashed.',
 		guessingTeam: 'Lee Mack',
 		person: 'David Mitchell',
 		personGuesses: {
@@ -99,7 +99,7 @@ const rounds = [
 	},
 	{
 		type: 'quick_fire',
-		statement: '',
+		statement: 'I used to try and scare school friends by planting a particular drawing in their pocket signifying death.',
 		guessingTeam: 'Lee Mack',
 		person: 'Greg Davies',
 		personGuesses: {

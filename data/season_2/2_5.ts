@@ -30,7 +30,7 @@ const cast = {
 const rounds = [
 	{
 		type: 'home_truths',
-		statement: '',
+		statement: 'I have an identical twin called Jimmy- Jimmy Lives in Canada.',
 		guessingTeam: 'David Mitchell',
 		person: 'Eamonn Holmes',
 		personGuesses: {
@@ -43,7 +43,7 @@ const rounds = [
 	},
 	{
 		type: 'home_truths',
-		statement: '',
+		statement: 'In an advert starring Pelé my voice was passed off as his voice.',
 		guessingTeam: 'Lee Mack',
 		person: 'Peter Serafinowicz',
 		personGuesses: {
@@ -56,7 +56,7 @@ const rounds = [
 	},
 	{
 		type: 'home_truths',
-		statement: '',
+		statement: 'Kellogg\'s offered me a job in their development department after I sent them a list of new cereal ideas.',
 		guessingTeam: 'David Mitchell',
 		person: 'Hugh Dennis',
 		personGuesses: {
@@ -69,7 +69,7 @@ const rounds = [
 	},
 	{
 		type: 'ring_of_truth_single',
-		statement: '',
+		statement: 'Wayne Rooney and Coleen McLoughlin got engaged in a petrol station.',
 		guessingTeam: 'David Mitchell',
 		personGuesses: {
 			'David Mitchell': 'truth',
@@ -82,11 +82,11 @@ const rounds = [
 	{
 		type: 'this_is_my',
 		guessingTeam: 'David Mitchell',
-		guest: '',
+		guest: 'Amanda',
 		connections: {
-			'Hugh Dennis': '',
-			'Eamonn Holmes': '',
-			'Lee Mack': ''
+			'Eamonn Holmes': 'She was Angelina Jolie\'s double in Tomb Raider.',
+			'Hugh Dennis': 'He and Amanda came third in a pantomime horse dash last year.',
+			'Lee Mack': 'Amanda gave his dog mouth-to-mouth resuscitation after it was run over by a car.'
 		},
 		personGuess: {
 			'David Mitchell': 'Hugh Dennis',
@@ -98,7 +98,7 @@ const rounds = [
 	},
 	{
 		type: 'quick_fire',
-		statement: '',
+		statement: 'I used to be a tour guide for a hat museum.',
 		guessingTeam: 'Lee Mack',
 		person: 'David Mitchell',
 		personGuesses: {
@@ -111,7 +111,7 @@ const rounds = [
 	},
 	{
 		type: 'quick_fire',
-		statement: '',
+		statement: 'I once pulled a boy by pretending to be French.',
 		guessingTeam: 'Lee Mack',
 		person: 'Olivia Colman',
 		personGuesses: {
@@ -124,7 +124,7 @@ const rounds = [
 	},
 	{
 		type: 'quick_fire',
-		statement: '',
+		statement: 'At school, I had a fight with Laurence Llewelyn-Bowen.',
 		guessingTeam: 'David Mitchell',
 		person: 'Hugh Dennis',
 		personGuesses: {

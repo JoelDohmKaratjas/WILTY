@@ -80,9 +80,9 @@ const rounds = [
 		guessingTeam: 'David Mitchell',
 		guest: 'Dave',
 		connections: {
-			'Tara Palmer-Tomkinson': 'Met him when she passed out at the top of Mont Blanc and he helped her down.',
 			'Dave Spikey': 'A friend who makes approximately £40,000 a year on pub trivia machines.',
-			'Lee Mack': 'His old boss who taught him how to call Bingo.'
+			'Lee Mack': 'His old boss who taught him how to call Bingo.',
+			'Tara Palmer-Tomkinson': 'Met him when she passed out at the top of Mont Blanc and he helped her down.'
 		},
 		personGuess: {
 			'Claudia Winkleman': 'Dave Spikey',

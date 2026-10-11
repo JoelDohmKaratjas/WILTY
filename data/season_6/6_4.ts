@@ -30,7 +30,7 @@ const cast = {
 const rounds = [
 	{
 		type: 'home_truths',
-		statement: '',
+		statement: 'For three days running, I accidentally ate cat food for dinner.',
 		guessingTeam: 'David Mitchell',
 		person: 'Des O\'Connor',
 		personGuesses: {
@@ -43,7 +43,7 @@ const rounds = [
 	},
 	{
 		type: 'home_truths',
-		statement: '',
+		statement: 'I cannot go on airport travelators. The one and only time I did, I got so freaked out by how super-humanly fast I was walking that I had to be taken to the sick bay to calm down.',
 		guessingTeam: 'Lee Mack',
 		person: 'Rhod Gilbert',
 		personGuesses: {
@@ -57,11 +57,11 @@ const rounds = [
 	{
 		type: 'this_is_my',
 		guessingTeam: 'Lee Mack',
-		guest: '',
+		guest: 'Tony',
 		connections: {
-			'Rhod Gilbert': '',
-			'Sally Philips': '',
-			'David Mitchell': ''
+			'David Mitchell': 'Tony, his old neighbour, used to help him get to sleep by telling him bedtime stories about the war.',
+			'Rhod Gilbert': 'For five years, Tony was his badminton doubles partner.',
+			'Sally Philips': 'He is her uncle, and last year, she drove his mobility scooter into a pond and wrote it off (paid for another one).'
 		},
 		personGuess: { // all agreed on Sally in the end
 			'Des O\'Connor': 'David Mitchell',
@@ -73,7 +73,7 @@ const rounds = [
 	},
 	{
 		type: 'quick_fire',
-		statement: '',
+		statement: 'In Thailand, I paid £200 to have my portrait painted by a monkey. This is that portrait.',
 		possession: true,
 		guessingTeam: 'David Mitchell',
 		person: 'Lee Mack',
@@ -87,7 +87,7 @@ const rounds = [
 	},
 	{
 		type: 'quick_fire',
-		statement: '',
+		statement: 'Because he swims in our local pool, my husband and I play a game over text called \'I\'ve Just Been In The Water With Trevor McDonald\'. I\'m currently beating him 3-2.',
 		guessingTeam: 'Lee Mack',
 		person: 'Sally Philips',
 		personGuesses: {
@@ -100,7 +100,7 @@ const rounds = [
 	},
 	{
 		type: 'quick_fire',
-		statement: '',
+		statement: 'On a wall in my flat there is a mysterious red switch. I have no idea what it does because I have never pressed it and refuse to do so.',
 		guessingTeam: 'Lee Mack',
 		person: 'David Mitchell',
 		personGuesses: {
