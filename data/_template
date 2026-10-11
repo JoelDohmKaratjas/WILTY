@@ -2,10 +2,28 @@ import { StandardEpisode, EpisodeCast, Round } from '../episodeTypes';
 
 const cast = {
 	david: [
-
+		{
+			name: '',
+			wiki: '',
+			gender: ''
+		},
+		{
+			name: '',
+			wiki: '',
+			gender: ''
+		}
 	],
 	lee: [
-
+		{
+			name: '',
+			wiki: '',
+			gender: ''
+		},
+		{
+			name: '',
+			wiki: '',
+			gender: ''
+		}
 	]
 } as const satisfies EpisodeCast
 
