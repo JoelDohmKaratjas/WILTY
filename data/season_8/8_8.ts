@@ -3,26 +3,26 @@ import { type StandardEpisode, type EpisodeCast, type Round } from '../episodeTy
 const cast = {
 	david: [
 		{
-			name: 'Adrian Chiles',
-			wiki: 'https://en.wikipedia.org/wiki/Adrian_Chiles',
+			name: 'Josh Widdicombe',
+			wiki: 'https://en.wikipedia.org/wiki/Josh_Widdicombe',
 			gender: 'male'
 		},
 		{
-			name: 'Seann Walsh',
-			wiki: 'https://en.wikipedia.org/wiki/Seann_Walsh',
+			name: 'Ray Winstone',
+			wiki: 'https://en.wikipedia.org/wiki/Ray_Winstone',
 			gender: 'male'
 		}
 	],
 	lee: [
 		{
-			name: 'Aisling Bea',
-			wiki: 'https://en.wikipedia.org/wiki/Aisling_Bea',
+			name: 'Rachel Riley',
+			wiki: 'https://en.wikipedia.org/wiki/Rachel_Riley',
 			gender: 'female'
 		},
 		{
-			name: 'June Brown',
-			wiki: 'https://en.wikipedia.org/wiki/June_Brown',
-			gender: 'female'
+			name: 'Ricky Tomlinson',
+			wiki: 'https://en.wikipedia.org/wiki/Ricky_Tomlinson',
+			gender: 'male'
 		}
 	]
 } as const satisfies EpisodeCast
@@ -30,26 +30,26 @@ const cast = {
 const rounds = [
 	{
 		type: 'home_truths',
-		statement: 'I find nothing more relaxing than making scented candles.',
+		statement: 'I qualified as a football referee but quit after six matches because the abuse became too much.',
 		guessingTeam: 'Lee Mack',
-		person: 'Adrian Chiles',
+		person: 'Josh Widdicombe',
 		personGuesses: {
-			'Aisling Bea': 'truth',
-			'June Brown': 'lie',
-			'Lee Mack': 'undecided'
+			'Lee Mack': 'truth',
+			'Rachel Riley': 'truth',
+			'Ricky Tomlinson': 'lie'
 		},
-		teamGuess: 'lie',
+		teamGuess: 'truth',
 		truth: 'truth'
 	},
 	{
 		type: 'home_truths',
-		statement: 'I once went skinny dipping with Sharon from EastEnders.',
-		guessingTeam: 'David Mitchell',
-		person: 'June Brown',
+		statement: 'At the bottom of my garden, I built a replica Stonehenge.',
+		guessingTeam: 'Lee Mack',
+		person: 'Ray Winstone',
 		personGuesses: {
-			'Adrian Chiles': 'lie',
-			'David Mitchell': 'lie',
-			'Seann Walsh': 'lie'
+			'Lee Mack': 'lie',
+			'Rachel Riley': 'truth',
+			'Ricky Tomlinson': 'lie'
 		},
 		teamGuess: 'lie',
 		truth: 'truth'
@@ -57,42 +57,56 @@ const rounds = [
 	{
 		type: 'this_is_my',
 		guessingTeam: 'David Mitchell',
-		guest: 'Marie',
+		guest: 'John',
 		connections: {
-			'Aisling Bea': 'She once booked me a stripper and it went so badly that I spend the rest of the night trying to cheer him up.',
-			'June Brown': 'She is going to play the young Dot in a spinoff of EastEnders called "Dot Cotton: The Motorbike Years".',
-			'Lee Mack': 'She once asked me to pop into her house to get rid of a spider. Ten minutes later, she asked me to leave because I was making matters worse.'
+			'Lee Mack': 'After my mate John was involved in an accident, I went to visit him in hospital but I mistakenly sat next to this John\'s bed and spoke to him for two hours.',
+			'Rachel Riley': 'He comes to Countdown every single day and presents me with a freshly-baked cake.',
+			'Ricky Tomlinson': 'If he hadn\'t decided to join my band, he could have been in the Beatles.'
 		},
 		personGuess: {
-			'Adrian Chiles': 'Aisling Bea',
-			'David Mitchell': 'Aisling Bea',
-			'Seann Walsh': 'Aisling Bea'
+			'David Mitchell': 'Rachel Riley',
+			'Josh Widdicombe': 'Ricky Tomlinson',
+			'Ray Winstone': 'Ricky Tomlinson'
 		},
-		teamGuess: 'Aisling Bea',
-		truth: 'Aisling Bea'
+		teamGuess: 'Ricky Tomlinson',
+		truth: 'Ricky Tomlinson'
 	},
 	{
 		type: 'quick_fire',
-		statement: 'I once accidentally left a goldfish on top of a petrol pump.',
+		possession: true,
+		statement: 'This is my frog lamp. I pop it on when I go down to the bottom of the garden to check on the frogs.',
 		guessingTeam: 'Lee Mack',
 		person: 'David Mitchell',
 		personGuesses: {
-			'Aisling Bea': 'lie',
-			'June Brown': 'lie',
-			'Lee Mack': 'lie'
+			'Lee Mack': 'lie',
+			'Rachel Riley': 'truth',
+			'Ricky Tomlinson': 'lie'
 		},
 		teamGuess: 'lie',
-		truth: 'truth'
+		truth: 'lie'
 	},
 	{
 		type: 'quick_fire',
-		statement: 'I found out my girlfriend was cheating on me while I was bouncing on a trampoline and spotted her over the fence with another man.',
+		statement: 'Whenever I eat a boiled egg, I say \'Sorry Mr. Egg\' as I bash its head in with a spoon.',
+		guessingTeam: 'Lee Mack',
+		person: 'Ray Winstone',
+		personGuesses: {
+			'Lee Mack': 'lie',
+			'Rachel Riley': 'lie',
+			'Ricky Tomlinson': 'lie'
+		},
+		teamGuess: 'lie',
+		truth: 'lie'
+	},
+	{
+		type: 'quick_fire',
+		statement: 'I can write so well with my right foot that to save time writing Christmas cards, I simultaneously write one card with my hand and one card with my foot.',
 		guessingTeam: 'David Mitchell',
 		person: 'Lee Mack',
 		personGuesses: {
-			'Adrian Chiles': 'unknown',
 			'David Mitchell': 'lie',
-			'Seann Walsh': 'unknown'
+			'Josh Widdicombe': 'lie',
+			'Ray Winstone': 'lie'
 		},
 		teamGuess: 'lie',
 		truth: 'lie'
@@ -105,6 +119,6 @@ export default {
 	season: 8,
 	episode: 8,
 	rounds: rounds,
-	score: [4, 1],
-	liarOfTheWeek: 'June Brown'
+	score: [3, 3],
+	liarOfTheWeek: 'Ray Winstone'
 } as const satisfies StandardEpisode<typeof cast>

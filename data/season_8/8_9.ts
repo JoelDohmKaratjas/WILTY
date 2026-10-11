@@ -1,166 +1,110 @@
-import { type CompilationCast, type CompilationEpisode } from '../episodeTypes'
-import e1 from './8_1'
-import e2 from './8_2'
-import e3 from './8_3'
-import e4 from './8_4'
-import e5 from './8_5'
-import e6 from './8_6'
-import e7 from './8_7'
-import e8 from './8_8'
+import { type StandardEpisode, type EpisodeCast, type Round } from '../episodeTypes'
 
-const compilationCast = {
-	1: e1.cast,
-	2: e2.cast,
-	3: e3.cast,
-	4: e4.cast,
-	5: e5.cast,
-	6: e6.cast,
-	7: e7.cast,
-	8: e8.cast
-} as const satisfies CompilationCast
+const cast = {
+	david: [
+		{
+			name: 'Adrian Chiles',
+			wiki: 'https://en.wikipedia.org/wiki/Adrian_Chiles',
+			gender: 'male'
+		},
+		{
+			name: 'Seann Walsh',
+			wiki: 'https://en.wikipedia.org/wiki/Seann_Walsh',
+			gender: 'male'
+		}
+	],
+	lee: [
+		{
+			name: 'Aisling Bea',
+			wiki: 'https://en.wikipedia.org/wiki/Aisling_Bea',
+			gender: 'female'
+		},
+		{
+			name: 'June Brown',
+			wiki: 'https://en.wikipedia.org/wiki/June_Brown',
+			gender: 'female'
+		}
+	]
+} as const satisfies EpisodeCast
 
 const rounds = [
 	{
-		episode: 4,
 		type: 'home_truths',
-		statement: 'Whenever I\'m in a situation where I don\'t know what to do, I ask myself the question "What would Cliff Richard do?".',
+		statement: 'I find nothing more relaxing than making scented candles.',
 		guessingTeam: 'Lee Mack',
-		person: 'Miles Jupp',
+		person: 'Adrian Chiles',
 		personGuesses: {
-			'Ed Byrne': 'lie',
-			'Emilia Fox': 'lie',
-			'Lee Mack': 'lie'
-		},
-		teamGuess: 'lie',
-		truth: 'lie'
-	},
-	{
-		episode: 1,
-		type: 'home_truths',
-		statement: 'This is Yoshi. I recently took him to the vet, because I thought he was depressed.',
-		possession: true,
-		guessingTeam: 'David Mitchell',
-		person: 'Claudia Winkleman',
-		personGuesses: {
-			'David Mitchell': 'lie',
-			'Fiona Bruce': 'lie',
-			'Micky Flanagan': 'unknown'
+			'Aisling Bea': 'truth',
+			'June Brown': 'lie',
+			'Lee Mack': 'undecided'
 		},
 		teamGuess: 'lie',
 		truth: 'truth'
 	},
 	{
-		episode: 3,
 		type: 'home_truths',
-		statement: 'For five days I pushed my cat around in a pram, because it had sprained three of its ankles.',
+		statement: 'I once went skinny dipping with Sharon from EastEnders.',
 		guessingTeam: 'David Mitchell',
-		person: 'Bob Mortimer',
+		person: 'June Brown',
 		personGuesses: {
-			'Adil Ray': 'lie',
+			'Adrian Chiles': 'lie',
 			'David Mitchell': 'lie',
-			'Kian Egan': 'lie'
+			'Seann Walsh': 'lie'
 		},
 		teamGuess: 'lie',
-		truth: 'lie'
+		truth: 'truth'
 	},
 	{
-		episode: 7,
-		type: 'home_truths',
-		statement: 'Last year I made my husband a birthday meal using some mince I found in the street.',
+		type: 'this_is_my',
+		guessingTeam: 'David Mitchell',
+		guest: 'Marie',
+		connections: {
+			'Aisling Bea': 'She once booked me a stripper and it went so badly that I spend the rest of the night trying to cheer him up.',
+			'June Brown': 'She is going to play the young Dot in a spinoff of EastEnders called "Dot Cotton: The Motorbike Years".',
+			'Lee Mack': 'She once asked me to pop into her house to get rid of a spider. Ten minutes later, she asked me to leave because I was making matters worse.'
+		},
+		personGuess: {
+			'Adrian Chiles': 'Aisling Bea',
+			'David Mitchell': 'Aisling Bea',
+			'Seann Walsh': 'Aisling Bea'
+		},
+		teamGuess: 'Aisling Bea',
+		truth: 'Aisling Bea'
+	},
+	{
+		type: 'quick_fire',
+		statement: 'I once accidentally left a goldfish on top of a petrol pump.',
 		guessingTeam: 'Lee Mack',
-		person: 'Jo Brand',
+		person: 'David Mitchell',
 		personGuesses: {
-			'Lee Mack': 'lie',
-			'Ray Mears': 'truth',
-			'Roisin Conaty': 'lie'
+			'Aisling Bea': 'lie',
+			'June Brown': 'lie',
+			'Lee Mack': 'lie'
 		},
 		teamGuess: 'lie',
-		truth: 'lie'
+		truth: 'truth'
 	},
 	{
-		episode: 6,
-		type: 'home_truths',
-		statement: 'I can tell if someone is left or right handed just by looking at their ears.',
+		type: 'quick_fire',
+		statement: 'I found out my girlfriend was cheating on me while I was bouncing on a trampoline and spotted her over the fence with another man.',
 		guessingTeam: 'David Mitchell',
 		person: 'Lee Mack',
 		personGuesses: {
-			'Amanda Abbington': 'lie',
+			'Adrian Chiles': 'unknown',
 			'David Mitchell': 'lie',
-			'Phill Jupitus': 'lie'
+			'Seann Walsh': 'unknown'
 		},
 		teamGuess: 'lie',
-		truth: 'lie'
-	},
-	{
-		episode: 3,
-		type: 'home_truths',
-		statement: 'I once had to go all the way to Bradford just to make a phone call to prove I was in Bradford.',
-		guessingTeam: 'Lee Mack',
-		person: 'Adil Ray',
-		personGuesses: {
-			'Bob Mortimer': 'truth',
-			'Lee Mack': 'truth',
-			'Mel Giedroyc': 'truth'
-		},
-		teamGuess: 'truth',
-		truth: 'truth'
-	},
-	{
-		episode: 2,
-		type: 'home_truths',
-		statement: 'I was once forced to continually ballroom dance while presenting five minutes of live TV.',
-		guessingTeam: 'Lee Mack',
-		person: 'Kirsty Wark',
-		personGuesses: {
-			'Adam Buxton': 'truth',
-			'Bruno Tonioli': 'lie',
-			'Lee Mack': 'lie'
-		},
-		teamGuess: 'lie',
-		truth: 'truth'
-	},
-	{
-		episode: 6,
-		type: 'home_truths',
-		statement: 'I have a crippling fear of the underside of ships.',
-		guessingTeam: 'David Mitchell',
-		person: 'Gareth Malone',
-		personGuesses: {
-			'Amanda Abbington': 'lie',
-			'David Mitchell': 'lie',
-			'Phill Jupitus': 'lie'
-		},
-		teamGuess: 'lie',
-		truth: 'truth'
-	},
-	{
-		episode: 1,
-		type: 'host',
-		statement: 'Whenever I take a shower, I listen to the Benny Hill theme tune. It\'s the only way I can be in and out of the cubicle in under four minutes.',
-		personGuesses: {
-			david: {
-				'David Mitchell': 'truth',
-				'Fiona Bruce': 'unknown',
-				'Micky Flanagan': 'unknown'
-			},
-			lee: {
-				'Claudia Winkleman': 'unknown',
-				'Lee Mack': 'lie',
-				'Steve Jones': 'unknown'
-			}
-		},
-		teamGuess: {
-			david: 'truth',
-			lee: 'lie'
-		},
 		truth: 'lie'
 	}
-] as const satisfies CompilationEpisode<typeof compilationCast>['rounds']
+] as const satisfies Round<typeof cast>[]
 
 export default {
-	type: 'compilation',
-	cast: compilationCast,
+	type: 'standard',
+	cast: cast,
 	season: 8,
 	episode: 9,
-	rounds: rounds
-} as const satisfies CompilationEpisode<typeof compilationCast>
+	rounds: rounds,
+	score: [4, 1],
+	liarOfTheWeek: 'June Brown'
+} as const satisfies StandardEpisode<typeof cast>
