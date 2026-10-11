@@ -74,7 +74,7 @@ const rounds = [
 		connections: {
 			'Katy Wix': 'He freed her from a vending machine because she got her foot stuck in the opening compartment.',
 			'Kevin Bridges': 'They were questioned by the police, for stealing a life sized cardboard cutout of Hugh Grant.',
-			'Lee Mack': 'He is a stand-in for the person who was supposed to turn up. His connection was Graham, self-defense instructor, who couldn\'t come.'
+			'Lee Mack': 'He is a stand-in for the person who was supposed to turn up. His connection was Graham, self-defence instructor, who couldn\'t come.'
 		},
 		personGuess: {
 			'David Mitchell': 'undecided',

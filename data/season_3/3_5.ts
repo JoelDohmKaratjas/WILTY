@@ -69,7 +69,7 @@ const rounds = [
 	},
 	{
 		type: 'ring_of_truth_single',
-		statement: 'Mick Jagger has been asked by a company if they can sell his ashes in collectible egg timers when he dies.',
+		statement: 'Mick Jagger has been asked by a company if they can sell his ashes in collectable egg timers when he dies.',
 		guessingTeam: 'David Mitchell',
 		personGuesses: {
 			'David Mitchell': 'truth',

@@ -124,7 +124,7 @@ const rounds = [
 	},
 	{
 		type: 'quick_fire',
-		statement: 'This is my tea cozy. I take it absolutely everywhere with me because I can\'t stand a cold teapot.',
+		statement: 'This is my tea cosy. I take it absolutely everywhere with me because I can\'t stand a cold teapot.',
 		possession: true,
 		guessingTeam: 'Lee Mack',
 		person: 'Fern Britton',

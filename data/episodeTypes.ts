@@ -105,7 +105,7 @@ export type Round<T extends EpisodeCast, R extends CompilationGuess = Answer> =
 	| TellyTales<T, R>
 
 export type StandardEpisode<T extends EpisodeCast> = {
-	type: 'standard'
+	type: 'standard' | 'special'
 	cast: T
 	season: number
 	episode: number

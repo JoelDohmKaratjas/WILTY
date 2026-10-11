@@ -127,7 +127,7 @@ const rounds = [
 ] as const satisfies Round<typeof cast>[]
 
 export default {
-	type: 'standard',
+	type: 'special',
 	cast: cast,
 	season: 7,
 	episode: 10,
