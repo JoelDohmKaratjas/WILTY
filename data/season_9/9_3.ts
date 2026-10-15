@@ -21,7 +21,7 @@ const cast = {
 		},
 		{
 			name: 'Alex Jones',
-			wiki: 'https://en.wikipedia.org/wiki/Alex_Jones_(presenter)',
+			wiki: 'https://en.wikipedia.org/wiki/Alex_Jones_(Welsh_presenter)',
 			gender: 'female'
 		}
 	]
