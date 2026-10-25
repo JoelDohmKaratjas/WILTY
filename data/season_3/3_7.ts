@@ -100,7 +100,7 @@ const rounds = [
 			'Ronni Ancona': 'This is Silvan, and he designed a household robot that speaks with my voice.',
 			'Sir Chris Hoy': 'This is Silvan, and he is my masseur, and he was also the guitarist in Simply Red.'
 		},
-		personGuess: {
+		personGuesses: {
 			'Danny Wallace': 'Sir Chris Hoy',
 			'Gabby Logan': 'Sir Chris Hoy',
 			'Lee Mack': 'Sir Chris Hoy'

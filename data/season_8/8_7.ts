@@ -76,7 +76,7 @@ const rounds = [
 			'Jo Brand': 'He once helped me break into an ex-boyfriend\'s house through the dog flap so I could steal all his pants.',
 			'Paul Foot': 'He is a great believer in telekinesis and together we conduct experiments to try and move objects with the power of our minds.'
 		},
-		personGuess: {
+		personGuesses: {
 			'Lee Mack': 'Jo Brand',
 			'Ray Mears': 'David Mitchell',
 			'Roisin Conaty': 'David Mitchell'

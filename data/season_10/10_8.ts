@@ -77,7 +77,7 @@ const rounds = [
 			'David Mitchell': 'This is my car dealer, I once made him change the colour of our car twice because I was offended by its hue.',
 			'Jason Watkins': 'This is my estate agent and we once were meant to look at a property but instead we watched a dog give birth.'
 		},
-		personGuess: {
+		personGuesses: {
 			'Dr. Maggie Aderin-Pocock': 'Jason Watkins',
 			'Lee Mack': 'Jason Watkins',
 			'Phil Wang': 'Jason Watkins'

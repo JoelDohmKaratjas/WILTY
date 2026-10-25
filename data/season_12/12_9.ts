@@ -63,7 +63,7 @@ const rounds = [
 			'David Mitchell': 'We\'ve become friends since he was cast as me in the German version of Peep Show.',
 			'Rachel Parris': 'He once came to my rescue when I jumped off a bridge by mistake.'
 		},
-		personGuess: {
+		personGuesses: {
 			'Henning Wehn': 'Alex Jones',
 			'Lee Mack': 'Rachel Parris',
 			'Stacey Dooley': 'Alex Jones'

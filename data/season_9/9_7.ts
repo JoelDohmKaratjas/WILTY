@@ -63,7 +63,7 @@ const rounds = [
 			'Lee Mack': 'After spending a weekend at her hotel, I drove home only to find her cat asleep in the boot of my car.',
 			'Romesh Ranganathan': 'I have an irrational fear of sock puppets and last year, I had to leave a children\'s party when she put one on.'
 		},
-		personGuess: {
+		personGuesses: {
 			'David Mitchell': 'Gaby Roslin',
 			'Jack Dee': 'Gaby Roslin',
 			'Tinchy Stryder': 'Gaby Roslin'

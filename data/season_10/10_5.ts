@@ -76,7 +76,7 @@ const rounds = [
 			'Josh Widdicombe': 'Together we made up my entire school year.',
 			'Prof. Kate Williams': 'They let me sleep in their tent in Glastonbury when I couldn\'t find mine.'
 		},
-		personGuess: {
+		personGuesses: {
 			'Brian Blessed': 'Josh Widdicombe',
 			'Kevin Bishop': 'Josh Widdicombe',
 			'Lee Mack': 'Josh Widdicombe'

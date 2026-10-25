@@ -84,7 +84,7 @@ const rounds = [
 			'Lee Mack': 'His old boss who taught him how to call Bingo.',
 			'Tara Palmer-Tomkinson': 'Met him when she passed out at the top of Mont Blanc and he helped her down.'
 		},
-		personGuess: {
+		personGuesses: {
 			'Claudia Winkleman': 'Dave Spikey',
 			'David Mitchell': 'Lee Mack',
 			'Harry Enfield': 'unknown'

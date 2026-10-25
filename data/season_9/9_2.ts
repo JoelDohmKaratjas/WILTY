@@ -63,7 +63,7 @@ const rounds = [
 			'Gabby Logan': 'We often take one of my dogs flying.',
 			'Steve Backshall': 'He presented me with a trophy after I rode two miles down a river in an inflatable rhino.'
 		},
-		personGuess: {
+		personGuesses: {
 			'Bob Mortimer': 'Steve Backshall',
 			'Katherine Parkinson': 'Gabby Logan',
 			'Lee Mack': 'Gabby Logan'

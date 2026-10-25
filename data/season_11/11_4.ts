@@ -63,7 +63,7 @@ const rounds = [
 			'Stacey Solomon': 'He once booked me to sing \'Happy Birthday\' to his tortoise.',
 			'Susie Dent': 'He came to my rescue when I once got stuck in a tree.'
 		},
-		personGuess: {
+		personGuesses: {
 			'Bob Mortimer': 'Susie Dent',
 			'Lee Mack': 'Susie Dent',
 			'Ore Oduba': 'unknown'

@@ -88,7 +88,7 @@ const rounds = [
 			'Lee Mack': 'This is Sadie; she\'s my children\'s nanny, and the first time I met her I ran over her foot.',
 			'Omid Djalili': 'This is Sadie. I employ her to massage my dog.'
 		},
-		personGuess: {
+		personGuesses: {
 			'Dave Gorman': 'Jane Street-Porter',
 			'David Mitchell': 'Jane Street-Porter',
 			'Davina McCall': 'Jane Street-Porter'

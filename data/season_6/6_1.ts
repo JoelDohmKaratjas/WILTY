@@ -63,7 +63,7 @@ const rounds = [
 			'David Mitchell': 'Last year she rescued him when a seaside donkey went haywire with him on its back.',
 			'Mel Giedroyc': 'They posed as members of an orchestra so they could get backstage to meet their idol.'
 		},
-		personGuess: {
+		personGuesses: {
 			'Alex Jones': 'Chris Tarrant',
 			'Alexander Armstrong': 'Mel Giedroyc',
 			'Lee Mack': 'Mel Giedroyc'

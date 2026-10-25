@@ -76,7 +76,7 @@ const rounds = [
 			'Jonnie Peacock': 'He used to regularly park cars on my foot to stop me going anywhere.',
 			'Shaun Williamson': 'I keep my chicken drumsticks in his nuclear bunker.'
 		},
-		personGuess: {
+		personGuesses: {
 			'Emma Bunton': 'Jonnie Peacock',
 			'Jo Brand': 'Jonnie Peacock',
 			'Lee Mack': 'Jonnie Peacock'

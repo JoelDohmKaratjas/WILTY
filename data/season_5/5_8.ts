@@ -76,7 +76,7 @@ const rounds = [
 			'Lee Mack': 'Accidentally took each other\'s baggage and Lee had to wear his clothes for 3 days.',
 			'Sue Perkins': 'Her local butcher celebrated her winning of Maestro by putting an image of her face on a pig\'s face and a little conducting baton in its trotters.'
 		},
-		personGuess: {
+		personGuesses: {
 			'Dara Ó Briain': 'Sue Perkins',
 			'David Mitchell': 'Sue Perkins',
 			'Lorraine Kelly': 'Lee Mack'

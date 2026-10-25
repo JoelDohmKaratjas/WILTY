@@ -88,7 +88,7 @@ const rounds = [
 			'Michael Buerk': 'Chris and Jill were fellow members of the Guildford Walking and Dining Club.',
 			'Russell Howard': 'Chris and Jill were interviewed on his radio show because they claimed to have been abducted by aliens.'
 		},
-		personGuess: {
+		personGuesses: {
 			'Anton Du Beke': 'Lee Mack',
 			'Danny Baker': 'Lee Mack',
 			'David Mitchell': 'Lee Mack'

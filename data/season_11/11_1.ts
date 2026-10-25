@@ -63,7 +63,7 @@ const rounds = [
 			'Jo Brand': 'This is my neighbour Billy, and I once stole his wheelie-bin then texted him instead of my husband to tell him what I\'d done.',
 			'Lee Mack': 'He drives a barge and once whilst I was enjoying a view from a bridge, I accidentally dropped my ice-cream on his head.'
 		},
-		personGuess: {
+		personGuesses: {
 			'David Baddiel': 'Jo Brand',
 			'David Mitchell': 'Jo Brand',
 			'Kimberly Wyatt': 'Jo Brand' // Kinda Ed but agreed with David

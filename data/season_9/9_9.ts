@@ -63,7 +63,7 @@ const rounds = [
 			'Henning Wehn': 'I told my parents to sack her as my babysitter because she failed to read my bedtime stories with enough emotion.',
 			'Lee Mack': 'I once chased her for forty miles down the M3 because I thought she\'d stolen my phone.'
 		},
-		personGuess: {
+		personGuesses: {
 			'Alex Brooker': 'Lee Mack',
 			'David Mitchell': 'Henning Wehn',
 			'Doon Mackichan': 'Lee Mack'

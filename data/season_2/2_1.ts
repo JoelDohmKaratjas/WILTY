@@ -100,7 +100,7 @@ const rounds = [
 			'Lee Mack': 'His swimming teacher who taught him when he was 30 but it didn\'t work.',
 			'Robert Webb': 'His ex-girlfriend who dumped him when he brought her a torch for Christmas.'
 		},
-		personGuess: {
+		personGuesses: {
 			'David Mitchell': 'Robert Webb',
 			'Krishnan Guru-Murthy': 'Robert Webb',
 			'Rob Brydon': 'Robert Webb'

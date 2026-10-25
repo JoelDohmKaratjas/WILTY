@@ -63,7 +63,7 @@ const rounds = [
 			'Emily Maitlis': 'He\'s helping me to fulfil my recurring dream, which is to do the splits.',
 			'Jack Whitehall': 'He hypnotised him and his friend to make them believe they had never watched Harry Potter so they could watch it again.'
 		},
-		personGuess: {
+		personGuesses: {
 			'Armando Iannucci': 'Jack Whitehall',
 			'Jim Carter': 'unknown',
 			'Lee Mack': 'Jack Whitehall'

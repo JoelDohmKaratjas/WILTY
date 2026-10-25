@@ -76,7 +76,7 @@ const rounds = [
 			'Dr. Christian Jessen': 'He is a surgeon who performed an operation after Christian swallowed one of the pieces from the board game Operation.',
 			'Lee Mack': 'His butt double in Not Going Out.'
 		},
-		personGuess: {
+		personGuesses: {
 			'Andy Hamilton': 'undecided',
 			'David Mitchell': 'undecided',
 			'Gabby Logan': 'undecided'

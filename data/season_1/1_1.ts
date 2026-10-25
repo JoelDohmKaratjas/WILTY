@@ -100,7 +100,7 @@ const rounds = [
 			'Lee Mack': 'His local newsagent who sold him a scratch card that won him £2000.',
 			'Natalie Cassidy': 'Worked on EastEnders for 21 years as an extra, running the lampshade store.'
 		},
-		personGuess: {
+		personGuesses: {
 			'David Mitchell': 'Natalie Cassidy',
 			'Duncan Bannatyne': 'Natalie Cassidy',
 			'Frankie Boyle': 'Natalie Cassidy'

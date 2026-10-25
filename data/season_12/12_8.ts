@@ -76,7 +76,7 @@ const rounds = [
 			'Georgia "Toff" Toffolo': 'She works for my new business venture selling clip-on earrings for dogs.',
 			'Ronan Keating': 'She is the Boyzone competition winner twenty years ago won the duvet from my bed.'
 		},
-		personGuess: {
+		personGuesses: {
 			'Ellie Taylor': 'Ronan Keating',
 			'Lee Mack': 'Ronan Keating',
 			'Rhod Gilbert': 'Ronan Keating'

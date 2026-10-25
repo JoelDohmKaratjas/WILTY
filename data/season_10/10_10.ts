@@ -89,7 +89,7 @@ const rounds = [
 			'Lee Mack': 'This is Dennis, or as I call him, Squeaky Diesel. I always fill up at his petrol station because his unbelievably high pitched voice always cheers me up.',
 			'Sara Pascoe': 'He\'s the park gardener who came to my aid when my legs turned to jelly mid-run.'
 		},
-		personGuess: {
+		personGuesses: {
 			'David Mitchell': 'Sara Pascoe',
 			'Richard Osman': 'Chris Kamara', // Not Lee
 			'Sir Tom Courtenay': 'unknown' // Not sara

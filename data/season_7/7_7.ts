@@ -63,7 +63,7 @@ const rounds = [
 			'Greg Rutherford': 'Greg beat him in a speed-eating competition where Greg ate more than a kilo of ribs..',
 			'Kirsty Young': 'Played a handbag snatcher in a Crimewatch reconstruction, only got nine calls and all said Andy was the snatcher.'
 		},
-		personGuess: {
+		personGuesses: {
 			'Henning Wehn': 'Greg Rutherford',
 			'Joanna Scanlan': 'Greg Rutherford',
 			'Lee Mack': 'Greg Rutherford'

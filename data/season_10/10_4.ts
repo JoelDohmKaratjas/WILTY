@@ -77,7 +77,7 @@ const rounds = [
 			'Lee Mack': 'Last summer, I threw his phone in a boating lake.',
 			'Warwick Davis': 'I first met him when his shot put came over my garden fence.'
 		},
-		personGuess: {
+		personGuesses: {
 			'David Mitchell': 'Warwick Davis',
 			'John Simpson': 'unknown',
 			'Katherine Ryan': 'Warwick Davis'

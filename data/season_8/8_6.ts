@@ -65,7 +65,7 @@ const rounds = [
 			'Lee Mack': 'He was the rickshaw driver I once paid to pedal me home. By the time we got home, he was so exhausted I let him stay on my sofa.',
 			'Richard Osman': 'When he came to watch a recording of Pointless, I had to ask for him to be moved away from the front row because his behaviour was putting me off my statistics.'
 		},
-		personGuess: {
+		personGuesses: {
 			'Amanda Abbington': 'undecided', // originally Lee/Greg
 			'David Mitchell': 'Lee Mack',
 			'Phill Jupitus': 'Lee Mack' // originally Richard

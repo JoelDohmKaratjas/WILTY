@@ -63,7 +63,7 @@ const rounds = [
 			'Lee Mack': 'When Matt broke both his arms, Lee popped round his house and scratch his itches with a knitting needle.',
 			'Steph McGovern': 'Together, they once threw some knickers at Jennifer Saunders.'
 		},
-		personGuess: {
+		personGuesses: {
 			'David Mitchell': 'Steph McGovern',
 			'Jennifer Saunders': 'Steph McGovern',
 			'Richard Osman': 'Steph McGovern'

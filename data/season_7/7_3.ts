@@ -63,7 +63,7 @@ const rounds = [
 			'Paul Hollywood': 'Looks after Neil\'s parrot when Neil\'s on holiday and walks the parrot.',
 			'Warwick Davis': 'Paid by Neil to propose to Neil\'s girlfriend while dressed as an Ewok.'
 		},
-		personGuess: {
+		personGuesses: {
 			'David Mitchell': 'Warwick Davis',
 			'Jason Manford': 'Warwick Davis',
 			'Joan Bakewell': 'Warwick Davis'

@@ -100,7 +100,7 @@ const rounds = [
 			'Shane Richie': 'Richard is his cousin and this is the first time he has been out of Cornwell.',
 			'Vic Reeves': 'Richard is his butcher and Vic is his official sausage taster.'
 		},
-		personGuess: {
+		personGuesses: {
 			'Lee Mack': 'David Mitchell',
 			'Rhys Thomas': 'Shane Richie',
 			'Tara Palmer-Tomkinson': 'Shane Richie'

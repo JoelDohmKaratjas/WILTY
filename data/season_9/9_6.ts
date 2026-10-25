@@ -63,7 +63,7 @@ const rounds = [
 			'Richard Hammond': 'I once convinced him that he\'d been spooked by a ghost in a country house.',
 			'Sean Lock': 'I had to talk to him for over an hour to keep him calm when trapped in a portaloo.'
 		},
-		personGuess: {
+		personGuesses: {
 			'Judy Murray': 'David Mitchell',
 			'Lee Mack': 'David Mitchell',
 			'Trevor Noah': 'David Mitchell'

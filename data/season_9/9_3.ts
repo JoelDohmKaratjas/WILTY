@@ -63,7 +63,7 @@ const rounds = [
 			'John Cooper Clarke': 'I recited a poem at her wedding.',
 			'Lee Mack': 'When she was pining for her owners, I sat up with her all night and tried to comfort her with a song.'
 		},
-		personGuess: {
+		personGuesses: {
 			'David Mitchell': 'John Cooper Clarke',
 			'Greg Davies': 'John Cooper Clarke',
 			'Rick Edwards': 'John Cooper Clarke'

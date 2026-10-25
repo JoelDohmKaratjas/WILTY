@@ -76,7 +76,7 @@ const rounds = [
 			'Lee Mack': 'He started the pub\'s dart team that Lee plays in, but Lee asked him to leave because he was so bad.',
 			'Patsy Palmer': 'Swim teacher, teaching her to overcome her fear of water.'
 		},
-		personGuess: {
+		personGuesses: {
 			'David Mitchell': 'Patsy Palmer',
 			'Joanna Page': 'Patsy Palmer',
 			'John Bishop': 'Patsy Palmer'

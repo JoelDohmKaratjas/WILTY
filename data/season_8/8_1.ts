@@ -63,7 +63,7 @@ const rounds = [
 			'Fiona Bruce': '',
 			'Micky Flanagan': ''
 		},
-		personGuess: {
+		personGuesses: {
 			'Claudia Winkleman': 'David Mitchell',
 			'Lee Mack': 'Micky Flanagan',
 			'Steve Jones': 'Micky Flanagan'

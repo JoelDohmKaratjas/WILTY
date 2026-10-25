@@ -63,7 +63,7 @@ const rounds = [
 			'Lee Mack': 'He used them to convince an audience he could teleport people.',
 			'Miranda Hart': 'She judged them at the Identical Twins Of The Year award and they came third, but they were disqualified because they were two of triplets.'
 		},
-		personGuess: {
+		personGuesses: {
 			'Dale Winton': 'Lee Mack',
 			'David Mitchell': 'Clare Baldain',
 			'Richard Bacon': 'Clare Baldain'

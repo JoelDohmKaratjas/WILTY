@@ -63,7 +63,7 @@ const rounds = [
 			'David Mitchell': 'He\'s the taxi driver who cooked me a fried egg sandwich on the engine of his car.',
 			'Jordan Stephens': 'We used to regularly drive to a field together and howl at the moon.'
 		},
-		personGuess: {
+		personGuesses: {
 			'Ade Edmondson': 'Jordan Stephens',
 			'Cariad Lloyd': 'Jordan Stephens',
 			'Lee Mack': 'Claude Littner'

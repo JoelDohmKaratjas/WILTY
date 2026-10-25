@@ -63,7 +63,7 @@ const rounds = [
 			'Miranda Hart': 'Had a trial with her for a professional ladies football team.',
 			'Nick Hewer': 'Neighbours daughter, who offered to mend his computer and inadvertently emailed everyone in his contacts a picture of his big toe.'
 		},
-		personGuess: {
+		personGuesses: {
 			'David Mitchell': 'Lee Mack',
 			'Jack Whitehall': 'Nick Hewer',
 			'Rebecca Front': 'Nick Hewer'

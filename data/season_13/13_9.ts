@@ -76,7 +76,7 @@ const rounds = [
 			'Jo Brand': 'Jo borrowed her car but later watched it get crushed by a Frenchman\'s lorry.',
 			'Kiri Pritchard-McLean': 'Kiri\'s dog ate the tip of Christina\'s finger.'
 		},
-		personGuess: {
+		personGuesses: {
 			'Henning Wehn': 'Kiri Pritchard-McLean',
 			'Lee Mack': 'Kiri Pritchard-McLean',
 			'Simon Day': 'Kiri Pritchard-McLean'

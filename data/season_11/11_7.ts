@@ -63,7 +63,7 @@ const rounds = [
 			'Joe Lycett': 'I grossly offended her when I made a less than perfect sculpture of her head.',
 			'Nish Kumar': 'We became friends after I found her asleep in a box of volleyballs.'
 		},
-		personGuess: {
+		personGuesses: {
 			'Lee Mack': 'Joe Lycett',
 			'Miles Jupp': 'Nish Kumar',
 			'Nikki Fox': 'Nish Kumar'

@@ -63,7 +63,7 @@ const rounds = [
 			'Jason Manford': 'I once called her to drive my car from the roof of a multi-storey carpark because I was too scared to.',
 			'Nick Robinson': 'I was once so peckish that I broke into her cottage to steal a tube of Pringles.'
 		},
-		personGuess: {
+		personGuesses: {
 			'Harry Shearer': 'Jason Manford',
 			'Lee Mack': 'Jason Manford',
 			'Sara Cox': 'Nick Robinson'

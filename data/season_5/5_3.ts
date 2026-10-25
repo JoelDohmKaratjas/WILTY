@@ -63,7 +63,7 @@ const rounds = [
 			'David O\'Doherty': 'They started a lost animals detective agency.',
 			'Katherine Parkinson': 'Recycling man who put a note through her door telling her he thought she was eating too many takeaways.'
 		},
-		personGuess: {
+		personGuesses: {
 			'Bill Turnbull': 'David O\'Doherty',
 			'Lee Mack': 'David O\'Doherty',
 			'Louie Spence': 'David O\'Doherty'

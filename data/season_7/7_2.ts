@@ -89,7 +89,7 @@ const rounds = [
 			'Isy Suttie': 'They competed to eat the most ants to impress a boy.',
 			'Stephen Mangan': 'Together, pranked their neighbour by added an item of clothing to his washing line after he put his laundry out.'
 		},
-		personGuess: {
+		personGuesses: {
 			'Charles Dance': 'Stephen Mangan',
 			'Gok Wan': 'Stephen Mangan',
 			'Lee Mack': 'Isy Suttie'

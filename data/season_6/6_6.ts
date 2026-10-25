@@ -76,7 +76,7 @@ const rounds = [
 			'Greg Davies': 'She is his Mum, who passed Greg fighting another person and got out of her car to cheer him on.',
 			'Richard Osman': 'They met at a Snoop Dogg gig and bonded over being the two oldest fans in the room.'
 		},
-		personGuess: {
+		personGuesses: {
 			'Bob Mortimer': 'Richard Osman',
 			'Lee Mack': 'David Mitchell', // originally Richard but changed last second
 			'Patsy Kensit': 'undecided' // originally David but then undecided between Richard and Greg

@@ -63,7 +63,7 @@ const rounds = [
 			'Sara Pascoe': 'He once followed me home for ten miles just to return my jar of mango chutney.',
 			'Steve Davis': 'When he goes on holiday, I look after his pet snail.'
 		},
-		personGuess: {
+		personGuesses: {
 			'Claudia Winkleman': 'unknown',
 			'Craig Parkinson': 'unknown',
 			'David Mitchell': 'Lee Mack'

@@ -63,7 +63,7 @@ const rounds = [
 			'Lee Mack': 'I had to foot his dry-cleaning bill after my fidget spinner landed in his soup.',
 			'The Rev. Richard Coles': 'When we were nine years old, we co-founded an atheists\' club.'
 		},
-		personGuess: {
+		personGuesses: {
 			'David Mitchell': 'The Rev. Richard Coles',
 			'Henry Blofeld': 'Clive Myrie',
 			'Kerry Howard': 'Clive Myrie'

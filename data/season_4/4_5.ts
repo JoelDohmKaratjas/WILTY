@@ -76,7 +76,7 @@ const rounds = [
 			'Ronnie Corbett': 'Found Paul bound and gagged in one of the bunkers in the golf course next to his house.',
 			'Sarah Millican': 'Her newsagent who asked her to watch his shop for 10 minutes but she accidentally broke a window and a child got his head stuck in a crisps box.'
 		},
-		personGuess: {
+		personGuesses: {
 			'Holly Walsh': 'David Mitchell',
 			'Julian Clary': 'David Mitchell',
 			'Lee Mack': 'Sarah Millican'

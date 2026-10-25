@@ -63,7 +63,7 @@ const rounds = [
 			'Lee Mack': 'Whilst staying at an Airbnb, I mistook him for an intruder and attacked him with a whisk.',
 			'Rory Reid': 'After a mix-up in a tattoo parlour, we now have each other\'s tattoo.'
 		},
-		personGuess: {
+		personGuesses: {
 			'David Mitchell': 'Daisy May Cooper',
 			'Diane Morgan': 'Daisy May Cooper',
 			'Richard Osman': 'Daisy May Cooper'

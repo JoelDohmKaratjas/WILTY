@@ -76,7 +76,7 @@ const rounds = [
 			'Lee Mack': 'They were once forced to share a bed when they were double booked into the same hotel room.',
 			'Miles Jupp': 'They were paid to fight together in a supermarket, dressed as gladiators.'
 		},
-		personGuess: {
+		personGuesses: {
 			'David Mitchell': 'Lee Mack',
 			'Richard Madeley': 'Lee Mack',
 			'Sanjeev Bhaskar': 'Kate Humble'

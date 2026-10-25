@@ -88,7 +88,7 @@ const rounds = [
 			'Jo Brand': 'Liz was accidentally dropped in a pond by Jo when Liz was a baby.',
 			'Larry Lamb': 'Liz taught Larry basic bar skills before he went to work at the \'The Queen Vic\'.'
 		},
-		personGuess: {
+		personGuesses: {
 			'Carol Vorderman': 'Larry Lamb',
 			'Lee Mack': 'Larry Lamb',
 			'Russell Howard': 'David Mitchell'

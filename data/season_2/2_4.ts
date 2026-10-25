@@ -88,7 +88,7 @@ const rounds = [
 			'David Mitchell': 'Lee has been teaching him how to improve his memory for six months.',
 			'Michael Aspel': 'Lee is his driver and has also appeared in Minder.'
 		},
-		personGuess: {
+		personGuesses: {
 			'Davina McCall': 'Michael Aspel',
 			'Jason Manford': 'Michael Aspel',
 			'Lee Mack': 'Michael Aspel'

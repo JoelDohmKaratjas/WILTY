@@ -88,7 +88,7 @@ const rounds = [
 			'Jack Whitehall': 'This is Terry \'The Mean Machine\' Frazier and he is teaching me to wrestle.',
 			'Kelvin MacKenzie': 'This is Terry and he built the nuclear bunker in my garden.'
 		},
-		personGuess: {
+		personGuesses: {
 			'Christine Bleakley': 'Kelvin MacKenzie',
 			'Frankie Boyle': 'Kelvin MacKenzie',
 			'Lee Mack': 'Jack Whitehall'

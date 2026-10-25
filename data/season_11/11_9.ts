@@ -64,7 +64,7 @@ const rounds = [
 			'Lee Mack': 'I once dressed up as his wife so that his son would think that he\'d seen his mum in the audience at the school play.',
 			'Robert Rinder': 'I had such a crush on him at school that for the past twenty years, his name has been the basis for all of my passwords.'
 		},
-		personGuess: {
+		personGuesses: {
 			'David Mitchell': 'Robert Rinder',
 			'Katherine Ryan': 'Denise Lewis',
 			'Richard Osman': 'Robert Rinder'

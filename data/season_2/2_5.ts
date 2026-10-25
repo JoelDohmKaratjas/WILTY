@@ -88,7 +88,7 @@ const rounds = [
 			'Hugh Dennis': 'He and Amanda came third in a pantomime horse dash last year.',
 			'Lee Mack': 'Amanda gave his dog mouth-to-mouth resuscitation after it was run over by a car.'
 		},
-		personGuess: {
+		personGuesses: {
 			'David Mitchell': 'Hugh Dennis',
 			'Olivia Colman': 'Eamonn Holmes',
 			'Peter Serafinowicz': 'Hugh Dennis'

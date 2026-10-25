@@ -88,7 +88,7 @@ const rounds = [
 			'Lee Mack': 'He\'s a professional juggler and is teaching me to juggle.',
 			'Miranda Hart': 'He stopped me attending his yoga classes because I couldn\'t stop laughing.'
 		},
-		personGuess: {
+		personGuesses: {
 			'Claudia Winkleman': 'Clive Anderson',
 			'David Mitchell': 'Clive Anderson',
 			'Jason Manford': 'Clive Anderson'

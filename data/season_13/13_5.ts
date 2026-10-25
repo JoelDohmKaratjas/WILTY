@@ -64,7 +64,7 @@ const rounds = [
 			'Jay Blades': 'We got a speeding ticket together whilst test-driving a motorised sofa.',
 			'Sue Johnston': 'Together, we hid a body in a coffin to spook the cast of Brookside.'
 		},
-		personGuess: {
+		personGuesses: {
 			'Alice Levine': 'Sue Johnston',
 			'Bob Mortimer': 'Sue Johnston',
 			'Lee Mack': 'Sue Johnston'

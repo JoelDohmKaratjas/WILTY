@@ -76,7 +76,7 @@ const rounds = [
 			'Lee Mack': 'Previous owner of Lee\'s house, who still comes around with his deck chair to sit in his garden on sunny days.',
 			'Nina Wadia': 'First person to have a drink at the Vic, and the first person ever to have a curry at the Argee Bhajee.'
 		},
-		personGuess: {
+		personGuesses: {
 			'David Mitchell': 'Nina Wadia',
 			'Gregg Wallace': 'unknown',
 			'Nigel Havers': 'unknown'

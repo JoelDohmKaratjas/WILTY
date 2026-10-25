@@ -76,7 +76,7 @@ const rounds = [
 			'Lee Mack': 'Hotel receptionist that he had to phone when he found a peacock in his room.',
 			'Sarah Millican': 'They tricked the newspapers into reporting that she had been left under a spell from a hypnotist.'
 		},
-		personGuess: {
+		personGuesses: {
 			'Bill Oddie': 'Lee Mack',
 			'David Mitchell': 'Sarah Millican',
 			'Frank Skinner': 'Sarah Millican'

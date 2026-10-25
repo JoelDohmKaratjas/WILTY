@@ -97,7 +97,7 @@ const rounds = [
 			'Craig Revel Horwood': 'Mike beat him in a Moustache Wearer of the Year competition.',
 			'David Mitchell': 'They started a detective agency together in his garden shed.'
 		},
-		personGuess: {
+		personGuesses: {
 			'Hugh Dennis': 'Ben Fogle',
 			'Kate Silverton': 'undecided',
 			'Lee Mack': 'David Mitchell'

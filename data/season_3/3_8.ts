@@ -101,7 +101,7 @@ const rounds = [
 			'Lee Mack': 'This is Donna and she saved my life when she threw me a lifebelt after I fell off my boat.',
 			'Michael Ball': 'This is Donna; she has been my no. 1 super fan since she was 17 - she even has a toilet seat cover with my face on it.'
 		},
-		personGuess: {
+		personGuesses: {
 			'David Mitchell': 'Lee Mack',
 			'Reece Shearsmith': 'Lee Mack',
 			'Trinny Woodall': 'Lee Mack'

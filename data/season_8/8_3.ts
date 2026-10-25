@@ -76,7 +76,7 @@ const rounds = [
 			'David Mitchell': '',
 			'Kian Egan': ''
 		},
-		personGuess: {
+		personGuesses: {
 			'Bob Mortimer': 'Adil Ray',
 			'Lee Mack': 'Adil Ray',
 			'Mel Giedroyc': 'Adil Ray'

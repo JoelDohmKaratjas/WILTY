@@ -63,7 +63,7 @@ const rounds = [
 			'David Mitchell': 'Whilst strolling through Ancient Rome in his virtual reality headset, I tripped over a footstool and fell into a fireplace.',
 			'Guz Khan': 'When I work away from home, he sleeps in the same room as me to protect me from ghosts.'
 		},
-		personGuess: {
+		personGuesses: {
 			'Greg Davies': 'Claudia Winkleman',
 			'Lee Mack': 'Claudia Winkleman',
 			'Lucy Worsley': 'Claudia Winkleman'

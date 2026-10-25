@@ -63,7 +63,7 @@ const rounds = [
 			'Scarlett Moffatt': 'This is my old flat mate Zoe. We once discovered we had been burgled when we arrived home dressed as burglars.',
 			'Tomasz Schafernaker': 'While handling her prize at the UK weather awards, I was struck on the head by a Perspex lightning bolt.'
 		},
-		personGuess: {
+		personGuesses: {
 			'Big Narstie': 'Tomasz Schafernaker',
 			'David Mitchell': 'Tomasz Schafernaker',
 			'Prue Leith': 'Lee Mack'

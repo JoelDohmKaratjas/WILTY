@@ -77,7 +77,7 @@ const rounds = [
 			'Mary Portas': 'Every Christmas, I sing carols to Paul\'s cows.',
 			'Rylan Clark-Neal': 'Paul is my plumber and he came over to fix a leak, but ended up cutting my hair.'
 		},
-		personGuess: {
+		personGuesses: {
 			'Lee Mack': 'Mary Portas',
 			'Paul Sinha': 'Rylan Clark-Neal',
 			'Sara Pascoe': 'Mary Portas'

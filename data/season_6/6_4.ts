@@ -63,7 +63,7 @@ const rounds = [
 			'Rhod Gilbert': 'For five years, Tony was his badminton doubles partner.',
 			'Sally Philips': 'He is her uncle, and last year, she drove his mobility scooter into a pond and wrote it off (paid for another one).'
 		},
-		personGuess: { // all agreed on Sally in the end
+		personGuesses: { // all agreed on Sally in the end
 			'Des O\'Connor': 'David Mitchell',
 			'Lee Mack': 'Rhod Gilbert',
 			'Tess Daly': 'Sally Philips'

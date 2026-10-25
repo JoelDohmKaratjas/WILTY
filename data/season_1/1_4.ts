@@ -97,7 +97,7 @@ const rounds = [
 			'Jason Manford': 'An air hostess who saved his life when he choked on a peanut.',
 			'Myleene Klass': 'A friend who has fitted Camilla Parker Bowles\' underwear.'
 		},
-		personGuess: {
+		personGuesses: {
 			'Lee Mack': 'David Mitchell',
 			'Leslie Ash': 'David Mitchell',
 			'Neil Morrissey': 'Jason Manford'

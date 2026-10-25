@@ -63,7 +63,7 @@ const rounds = [
 			'Tom Allen': 'After a night out on the tiles with me, he was unable to walk for two days.',
 			'Vicki Pepperdine': 'This is my neighbour, Eamonn. For about a month, we each thought we were conversing with an owl when in reality, we were each hooting at the other.'
 		},
-		personGuess: {
+		personGuesses: {
 			'David Mitchell': 'Tom Allen',
 			'Esme Young': 'Vicki Pepperdine',
 			'Geoff Norcott': 'Tom Allen'

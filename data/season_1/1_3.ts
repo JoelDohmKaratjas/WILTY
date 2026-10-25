@@ -123,7 +123,7 @@ const rounds = [
 			'David Mitchell': 'Alan is his driving instructor for over 70 lessons, and David still hasn\'t passed.',
 			'Eamonn Holmes': 'A friend who is the announcer at the Manchester United stadium.'
 		},
-		personGuess: {
+		personGuesses: {
 			'Jimmy Carr': 'David Mitchell',
 			'Lee Mack': 'David Mitchell',
 			'Ulrika Jonsson': 'Eamonn Holmes'

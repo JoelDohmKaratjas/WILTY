@@ -63,7 +63,7 @@ const rounds = [
 			'Rachel Riley': 'He comes to Countdown every single day and presents me with a freshly-baked cake.',
 			'Ricky Tomlinson': 'If he hadn\'t decided to join my band, he could have been in the Beatles.'
 		},
-		personGuess: {
+		personGuesses: {
 			'David Mitchell': 'Rachel Riley',
 			'Josh Widdicombe': 'Ricky Tomlinson',
 			'Ray Winstone': 'Ricky Tomlinson'

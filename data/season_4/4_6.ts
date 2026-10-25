@@ -76,7 +76,7 @@ const rounds = [
 			'Lee Mack': 'Went camping together, when they were in the Scouts, and woke up to find that someone had stolen their tent.',
 			'Rufus Hound': 'Over a week, they\'ve visited every pub inside the M25, called The Red Lion, apart from four of them (42 pubs visited in total).'
 		},
-		personGuess: {
+		personGuesses: {
 			'David Mitchell': 'Hugh Fearnley-Whittingstall',
 			'Miranda Hart': 'Hugh Fearnley-Whittingstall',
 			'Rhod Gilbert': 'Hugh Fearnley-Whittingstall'

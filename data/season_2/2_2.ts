@@ -100,7 +100,7 @@ const rounds = [
 			'Rich Hall': 'Gareth turned his car into the ultimate fishingmobile.',
 			'Trisha Goddard': 'Came on her show to cure his fear of scotch eggs.'
 		},
-		personGuess: {
+		personGuesses: {
 			'Ben Shephard': 'David Mitchell',
 			'Frankie Boyle': 'Rich Hall',
 			'Lee Mack': 'Trisha Goddard'

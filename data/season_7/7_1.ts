@@ -63,7 +63,7 @@ const rounds = [
 			'David Mitchell': 'Postman who retrieved his phone from postbox.',
 			'Vernon Kay': 'Was rescued from almost blowing up a Banana factory.'
 		},
-		personGuess: {
+		personGuesses: {
 			'Denise van Outen': 'Dara Ó Briain',
 			'Lee Mack': 'Dara Ó Briain',
 			'Rhod Gilbert': 'Vernon Kay'

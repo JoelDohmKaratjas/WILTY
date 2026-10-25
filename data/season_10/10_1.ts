@@ -63,7 +63,7 @@ const rounds = [
 			'David Mitchell': 'He came to my house to deliver a pizza but we ended up building a bed together.',
 			'Romesh Ranganathan': 'I once broke my strict vegan diet because I didn\'t want to offend him.'
 		},
-		personGuess: {
+		personGuesses: {
 			'Lee Mack': 'David Haye',
 			'Martin Kemp': 'David Haye',
 			'Mel Giedroyc': 'David Haye'

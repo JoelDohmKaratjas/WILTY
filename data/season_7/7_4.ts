@@ -64,7 +64,7 @@ const rounds = [
 			'Dermot O\'Leary': 'Asked her out 156 times.',
 			'Mel Giedroyc': 'Cut Shaylene\'s hair to put in the stuffing of her teddy bear.'
 		},
-		personGuess: {
+		personGuesses: {
 			'Josh Widdicombe': 'Mel Giedroyc',
 			'Lee Mack': 'Mel Giedroyc',
 			'Matt Dawson': 'Mel Giedroyc'

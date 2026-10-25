@@ -63,7 +63,7 @@ const rounds = [
 			'James Acaster': 'For six months, he was my sworn enemy when a practical joke got out of hand.',
 			'Lee Mack': 'I once took him home from nursery instead of my own son.'
 		},
-		personGuess: {
+		personGuesses: {
 			'David Mitchell': 'James Acaster',
 			'Fay Ripley': 'Gabby Logan',
 			'Melvin Odoom': 'James Acaster'

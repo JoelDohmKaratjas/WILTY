@@ -76,7 +76,7 @@ const rounds = [
 			'David O\'Doherty': 'Skydiver who got blown off-course and almost knocked David off his bike.',
 			'Lee Mack': 'Supermarket delivery driver who accidentally trapped Lee in the back of his van.'
 		},
-		personGuess: {
+		personGuesses: {
 			'David Mitchell': 'David O\'Doherty',
 			'Richard Osman': 'Carol Kirkwood',
 			'Susan Calman': 'David O\'Doherty'

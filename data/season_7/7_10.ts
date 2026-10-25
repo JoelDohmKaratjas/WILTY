@@ -76,7 +76,7 @@ const rounds = [
 			'Lee Mack': 'Last year, I ordered my Christmas turkey from his farm but I never got to eat it because I formed an unbreakable bond with the bird.',
 			'Miles Jupp': 'We were once told off by our neighbour because our snowman was using up too much snow.'
 		},
-		personGuess: {
+		personGuesses: {
 			'David Mitchell': 'Barry Cryer',
 			'Miranda Hart': 'Miles Jupp',
 			'Stephen Mangan': 'Miles Jupp'

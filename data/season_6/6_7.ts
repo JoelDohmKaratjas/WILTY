@@ -76,7 +76,7 @@ const rounds = [
 			'Josie Lawrence': 'He taught her how to give up smoking through a carrot technique.',
 			'Lee Mack': 'His milkman, who left 88 pints of milk on his doorstep.'
 		},
-		personGuess: {
+		personGuesses: {
 			'David Mitchell': 'Bradley Walsh',
 			'Huw Edwards': 'Bradley Walsh',
 			'Sarah Millican': 'Bradley Walsh'

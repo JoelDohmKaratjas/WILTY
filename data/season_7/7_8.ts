@@ -63,7 +63,7 @@ const rounds = [
 			'Lee Mack': 'Taught Lee how to drive in a hearse.',
 			'Susanna Reid': 'Stole Ray\'s title for downing a pint faster than anyone else on the BBC Breakfast team.'
 		},
-		personGuess: {
+		personGuesses: {
 			'David Mitchell': 'Dave Myers',
 			'Griff Rhys Jones': 'Dave Myers',
 			'Jimmy Carr': 'Dave Myers'

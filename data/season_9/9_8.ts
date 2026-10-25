@@ -64,7 +64,7 @@ const rounds = [
 			'Jo Brand': 'When we were bell-ringing together in church, he was responsible for me being hoisted twenty foot up in the air.',
 			'Lee Mack': 'His surname is Partridge and I once had to rescue him when he was stuck up a pear tree.'
 		},
-		personGuess: {
+		personGuesses: {
 			'Bill Bailey': 'Jo Brand',
 			'David Mitchell': 'Jo Brand',
 			'Ruth Jones': 'Jo Brand'

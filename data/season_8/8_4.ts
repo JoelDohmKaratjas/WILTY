@@ -63,7 +63,7 @@ const rounds = [
 			'Heston Blumenthal': 'He helped me break the world record for the most sit-ups in two minutes.',
 			'Miles Jupp': 'I was so excited to see him driving my old car that I gave him a cheery honk and he drove into a ledge.'
 		},
-		personGuess: {
+		personGuesses: {
 			'Ed Byrne': 'Heston Blumenthal',
 			'Emilia Fox': 'undecided', // Heston or David
 			'Lee Mack': 'Heston Blumenthal'

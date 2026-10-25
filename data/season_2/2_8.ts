@@ -100,7 +100,7 @@ const rounds = [
 			'Lauren Laverne': 'Roger removed her tattoo of Fonzie (from Happy Days).',
 			'Lee Mack': 'Roger rings the bells at the local church with Lee.'
 		},
-		personGuess: {
+		personGuesses: {
 			'David Mitchell': 'Graeme Garden',
 			'Michael McIntyre': 'Graeme Garden', // originally Lauren
 			'Phil Daniels': 'Lauren Laverne'

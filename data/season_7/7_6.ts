@@ -63,7 +63,7 @@ const rounds = [
 			'David Harewood': 'He is my old teacher. We met in a café and I had to pretend to not be me as I was preparing a character.',
 			'Lee Mack': 'His hawk was supposed to land on my arm, and instead stole the wig off the man next to me.'
 		},
-		personGuess: {
+		personGuesses: {
 			'David Mitchell': 'David Harewood',
 			'Jon Richardson': 'Bob Mortimer',
 			'Sarah Millican': 'David Harewood'

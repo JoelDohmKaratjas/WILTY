@@ -43,13 +43,13 @@ type ThisIsMy<T extends EpisodeCast> = {
 } & ({
 	guessingTeam: David
 	connections: Record<LeeTeam<T>, string>
-	personGuess: Record<DavidTeam<T>, LeeTeam<T> | NonAnswer>
+	personGuesses: Record<DavidTeam<T>, LeeTeam<T> | NonAnswer>
 	teamGuess: LeeTeam<T>
 	truth: LeeTeam<T>
 } | {
 	guessingTeam: Lee
 	connections: Record<DavidTeam<T>, string>
-	personGuess: Record<LeeTeam<T>, DavidTeam<T> | NonAnswer>
+	personGuesses: Record<LeeTeam<T>, DavidTeam<T> | NonAnswer>
 	teamGuess: DavidTeam<T>
 	truth: DavidTeam<T>
 })

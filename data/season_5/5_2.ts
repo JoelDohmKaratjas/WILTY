@@ -76,7 +76,7 @@ const rounds = [
 			'Kevin Bridges': 'They were questioned by the police, for stealing a life sized cardboard cutout of Hugh Grant.',
 			'Lee Mack': 'He is a stand-in for the person who was supposed to turn up. His connection was Graham, self-defence instructor, who couldn\'t come.'
 		},
-		personGuess: {
+		personGuesses: {
 			'David Mitchell': 'undecided',
 			'Robert Webb': 'Kevin Bridges',
 			'Sir Terry Wogan': 'Katy Wix'

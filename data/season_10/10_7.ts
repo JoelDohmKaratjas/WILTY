@@ -76,7 +76,7 @@ const rounds = [
 			'Henning Wehn': 'I once bought an Irish accent mouth spray from him because I genuinely believed it would give me an Irish accent.',
 			'Lee Mack': 'I had to leave my life-drawing class when he walked in, disrobed, and I realised he was the man that sold me my sausages.'
 		},
-		personGuess: {
+		personGuesses: {
 			'David Mitchell': 'Henning Wehn',
 			'Shaun Ryder': 'Clara Amfo',
 			'Tom Davis': 'Lee Mack'

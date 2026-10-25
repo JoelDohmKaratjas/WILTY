@@ -76,7 +76,7 @@ const rounds = [
 			'Fern Britton': 'Both are part of the same Morris dancing troupe.',
 			'Richard E. Grant': 'Ken produced his record (a dance version of a Shakespearean soliloquy).'
 		},
-		personGuess: {
+		personGuesses: {
 			'Lee Mack': 'undecided', // doesn't think it's Fern
 			'Martin Clunes': 'Fern Britton', // originally David
 			'Sanjeev Bhaskar': 'Fern Britton'

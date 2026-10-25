@@ -63,7 +63,7 @@ const rounds = [
 			'Liz Bonnin': 'When we were at school together, he refused to remove a spider from under my desk until I agreed to pay him a fee.',
 			'Stephen Merchant': 'We once caused a genuine accident whilst filming a fake one for You\'ve Been Framed!.'
 		},
-		personGuess: {
+		personGuesses: {
 			'Dr. Ranj Singh': 'Liz Bonnin',
 			'Lee Mack': 'Liz Bonnin',
 			'Sharon Osbourne': 'Stephen Merchant'

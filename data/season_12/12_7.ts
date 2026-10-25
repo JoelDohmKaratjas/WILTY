@@ -63,7 +63,7 @@ const rounds = [
 			'Lee Mack': 'He is the paramedic who ticked me off last Christmas after I landed my drone in his ambulance.',
 			'Sian Gibson': 'He is the policeman who came round to investigate when I was heard screaming during a Christmas game of Twister.'
 		},
-		personGuess: {
+		personGuesses: {
 			'David Mitchell': 'James Acaster',
 			'Lily Allen': 'James Acaster',
 			'Noddy Holder': 'Sian Gibson'

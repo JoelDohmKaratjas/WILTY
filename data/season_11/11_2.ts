@@ -63,7 +63,7 @@ const rounds = [
 			'Sheila Hancock': 'He disrupted a show that I was in with an explosive attack of the hiccups.',
 			'Stephen Mangan': 'We once spent an hour hiding from a piece of rope because we thought it was a snake.'
 		},
-		personGuess: {
+		personGuesses: {
 			'Anita Rani': 'Sheila Hancock', // kinda of changed to Stephen
 			'Lee Mack': 'Stephen Mangan',
 			'Mark Bonnar': 'David Mitchell' // kinda agreed to Stephen

@@ -76,7 +76,7 @@ const rounds = [
 			'David Mitchell': 'I regularly go round to his house to play with his Lego.',
 			'Rhod Gilbert': 'We played in a band together where we both played guitar except only his was plugged in because I can\'t play a note.'
 		},
-		personGuess: {
+		personGuesses: {
 			'Jamie Laing': 'Claudia Winkleman',
 			'Lee Mack': 'Rhod Gilbert',
 			'Tracy-Ann Oberman': 'David Mitchell'

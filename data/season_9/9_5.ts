@@ -63,7 +63,7 @@ const rounds = [
 			'Lee Mack': 'I was so nervous about appearing on TV for the first time that I made him come with me and pretend we were a double act.',
 			'Rob Delaney': 'We once stayed up all night together holding on to a fence when a game of "Who can hold on to the fence the longest" got out of hand.'
 		},
-		personGuess: {
+		personGuesses: {
 			'David Mitchell': 'Rob Delaney',
 			'Nick Grimshaw': 'Rob Delaney',
 			'Rhod Gilbert': 'Lee Mack'

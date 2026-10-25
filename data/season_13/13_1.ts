@@ -63,7 +63,7 @@ const rounds = [
 			'Gabby Logan': 'He is the flight attendant who convinced me I wasn\'t dying when I had trapped wind.',
 			'John Simm': 'He is the stunt horse rider who galloped me through a moonlit forest so I wouldn\'t miss a Man United-Bolton game.'
 		},
-		personGuess: {
+		personGuesses: {
 			'Angela Scanlon': 'unknown',
 			'Chris McCausland': 'unknown',
 			'Lee Mack': 'John Simm'

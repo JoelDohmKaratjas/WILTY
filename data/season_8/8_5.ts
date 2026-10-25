@@ -63,7 +63,7 @@ const rounds = [
 			'Kelly Hoppen': 'He is a Feng shui expert and in order to improve the energy flow in my home, he advised me to get rid of my cat litter tray.',
 			'Lee Mack': 'Together we were involved in a low-speed pedalo chase when a Spaniard nicked Gary\'s towel.'
 		},
-		personGuess: {
+		personGuesses: {
 			'Carol Vorderman': 'Kelly Hoppen',
 			'David Mitchell': 'Hal Cruttenden',
 			'Rhod Gilbert': 'Hal Cruttenden'

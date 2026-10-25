@@ -76,7 +76,7 @@ const rounds = [
 			'Jason Manford': 'Both were attacked by schoolkids when they were dressed as a sausage and chop while promoting a local butcher.',
 			'Ruth Jones': 'Ian saved her tortoise when he was about to be crushed at a recycling plant.'
 		},
-		personGuess: {
+		personGuesses: {
 			'Jack Dee': 'David Mitchell',
 			'Lee Mack': 'David Mitchell',
 			'Peter Serafinowicz': 'David Mitchell'

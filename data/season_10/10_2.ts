@@ -76,7 +76,7 @@ const rounds = [
 			'Diane Morgan': 'I once punched him in the face because I thought he was a ghost.',
 			'Lee Mack': 'Together, we helped free a donkey that had trapped itself in the cubicle of a seaside toilet.'
 		},
-		personGuess: {
+		personGuesses: {
 			'David Mitchell': 'Diane Morgan',
 			'Michael Smiley': 'Bob Mortimer',
 			'Nadiya Hussain': 'Diane Morgan'

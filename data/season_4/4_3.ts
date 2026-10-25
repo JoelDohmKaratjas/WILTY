@@ -76,7 +76,7 @@ const rounds = [
 			'Lee Mack': 'Lee presented Drac with first prize at the national pie awards, 2009.',
 			'Prof. Brain Cox': 'Drac left Brian gaffer-taped to a lighting rig for over an hour.'
 		},
-		personGuess: {
+		personGuesses: {
 			'David Mitchell': 'Prof. Brain Cox',
 			'Keeley Hawes': 'Prof. Brain Cox',
 			'Stephen Mangan': 'Prof. Brain Cox'

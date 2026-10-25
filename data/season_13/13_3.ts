@@ -63,7 +63,7 @@ const rounds = [
 			'Lee Mack': 'I once spent the night in his petrol station wearing nothing but my wife\'s dressing gown.',
 			'Liz Carr': 'He used to play the lottery every week until I convinced him not to and that week, his numbers came up.'
 		},
-		personGuess: {
+		personGuesses: {
 			'David Mitchell': 'Anneka Rice',
 			'Miles Jupp': 'Anneka Rice',
 			'Samson Kayo': 'Anneka Rice'

@@ -89,7 +89,7 @@ const rounds = [
 			'Lee Mack': 'Ice skating teacher, teaching him for a wedding on ice where he\'s the best man.',
 			'Mark Watson': 'Cast her in a school play he wrote and directed about a murder.'
 		},
-		personGuess: {
+		personGuesses: {
 			'Bernard Cribbins': 'Deborah Meaden',
 			'David Mitchell': 'Deborah Meaden',
 			'Patrick Kielty': 'Mark Watson'

@@ -88,7 +88,7 @@ const rounds = [
 			'Lee Mack': 'An estate agent who accidentally locked him inside a house after a viewing.',
 			'Richard Wilson': 'Danced with Della on his dancersize fitness video.'
 		},
-		personGuess: {
+		personGuesses: {
 			'David Baddiel': 'Lee Mack',
 			'David Mitchell': 'Jimmy Carr',
 			'Maureen Lipman': 'Jimmy Carr'

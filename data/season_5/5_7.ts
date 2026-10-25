@@ -64,7 +64,7 @@ const rounds = [
 			'David Mitchell': 'He has a tattoo of David\'s face on his knee.',
 			'Mackenzie Crook': 'Mackenzie hoaxed his school by burying some "treasure", Simon found it and the police were called.'
 		},
-		personGuess: {
+		personGuesses: {
 			'Lee Mack': 'Mackenzie Crook',
 			'Rhod Gilbert': 'Mackenzie Crook',
 			'Victoria Coren': 'Mackenzie Crook'

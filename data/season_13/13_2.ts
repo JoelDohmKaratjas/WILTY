@@ -77,7 +77,7 @@ const rounds = [
 			'Greg James': 'When I opened his butcher shop, he paid me in sausages.',
 			'Victoria Coren Mitchell': 'He once laughed so hard at something I said on Only Connect, he passed out.'
 		},
-		personGuess: {
+		personGuesses: {
 			'Asim Chaudhry': 'Victoria Coren Mitchell',
 			'Clare Balding': 'Greg James',
 			'Lee Mack': 'Victoria Coren Mitchell'

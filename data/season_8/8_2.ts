@@ -63,7 +63,7 @@ const rounds = [
 			'Bruno Tonioli': '',
 			'Lee Mack': ''
 		},
-		personGuess: {
+		personGuesses: {
 			'David Mitchell': 'Bruno Tonioli',
 			'Kirsty Wark': 'Bruno Tonioli',
 			'Rob Beckett': 'Bruno Tonioli'

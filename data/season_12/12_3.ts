@@ -64,7 +64,7 @@ const rounds = [
 			'David Mitchell': 'He tried to recruit me to his underground ping-pong club after being wowed by my skills with the bat.',
 			'Olivia Colman': 'He\'s my neighbour and he\'s got a parcel in my hall for the last seven months and he\'s here tonight because I want him to take it home.'
 		},
-		personGuess: {
+		personGuesses: {
 			'Jon Richardson': 'Olivia Colman',
 			'Lee Mack': 'undecided',
 			'Michaela Strachan': 'Olivia Colman'

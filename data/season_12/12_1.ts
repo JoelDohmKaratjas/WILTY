@@ -63,7 +63,7 @@ const rounds = [
 			'Debbie McGee': 'When he was a baby, I used to pull him out of a top hat.',
 			'Lee Mack': 'One Sunday, the two of us spend three hours trapped in an automatic car wash.'
 		},
-		personGuess: {
+		personGuesses: {
 			'David Mitchell': 'Bob Mortimer',
 			'Dion Dublin': 'Bob Mortimer',
 			'Lucy Porter': 'Bob Mortimer'

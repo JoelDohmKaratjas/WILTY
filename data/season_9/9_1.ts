@@ -77,7 +77,7 @@ const rounds = [
 			'Lee Mack': 'She is my judo instructor and she told me off recently when she caught me having a pint in my judo kit just before a tournament.',
 			'Moira Stuart': 'She does such a good impression of me that I once let her be me on Radio Two and no one noticed.'
 		},
-		personGuess: {
+		personGuesses: {
 			'Danny Dyer': 'Moira Stuart',
 			'David Mitchell': 'Moira Stuart',
 			'Jon Richardson': 'Moira Stuart'

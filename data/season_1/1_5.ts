@@ -89,7 +89,7 @@ const rounds = [
 			'Russell Howard': 'His landlord who is the 16th Earl of Westmorland.',
 			'Wendy Richard': 'Her hairdresser and also cuts Tony Blair\'s hair.'
 		},
-		personGuess: {
+		personGuesses: {
 			'Lee Mack': 'David Mitchell',
 			'Len Goodman': 'Russell Howard',
 			'Vic Reeves': 'David Mitchell'

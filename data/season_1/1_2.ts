@@ -100,7 +100,7 @@ const rounds = [
 			'John Barrowman': 'Cut the ribbon at the opening of Mark\'s karaoke superstore.',
 			'Lee Mack': 'Employs Mark to manage his iPod.'
 		},
-		personGuess: {
+		personGuesses: {
 			'David Mitchell': 'Dominic Wood',
 			'Fay Ripley': 'Dominic Wood',
 			'Patrick McGuinness': 'Dominic Wood'

@@ -88,7 +88,7 @@ const rounds = [
 			'Lee Mack': 'Steve and Lee own a greyhound that has come last in all of its races.',
 			'Terry Christian': 'Steve and Terry were questioned by police who mistook them for jewel thieves.'
 		},
-		personGuess: {
+		personGuesses: {
 			'David Mitchell': 'Jimmy Carr',
 			'Marcus Brigsocke': 'Lee Mack',
 			'Jamellia': 'Jimmy Carr'

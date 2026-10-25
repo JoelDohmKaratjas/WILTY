@@ -63,7 +63,7 @@ const rounds = [
 			'David Mitchell': 'He intervened when I got into a whispered row with a woman in a library.',
 			'Germaine Greer': 'He is the crane driver who once let me sit in his cabin fifty feet above my house.'
 		},
-		personGuess: {
+		personGuesses: {
 			'Jermaine Jenas': 'David Mitchell',
 			'Lee Mack': 'Germaine Greer',
 			'Richard Osman': 'Alan Davies'

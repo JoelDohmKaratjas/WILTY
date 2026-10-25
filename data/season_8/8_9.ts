@@ -63,7 +63,7 @@ const rounds = [
 			'June Brown': 'She is going to play the young Dot in a spinoff of EastEnders called "Dot Cotton: The Motorbike Years".',
 			'Lee Mack': 'She once asked me to pop into her house to get rid of a spider. Ten minutes later, she asked me to leave because I was making matters worse.'
 		},
-		personGuess: {
+		personGuesses: {
 			'Adrian Chiles': 'Aisling Bea',
 			'David Mitchell': 'Aisling Bea',
 			'Seann Walsh': 'Aisling Bea'

@@ -63,7 +63,7 @@ const rounds = [
 			'Greg Davies': 'After a drunken night he woke up to Ian telling him he had been wrongly arrested on suspicion of murder.',
 			'Konnie Huq': 'He brought lizards to Blue Peter and lost one which she later found in her handbag.'
 		},
-		personGuess: {
+		personGuesses: {
 			'Lee Mack': 'Greg Davies',
 			'Marcus Brigstocke': 'Konnie Huq',
 			'Phil Tufnell': 'Konnie Huq'

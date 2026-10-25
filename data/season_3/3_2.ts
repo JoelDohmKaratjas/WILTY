@@ -88,7 +88,7 @@ const rounds = [
 			'Fern Britton': 'He\'s the subject of my life drawing class and I have painted him naked 3 times.',
 			'Stephen Mangan': 'We were in a prog rock band called Aragorn and recorded an album called the Wizard\'s Dream.'
 		},
-		personGuess: {
+		personGuesses: {
 			'Ken Livingstone': 'Stephen Mangan',
 			'Lee Mack': 'Stephen Mangan',
 			'Reginald D. Hunter': 'Stephen Mangan'

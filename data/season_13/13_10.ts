@@ -63,7 +63,7 @@ const rounds = [
 			'Lee Mack': 'I once knocked him into a grave with a frisbee.',
 			'Oti Mabuse': 'On the German version of Strictly, I knocked his tooth out with a high kick.'
 		},
-		personGuess: {
+		personGuesses: {
 			'Dani Dyer': 'James Acaster',
 			'David Mitchell': 'James Acaster',
 			'Fred Sirieix': 'James Acaster'
