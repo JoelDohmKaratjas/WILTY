@@ -116,7 +116,7 @@ export type StandardEpisode<T extends EpisodeCast> = {
 
 export type CompilationCast = Readonly<Record<number, EpisodeCast>>
 
-export type CompilationRound<C extends CompilationCast> = {
+type CompilationRound<C extends CompilationCast> = {
 	[E in keyof C & number]: C[E] extends EpisodeCast
 		? Round<C[E], CompilationGuess> & { episode: E, repeat?: true }
 		: never
