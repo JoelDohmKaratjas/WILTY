@@ -1,22 +1,22 @@
 // GENERATED FILE - do not edit. Run `bun run generate:charts`.
-// Source hash: df0d650df647
+// Source hash: b1a622451469
 
 import type { ChartData } from '../chartTypes'
 
 export const chartData = {
 	"meta": {
-		"episodeCount": 160,
-		"compilationCount": 20,
+		"episodeCount": 172,
+		"compilationCount": 22,
 		"seasonFrom": 1,
-		"seasonTo": 16,
-		"roundCount": 989,
+		"seasonTo": 17,
+		"roundCount": 1056,
 		"excludedRounds": 1,
-		"guessCount": 2978,
+		"guessCount": 3176,
 		"awardEpisodeCount": 59,
 		"awardSeasonFrom": 3,
 		"awardSeasonTo": 9,
-		"binaryRoundCount": 846,
-		"possessionRoundCount": 75
+		"binaryRoundCount": 903,
+		"possessionRoundCount": 78
 	},
 	"scoreByEpisode": [
 		{
@@ -1138,6 +1138,86 @@ export const chartData = {
 			"episode": 10,
 			"david": 3,
 			"lee": 2
+		},
+		{
+			"key": "17-1",
+			"label": "S17 E1",
+			"season": 17,
+			"episode": 1,
+			"david": 4,
+			"lee": 1
+		},
+		{
+			"key": "17-2",
+			"label": "S17 E2",
+			"season": 17,
+			"episode": 2,
+			"david": 5,
+			"lee": 0
+		},
+		{
+			"key": "17-3",
+			"label": "S17 E3",
+			"season": 17,
+			"episode": 3,
+			"david": 1,
+			"lee": 4
+		},
+		{
+			"key": "17-4",
+			"label": "S17 E4",
+			"season": 17,
+			"episode": 4,
+			"david": 2,
+			"lee": 3
+		},
+		{
+			"key": "17-5",
+			"label": "S17 E5",
+			"season": 17,
+			"episode": 5,
+			"david": 2,
+			"lee": 3
+		},
+		{
+			"key": "17-6",
+			"label": "S17 E6",
+			"season": 17,
+			"episode": 6,
+			"david": 4,
+			"lee": 1
+		},
+		{
+			"key": "17-7",
+			"label": "S17 E7",
+			"season": 17,
+			"episode": 7,
+			"david": 2,
+			"lee": 2
+		},
+		{
+			"key": "17-8",
+			"label": "S17 E8",
+			"season": 17,
+			"episode": 8,
+			"david": 1,
+			"lee": 4
+		},
+		{
+			"key": "17-9",
+			"label": "S17 E9",
+			"season": 17,
+			"episode": 9,
+			"david": 3,
+			"lee": 2
+		},
+		{
+			"key": "17-10",
+			"label": "S17 E10",
+			"season": 17,
+			"episode": 10,
+			"david": 1,
+			"lee": 4
 		}
 	],
 	"cumulativeDifferenceByEpisode": [
@@ -2260,6 +2340,86 @@ export const chartData = {
 			"episode": 10,
 			"difference": 1,
 			"cumulative": 27
+		},
+		{
+			"key": "17-1",
+			"label": "S17 E1",
+			"season": 17,
+			"episode": 1,
+			"difference": 3,
+			"cumulative": 30
+		},
+		{
+			"key": "17-2",
+			"label": "S17 E2",
+			"season": 17,
+			"episode": 2,
+			"difference": 5,
+			"cumulative": 35
+		},
+		{
+			"key": "17-3",
+			"label": "S17 E3",
+			"season": 17,
+			"episode": 3,
+			"difference": -3,
+			"cumulative": 32
+		},
+		{
+			"key": "17-4",
+			"label": "S17 E4",
+			"season": 17,
+			"episode": 4,
+			"difference": -1,
+			"cumulative": 31
+		},
+		{
+			"key": "17-5",
+			"label": "S17 E5",
+			"season": 17,
+			"episode": 5,
+			"difference": -1,
+			"cumulative": 30
+		},
+		{
+			"key": "17-6",
+			"label": "S17 E6",
+			"season": 17,
+			"episode": 6,
+			"difference": 3,
+			"cumulative": 33
+		},
+		{
+			"key": "17-7",
+			"label": "S17 E7",
+			"season": 17,
+			"episode": 7,
+			"difference": 0,
+			"cumulative": 33
+		},
+		{
+			"key": "17-8",
+			"label": "S17 E8",
+			"season": 17,
+			"episode": 8,
+			"difference": -3,
+			"cumulative": 30
+		},
+		{
+			"key": "17-9",
+			"label": "S17 E9",
+			"season": 17,
+			"episode": 9,
+			"difference": 1,
+			"cumulative": 31
+		},
+		{
+			"key": "17-10",
+			"label": "S17 E10",
+			"season": 17,
+			"episode": 10,
+			"difference": -3,
+			"cumulative": 28
 		}
 	],
 	"liarAwardTimeline": [
@@ -2895,32 +3055,32 @@ export const chartData = {
 		{
 			"type": "home_truths",
 			"name": "Home truths",
-			"count": 513,
-			"percentage": 51.9
+			"count": 558,
+			"percentage": 52.8
 		},
 		{
 			"type": "quick_fire",
 			"name": "Quick fire",
-			"count": 282,
-			"percentage": 28.5
+			"count": 294,
+			"percentage": 27.8
 		},
 		{
 			"type": "this_is_my",
 			"name": "This is my",
-			"count": 143,
+			"count": 153,
 			"percentage": 14.5
 		},
 		{
 			"type": "ring_of_truth_single",
 			"name": "Ring of truth (single)",
 			"count": 28,
-			"percentage": 2.8
+			"percentage": 2.7
 		},
 		{
 			"type": "host",
 			"name": "Host",
 			"count": 10,
-			"percentage": 1
+			"percentage": 0.9
 		},
 		{
 			"type": "telly_tales",
@@ -3079,6 +3239,15 @@ export const chartData = {
 			"total": 10,
 			"davidRate": 60,
 			"leeRate": 40
+		},
+		{
+			"season": 17,
+			"davidWins": 4,
+			"leeWins": 5,
+			"draws": 1,
+			"total": 10,
+			"davidRate": 40,
+			"leeRate": 50
 		}
 	],
 	"marginBySeason": [
@@ -3257,6 +3426,17 @@ export const chartData = {
 			"lee2": -1,
 			"lee3": 0,
 			"lee4Plus": -1
+		},
+		{
+			"season": 17,
+			"david1": 1,
+			"david2": 0,
+			"david3": 2,
+			"david4Plus": 1,
+			"lee1": -2,
+			"lee2": 0,
+			"lee3": -3,
+			"lee4Plus": 0
 		}
 	],
 	"cleanSheetsBySeason": [
@@ -3339,6 +3519,11 @@ export const chartData = {
 			"season": 16,
 			"david": 0,
 			"lee": 1
+		},
+		{
+			"season": 17,
+			"david": 1,
+			"lee": 0
 		}
 	],
 	"lieRateBySeason": [
@@ -3485,6 +3670,15 @@ export const chartData = {
 			"davidStatements": 26,
 			"leeLies": 12,
 			"leeStatements": 28
+		},
+		{
+			"season": 17,
+			"david": 57.7,
+			"lee": 48.4,
+			"davidLies": 15,
+			"davidStatements": 26,
+			"leeLies": 15,
+			"leeStatements": 31
 		}
 	],
 	"lieDetectionBySeason": [
@@ -3629,6 +3823,15 @@ export const chartData = {
 			"lee": 59.1,
 			"davidCorrect": 26,
 			"davidGuesses": 35,
+			"leeCorrect": 26,
+			"leeGuesses": 44
+		},
+		{
+			"season": 17,
+			"david": 62.2,
+			"lee": 59.1,
+			"davidCorrect": 28,
+			"davidGuesses": 45,
 			"leeCorrect": 26,
 			"leeGuesses": 44
 		}
@@ -3777,6 +3980,15 @@ export const chartData = {
 			"davidGuesses": 48,
 			"leeCorrect": 18,
 			"leeGuesses": 33
+		},
+		{
+			"season": 17,
+			"david": 76.6,
+			"lee": 69.7,
+			"davidCorrect": 36,
+			"davidGuesses": 47,
+			"leeCorrect": 23,
+			"leeGuesses": 33
 		}
 	],
 	"confusionMatrix": [
@@ -3784,57 +3996,57 @@ export const chartData = {
 			"team": "david",
 			"actual": "truth",
 			"guessed": "truth",
-			"count": 330,
-			"percent": 50.7
+			"count": 364,
+			"percent": 52.1
 		},
 		{
 			"team": "david",
 			"actual": "truth",
 			"guessed": "lie",
-			"count": 321,
-			"percent": 49.3
+			"count": 334,
+			"percent": 47.9
 		},
 		{
 			"team": "david",
-			"actual": "lie",
-			"guessed": "truth",
-			"count": 186,
-			"percent": 27.2
-		},
-		{
-			"team": "david",
-			"actual": "lie",
-			"guessed": "lie",
-			"count": 498,
-			"percent": 72.8
-		},
-		{
-			"team": "lee",
-			"actual": "truth",
-			"guessed": "truth",
-			"count": 339,
-			"percent": 55.6
-		},
-		{
-			"team": "lee",
-			"actual": "truth",
-			"guessed": "lie",
-			"count": 271,
-			"percent": 44.4
-		},
-		{
-			"team": "lee",
 			"actual": "lie",
 			"guessed": "truth",
 			"count": 204,
-			"percent": 33.2
+			"percent": 28
+		},
+		{
+			"team": "david",
+			"actual": "lie",
+			"guessed": "lie",
+			"count": 525,
+			"percent": 72
+		},
+		{
+			"team": "lee",
+			"actual": "truth",
+			"guessed": "truth",
+			"count": 362,
+			"percent": 56.3
+		},
+		{
+			"team": "lee",
+			"actual": "truth",
+			"guessed": "lie",
+			"count": 281,
+			"percent": 43.7
+		},
+		{
+			"team": "lee",
+			"actual": "lie",
+			"guessed": "truth",
+			"count": 222,
+			"percent": 33.7
 		},
 		{
 			"team": "lee",
 			"actual": "lie",
 			"guessed": "lie",
-			"count": 411,
-			"percent": 66.8
+			"count": 437,
+			"percent": 66.3
 		}
 	],
 	"lieDetectors": [
@@ -3865,26 +4077,18 @@ export const chartData = {
 		{
 			"person": "David Mitchell",
 			"team": "david",
-			"accuracy": 76.5,
-			"correct": 173,
-			"guesses": 226,
-			"overallAccuracy": 76.5
-		},
-		{
-			"person": "Gabby Logan",
-			"team": "lee",
-			"accuracy": 75,
-			"correct": 9,
-			"guesses": 12,
-			"overallAccuracy": 75
+			"accuracy": 75.9,
+			"correct": 183,
+			"guesses": 241,
+			"overallAccuracy": 75.9
 		},
 		{
 			"person": "Lee Mack",
 			"team": "lee",
-			"accuracy": 73,
-			"correct": 149,
-			"guesses": 204,
-			"overallAccuracy": 73
+			"accuracy": 72.6,
+			"correct": 159,
+			"guesses": 219,
+			"overallAccuracy": 72.6
 		},
 		{
 			"person": "Miranda Hart",
@@ -3901,6 +4105,14 @@ export const chartData = {
 			"correct": 9,
 			"guesses": 13,
 			"overallAccuracy": 69.2
+		},
+		{
+			"person": "Gabby Logan",
+			"team": "lee",
+			"accuracy": 64.3,
+			"correct": 9,
+			"guesses": 14,
+			"overallAccuracy": 64.3
 		},
 		{
 			"person": "Bob Mortimer",
@@ -4007,82 +4219,87 @@ export const chartData = {
 			"season": 16,
 			"david": 67.5,
 			"lee": 51.9
+		},
+		{
+			"season": 17,
+			"david": 40.2,
+			"lee": 44.2
 		}
 	],
 	"possessionEffect": [
 		{
 			"team": "david",
-			"lieRateWith": 51.5,
-			"lieRateWithout": 49.7,
-			"spotRateWith": 55.6,
-			"spotRateWithout": 57.2,
-			"statementsWith": 33,
-			"statementsWithout": 364,
-			"guessesWith": 99,
-			"guessesWithout": 1081
+			"lieRateWith": 52.9,
+			"lieRateWithout": 50.1,
+			"spotRateWith": 56.9,
+			"spotRateWithout": 56.6,
+			"statementsWith": 34,
+			"statementsWithout": 389,
+			"guessesWith": 102,
+			"guessesWithout": 1155
 		},
 		{
 			"team": "lee",
-			"lieRateWith": 64.3,
-			"lieRateWithout": 49.5,
-			"spotRateWith": 79.4,
-			"spotRateWithout": 62.5,
-			"statementsWith": 42,
-			"statementsWithout": 392,
-			"guessesWith": 126,
-			"guessesWithout": 1165
+			"lieRateWith": 65.9,
+			"lieRateWithout": 49.2,
+			"spotRateWith": 78,
+			"spotRateWithout": 61.8,
+			"statementsWith": 44,
+			"statementsWithout": 421,
+			"guessesWith": 132,
+			"guessesWithout": 1251
 		}
 	],
 	"teamVsIndividual": [
 		{
 			"team": "david",
-			"teamAccuracy": 63,
-			"individualAccuracy": 60.9,
-			"teamCorrect": 283,
-			"teamGuesses": 449,
-			"individualCorrect": 944,
-			"individualGuesses": 1549
+			"teamAccuracy": 63.3,
+			"individualAccuracy": 61.3,
+			"teamCorrect": 304,
+			"teamGuesses": 480,
+			"individualCorrect": 1014,
+			"individualGuesses": 1653
 		},
 		{
 			"team": "lee",
-			"teamAccuracy": 63.6,
+			"teamAccuracy": 63.9,
 			"individualAccuracy": 59.6,
-			"teamCorrect": 262,
-			"teamGuesses": 412,
-			"individualCorrect": 852,
-			"individualGuesses": 1429
+			"teamCorrect": 280,
+			"teamGuesses": 438,
+			"individualCorrect": 907,
+			"individualGuesses": 1523
 		}
 	],
 	"accuracyByRoundType": [
 		{
 			"type": "home_truths",
 			"name": "Home truths",
-			"david": 58.5,
-			"lee": 59.4,
-			"davidCorrect": 453,
-			"davidGuesses": 775,
-			"leeCorrect": 444,
-			"leeGuesses": 748
+			"david": 59.6,
+			"lee": 59.3,
+			"davidCorrect": 504,
+			"davidGuesses": 846,
+			"leeCorrect": 480,
+			"leeGuesses": 810
 		},
 		{
 			"type": "quick_fire",
 			"name": "Quick fire",
-			"david": 71.7,
-			"lee": 66.1,
-			"davidCorrect": 329,
-			"davidGuesses": 459,
-			"leeCorrect": 252,
-			"leeGuesses": 381
+			"david": 71.3,
+			"lee": 66.9,
+			"davidCorrect": 342,
+			"davidGuesses": 480,
+			"leeCorrect": 265,
+			"leeGuesses": 396
 		},
 		{
 			"type": "this_is_my",
 			"name": "This is my",
-			"david": 45.8,
-			"lee": 43.6,
-			"davidCorrect": 98,
-			"davidGuesses": 214,
-			"leeCorrect": 89,
-			"leeGuesses": 204
+			"david": 46,
+			"lee": 43,
+			"davidCorrect": 104,
+			"davidGuesses": 226,
+			"leeCorrect": 95,
+			"leeGuesses": 221
 		},
 		{
 			"type": "ring_of_truth",
@@ -4249,6 +4466,15 @@ export const chartData = {
 			"ring_of_truth": 0,
 			"telly_tales": 0,
 			"total": 64
+		},
+		{
+			"season": 17,
+			"home_truths": 67.2,
+			"quick_fire": 17.9,
+			"this_is_my": 14.9,
+			"ring_of_truth": 0,
+			"telly_tales": 0,
+			"total": 67
 		}
 	],
 	"thisIsMySuccessBySeason": [
@@ -4347,24 +4573,30 @@ export const chartData = {
 			"accuracy": 40,
 			"correct": 12,
 			"guesses": 30
+		},
+		{
+			"season": 17,
+			"accuracy": 41.4,
+			"correct": 12,
+			"guesses": 29
 		}
 	],
 	"truthLieShareByRoundType": [
 		{
 			"type": "home_truths",
 			"name": "Home truths",
-			"truth": 54.4,
-			"lie": 45.6,
-			"truthCount": 279,
-			"lieCount": 234
+			"truth": 54.1,
+			"lie": 45.9,
+			"truthCount": 302,
+			"lieCount": 256
 		},
 		{
 			"type": "quick_fire",
 			"name": "Quick fire",
-			"truth": 40.1,
-			"lie": 59.9,
-			"truthCount": 113,
-			"lieCount": 169
+			"truth": 39.8,
+			"lie": 60.2,
+			"truthCount": 117,
+			"lieCount": 177
 		},
 		{
 			"type": "ring_of_truth",
@@ -4433,28 +4665,28 @@ export const chartData = {
 			"winRate": 63.6
 		},
 		{
+			"person": "Claudia Winkleman",
+			"team": "david",
+			"gender": "female",
+			"appearances": 8,
+			"wins": 5,
+			"winRate": 62.5
+		},
+		{
+			"person": "Jo Brand",
+			"team": "david",
+			"gender": "female",
+			"appearances": 10,
+			"wins": 6,
+			"winRate": 60
+		},
+		{
 			"person": "Stephen Mangan",
 			"team": "david",
 			"gender": "male",
 			"appearances": 5,
 			"wins": 3,
 			"winRate": 60
-		},
-		{
-			"person": "Claudia Winkleman",
-			"team": "david",
-			"gender": "female",
-			"appearances": 7,
-			"wins": 4,
-			"winRate": 57.1
-		},
-		{
-			"person": "Jo Brand",
-			"team": "david",
-			"gender": "female",
-			"appearances": 9,
-			"wins": 5,
-			"winRate": 55.6
 		},
 		{
 			"person": "Dara Ó Briain",
@@ -4505,12 +4737,12 @@ export const chartData = {
 			"winRate": 40
 		},
 		{
-			"person": "Gabby Logan",
+			"person": "Alex Jones",
 			"team": "lee",
 			"gender": "female",
-			"appearances": 6,
+			"appearances": 5,
 			"wins": 2,
-			"winRate": 33.3
+			"winRate": 40
 		},
 		{
 			"person": "Henning Wehn",
@@ -4521,7 +4753,23 @@ export const chartData = {
 			"winRate": 33.3
 		},
 		{
+			"person": "Charlie Brooker",
+			"team": "lee",
+			"gender": "male",
+			"appearances": 3,
+			"wins": 1,
+			"winRate": 33.3
+		},
+		{
 			"person": "Joe Lycett",
+			"team": "lee",
+			"gender": "male",
+			"appearances": 3,
+			"wins": 1,
+			"winRate": 33.3
+		},
+		{
+			"person": "Romesh Ranganathan",
 			"team": "lee",
 			"gender": "male",
 			"appearances": 3,
@@ -4537,17 +4785,17 @@ export const chartData = {
 			"winRate": 33.3
 		},
 		{
+			"person": "Gabby Logan",
+			"team": "lee",
+			"gender": "female",
+			"appearances": 7,
+			"wins": 2,
+			"winRate": 28.6
+		},
+		{
 			"person": "Greg Davies",
 			"team": "david",
 			"gender": "male",
-			"appearances": 4,
-			"wins": 1,
-			"winRate": 25
-		},
-		{
-			"person": "Alex Jones",
-			"team": "lee",
-			"gender": "female",
 			"appearances": 4,
 			"wins": 1,
 			"winRate": 25
@@ -4572,9 +4820,9 @@ export const chartData = {
 			"person": "Chris McCausland",
 			"team": "lee",
 			"gender": "male",
-			"appearances": 4,
+			"appearances": 5,
 			"wins": 1,
-			"winRate": 25
+			"winRate": 20
 		},
 		{
 			"person": "Miles Jupp",
@@ -4588,7 +4836,7 @@ export const chartData = {
 			"person": "Frankie Boyle",
 			"team": "david",
 			"gender": "male",
-			"appearances": 3,
+			"appearances": 4,
 			"wins": 0,
 			"winRate": 0
 		},
@@ -4777,6 +5025,17 @@ export const chartData = {
 			"maleWinAppearances": 20,
 			"femaleLieStatements": 16,
 			"maleLieStatements": 17
+		},
+		{
+			"season": 17,
+			"femaleWin": 55,
+			"maleWin": 35,
+			"femaleLie": 50,
+			"maleLie": 33.3,
+			"femaleWinAppearances": 20,
+			"maleWinAppearances": 20,
+			"femaleLieStatements": 16,
+			"maleLieStatements": 15
 		}
 	],
 	"guestLieProfiles": [
@@ -4843,6 +5102,26 @@ export const chartData = {
 		{
 			"person": "Bradley Walsh",
 			"team": "lee",
+			"statements": 1,
+			"lies": 1,
+			"lieRate": 100,
+			"lieGuesses": 3,
+			"lieWrong": 3,
+			"lieFoolRate": 100
+		},
+		{
+			"person": "Bridget Christie",
+			"team": "lee",
+			"statements": 1,
+			"lies": 1,
+			"lieRate": 100,
+			"lieGuesses": 3,
+			"lieWrong": 3,
+			"lieFoolRate": 100
+		},
+		{
+			"person": "Craig Charles",
+			"team": "david",
 			"statements": 1,
 			"lies": 1,
 			"lieRate": 100,
@@ -4931,6 +5210,16 @@ export const chartData = {
 			"lieFoolRate": 100
 		},
 		{
+			"person": "Jessica Hynes",
+			"team": "david",
+			"statements": 1,
+			"lies": 1,
+			"lieRate": 100,
+			"lieGuesses": 3,
+			"lieWrong": 3,
+			"lieFoolRate": 100
+		},
+		{
 			"person": "Kate Silverton",
 			"team": "lee",
 			"statements": 1,
@@ -4971,6 +5260,16 @@ export const chartData = {
 			"lieFoolRate": 100
 		},
 		{
+			"person": "Rav Wilding",
+			"team": "david",
+			"statements": 1,
+			"lies": 1,
+			"lieRate": 100,
+			"lieGuesses": 3,
+			"lieWrong": 3,
+			"lieFoolRate": 100
+		},
+		{
 			"person": "Ronnie Corbett",
 			"team": "david",
 			"statements": 2,
@@ -5002,6 +5301,16 @@ export const chartData = {
 		},
 		{
 			"person": "Simon Day",
+			"team": "lee",
+			"statements": 1,
+			"lies": 1,
+			"lieRate": 100,
+			"lieGuesses": 3,
+			"lieWrong": 3,
+			"lieFoolRate": 100
+		},
+		{
+			"person": "Sinitta",
 			"team": "lee",
 			"statements": 1,
 			"lies": 1,
@@ -5093,12 +5402,12 @@ export const chartData = {
 		{
 			"person": "Jo Brand",
 			"team": "david",
-			"statements": 8,
-			"lies": 3,
-			"lieRate": 37.5,
-			"lieGuesses": 9,
-			"lieWrong": 7,
-			"lieFoolRate": 77.8
+			"statements": 9,
+			"lies": 4,
+			"lieRate": 44.4,
+			"lieGuesses": 12,
+			"lieWrong": 9,
+			"lieFoolRate": 75
 		},
 		{
 			"person": "Stephen Mangan",
@@ -5113,9 +5422,9 @@ export const chartData = {
 		{
 			"person": "Claudia Winkleman",
 			"team": "david",
-			"statements": 5,
+			"statements": 6,
 			"lies": 2,
-			"lieRate": 40,
+			"lieRate": 33.3,
 			"lieGuesses": 6,
 			"lieWrong": 4,
 			"lieFoolRate": 66.7
@@ -5173,6 +5482,16 @@ export const chartData = {
 		{
 			"person": "Germaine Greer",
 			"team": "david",
+			"statements": 1,
+			"lies": 1,
+			"lieRate": 100,
+			"lieGuesses": 3,
+			"lieWrong": 2,
+			"lieFoolRate": 66.7
+		},
+		{
+			"person": "Jessica Knappett",
+			"team": "lee",
 			"statements": 1,
 			"lies": 1,
 			"lieRate": 100,
@@ -5331,6 +5650,16 @@ export const chartData = {
 			"lieFoolRate": 50
 		},
 		{
+			"person": "Frankie Boyle",
+			"team": "david",
+			"statements": 5,
+			"lies": 3,
+			"lieRate": 60,
+			"lieGuesses": 9,
+			"lieWrong": 4,
+			"lieFoolRate": 44.4
+		},
+		{
 			"person": "Joe Lycett",
 			"team": "lee",
 			"statements": 3,
@@ -5348,16 +5677,6 @@ export const chartData = {
 			"lieRate": 27.3,
 			"lieGuesses": 9,
 			"lieWrong": 3,
-			"lieFoolRate": 33.3
-		},
-		{
-			"person": "Frankie Boyle",
-			"team": "david",
-			"statements": 4,
-			"lies": 2,
-			"lieRate": 50,
-			"lieGuesses": 6,
-			"lieWrong": 2,
 			"lieFoolRate": 33.3
 		},
 		{
@@ -5541,6 +5860,16 @@ export const chartData = {
 			"lieFoolRate": 33.3
 		},
 		{
+			"person": "Kimberley Walsh",
+			"team": "david",
+			"statements": 1,
+			"lies": 1,
+			"lieRate": 100,
+			"lieGuesses": 3,
+			"lieWrong": 1,
+			"lieFoolRate": 33.3
+		},
+		{
 			"person": "Maureen Lipman",
 			"team": "david",
 			"statements": 1,
@@ -5683,12 +6012,12 @@ export const chartData = {
 		{
 			"person": "Gabby Logan",
 			"team": "lee",
-			"statements": 5,
-			"lies": 2,
-			"lieRate": 40,
-			"lieGuesses": 6,
+			"statements": 6,
+			"lies": 3,
+			"lieRate": 50,
+			"lieGuesses": 9,
 			"lieWrong": 1,
-			"lieFoolRate": 16.7
+			"lieFoolRate": 11.1
 		},
 		{
 			"person": "Jimmy Carr",
@@ -5781,8 +6110,28 @@ export const chartData = {
 			"lieFoolRate": 0
 		},
 		{
+			"person": "Abby Cook",
+			"team": "david",
+			"statements": 1,
+			"lies": 1,
+			"lieRate": 100,
+			"lieGuesses": 3,
+			"lieWrong": 0,
+			"lieFoolRate": 0
+		},
+		{
 			"person": "Adam Woodyatt",
 			"team": "david",
+			"statements": 1,
+			"lies": 1,
+			"lieRate": 100,
+			"lieGuesses": 3,
+			"lieWrong": 0,
+			"lieFoolRate": 0
+		},
+		{
+			"person": "Alex Brooker",
+			"team": "lee",
 			"statements": 1,
 			"lies": 1,
 			"lieRate": 100,
@@ -5863,9 +6212,9 @@ export const chartData = {
 		{
 			"person": "Chris McCausland",
 			"team": "lee",
-			"statements": 4,
+			"statements": 5,
 			"lies": 1,
-			"lieRate": 25,
+			"lieRate": 20,
 			"lieGuesses": 3,
 			"lieWrong": 0,
 			"lieFoolRate": 0
@@ -6461,6 +6810,16 @@ export const chartData = {
 			"lieFoolRate": 0
 		},
 		{
+			"person": "Wilfred Webster",
+			"team": "lee",
+			"statements": 1,
+			"lies": 1,
+			"lieRate": 100,
+			"lieGuesses": 3,
+			"lieWrong": 0,
+			"lieFoolRate": 0
+		},
+		{
 			"person": "Ade Edmondson",
 			"team": "lee",
 			"statements": 1,
@@ -6581,6 +6940,16 @@ export const chartData = {
 			"lieFoolRate": 0
 		},
 		{
+			"person": "Babatunde Aléshé",
+			"team": "david",
+			"statements": 1,
+			"lies": 0,
+			"lieRate": 0,
+			"lieGuesses": 0,
+			"lieWrong": 0,
+			"lieFoolRate": 0
+		},
+		{
 			"person": "Ben Fogle",
 			"team": "david",
 			"statements": 1,
@@ -6603,6 +6972,16 @@ export const chartData = {
 		{
 			"person": "Big Narstie",
 			"team": "david",
+			"statements": 1,
+			"lies": 0,
+			"lieRate": 0,
+			"lieGuesses": 0,
+			"lieWrong": 0,
+			"lieFoolRate": 0
+		},
+		{
+			"person": "Big Zuu",
+			"team": "lee",
 			"statements": 1,
 			"lies": 0,
 			"lieRate": 0,
@@ -6713,7 +7092,7 @@ export const chartData = {
 		{
 			"person": "Charlie Brooker",
 			"team": "lee",
-			"statements": 2,
+			"statements": 3,
 			"lies": 0,
 			"lieRate": 0,
 			"lieGuesses": 0,
@@ -6773,6 +7152,16 @@ export const chartData = {
 		{
 			"person": "Danny Dyer",
 			"team": "david",
+			"statements": 1,
+			"lies": 0,
+			"lieRate": 0,
+			"lieGuesses": 0,
+			"lieWrong": 0,
+			"lieFoolRate": 0
+		},
+		{
+			"person": "Danny Jones",
+			"team": "lee",
 			"statements": 1,
 			"lies": 0,
 			"lieRate": 0,
@@ -6971,6 +7360,16 @@ export const chartData = {
 			"lieFoolRate": 0
 		},
 		{
+			"person": "Gina Yashere",
+			"team": "lee",
+			"statements": 1,
+			"lies": 0,
+			"lieRate": 0,
+			"lieGuesses": 0,
+			"lieWrong": 0,
+			"lieFoolRate": 0
+		},
+		{
 			"person": "Gok Wan",
 			"team": "lee",
 			"statements": 1,
@@ -7012,6 +7411,16 @@ export const chartData = {
 		},
 		{
 			"person": "Huw Edwards",
+			"team": "david",
+			"statements": 1,
+			"lies": 0,
+			"lieRate": 0,
+			"lieGuesses": 0,
+			"lieWrong": 0,
+			"lieFoolRate": 0
+		},
+		{
+			"person": "Ivo Graham",
 			"team": "david",
 			"statements": 1,
 			"lies": 0,
@@ -7363,7 +7772,7 @@ export const chartData = {
 		{
 			"person": "Lucy Beaumont",
 			"team": "lee",
-			"statements": 1,
+			"statements": 2,
 			"lies": 0,
 			"lieRate": 0,
 			"lieGuesses": 0,
@@ -7451,6 +7860,16 @@ export const chartData = {
 			"lieFoolRate": 0
 		},
 		{
+			"person": "Melvyn Hayes",
+			"team": "lee",
+			"statements": 1,
+			"lies": 0,
+			"lieRate": 0,
+			"lieGuesses": 0,
+			"lieWrong": 0,
+			"lieFoolRate": 0
+		},
+		{
 			"person": "Michael Aspel",
 			"team": "david",
 			"statements": 1,
@@ -7493,6 +7912,16 @@ export const chartData = {
 		{
 			"person": "Micky Flanagan",
 			"team": "david",
+			"statements": 1,
+			"lies": 0,
+			"lieRate": 0,
+			"lieGuesses": 0,
+			"lieWrong": 0,
+			"lieFoolRate": 0
+		},
+		{
+			"person": "Mike Bubbins",
+			"team": "lee",
 			"statements": 1,
 			"lies": 0,
 			"lieRate": 0,
@@ -7631,6 +8060,16 @@ export const chartData = {
 			"lieFoolRate": 0
 		},
 		{
+			"person": "Prof. Hannah Fry",
+			"team": "lee",
+			"statements": 1,
+			"lies": 0,
+			"lieRate": 0,
+			"lieGuesses": 0,
+			"lieWrong": 0,
+			"lieFoolRate": 0
+		},
+		{
 			"person": "Raj Bisram",
 			"team": "david",
 			"statements": 1,
@@ -7722,6 +8161,16 @@ export const chartData = {
 		},
 		{
 			"person": "Sally Lindsay",
+			"team": "lee",
+			"statements": 1,
+			"lies": 0,
+			"lieRate": 0,
+			"lieGuesses": 0,
+			"lieWrong": 0,
+			"lieFoolRate": 0
+		},
+		{
+			"person": "Sam Campbell",
 			"team": "lee",
 			"statements": 1,
 			"lies": 0,
@@ -7843,7 +8292,7 @@ export const chartData = {
 		{
 			"person": "Shazia Mirza",
 			"team": "lee",
-			"statements": 1,
+			"statements": 2,
 			"lies": 0,
 			"lieRate": 0,
 			"lieGuesses": 0,
@@ -7904,6 +8353,16 @@ export const chartData = {
 			"person": "Steve Jones",
 			"team": "lee",
 			"statements": 1,
+			"lies": 0,
+			"lieRate": 0,
+			"lieGuesses": 0,
+			"lieWrong": 0,
+			"lieFoolRate": 0
+		},
+		{
+			"person": "Su Pollard",
+			"team": "lee",
+			"statements": 2,
 			"lies": 0,
 			"lieRate": 0,
 			"lieGuesses": 0,
@@ -7991,6 +8450,16 @@ export const chartData = {
 			"lieFoolRate": 0
 		},
 		{
+			"person": "Victoria Coren Mitchell",
+			"team": "david",
+			"statements": 1,
+			"lies": 0,
+			"lieRate": 0,
+			"lieGuesses": 0,
+			"lieWrong": 0,
+			"lieFoolRate": 0
+		},
+		{
 			"person": "Victoria Derbyshire",
 			"team": "lee",
 			"statements": 1,
@@ -8009,84 +8478,110 @@ export const chartData = {
 			"lieGuesses": 0,
 			"lieWrong": 0,
 			"lieFoolRate": 0
+		},
+		{
+			"person": "Will Mellor",
+			"team": "david",
+			"statements": 1,
+			"lies": 0,
+			"lieRate": 0,
+			"lieGuesses": 0,
+			"lieWrong": 0,
+			"lieFoolRate": 0
 		}
 	],
 	"statementLengthDetectionBins": [
 		{
 			"bin": "4–9",
-			"accuracy": 51.3,
-			"lieRate": 40,
-			"statements": 60,
-			"guesses": 189
+			"accuracy": 52,
+			"lieRate": 41.3,
+			"statements": 63,
+			"guesses": 198
 		},
 		{
 			"bin": "10–14",
-			"accuracy": 60,
-			"lieRate": 37.4,
-			"statements": 174,
-			"guesses": 555
+			"accuracy": 59.8,
+			"lieRate": 36.9,
+			"statements": 179,
+			"guesses": 570
 		},
 		{
 			"bin": "15–19",
-			"accuracy": 61.9,
-			"lieRate": 37.1,
-			"statements": 170,
-			"guesses": 543
+			"accuracy": 61.1,
+			"lieRate": 36.3,
+			"statements": 182,
+			"guesses": 579
 		},
 		{
 			"bin": "20–24",
-			"accuracy": 62.9,
-			"lieRate": 57.1,
-			"statements": 126,
-			"guesses": 399
+			"accuracy": 63.6,
+			"lieRate": 58.1,
+			"statements": 136,
+			"guesses": 429
 		},
 		{
 			"bin": "25+",
-			"accuracy": 68.3,
-			"lieRate": 76.4,
-			"statements": 127,
-			"guesses": 394
+			"accuracy": 68.2,
+			"lieRate": 77.8,
+			"statements": 135,
+			"guesses": 418
 		}
 	],
 	"statementLengthByTruth": {
 		"bins": [
 			{
 				"bin": "0–9",
-				"truth": 60,
-				"lie": 40,
-				"truthCount": 36,
-				"lieCount": 24
+				"truth": 58.7,
+				"lie": 41.3,
+				"truthCount": 37,
+				"lieCount": 26
 			},
 			{
 				"bin": "10–19",
-				"truth": 62.8,
-				"lie": 37.2,
-				"truthCount": 216,
-				"lieCount": 128
+				"truth": 63.4,
+				"lie": 36.6,
+				"truthCount": 229,
+				"lieCount": 132
 			},
 			{
 				"bin": "20–29",
-				"truth": 37.4,
-				"lie": 62.6,
-				"truthCount": 80,
-				"lieCount": 134
+				"truth": 36.1,
+				"lie": 63.9,
+				"truthCount": 83,
+				"lieCount": 147
 			},
 			{
 				"bin": "30+",
-				"truth": 10.3,
-				"lie": 89.7,
+				"truth": 9.8,
+				"lie": 90.2,
 				"truthCount": 4,
-				"lieCount": 35
+				"lieCount": 37
 			}
 		],
-		"truthCount": 336,
-		"lieCount": 321,
+		"truthCount": 353,
+		"lieCount": 342,
 		"truthMedian": 15,
 		"lieMedian": 20
 	},
 	"bobGuestsFoolRate": [
 		{
 			"person": "Asim Chaudhry",
+			"foolRate": 100,
+			"statements": 2,
+			"guesses": 6,
+			"wrong": 6,
+			"isBob": false
+		},
+		{
+			"person": "Lucy Beaumont",
+			"foolRate": 100,
+			"statements": 2,
+			"guesses": 6,
+			"wrong": 6,
+			"isBob": false
+		},
+		{
+			"person": "Shazia Mirza",
 			"foolRate": 100,
 			"statements": 2,
 			"guesses": 6,
@@ -8151,6 +8646,22 @@ export const chartData = {
 		},
 		{
 			"person": "Bradley Walsh",
+			"foolRate": 100,
+			"statements": 1,
+			"guesses": 3,
+			"wrong": 3,
+			"isBob": false
+		},
+		{
+			"person": "Bridget Christie",
+			"foolRate": 100,
+			"statements": 1,
+			"guesses": 3,
+			"wrong": 3,
+			"isBob": false
+		},
+		{
+			"person": "Craig Charles",
 			"foolRate": 100,
 			"statements": 1,
 			"guesses": 3,
@@ -8270,6 +8781,14 @@ export const chartData = {
 			"isBob": false
 		},
 		{
+			"person": "Jessica Hynes",
+			"foolRate": 100,
+			"statements": 1,
+			"guesses": 3,
+			"wrong": 3,
+			"isBob": false
+		},
+		{
 			"person": "John Bishop",
 			"foolRate": 100,
 			"statements": 1,
@@ -8311,14 +8830,6 @@ export const chartData = {
 		},
 		{
 			"person": "Krishnan Guru-Murthy",
-			"foolRate": 100,
-			"statements": 1,
-			"guesses": 3,
-			"wrong": 3,
-			"isBob": false
-		},
-		{
-			"person": "Lucy Beaumont",
 			"foolRate": 100,
 			"statements": 1,
 			"guesses": 3,
@@ -8406,6 +8917,14 @@ export const chartData = {
 			"isBob": false
 		},
 		{
+			"person": "Rav Wilding",
+			"foolRate": 100,
+			"statements": 1,
+			"guesses": 3,
+			"wrong": 3,
+			"isBob": false
+		},
+		{
 			"person": "Roisin Conaty",
 			"foolRate": 100,
 			"statements": 1,
@@ -8439,6 +8958,14 @@ export const chartData = {
 		},
 		{
 			"person": "Rylan Clark-Neal",
+			"foolRate": 100,
+			"statements": 1,
+			"guesses": 3,
+			"wrong": 3,
+			"isBob": false
+		},
+		{
+			"person": "Sam Campbell",
 			"foolRate": 100,
 			"statements": 1,
 			"guesses": 3,
@@ -8494,7 +9021,7 @@ export const chartData = {
 			"isBob": false
 		},
 		{
-			"person": "Shazia Mirza",
+			"person": "Simon Day",
 			"foolRate": 100,
 			"statements": 1,
 			"guesses": 3,
@@ -8502,7 +9029,7 @@ export const chartData = {
 			"isBob": false
 		},
 		{
-			"person": "Simon Day",
+			"person": "Sinitta",
 			"foolRate": 100,
 			"statements": 1,
 			"guesses": 3,
@@ -8614,19 +9141,19 @@ export const chartData = {
 			"isBob": false
 		},
 		{
+			"person": "Claudia Winkleman",
+			"foolRate": 77.8,
+			"statements": 6,
+			"guesses": 18,
+			"wrong": 14,
+			"isBob": false
+		},
+		{
 			"person": "James Acaster",
 			"foolRate": 77.8,
 			"statements": 3,
 			"guesses": 9,
 			"wrong": 7,
-			"isBob": false
-		},
-		{
-			"person": "Claudia Winkleman",
-			"foolRate": 73.3,
-			"statements": 5,
-			"guesses": 15,
-			"wrong": 11,
 			"isBob": false
 		},
 		{
@@ -8638,27 +9165,11 @@ export const chartData = {
 			"isBob": false
 		},
 		{
-			"person": "Chris McCausland",
-			"foolRate": 66.7,
-			"statements": 4,
-			"guesses": 12,
-			"wrong": 8,
-			"isBob": false
-		},
-		{
 			"person": "Stephen Mangan",
 			"foolRate": 66.7,
 			"statements": 4,
 			"guesses": 12,
 			"wrong": 8,
-			"isBob": false
-		},
-		{
-			"person": "Charlie Brooker",
-			"foolRate": 66.7,
-			"statements": 2,
-			"guesses": 6,
-			"wrong": 4,
 			"isBob": false
 		},
 		{
@@ -8774,6 +9285,14 @@ export const chartData = {
 			"isBob": false
 		},
 		{
+			"person": "Danny Jones",
+			"foolRate": 66.7,
+			"statements": 1,
+			"guesses": 3,
+			"wrong": 2,
+			"isBob": false
+		},
+		{
 			"person": "Denise Lewis",
 			"foolRate": 66.7,
 			"statements": 1,
@@ -8807,6 +9326,14 @@ export const chartData = {
 		},
 		{
 			"person": "Jamellia",
+			"foolRate": 66.7,
+			"statements": 1,
+			"guesses": 3,
+			"wrong": 2,
+			"isBob": false
+		},
+		{
+			"person": "Jessica Knappett",
 			"foolRate": 66.7,
 			"statements": 1,
 			"guesses": 3,
@@ -9007,10 +9534,10 @@ export const chartData = {
 		},
 		{
 			"person": "Jo Brand",
-			"foolRate": 58.3,
-			"statements": 8,
-			"guesses": 24,
-			"wrong": 14,
+			"foolRate": 59.3,
+			"statements": 9,
+			"guesses": 27,
+			"wrong": 16,
 			"isBob": false
 		},
 		{
@@ -9022,11 +9549,27 @@ export const chartData = {
 			"isBob": false
 		},
 		{
+			"person": "Charlie Brooker",
+			"foolRate": 55.6,
+			"statements": 3,
+			"guesses": 9,
+			"wrong": 5,
+			"isBob": false
+		},
+		{
 			"person": "Hugh Dennis",
 			"foolRate": 55.6,
 			"statements": 3,
 			"guesses": 9,
 			"wrong": 5,
+			"isBob": false
+		},
+		{
+			"person": "Chris McCausland",
+			"foolRate": 53.3,
+			"statements": 5,
+			"guesses": 15,
+			"wrong": 8,
 			"isBob": false
 		},
 		{
@@ -9174,14 +9717,6 @@ export const chartData = {
 			"isBob": false
 		},
 		{
-			"person": "Gabby Logan",
-			"foolRate": 46.7,
-			"statements": 5,
-			"guesses": 15,
-			"wrong": 7,
-			"isBob": false
-		},
-		{
 			"person": "Sarah Millican",
 			"foolRate": 46.7,
 			"statements": 5,
@@ -9222,19 +9757,27 @@ export const chartData = {
 			"isBob": false
 		},
 		{
+			"person": "Frankie Boyle",
+			"foolRate": 40,
+			"statements": 5,
+			"guesses": 15,
+			"wrong": 6,
+			"isBob": false
+		},
+		{
+			"person": "Gabby Logan",
+			"foolRate": 38.9,
+			"statements": 6,
+			"guesses": 18,
+			"wrong": 7,
+			"isBob": false
+		},
+		{
 			"person": "Richard Osman",
 			"foolRate": 34.4,
 			"statements": 11,
 			"guesses": 32,
 			"wrong": 11,
-			"isBob": false
-		},
-		{
-			"person": "Frankie Boyle",
-			"foolRate": 33.3,
-			"statements": 4,
-			"guesses": 12,
-			"wrong": 4,
 			"isBob": false
 		},
 		{
@@ -9311,6 +9854,14 @@ export const chartData = {
 		},
 		{
 			"person": "Aston Merrygold",
+			"foolRate": 33.3,
+			"statements": 1,
+			"guesses": 3,
+			"wrong": 1,
+			"isBob": false
+		},
+		{
+			"person": "Babatunde Aléshé",
 			"foolRate": 33.3,
 			"statements": 1,
 			"guesses": 3,
@@ -9495,6 +10046,14 @@ export const chartData = {
 		},
 		{
 			"person": "Kiell Smith-Bynoe",
+			"foolRate": 33.3,
+			"statements": 1,
+			"guesses": 3,
+			"wrong": 1,
+			"isBob": false
+		},
+		{
+			"person": "Kimberley Walsh",
 			"foolRate": 33.3,
 			"statements": 1,
 			"guesses": 3,
@@ -9814,6 +10373,14 @@ export const chartData = {
 			"isBob": false
 		},
 		{
+			"person": "Su Pollard",
+			"foolRate": 16.7,
+			"statements": 2,
+			"guesses": 6,
+			"wrong": 1,
+			"isBob": false
+		},
+		{
 			"person": "Jack Whitehall",
 			"foolRate": 12.5,
 			"statements": 3,
@@ -9902,6 +10469,14 @@ export const chartData = {
 			"isBob": false
 		},
 		{
+			"person": "Abby Cook",
+			"foolRate": 0,
+			"statements": 1,
+			"guesses": 3,
+			"wrong": 0,
+			"isBob": false
+		},
+		{
 			"person": "Adam Woodyatt",
 			"foolRate": 0,
 			"statements": 1,
@@ -9911,6 +10486,14 @@ export const chartData = {
 		},
 		{
 			"person": "Ade Edmondson",
+			"foolRate": 0,
+			"statements": 1,
+			"guesses": 3,
+			"wrong": 0,
+			"isBob": false
+		},
+		{
+			"person": "Alex Brooker",
 			"foolRate": 0,
 			"statements": 1,
 			"guesses": 3,
@@ -9967,6 +10550,14 @@ export const chartData = {
 		},
 		{
 			"person": "Big Narstie",
+			"foolRate": 0,
+			"statements": 1,
+			"guesses": 3,
+			"wrong": 0,
+			"isBob": false
+		},
+		{
+			"person": "Big Zuu",
 			"foolRate": 0,
 			"statements": 1,
 			"guesses": 3,
@@ -10150,6 +10741,14 @@ export const chartData = {
 			"isBob": false
 		},
 		{
+			"person": "Gina Yashere",
+			"foolRate": 0,
+			"statements": 1,
+			"guesses": 3,
+			"wrong": 0,
+			"isBob": false
+		},
+		{
 			"person": "Gok Wan",
 			"foolRate": 0,
 			"statements": 1,
@@ -10175,6 +10774,14 @@ export const chartData = {
 		},
 		{
 			"person": "Isy Suttie",
+			"foolRate": 0,
+			"statements": 1,
+			"guesses": 3,
+			"wrong": 0,
+			"isBob": false
+		},
+		{
+			"person": "Ivo Graham",
 			"foolRate": 0,
 			"statements": 1,
 			"guesses": 3,
@@ -10430,6 +11037,22 @@ export const chartData = {
 			"isBob": false
 		},
 		{
+			"person": "Melvyn Hayes",
+			"foolRate": 0,
+			"statements": 1,
+			"guesses": 3,
+			"wrong": 0,
+			"isBob": false
+		},
+		{
+			"person": "Mike Bubbins",
+			"foolRate": 0,
+			"statements": 1,
+			"guesses": 3,
+			"wrong": 0,
+			"isBob": false
+		},
+		{
 			"person": "Moira Stuart",
 			"foolRate": 0,
 			"statements": 1,
@@ -10490,6 +11113,14 @@ export const chartData = {
 			"foolRate": 0,
 			"statements": 1,
 			"guesses": 3,
+			"wrong": 0,
+			"isBob": false
+		},
+		{
+			"person": "Prof. Hannah Fry",
+			"foolRate": 0,
+			"statements": 1,
+			"guesses": 2,
 			"wrong": 0,
 			"isBob": false
 		},
@@ -10654,6 +11285,14 @@ export const chartData = {
 			"isBob": false
 		},
 		{
+			"person": "Victoria Coren Mitchell",
+			"foolRate": 0,
+			"statements": 1,
+			"guesses": 3,
+			"wrong": 0,
+			"isBob": false
+		},
+		{
 			"person": "Victoria Derbyshire",
 			"foolRate": 0,
 			"statements": 1,
@@ -10663,6 +11302,22 @@ export const chartData = {
 		},
 		{
 			"person": "Wendy Richard",
+			"foolRate": 0,
+			"statements": 1,
+			"guesses": 3,
+			"wrong": 0,
+			"isBob": false
+		},
+		{
+			"person": "Wilfred Webster",
+			"foolRate": 0,
+			"statements": 1,
+			"guesses": 3,
+			"wrong": 0,
+			"isBob": false
+		},
+		{
+			"person": "Will Mellor",
 			"foolRate": 0,
 			"statements": 1,
 			"guesses": 3,
@@ -10678,10 +11333,10 @@ export const chartData = {
 			"bobRounds": 1,
 			"bobGuesses": 3,
 			"bobWrong": 2,
-			"showRate": 28.6,
-			"showRounds": 333,
-			"showGuesses": 1004,
-			"showWrong": 287
+			"showRate": 29.4,
+			"showRounds": 354,
+			"showGuesses": 1067,
+			"showWrong": 314
 		},
 		{
 			"truth": "truth",
@@ -10690,10 +11345,10 @@ export const chartData = {
 			"bobRounds": 9,
 			"bobGuesses": 26,
 			"bobWrong": 16,
-			"showRate": 46.4,
-			"showRounds": 349,
-			"showGuesses": 1053,
-			"showWrong": 489
+			"showRate": 45.8,
+			"showRounds": 367,
+			"showGuesses": 1106,
+			"showWrong": 506
 		}
 	],
 	"bobFoolRateOverTime": [
@@ -11008,30 +11663,30 @@ export const chartData = {
 			"panel": "Unanimous",
 			"individualAccuracy": 65.7,
 			"teamAccuracy": 64.9,
-			"individualCorrect": 853,
-			"individualGuesses": 1298,
-			"teamCorrect": 283,
-			"rounds": 436
+			"individualCorrect": 913,
+			"individualGuesses": 1390,
+			"teamCorrect": 303,
+			"rounds": 467
 		},
 		{
 			"panel": "Split",
-			"individualAccuracy": 52.8,
-			"teamAccuracy": 58,
-			"individualCorrect": 364,
-			"individualGuesses": 690,
-			"teamCorrect": 134,
-			"rounds": 231
+			"individualAccuracy": 52.7,
+			"teamAccuracy": 57.7,
+			"individualCorrect": 376,
+			"individualGuesses": 714,
+			"teamCorrect": 138,
+			"rounds": 239
 		}
 	],
 	"teamOverride": {
-		"comparableCalls": 683,
+		"comparableCalls": 722,
 		"overrides": 22,
-		"overrideRate": 3.2,
+		"overrideRate": 3,
 		"overrideCorrect": 12,
 		"overrideAccuracy": 54.5,
-		"followCalls": 661,
-		"followCorrect": 420,
-		"followAccuracy": 63.5
+		"followCalls": 700,
+		"followCorrect": 444,
+		"followAccuracy": 63.4
 	},
 	"playerRounds": [
 		{
@@ -17952,6 +18607,396 @@ export const chartData = {
 			"round": 5,
 			"outcome": "correct",
 			"truth": "lie",
+			"call": "lie"
+		},
+		{
+			"person": "David Mitchell",
+			"label": "S17 E1 · R1",
+			"season": 17,
+			"episode": 1,
+			"round": 1,
+			"outcome": "correct",
+			"truth": "lie",
+			"call": "lie"
+		},
+		{
+			"person": "Lee Mack",
+			"label": "S17 E1 · R2",
+			"season": 17,
+			"episode": 1,
+			"round": 2,
+			"outcome": "correct",
+			"truth": "truth",
+			"call": "truth"
+		},
+		{
+			"person": "David Mitchell",
+			"label": "S17 E1 · R3",
+			"season": 17,
+			"episode": 1,
+			"round": 3,
+			"outcome": "correct",
+			"truth": "truth",
+			"call": "truth"
+		},
+		{
+			"person": "David Mitchell",
+			"label": "S17 E1 · R5",
+			"season": 17,
+			"episode": 1,
+			"round": 5,
+			"outcome": "correct",
+			"truth": "lie",
+			"call": "lie"
+		},
+		{
+			"person": "David Mitchell",
+			"label": "S17 E2 · R1",
+			"season": 17,
+			"episode": 2,
+			"round": 1,
+			"outcome": "correct",
+			"truth": "truth",
+			"call": "truth"
+		},
+		{
+			"person": "Lee Mack",
+			"label": "S17 E2 · R2",
+			"season": 17,
+			"episode": 2,
+			"round": 2,
+			"outcome": "wrong",
+			"truth": "lie",
+			"call": "truth"
+		},
+		{
+			"person": "David Mitchell",
+			"label": "S17 E2 · R3",
+			"season": 17,
+			"episode": 2,
+			"round": 3,
+			"outcome": "correct",
+			"truth": "truth",
+			"call": "truth"
+		},
+		{
+			"person": "David Mitchell",
+			"label": "S17 E2 · R5",
+			"season": 17,
+			"episode": 2,
+			"round": 5,
+			"outcome": "correct",
+			"truth": "truth",
+			"call": "truth"
+		},
+		{
+			"person": "David Mitchell",
+			"label": "S17 E3 · R1",
+			"season": 17,
+			"episode": 3,
+			"round": 1,
+			"outcome": "wrong",
+			"truth": "truth",
+			"call": "lie"
+		},
+		{
+			"person": "Lee Mack",
+			"label": "S17 E3 · R2",
+			"season": 17,
+			"episode": 3,
+			"round": 2,
+			"outcome": "wrong",
+			"truth": "lie",
+			"call": "truth"
+		},
+		{
+			"person": "Lee Mack",
+			"label": "S17 E3 · R3",
+			"season": 17,
+			"episode": 3,
+			"round": 3,
+			"outcome": "correct",
+			"truth": "lie",
+			"call": "lie"
+		},
+		{
+			"person": "Lee Mack",
+			"label": "S17 E3 · R5",
+			"season": 17,
+			"episode": 3,
+			"round": 5,
+			"outcome": "correct",
+			"truth": "lie",
+			"call": "lie"
+		},
+		{
+			"person": "David Mitchell",
+			"label": "S17 E4 · R1",
+			"season": 17,
+			"episode": 4,
+			"round": 1,
+			"outcome": "correct",
+			"truth": "truth",
+			"call": "truth"
+		},
+		{
+			"person": "David Mitchell",
+			"label": "S17 E4 · R2",
+			"season": 17,
+			"episode": 4,
+			"round": 2,
+			"outcome": "abstained",
+			"truth": "truth",
+			"call": "undecided"
+		},
+		{
+			"person": "Lee Mack",
+			"label": "S17 E4 · R4",
+			"season": 17,
+			"episode": 4,
+			"round": 4,
+			"outcome": "correct",
+			"truth": "truth",
+			"call": "truth"
+		},
+		{
+			"person": "David Mitchell",
+			"label": "S17 E4 · R5",
+			"season": 17,
+			"episode": 4,
+			"round": 5,
+			"outcome": "wrong",
+			"truth": "lie",
+			"call": "truth"
+		},
+		{
+			"person": "Lee Mack",
+			"label": "S17 E5 · R1",
+			"season": 17,
+			"episode": 5,
+			"round": 1,
+			"outcome": "correct",
+			"truth": "lie",
+			"call": "lie"
+		},
+		{
+			"person": "David Mitchell",
+			"label": "S17 E5 · R2",
+			"season": 17,
+			"episode": 5,
+			"round": 2,
+			"outcome": "correct",
+			"truth": "truth",
+			"call": "truth"
+		},
+		{
+			"person": "David Mitchell",
+			"label": "S17 E5 · R3",
+			"season": 17,
+			"episode": 5,
+			"round": 3,
+			"outcome": "wrong",
+			"truth": "lie",
+			"call": "truth"
+		},
+		{
+			"person": "David Mitchell",
+			"label": "S17 E5 · R5",
+			"season": 17,
+			"episode": 5,
+			"round": 5,
+			"outcome": "wrong",
+			"truth": "lie",
+			"call": "truth"
+		},
+		{
+			"person": "Lee Mack",
+			"label": "S17 E6 · R1",
+			"season": 17,
+			"episode": 6,
+			"round": 1,
+			"outcome": "wrong",
+			"truth": "lie",
+			"call": "truth"
+		},
+		{
+			"person": "David Mitchell",
+			"label": "S17 E6 · R2",
+			"season": 17,
+			"episode": 6,
+			"round": 2,
+			"outcome": "correct",
+			"truth": "truth",
+			"call": "truth"
+		},
+		{
+			"person": "David Mitchell",
+			"label": "S17 E6 · R3",
+			"season": 17,
+			"episode": 6,
+			"round": 3,
+			"outcome": "correct",
+			"truth": "lie",
+			"call": "lie"
+		},
+		{
+			"person": "David Mitchell",
+			"label": "S17 E6 · R5",
+			"season": 17,
+			"episode": 6,
+			"round": 5,
+			"outcome": "correct",
+			"truth": "lie",
+			"call": "lie"
+		},
+		{
+			"person": "Lee Mack",
+			"label": "S17 E7 · R1",
+			"season": 17,
+			"episode": 7,
+			"round": 1,
+			"outcome": "wrong",
+			"truth": "lie",
+			"call": "truth"
+		},
+		{
+			"person": "Lee Mack",
+			"label": "S17 E7 · R2",
+			"season": 17,
+			"episode": 7,
+			"round": 2,
+			"outcome": "wrong",
+			"truth": "truth",
+			"call": "lie"
+		},
+		{
+			"person": "Lee Mack",
+			"label": "S17 E7 · R4",
+			"season": 17,
+			"episode": 7,
+			"round": 4,
+			"outcome": "correct",
+			"truth": "lie",
+			"call": "lie"
+		},
+		{
+			"person": "David Mitchell",
+			"label": "S17 E8 · R1",
+			"season": 17,
+			"episode": 8,
+			"round": 1,
+			"outcome": "correct",
+			"truth": "lie",
+			"call": "lie"
+		},
+		{
+			"person": "Lee Mack",
+			"label": "S17 E8 · R2",
+			"season": 17,
+			"episode": 8,
+			"round": 2,
+			"outcome": "correct",
+			"truth": "truth",
+			"call": "truth"
+		},
+		{
+			"person": "David Mitchell",
+			"label": "S17 E8 · R3",
+			"season": 17,
+			"episode": 8,
+			"round": 3,
+			"outcome": "wrong",
+			"truth": "lie",
+			"call": "truth"
+		},
+		{
+			"person": "David Mitchell",
+			"label": "S17 E8 · R5",
+			"season": 17,
+			"episode": 8,
+			"round": 5,
+			"outcome": "correct",
+			"truth": "lie",
+			"call": "lie"
+		},
+		{
+			"person": "Lee Mack",
+			"label": "S17 E9 · R1",
+			"season": 17,
+			"episode": 9,
+			"round": 1,
+			"outcome": "wrong",
+			"truth": "truth",
+			"call": "lie"
+		},
+		{
+			"person": "David Mitchell",
+			"label": "S17 E9 · R2",
+			"season": 17,
+			"episode": 9,
+			"round": 2,
+			"outcome": "wrong",
+			"truth": "lie",
+			"call": "truth"
+		},
+		{
+			"person": "David Mitchell",
+			"label": "S17 E9 · R3",
+			"season": 17,
+			"episode": 9,
+			"round": 3,
+			"outcome": "correct",
+			"truth": "truth",
+			"call": "truth"
+		},
+		{
+			"person": "Lee Mack",
+			"label": "S17 E9 · R5",
+			"season": 17,
+			"episode": 9,
+			"round": 5,
+			"outcome": "correct",
+			"truth": "truth",
+			"call": "truth"
+		},
+		{
+			"person": "Lee Mack",
+			"label": "S17 E10 · R1",
+			"season": 17,
+			"episode": 10,
+			"round": 1,
+			"outcome": "correct",
+			"truth": "truth",
+			"call": "truth"
+		},
+		{
+			"person": "Lee Mack",
+			"label": "S17 E10 · R2",
+			"season": 17,
+			"episode": 10,
+			"round": 2,
+			"outcome": "correct",
+			"truth": "lie",
+			"call": "lie"
+		},
+		{
+			"person": "Lee Mack",
+			"label": "S17 E10 · R4",
+			"season": 17,
+			"episode": 10,
+			"round": 4,
+			"outcome": "correct",
+			"truth": "lie",
+			"call": "lie"
+		},
+		{
+			"person": "David Mitchell",
+			"label": "S17 E10 · R5",
+			"season": 17,
+			"episode": 10,
+			"round": 5,
+			"outcome": "wrong",
+			"truth": "truth",
 			"call": "lie"
 		}
 	]
